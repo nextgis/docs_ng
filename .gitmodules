@@ -1,0 +1,6 @@
+[submodule "source/docs_ngweb"]
+	path = source/docs_ngweb
+	url = https://github.com/nextgis/docs_ngweb.git
+[submodule "source/docs_ngmobile"]
+	path = source/docs_ngmobile
+	url = https://github.com/nextgis/docs_ngmobile.git
