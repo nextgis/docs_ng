@@ -4,3 +4,6 @@
 [submodule "source/docs_ngmobile"]
 	path = source/docs_ngmobile
 	url = https://github.com/nextgis/docs_ngmobile.git
+[submodule "source/docs_ngweb_dev"]
+	path = source/docs_ngweb_dev
+	url = https://github.com/nextgis/nextgisweb.git

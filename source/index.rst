@@ -1,4 +1,4 @@
-.. Документация NextGIS documentation master file, created by
+.. Документация NextGIS master file, created by
    sphinx-quickstart on Thu Apr  2 20:31:31 2015.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -13,6 +13,8 @@
       
    /docs_ngweb/source/toc
    /docs_ngmobile/source/toc
+   
+   toc
 
 
 Индекс и таблицы

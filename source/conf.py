@@ -36,6 +36,7 @@ extensions = [
     'sphinx.ext.pngmath',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
+    'sphinxcontrib.httpdomain',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -119,6 +120,8 @@ illufig_format = {'illustrate': u'Рис. %s (%s)'}
 locale_dirs = ['locale/']
 gettext_compact = False
 
+autodoc_member_order = 'bysource'
+autoclass_content = 'both'
 
 # -- Options for HTML output ----------------------------------------------
 
