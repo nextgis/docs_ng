@@ -7,3 +7,9 @@
 [submodule "source/docs_ngweb_dev"]
 	path = source/docs_ngweb_dev
 	url = https://github.com/nextgis/nextgisweb.git
+[submodule "source/docs_formbuilder"]
+	path = source/docs_formbuilder
+	url = https://github.com/nextgis/docs_formbuilder
+[submodule "source/docs_ngmanager"]
+	path = source/docs_ngmanager
+	url = https://github.com/nextgis/docs_ngmanager

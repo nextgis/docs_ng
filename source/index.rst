@@ -13,9 +13,12 @@
       
    /docs_ngweb/source/toc
    /docs_ngmobile/source/toc
+   /docs_formbuilder/source/toc
+   /docs_ngmanager/source/toc
    
    toc
 
+   glossary
 
 Индекс и таблицы
 ==================
