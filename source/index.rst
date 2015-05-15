@@ -6,8 +6,8 @@
 Одним файлом (pdf)
 ==========================
    
-* :download:`Документация по NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`.
-* :download:`Документация по NextGIS Mobile <docs_ngmobile/build/latex/NextGISMobile.pdf>`.
+* :download:`Документация по NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`
+* :download:`Документация по NextGIS Mobile <docs_ngmobile/build/latex/NextGISMobile.pdf>`
 
 Полное содержание
 ====================
