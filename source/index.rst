@@ -25,4 +25,12 @@
 
 * :ref:`genindex`
 * :ref:`search`
+ 
+.. only:: html 
+
+Скачать документацию в pdf
+==========================
+   
+* :download:`NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`.
+* :download:`NextGIS Mobile <docs_ngmobile/build/latex/NextGISMobile.pdf>`.
 
