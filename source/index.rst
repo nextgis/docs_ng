@@ -3,7 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Документация NextGIS
+Одним файлом (pdf)
+==========================
+   
+* :download:`Документация по NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`.
+* :download:`Документация по NextGIS Mobile <docs_ngmobile/build/latex/NextGISMobile.pdf>`.
+
+Полное содержание
 ====================
 
 Содержание:
@@ -28,9 +34,4 @@
  
 .. only:: html 
 
-Скачать документацию в pdf
-==========================
-   
-* :download:`Документация по NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`.
-* :download:`Документация по NextGIS Mobile <docs_ngmobile/build/latex/NextGISMobile.pdf>`.
 
