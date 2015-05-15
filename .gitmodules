@@ -6,10 +6,10 @@
 	url = git://github.com/nextgis/docs_ngmobile.git
 [submodule "source/docs_ngweb_dev"]
 	path = source/docs_ngweb_dev
-	url = git://github.com/nextgis/nextgisweb.git
+	url = git@github.com:nextgis/nextgisweb.git
 [submodule "source/docs_formbuilder"]
 	path = source/docs_formbuilder
-	url = git://github.com/nextgis/docs_formbuilder
+	url = git://github.com/nextgis/docs_formbuilder.git
 [submodule "source/docs_ngmanager"]
 	path = source/docs_ngmanager
-	url = git://github.com/nextgis/docs_ngmanager
+	url = git://github.com/nextgis/docs_ngmanager.git
