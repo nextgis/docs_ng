@@ -3,10 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Документация NextGIS
-====================
+Одним файлом (pdf)
+==================
+   
+* :download:`Документация по NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`
+* :download:`Документация по NextGIS Mobile <docs_ngmobile/build/latex/NextGISMobile.pdf>`* 
+* :download:`Документация по NextGIS Manager <docs_ngmanager/build/latex/NextGISManager.pdf>`.
+* :download:`Документация по NextGIS Formbuilder <docs_formbuilder/build/latex/NextGISFormbuilder.pdf>`.
 
-Содержание:
+Полное содержание
+====================
 
 .. toctree::
    :maxdepth: 2
@@ -21,17 +27,10 @@
    glossary
 
 Индекс и таблицы
-==================
+================
 
 * :ref:`genindex`
 * :ref:`search`
  
-.. only:: html 
 
-Скачать документацию в pdf
-==========================
-   
-* :download:`Документация по NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`.
-* :download:`Документация по NextGIS Mobile <docs_ngmobile/build/latex/NextGISMobile.pdf>`.
-* :download:`Документация по NextGIS Manager <docs_ngmanager/build/latex/NextGISManager.pdf>`.
-* :download:`Документация по NextGIS Formbuilder <docs_formbuilder/build/latex/NextGISFormbuilder.pdf>`.
+
