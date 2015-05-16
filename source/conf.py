@@ -54,7 +54,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Документация NextGIS'
+project = u'NextGIS'
 copyright = u'2015, NextGIS'
 author = u'NextGIS'
 
@@ -63,7 +63,7 @@ author = u'NextGIS'
 # built documents.
 #
 # The short X.Y version.
-version = '1.1'
+version = '1.0.2'
 # The full version, including alpha/beta/rc tags.
 release = '1.0'
 
