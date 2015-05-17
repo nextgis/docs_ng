@@ -12,12 +12,12 @@ import warnings
 __licence__ = 'BSD (3 clause)'
 
 
-def get_github_url(app, repo, view, path):
-    return 'https://github.com/{user}/{repo}/{view}/{branch}/source/{path}'.format(
+def get_github_url(app, repo, view, branch, path):
+    return 'https://github.com/{user}/{repo}/{view}/{branch}/{path}'.format(
         user=app.config.edit_on_github_user,
         repo=repo,
         view=view,
-        branch=app.config.edit_on_github_branch,
+        branch=branch,
         path=path)
 
 def splitpath(path, maxdepth=20):
@@ -33,20 +33,32 @@ def html_page_context(app, pagename, templatename, context, doctree):
     if not app.config.edit_on_github_user:
         warnings.warn("edit_on_github_user not specified")
         return
+        
+    if not doctree:
+        warnings.warn("doctree is not init")
+        return
 
     path = os.path.relpath(doctree.get('source'), app.builder.srcdir)
     #modify path to support submodules
     dirs = splitpath(path)
     #if path start with docs_* split docs_* to repo and other part to path
-    if dirs[0].startswith('docs_'):
+    if dirs[0].startswith('docs_ngweb_dev'):
+        repo = 'nextgisweb'
+        path = os.path.join(*dirs[1:])
+        branch = '2'
+    elif dirs[0].startswith('docs_'):
         repo = dirs[0]  
-        path = os.path.join(*dirs[2:])
+        path = os.path.join(*dirs[2:])        
+        path = os.path.join('source', path)
+        branch = app.config.edit_on_github_branch
     else:
         repo = 'docs_ng'
+        path = os.path.join('source', path)
+        branch = app.config.edit_on_github_branch
     
     #else repo = 'docs_ng'
-    show_url = get_github_url(app, repo, 'blob', path)
-    edit_url = get_github_url(app, repo, 'edit', path)
+    show_url = get_github_url(app, repo, 'blob', branch, path)
+    edit_url = get_github_url(app, repo, 'edit', branch, path)
 
     context['show_on_github_url'] = show_url
     context['edit_on_github_url'] = edit_url
