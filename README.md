@@ -2,7 +2,7 @@
 Full NextGIS user documentation
 
 ```
-git clone --recursive https://github.com/nextgis/docs_ng.git
+git clone --recursive git@github.com:nextgis/docs_ng.git
 make html
 make latexpdf
 ```
