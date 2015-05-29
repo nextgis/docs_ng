@@ -13,3 +13,9 @@
 [submodule "source/docs_ngmanager"]
 	path = source/docs_ngmanager
 	url = git@github.com:nextgis/docs_ngmanager.git
+[submodule "source/ngmobile_dev/maplib_src"]
+	path = source/ngmobile_dev/maplib_src
+	url = https://github.com/nextgis/android_maplib.git
+[submodule "source/ngmobile_dev/maplibui_src"]
+	path = source/ngmobile_dev/maplibui_src
+	url = https://github.com/nextgis/android_maplibui.git

@@ -1,3 +1,5 @@
 *~
 build/
 *.pyc
+source/ngmobile_dev/maplib/
+source/ngmobile_dev/maplibui/
