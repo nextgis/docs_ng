@@ -289,12 +289,6 @@ html_search_language = 'ru'
 htmlhelp_basename = 'nextgisdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
-#latex_preamble = r"""
-#\usepackage[utf8]{inputenc}
-#\usepackage{DejaVuSansMono}
-#\usepackage[T1]{fontenc}
-#\usepackage{helvet}
-#"""
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
@@ -309,9 +303,13 @@ latex_elements = {
 
 'fontpkg': '\\usepackage{dejavu}',
 
-'utf8extra': '',
 # Additional stuff for the LaTeX preamble.
-#'preamble': 'latex_preamble'
+'preamble': '''
+\usepackage[utf8]{inputenc}
+\usepackage{DejaVuSansMono}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+''',
 
 # Latex figure (float) alignment
 'figure_align': 'htbp'
