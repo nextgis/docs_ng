@@ -19,3 +19,6 @@
 [submodule "source/ngmobile_dev/maplibui_src"]
 	path = source/ngmobile_dev/maplibui_src
 	url = git@github.com:nextgis/android_maplibui.git
+[submodule "source/docs_howto"]
+	path = source/docs_howto
+	url = git@github.com:nextgis/docs_howto.git

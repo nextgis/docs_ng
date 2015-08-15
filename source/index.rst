@@ -17,6 +17,8 @@
    
    /docs_ngmanager/source/toc
    
+   /docs_howto/source/toc
+   
    toc
 
    glossary
