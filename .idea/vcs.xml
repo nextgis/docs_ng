@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/docs_formbuilder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/docs_howto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/docs_ngmanager" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/docs_ngmobile" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/docs_ngweb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/source/docs_ngweb_dev" vcs="Git" />
+  </component>
+</project>
