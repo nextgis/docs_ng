@@ -22,3 +22,6 @@
 [submodule "source/docs_howto"]
 	path = source/docs_howto
 	url = git@github.com:nextgis/docs_howto.git
+[submodule "source/docs_ngbio"]
+	path = source/docs_ngbio
+	url = git@github.com:nextgis/docs_ngbio.git
