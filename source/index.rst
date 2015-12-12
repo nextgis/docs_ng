@@ -16,7 +16,9 @@
    /docs_formbuilder/source/toc
    
    /docs_ngmanager/source/toc
-   
+
+   /docs_ngbio/source/toc
+
    /docs_howto/source/toc
    
    toc
