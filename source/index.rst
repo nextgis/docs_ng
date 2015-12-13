@@ -8,6 +8,7 @@
 
 .. toctree::
    :maxdepth: 1
+   :numbered:
       
    /docs_ngweb/source/toc
    
