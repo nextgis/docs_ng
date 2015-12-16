@@ -33,6 +33,7 @@
 * :download:`Документация по NextGIS Mobile <docs_ngmobile/build/latex/NextGISMobile.pdf>`
 * :download:`Документация по NextGIS Manager <docs_ngmanager/build/latex/NextGISManager.pdf>`
 * :download:`Документация по NextGIS Formbuilder <docs_formbuilder/build/latex/NextGISFormbuilder.pdf>`
+* :download:`Документация по NextGIS Bio <docs_formbuilder/build/latex/NextGISBio.pdf>`
 
 Индекс и таблицы
 ================
