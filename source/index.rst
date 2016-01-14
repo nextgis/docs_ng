@@ -12,6 +12,8 @@
       
    /docs_ngweb/source/toc
    
+   /docs_ngqgis/source/toc
+   
    /docs_ngmobile/source/toc
    
    /docs_formbuilder/source/toc
@@ -30,6 +32,7 @@
 ==========================
    
 * :download:`Документация по NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`
+* :download:`Документация по NextGIS QGIS <docs_ngqgis/build/latex/NextGISQGIS.pdf>`
 * :download:`Документация по NextGIS Mobile <docs_ngmobile/build/latex/NextGISMobile.pdf>`
 * :download:`Документация по NextGIS Manager <docs_ngmanager/build/latex/NextGISManager.pdf>`
 * :download:`Документация по NextGIS Formbuilder <docs_formbuilder/build/latex/NextGISFormbuilder.pdf>`
