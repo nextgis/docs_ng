@@ -120,7 +120,7 @@ todo_include_todos = True
 
 numfig = True
 
-numfig_format = {'figure': u'Рис. %s.', 'table': u'Таблица %s.', 'code-block': u'Листинг %s.'}
+numfig_format = {'figure': u'Рис. %s.', 'table': u'Таблица %s.', 'code-block': u'Listing %s.'}
 
 illufig_format = {'illustrate': u'Рис. %s (%s).'}
 
