@@ -9,6 +9,7 @@ To start using documentation you need some programmes be installed python > 2.7 
 4. sudo pip install sphinxcontrib-httpdomain sphinx-bootstrap-theme
 
 Еще можно устанавливать в виртуальное окружение, тогда 1 и 4 пункты надо выполнять в нем:
+
 1. source env/bin/activate
 2. pip install sphinx
 3. pip install sphinxcontrib-httpdomain sphinx-bootstrap-theme
