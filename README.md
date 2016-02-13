@@ -8,6 +8,11 @@ To start using documentation you need some programmes be installed python > 2.7 
 3. sudo apt-get install texlive-doc-ru texlive-lang-cyrillic texlive-fonts-extra
 4. sudo pip install sphinxcontrib-httpdomain sphinx-bootstrap-theme
 
+Еще можно устанавливать в виртуальное окружение, тогда 1 и 4 пункты надо выполнять в нем:
+1. source env/bin/activate
+2. pip install sphinx
+3. pip install sphinxcontrib-httpdomain sphinx-bootstrap-theme
+
 Than you have to generate key for ssh git access. See: https://help.github.com/articles/generating-ssh-keys/
 ```
 git clone --recursive git@github.com:nextgis/docs_ng.git
