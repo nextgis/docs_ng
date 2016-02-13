@@ -1,4 +1,4 @@
-# docs_ng
+# NextGIS documentation root repository
 Full NextGIS user documentation
 
 To start using documentation you need some programmes be installed python > 2.7 and:
