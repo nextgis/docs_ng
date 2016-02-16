@@ -20,4 +20,9 @@ git clone --recursive git@github.com:nextgis/docs_ng.git
 make html
 make latexpdf
 ```
-See wiki for future details: https://github.com/nextgis/docs_ng/wiki/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8
+See [wiki for future details](https://github.com/nextgis/docs_ng/wiki/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8)
+
+Build status
+============
+
+![build status](http://176.9.38.120/buildbot/png?builder=makedocs)
