@@ -28,3 +28,6 @@
 [submodule "source/docs_ngqgis"]
 	path = source/docs_ngqgis
 	url = git@github.com:nextgis/docs_ngqgis.git
+[submodule "source/docs_ngcourses"]
+	path = source/docs_ngcourses
+	url = git@github.com:nextgis/docs_ngcourses.git
