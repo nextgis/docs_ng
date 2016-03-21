@@ -26,3 +26,7 @@ Build status
 ============
 
 ![build status](http://176.9.38.120/buildbot/png?builder=makedocs)
+
+License
+-------------
+This documentaion is licensed under CC-BY-SA 3.0
