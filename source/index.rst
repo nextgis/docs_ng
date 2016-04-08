@@ -3,35 +3,39 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Полное содержание
-=================
+##########
+Содержание
+##########
 
-.. toctree::
-   :maxdepth: 1
-   :numbered: 3
-      
-   /docs_ngweb/source/toc
-   
-   /docs_ngqgis/source/toc
-   
-   /docs_ngmobile/source/toc
-   
-   /docs_formbuilder/source/toc
-   
-   /docs_ngmanager/source/toc
+*****************
+Основные продукты
+*****************
 
-   /docs_ngbio/source/toc
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
 
-   /docs_ogportal/source/toc
+**************************
+Специализированные решения
+**************************
 
-   /docs_howto/source/toc
-   
-   toc
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
 
-   glossary
+*************
+Дополнительно
+*************
 
-Скачать документацию в pdf
-==========================
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+
+Документация в pdf
+==================
    
 * :download:`Документация по NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`
 * :download:`Документация по NextGIS QGIS <docs_ngqgis/build/latex/NextGISQGIS.pdf>`
@@ -41,8 +45,8 @@
 * :download:`Документация по NextGIS Bio <docs_ngbio/build/latex/NextGISBio.pdf>`
 * :download:`Документация по NextGIS Портал открытых геоданных <docs_ogportal/build/latex/NextGISOGPortal.pdf>`
 
-Индекс и таблицы
-================
+Поиск
+=====
 
 * :ref:`genindex`
 * :ref:`search`
