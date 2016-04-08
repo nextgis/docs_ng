@@ -11,28 +11,32 @@
 Основные продукты
 *****************
 
-# Документация по NextGIS Web </docs_ngweb/source/toc>`
-# Документация по NextGIS Web </docs_ngweb/source/toc>`
-# Документация по NextGIS Web </docs_ngweb/source/toc>`
-# Документация по NextGIS Web </docs_ngweb/source/toc>`
+* :doc:`Документация по NextGIS Web </docs_ngweb/source/toc>`
+* :doc:`Документация по NextGIS QGIS </docs_ngqgis/source/toc>`
+* :doc:`Документация по NextGIS Mobile </docs_ngmobile/source/toc>`
+* :doc:`Документация по NextGIS Manager </docs_ngmanager/source/toc>`
+
+*****************
+Вспомогательное ПО
+*****************
+
+* :doc:`Документация по NextGIS Formbuilder </docs_formbuilder/source/toc>`
 
 **************************
 Специализированные решения
 **************************
 
-# Документация по NextGIS Web </docs_ngweb/source/toc>`
-# Документация по NextGIS Web </docs_ngweb/source/toc>`
-# Документация по NextGIS Web </docs_ngweb/source/toc>`
-# Документация по NextGIS Web </docs_ngweb/source/toc>`
+* :doc:`Документация по NextGIS Bio </docs_ngbio/source/toc>`
+* :doc:`Документация по NextGIS Opengeodata portal </docs_ogportal/source/toc>`
+* :doc:`Документация по NextGIS Forest Inspector </docs_ogportal/source/toc>`
 
 *************
 Дополнительно
 *************
 
-# Документация по NextGIS Web </docs_ngweb/source/toc>`
-# Документация по NextGIS Web </docs_ngweb/source/toc>`
-# Документация по NextGIS Web </docs_ngweb/source/toc>`
-# Документация по NextGIS Web </docs_ngweb/source/toc>`
+* :doc:`Примеры использования </docs_howto/source/toc>`
+* :doc:`Содержание <toc>`
+* :doc:`Словарь <glossary>`
 
 Документация в pdf
 ==================
