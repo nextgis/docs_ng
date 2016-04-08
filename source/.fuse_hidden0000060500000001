@@ -3,19 +3,32 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Содержание
+Полное содержание
 =================
 
 .. toctree::
    :maxdepth: 1
    :numbered: 3
       
-   base
-   add
-   other
+   /docs_ngweb/source/toc
    
+   /docs_ngqgis/source/toc
+   
+   /docs_ngmobile/source/toc
+   
+   /docs_formbuilder/source/toc
+   
+   /docs_ngmanager/source/toc
 
-Документация в pdf
+   /docs_ngbio/source/toc
+
+   /docs_howto/source/toc
+   
+   toc
+
+   glossary
+
+Скачать документацию в pdf
 ==========================
    
 * :download:`Документация по NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`
@@ -24,10 +37,9 @@
 * :download:`Документация по NextGIS Manager <docs_ngmanager/build/latex/NextGISManager.pdf>`
 * :download:`Документация по NextGIS Formbuilder <docs_formbuilder/build/latex/NextGISFormbuilder.pdf>`
 * :download:`Документация по NextGIS Bio <docs_ngbio/build/latex/NextGISBio.pdf>`
-* :download:`Документация по NextGIS Портал открытых геоданных <docs_ogportal/build/latex/NextGISOGPortal.pdf>`
 
-Поиск
-=====
+Индекс и таблицы
+================
 
 * :ref:`genindex`
 * :ref:`search`
