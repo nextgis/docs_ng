@@ -34,3 +34,6 @@
 [submodule "source/docs_ogportal"]
 	path = source/docs_ogportal
 	url = git@github.com:nextgis/docs_ogportal.git
+[submodule "source/docs_forestinspector"]
+	path = source/docs_forestinspector
+	url = git@github.com:nextgis/docs_forestinspector.git
