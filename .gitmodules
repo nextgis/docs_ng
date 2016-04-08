@@ -31,3 +31,6 @@
 [submodule "source/docs_ngcourses"]
 	path = source/docs_ngcourses
 	url = git@github.com:nextgis/docs_ngcourses.git
+[submodule "source/docs_ogportal"]
+	path = source/docs_ogportal
+	url = git@github.com:nextgis/docs_ogportal.git

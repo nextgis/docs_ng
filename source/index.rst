@@ -22,6 +22,8 @@
 
    /docs_ngbio/source/toc
 
+   /docs_ogportal/source/toc
+
    /docs_howto/source/toc
    
    toc
@@ -37,6 +39,7 @@
 * :download:`Документация по NextGIS Manager <docs_ngmanager/build/latex/NextGISManager.pdf>`
 * :download:`Документация по NextGIS Formbuilder <docs_formbuilder/build/latex/NextGISFormbuilder.pdf>`
 * :download:`Документация по NextGIS Bio <docs_ngbio/build/latex/NextGISBio.pdf>`
+* :download:`Документация по NextGIS Open geodata portal <docs_ogportal/build/latex/NextGISOGPortal.pdf>`
 
 Индекс и таблицы
 ================
