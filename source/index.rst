@@ -3,20 +3,39 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+##########
 Содержание
-=================
+##########
 
-.. toctree::
-   :maxdepth: 1
-   :numbered: 3
-      
-   base
-   add
-   other
-   
+*****************
+Основные продукты
+*****************
+
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+
+**************************
+Специализированные решения
+**************************
+
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+
+*************
+Дополнительно
+*************
+
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
+# Документация по NextGIS Web </docs_ngweb/source/toc>`
 
 Документация в pdf
-==========================
+==================
    
 * :download:`Документация по NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`
 * :download:`Документация по NextGIS QGIS <docs_ngqgis/build/latex/NextGISQGIS.pdf>`
