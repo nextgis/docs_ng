@@ -38,8 +38,9 @@
 * :doc:`Содержание <toc>`
 * :doc:`Словарь <glossary>`
 
+******************
 Документация в pdf
-==================
+******************
    
 * :download:`Документация по NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`
 * :download:`Документация по NextGIS QGIS <docs_ngqgis/build/latex/NextGISQGIS.pdf>`
@@ -50,8 +51,9 @@
 * :download:`Документация по NextGIS Портал открытых геоданных <docs_ogportal/build/latex/NextGISOGPortal.pdf>`
 * :download:`Документация по NextGIS Лесной инспектор <docs_forestinspector/build/latex/NextGISFW.pdf>`
 
+*****
 Поиск
-=====
+*****
 
 * :ref:`genindex`
 * :ref:`search`
