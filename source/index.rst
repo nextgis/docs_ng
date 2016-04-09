@@ -3,6 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. toctree::
+   :numbered:
+   :hidden:
+   :maxdepth: 2
+       
+   /docs_ngweb/source/toc    
+   /docs_ngqgis/source/toc
+   /docs_ngmobile/source/toc
+   /docs_ngmanager/source/toc
+   /docs_formbuilder/source/toc
+   /docs_ngbio/source/toc
+   /docs_ogportal/source/toc
+   /docs_forestinspector/source/toc
+   /docs_howto/source/toc
+   toc
+
 ##########
 Содержание
 ##########
@@ -16,9 +32,9 @@
 * :doc:`Документация по NextGIS Mobile </docs_ngmobile/source/toc>`
 * :doc:`Документация по NextGIS Manager </docs_ngmanager/source/toc>`
 
-*****************
+******************
 Вспомогательное ПО
-*****************
+******************
 
 * :doc:`Документация по NextGIS Formbuilder </docs_formbuilder/source/toc>`
 
@@ -28,7 +44,7 @@
 
 * :doc:`Документация по NextGIS Bio </docs_ngbio/source/toc>`
 * :doc:`Документация по NextGIS Opengeodata portal </docs_ogportal/source/toc>`
-* :doc:`Документация по NextGIS Forest Inspector </docs_ogportal/source/toc>`
+* :doc:`Документация по NextGIS Forest Inspector </docs_forestinspector/source/toc>`
 
 *************
 Дополнительно
