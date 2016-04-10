@@ -27,32 +27,32 @@
 Основные продукты
 *****************
 
-* :doc:`Документация по NextGIS Web </docs_ngweb/source/toc>`
-* :doc:`Документация по NextGIS QGIS </docs_ngqgis/source/toc>`
-* :doc:`Документация по NextGIS Mobile </docs_ngmobile/source/toc>`
-* :doc:`Документация по NextGIS Manager </docs_ngmanager/source/toc>`
+1. :doc:`Документация по NextGIS Web </docs_ngweb/source/toc>`
+2. :doc:`Документация по NextGIS QGIS </docs_ngqgis/source/toc>`
+3. :doc:`Документация по NextGIS Mobile </docs_ngmobile/source/toc>`
+4. :doc:`Документация по NextGIS Manager </docs_ngmanager/source/toc>`
 
 ******************
 Вспомогательное ПО
 ******************
 
-* :doc:`Документация по NextGIS Formbuilder </docs_formbuilder/source/toc>`
+5. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder/source/toc>`
 
 **************************
 Специализированные решения
 **************************
 
-* :doc:`Документация по NextGIS Bio </docs_ngbio/source/toc>`
-* :doc:`Документация по NextGIS Opengeodata portal </docs_ogportal/source/toc>`
-* :doc:`Документация по NextGIS Forest Inspector </docs_forestinspector/source/toc>`
+6. :doc:`Документация по NextGIS Bio </docs_ngbio/source/toc>`
+7. :doc:`Документация по NextGIS Opengeodata portal </docs_ogportal/source/toc>`
+8. :doc:`Документация по NextGIS Forest Inspector </docs_forestinspector/source/toc>`
 
 *************
 Дополнительно
 *************
 
-* :doc:`Примеры использования </docs_howto/source/toc>`
-* :doc:`Документация для разработчиков <toc>`
-* :doc:`Словарь <glossary>`
+9. :doc:`Примеры использования </docs_howto/source/toc>`
+10. :doc:`Документация для разработчиков <toc>`
+11. :doc:`Словарь <glossary>`
 
 ******************
 Документация в pdf
