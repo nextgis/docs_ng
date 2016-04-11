@@ -37,3 +37,6 @@
 [submodule "source/docs_forestinspector"]
 	path = source/docs_forestinspector
 	url = git@github.com:nextgis/docs_forestinspector.git
+[submodule "source/qms_srv_dev"]
+	path = source/qms_srv_dev
+	url = git@github.com:nextgis/quickmapservices_server.git
