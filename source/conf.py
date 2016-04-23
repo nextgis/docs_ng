@@ -70,7 +70,7 @@ author = u'Команда NextGIS'
 # built documents.
 #
 # The short X.Y version.
-version = '1.6.0'
+version = '1.6.1'
 # The full version, including alpha/beta/rc tags.
 release = '1.6'
 
@@ -159,6 +159,12 @@ html_theme_options = {
     #    ("Examples", "examples"),
     #    ("Link", "http://example.com", True),
     #],
+    
+    
+    #TODO: links to translation
+    'navbar_links': [
+        ("NextGIS", "http://nextgis.ru", True),
+    ],
 
     # Render the next and previous page links in navbar. (Default: true)
     'navbar_sidebarrel': True,
