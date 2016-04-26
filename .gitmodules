@@ -5,15 +5,19 @@
 [submodule "source/docs_ngmobile"]
 	path = source/docs_ngmobile
 	url = git@github.com:nextgis/docs_ngmobile.git
+	branch = ru
 [submodule "source/docs_ngweb_dev"]
 	path = source/docs_ngweb_dev
 	url = git@github.com:nextgis/nextgisweb.git
+	branch = 2
 [submodule "source/docs_formbuilder"]
 	path = source/docs_formbuilder
 	url = git@github.com:nextgis/docs_formbuilder.git
+	branch = ru
 [submodule "source/docs_ngmanager"]
 	path = source/docs_ngmanager
 	url = git@github.com:nextgis/docs_ngmanager.git
+	branch = ru
 [submodule "source/ngmobile_dev/maplib_src"]
 	path = source/ngmobile_dev/maplib_src
 	url = git@github.com:nextgis/android_maplib.git
