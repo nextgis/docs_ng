@@ -46,6 +46,10 @@ def html_page_context(app, pagename, templatename, context, doctree):
         repo = 'nextgisweb'
         path = os.path.join(*dirs[1:])
         branch = '2'
+    elif dirs[0].startswith('qms_srv_dev'):
+        repo = 'quickmapservices_server'
+        path = os.path.join(*dirs[1:])
+        branch = 'master'    
     elif dirs[0].startswith('docs_'):
         repo = dirs[0]  
         path = os.path.join(*dirs[2:])        
