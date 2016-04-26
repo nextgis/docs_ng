@@ -1,6 +1,7 @@
 [submodule "source/docs_ngweb"]
 	path = source/docs_ngweb
 	url = git@github.com:nextgis/docs_ngweb.git
+	branch = en
 [submodule "source/docs_ngmobile"]
 	path = source/docs_ngmobile
 	url = git@github.com:nextgis/docs_ngmobile.git
