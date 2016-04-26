@@ -1,4 +1,4 @@
-.. Документация NextGIS master file, created by
+.. NextGIS documentation master file, created by
    sphinx-quickstart on Thu Apr  2 20:31:31 2015.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -20,31 +20,31 @@
    toc
 
 ##########
-Содержание
+Contents
 ##########
 
 *****************
-Основные продукты
+Main products
 *****************
 
-1. :doc:`Документация по NextGIS Web </docs_ngweb/source/toc>`
-2. :doc:`Документация по NextGIS QGIS </docs_ngqgis/source/toc>`
-3. :doc:`Документация по NextGIS Mobile </docs_ngmobile/source/toc>`
-4. :doc:`Документация по NextGIS Manager </docs_ngmanager/source/toc>`
+1. :doc:`NextGIS Web documentation</docs_ngweb/source/toc>`
+2. :doc:`NextGIS QGIS documentation</docs_ngqgis/source/toc>`
+3. :doc:`NextGIS Mobile documentation</docs_ngmobile/source/toc>`
+4. :doc:`NextGIS Manager documentation</docs_ngmanager/source/toc>`
 
-******************
-Вспомогательное ПО
-******************
+*******************
+Additional products
+*******************
 
-5. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder/source/toc>`
+5. :doc:`NextGIS Formbuilder documentation</docs_formbuilder/source/toc>`
 
 **************************
-Специализированные решения
+Specialized solutions
 **************************
 
-6. :doc:`Документация по NextGIS Bio </docs_ngbio/source/toc>`
-7. :doc:`Документация по NextGIS Opengeodata portal </docs_ogportal/source/toc>`
-8. :doc:`Документация по NextGIS Forest Inspector </docs_forestinspector/source/toc>`
+6. :doc:`NextGIS Bio documentation</docs_ngbio/source/toc>`
+7. :doc:`NextGIS Opengeodata portal documentation</docs_ogportal/source/toc>`
+8. :doc:`NextGIS Forest Inspector documentation</docs_forestinspector/source/toc>`
 
 *************
 Дополнительно
@@ -55,17 +55,17 @@
 11. :doc:`Словарь <glossary>`
 
 ******************
-Документация в pdf
+PDFs
 ******************
    
-* :download:`Документация по NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`
-* :download:`Документация по NextGIS QGIS <docs_ngqgis/build/latex/NextGISQGIS.pdf>`
-* :download:`Документация по NextGIS Mobile <docs_ngmobile/build/latex/NextGISMobile.pdf>`
-* :download:`Документация по NextGIS Manager <docs_ngmanager/build/latex/NextGISManager.pdf>`
-* :download:`Документация по NextGIS Formbuilder <docs_formbuilder/build/latex/NextGISFormbuilder.pdf>`
-* :download:`Документация по NextGIS Bio <docs_ngbio/build/latex/NextGISBio.pdf>`
-* :download:`Документация по NextGIS Портал открытых геоданных <docs_ogportal/build/latex/NextGISOGPortal.pdf>`
-* :download:`Документация по NextGIS Лесной инспектор <docs_forestinspector/build/latex/NextGISFW.pdf>`
+* :download:`NextGIS Web documentation<docs_ngweb/build/latex/NextGISWeb.pdf>`
+* :download:`NextGIS QGIS documentation<docs_ngqgis/build/latex/NextGISQGIS.pdf>`
+* :download:`NextGIS Mobile documentation<docs_ngmobile/build/latex/NextGISMobile.pdf>`
+* :download:`NextGIS Manager documentation<docs_ngmanager/build/latex/NextGISManager.pdf>`
+* :download:`NextGIS Formbuilder documentation<docs_formbuilder/build/latex/NextGISFormbuilder.pdf>`
+* :download:`NextGIS Bio documentation<docs_ngbio/build/latex/NextGISBio.pdf>`
+* :download:`NextGIS Opengeodata portal documentation<docs_ogportal/build/latex/NextGISOGPortal.pdf>`
+* :download:`NextGIS Forest Inspector documentation<docs_forestinspector/build/latex/NextGISFW.pdf>`
 
 *****
 Поиск
