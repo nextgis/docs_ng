@@ -1,11 +1,11 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
+.. sectionauthor:: Dmitry Baryshnikov <dmitry.baryshnikov@nextgis.com>
 
-.. NextGIS Develop documentation TOC
+.. NextGIS Developer documentation TOC
 
-Документация для разработчиков
+Developer documentation
 ==============================
 
-Содержание:
+Contents:
     
 .. toctree::
    :maxdepth: 2
