@@ -33,7 +33,7 @@ Main products
 4. :doc:`NextGIS Manager documentation</docs_ngmanager/source/toc>`
 
 *******************
-Additional products
+Support products
 *******************
 
 5. :doc:`NextGIS Formbuilder documentation</docs_formbuilder/source/toc>`
@@ -47,12 +47,12 @@ Specialized solutions
 8. :doc:`NextGIS Forest Inspector documentation</docs_forestinspector/source/toc>`
 
 *************
-Дополнительно
+Additional
 *************
 
-9. :doc:`Примеры использования </docs_howto/source/toc>`
-10. :doc:`Документация для разработчиков <toc>`
-11. :doc:`Словарь <glossary>`
+9. :doc:`Use cases </docs_howto/source/toc>`
+10. :doc:`Developer documentation<toc>`
+11. :doc:`Glossary <glossary>`
 
 ******************
 PDFs
@@ -67,9 +67,9 @@ PDFs
 * :download:`NextGIS Opengeodata portal documentation<docs_ogportal/build/latex/NextGISOGPortal.pdf>`
 * :download:`NextGIS Forest Inspector documentation<docs_forestinspector/build/latex/NextGISFW.pdf>`
 
-*****
-Поиск
-*****
+*******
+Search
+*******
 
 * :ref:`genindex`
 * :ref:`search`
@@ -77,7 +77,7 @@ PDFs
 
 .. only:: html
 
-   Данная документация распространяется по лицензии Creative Commons 
-   **"Attribution-NoDerivs" ("Атрибуция — Без производных произведений") СC BY-ND**
+   This documentation is distributed under the terms of Creative Commons License 
+   **"Attribution-NoDerivs" СC BY-ND**
    
    .. image:: _static/cc_by.png  
