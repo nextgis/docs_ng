@@ -43,16 +43,23 @@
 **************************
 
 6. :doc:`Документация по NextGIS Bio </docs_ngbio/source/toc>`
-7. :doc:`Документация по NextGIS Opengeodata portal </docs_ogportal/source/toc>`
-8. :doc:`Документация по NextGIS Forest Inspector </docs_forestinspector/source/toc>`
+7. :doc:`Документация по NextGIS Портал открытых геоданных </docs_ogportal/source/toc>`
+8. :doc:`Документация по NextGIS Лесной инспектор </docs_forestinspector/source/toc>`
+
+*************
+Документация для разработчиков
+*************
+
+9. :doc:`Документация по NextGIS Web </docs_ngweb_dev/doc/toc>`
+10. :doc:`Документация по NextGIS Mobile </ngmobile_dev/toc>`
+11. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
 
 *************
 Дополнительно
 *************
 
-9. :doc:`Примеры использования </docs_howto/source/toc>`
-10. :doc:`Документация для разработчиков <toc>`
-11. :doc:`Словарь <glossary>`
+12. :doc:`Примеры использования </docs_howto/source/toc>`
+13. :doc:`Словарь <glossary>`
 
 ******************
 Документация в pdf
