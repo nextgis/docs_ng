@@ -16,8 +16,10 @@
    /docs_ngbio/source/toc
    /docs_ogportal/source/toc
    /docs_forestinspector/source/toc
+   /docs_ngweb_dev/doc/toc
+   /ngmobile_dev/toc
+   /qms_srv_dev/doc/api
    /docs_howto/source/toc
-   toc
 
 ##########
 Contents
@@ -46,9 +48,9 @@ Specialized solutions
 7. :doc:`NextGIS Opengeodata portal documentation</docs_ogportal/source/toc>`
 8. :doc:`NextGIS Forest Inspector documentation</docs_forestinspector/source/toc>`
 
-*************
+***********************
 Developer documentation
-*************
+***********************
 
 9. :doc:`NextGIS Web documentation</docs_ngweb_dev/doc/toc>`
 10. :doc:`NextGIS Mobile documentation</ngmobile_dev/toc>`
