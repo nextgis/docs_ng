@@ -21,10 +21,6 @@
    /qms_srv_dev/doc/api
    /docs_howto/source/toc
 
-##########
-Contents
-##########
-
 *****************
 Main products
 *****************

@@ -70,7 +70,7 @@ author = u'NextGIS team'
 # built documents.
 #
 # The short X.Y version.
-version = '1.7.0'
+version = '1.7.1'
 # The full version, including alpha/beta/rc tags.
 release = '1.7'
 
@@ -116,7 +116,7 @@ pygments_style = 'sphinx'
 #keep_warnings = False
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = True
+todo_include_todos = False
 
 numfig = True
 
