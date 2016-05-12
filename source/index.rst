@@ -47,12 +47,19 @@ Specialized solutions
 8. :doc:`NextGIS Forest Inspector documentation</docs_forestinspector/source/toc>`
 
 *************
+Developer documentation
+*************
+
+9. :doc:`NextGIS Web documentation</docs_ngweb_dev/doc/toc>`
+10. :doc:`NextGIS Mobile documentation</ngmobile_dev/toc>`
+11. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
+
+*************
 Additional
 *************
 
-9. :doc:`Use cases </docs_howto/source/toc>`
-10. :doc:`Developer documentation<toc>`
-11. :doc:`Glossary <glossary>`
+12. :doc:`Use cases </docs_howto/source/toc>`
+13. :doc:`Glossary <glossary>`
 
 ******************
 PDFs
