@@ -16,10 +16,10 @@
    /docs_ngbio/source/toc
    /docs_ogportal/source/toc
    /docs_forestinspector/source/toc
-   /docs_howto/source/toc
    /docs_ngweb_dev/doc/toc
    /ngmobile_dev/toc
    /qms_srv_dev/doc/api
+   /docs_howto/source/toc
 
 ##########
 Содержание
