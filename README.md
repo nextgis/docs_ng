@@ -1,7 +1,22 @@
 # NextGIS documentation root repository
-Full NextGIS user documentation
+Root repository for NextGIS user and developer documentation
 
-To start using documentation you need some programmes be installed python > 2.7 and:
+Main repositories
+=================
+
+* [NextGIS Web](https://github.com/nextgis/docs_ngweb)
+* [NextGIS QGIS](https://github.com/nextgis/docs_ngqgis)
+* [NextGIS Mobile](https://github.com/nextgis/docs_ngmobile)
+* [NextGIS Manager](https://github.com/nextgis/docs_ngmanager)
+* [NextGIS Formbuilder](https://github.com/nextgis/docs_formbuilder)
+* [NextGIS Bio](https://github.com/nextgis/docs_ngbio)
+* [NextGIS Opengeodata Portal](https://github.com/nextgis/docs_ogportal)
+* [NextGIS Forest Inspector](https://github.com/nextgis/docs_forestinspector)
+* [NextGIS Web for developers](https://github.com/nextgis/docs_ngweb_dev)
+* [NextGIS Mobile for developers](https://github.com/nextgis/docs_ngmobile_dev)
+* [NextGIS QMS Server for developers](https://github.com/nextgis/qms_srv_dev)
+
+To start generating documentation locally you need some packages be installed python > 2.7 and:
 
 1. sudo pip install sphinx
 2. sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended 
@@ -14,7 +29,7 @@ To start using documentation you need some programmes be installed python > 2.7 
 2. pip install sphinx
 3. pip install sphinxcontrib-httpdomain sphinx-bootstrap-theme
 
-Than you have to generate key for ssh git access. See: https://help.github.com/articles/generating-ssh-keys/
+You have to generate key for ssh git access. See: https://help.github.com/articles/generating-ssh-keys/
 ```
 git clone --recursive git@github.com:nextgis/docs_ng.git
 make html
