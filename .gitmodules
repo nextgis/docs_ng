@@ -47,6 +47,6 @@
 	path = source/qms_srv_dev
 	url = git@github.com:nextgis/quickmapservices_server.git
 [submodule "source/docs_ngcom"]
-        path = source/docs_ngcom
-        url = git@github.com:nextgis/docs_ngcom.git
-        branch = en
+	path = source/docs_ngcom
+	url = git@github.com:nextgis/docs_ngcom.git
+	branch = en

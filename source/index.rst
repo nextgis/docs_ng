@@ -8,6 +8,7 @@
    :hidden:
    :maxdepth: 2
        
+   /docs_ngcom/source/toc    
    /docs_ngweb/source/toc    
    /docs_ngqgis/source/toc
    /docs_ngmobile/source/toc
@@ -20,44 +21,50 @@
    /ngmobile_dev/toc
    /qms_srv_dev/doc/api
    /docs_howto/source/toc
+   
+*****************
+Services
+*****************
+
+1. :doc:`NextGIS Services documentation</docs_ngcom/source/toc>`
 
 *****************
 Main products
 *****************
 
-1. :doc:`NextGIS Web documentation</docs_ngweb/source/toc>`
-2. :doc:`NextGIS QGIS documentation</docs_ngqgis/source/toc>`
-3. :doc:`NextGIS Mobile documentation</docs_ngmobile/source/toc>`
-4. :doc:`NextGIS Manager documentation</docs_ngmanager/source/toc>`
+2. :doc:`NextGIS Web documentation</docs_ngweb/source/toc>`
+3. :doc:`NextGIS QGIS documentation</docs_ngqgis/source/toc>`
+4. :doc:`NextGIS Mobile documentation</docs_ngmobile/source/toc>`
+5. :doc:`NextGIS Manager documentation</docs_ngmanager/source/toc>`
 
 *******************
 Support products
 *******************
 
-5. :doc:`NextGIS Formbuilder documentation</docs_formbuilder/source/toc>`
+6. :doc:`NextGIS Formbuilder documentation</docs_formbuilder/source/toc>`
 
 **************************
 Specialized solutions
 **************************
 
-6. :doc:`NextGIS Bio documentation</docs_ngbio/source/toc>`
-7. :doc:`NextGIS Opengeodata portal documentation</docs_ogportal/source/toc>`
-8. :doc:`NextGIS Forest Inspector documentation</docs_forestinspector/source/toc>`
+7. :doc:`NextGIS Bio documentation</docs_ngbio/source/toc>`
+8. :doc:`NextGIS Opengeodata portal documentation</docs_ogportal/source/toc>`
+9. :doc:`NextGIS Forest Inspector documentation</docs_forestinspector/source/toc>`
 
 ***********************
 Developer documentation
 ***********************
 
-9. :doc:`NextGIS Web documentation</docs_ngweb_dev/doc/toc>`
-10. :doc:`NextGIS Mobile documentation</ngmobile_dev/toc>`
-11. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
+10. :doc:`NextGIS Web documentation</docs_ngweb_dev/doc/toc>`
+11. :doc:`NextGIS Mobile documentation</ngmobile_dev/toc>`
+12. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
 
 *************
 Additional
 *************
 
-12. :doc:`Use cases </docs_howto/source/toc>`
-13. :doc:`Glossary <glossary>`
+13. :doc:`Use cases </docs_howto/source/toc>`
+14. :doc:`Glossary <glossary>`
 
 ******************
 PDFs
