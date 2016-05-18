@@ -8,6 +8,7 @@
    :hidden:
    :maxdepth: 2
        
+   /docs_ngcom/source/toc    
    /docs_ngweb/source/toc    
    /docs_ngqgis/source/toc
    /docs_ngmobile/source/toc
@@ -21,44 +22,49 @@
    /qms_srv_dev/doc/api
    /docs_howto/source/toc
 
+*****************
+Сервисы
+*****************
+
+1. :doc:`Документация по сервисам NextGIS </docs_ngcom/source/toc>`
 
 *****************
 Основные продукты
 *****************
 
-1. :doc:`Документация по NextGIS Web </docs_ngweb/source/toc>`
-2. :doc:`Документация по NextGIS QGIS </docs_ngqgis/source/toc>`
-3. :doc:`Документация по NextGIS Mobile </docs_ngmobile/source/toc>`
-4. :doc:`Документация по NextGIS Manager </docs_ngmanager/source/toc>`
+2. :doc:`Документация по NextGIS Web </docs_ngweb/source/toc>`
+3. :doc:`Документация по NextGIS QGIS </docs_ngqgis/source/toc>`
+4. :doc:`Документация по NextGIS Mobile </docs_ngmobile/source/toc>`
+5. :doc:`Документация по NextGIS Manager </docs_ngmanager/source/toc>`
 
 ******************
 Вспомогательное ПО
 ******************
 
-5. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder/source/toc>`
+6. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder/source/toc>`
 
 **************************
 Специализированные решения
 **************************
 
-6. :doc:`Документация по NextGIS Bio </docs_ngbio/source/toc>`
-7. :doc:`Документация по NextGIS Портал открытых геоданных </docs_ogportal/source/toc>`
-8. :doc:`Документация по NextGIS Лесной инспектор </docs_forestinspector/source/toc>`
+7. :doc:`Документация по NextGIS Bio </docs_ngbio/source/toc>`
+8. :doc:`Документация по NextGIS Портал открытых геоданных </docs_ogportal/source/toc>`
+9. :doc:`Документация по NextGIS Лесной инспектор </docs_forestinspector/source/toc>`
 
-*************
+*******************************
 Документация для разработчиков
-*************
+*******************************
 
-9. :doc:`Документация по NextGIS Web </docs_ngweb_dev/doc/toc>`
-10. :doc:`Документация по NextGIS Mobile </ngmobile_dev/toc>`
-11. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
+10. :doc:`Документация по NextGIS Web </docs_ngweb_dev/doc/toc>`
+11. :doc:`Документация по NextGIS Mobile </ngmobile_dev/toc>`
+12. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
 
 *************
 Дополнительно
 *************
 
-12. :doc:`Примеры использования </docs_howto/source/toc>`
-13. :doc:`Словарь <glossary>`
+13. :doc:`Примеры использования </docs_howto/source/toc>`
+14. :doc:`Словарь <glossary>`
 
 ******************
 Документация в pdf
