@@ -55,7 +55,7 @@ def html_page_context(app, pagename, templatename, context, doctree):
         path = os.path.join(*dirs[2:])        
         path = os.path.join('source', path)
         branch = 'master'
-    elif dirs[0].startswith('docs_'):
+    elif dirs[0].startswith('docs_ngcom') or dirs[0].startswith('docs_ngweb') or dirs[0].startswith('docs_ngqgis') or dirs[0].startswith('docs_ngmobile') or dirs[0].startswith('docs_ngmanager') or dirs[0].startswith('docs_formbuilder'):
         repo = dirs[0]  
         path = os.path.join(*dirs[2:])        
         path = os.path.join('source', path)
