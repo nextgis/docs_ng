@@ -49,7 +49,12 @@ def html_page_context(app, pagename, templatename, context, doctree):
     elif dirs[0].startswith('qms_srv_dev'):
         repo = 'quickmapservices_server'
         path = os.path.join(*dirs[1:])
-        branch = 'master'    
+        branch = 'master' 
+    elif dirs[0].startswith('docs_ogportal'):
+        repo = dirs[0]  
+        path = os.path.join(*dirs[2:])        
+        path = os.path.join('source', path)
+        branch = 'master'
     elif dirs[0].startswith('docs_'):
         repo = dirs[0]  
         path = os.path.join(*dirs[2:])        
