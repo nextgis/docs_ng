@@ -26,7 +26,7 @@
 Services
 *****************
 
-1. :doc:`NextGIS Services documentation</docs_ngcom/source/toc>`
+1. :doc:`Get Started with your Web GIS</docs_ngcom/source/toc>`
 
 *****************
 Main products
