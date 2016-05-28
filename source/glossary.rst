@@ -6,58 +6,55 @@ Glossary
 .. glossary::
    :sorted:
             
-   данные
-      Информация, представленная в виде, пригодном для обработки автоматическими 
-      средствами при возможном участии человека. [ГОСТ 15971-90, статья 1]
-      
-   информационная система
-      1. Система, предназначенная для хранения, обработки, поиска, распространения, 
-         передачи и представления информации. [ГОСТ 7.0-99, статья 3.1.30]
-      2. Совокупность содержащейся в базах данных информации и обеспечивающих ее 
-         обработку информационных технологий и технических средств. [ФЗ "Об информации, 
-         информационных технологиях и о защите информации" от 27 июля 2006 года N 149-ФЗ]
+   data
+      Information represented in a way it can be processed with automatic tools with possible participation of an operator. [GOST 15971-90, article 1]
+            
+information system
+      1. System for storage, processing, search, distribution, 
+      transfer and representation of information. [GOST 7.0-99, arcticle 3.1.30]
+      2. A set of information contained in databases and tools and technologies for information processing 
+      . [Federal law  "About information, 
+      information technnologies and information security" 27 July 2006 N 149-FL]
    
-   геоинформационная система
-      Информационная система, оперирующая пространственными данными (они же геоданные). 
-      [ГОСТ Р 52438-2005 "Географические информационные системы. Термины и определения"]
+   geographical information system
+      Information system that operates with geographical data (geodata). 
+      [GOST R 52438-2005 "Geographical information systems. Terms and definitions"]
    
-   геоданные
-   геопространственные данные
-   пространственные данные
-      Данные о пространственных объектах и их наборах.
+   geodata
+   geospatial data
+   spatial data
+      Data aboult spatial features and sets of features.
       
-   географический объект
-   пространственный объект
-   геообъект
-      Цифровая модель материального или абстрактного объекта реального или 
-      виртуального мира с указанием его идентификатора, координатных и атрибутивных данных.
+   geographical feature
+   spatial feature
+   geofeature
+      Digital model for material or abstract feature of real or  
+      virtual world with assigned identifier, coordinates and attributes.
       
-   информационное обеспечение геоинформационной системы
-      Совокупность знаний о предметной области информационных ресурсов, информационных 
-      услуг, классификаторов, правил цифрового описания, форматов данных и соответствующей 
-      документации, предоставляемых пользователю и (или) разработчику геоинформационных 
-      систем для решения задач ее создания, эксплуатации и использования.
+   information support for geographic information system
+      A set of knowledge about information resources, information 
+      services, classificators, rules for digital description, data formats and  
+      documentation, that is presented to the user or a developer of geographical information 
+      system for it's creation, maintenance and usage.
 
-   система координат
-      Способ определять положение точки в пространстве относительно выбранных осей.
+   coordinate system
+      A way for decription of point location relative to selected axes.
 
    GeoJSON
-     Открытый стандарт представления коллекций простых географических объектов 
-     совместно с их непространственными атрибутами использующий нотацию JavaScript Object.
+     Open standard for representation of simple geographical features 
+     with their non-spatial attributes using a JavaScript Object notation.
      
    GPS
-   Global positioning system
-      Глобальная система позиционирования.
-
-   ГЛОНАСС
-   Глобальная навигационная спутниковая система
-      Советская/российская спутниковая система навигации, разработана по заказу 
-      Министерства обороны СССР. Одна из двух функционирующих на сегодня систем 
-      глобальной спутниковой навигации (китайская система спутниковой навигации 
-      Бэйдоу на данный момент функционирует как региональная).
+      Global positioning system
+      
+   GLONASS
+   Global navigation satellite system
+      Soviet/Russian satellite navigation system initially developed 
+      for Ministry of defence of USSR. One of the two currently functioning systems 
+      for global satellite navigation (Chinese satellite navigation system 
+      BeiDou currently functions as regional).
    
    Android
-   Андроид
       Операционная система для смартфонов, планшетных компьютеров, электронных 
       книг, цифровых проигрывателей, наручных часов, игровых приставок, нетбуков, 
       смартбуков, очков Google, телевизоров и других устройств. В будущем 
@@ -73,60 +70,59 @@ Glossary
       
    TMS
    Tile map service
-     Стандарт `OSGeo <http://www.osgeo.org/>`_ , описывающий доступ к представлению 
-     геоданных через сеть Интернет/Интранет без доступа к самим геоданным. 
+     `OSGeo <http://www.osgeo.org/>`_ standard that describes an access to representation of  
+     geodata through the Internet/Intranet without an access to geodata itself. 
      
    PostGIS
-     Расширение объектно-реляционной СУБД PostgreSQL, предназначенное для хранения 
-     в базе географических данных. PostGIS включает поддержку пространственных 
-     индексов R-Tree/GiST и функции обработки геоданных.
+     Extension for relational DBMS PostgreSQL for storage 
+     of geodata in a database. PostGIS has a support for spatial 
+     indexes R-Tree/GiST and geodata processing functions.
      
    ESRI Shape
    Shapefile
-   Шейп-файл
-     Популярный векторный формат географических файлов. Разрабатывается и 
-     поддерживается компанией Esri с целью интероперабельности между продуктами 
-     Esri и другими программами.     
+     Popular format for geodata files. Is developed and  
+     supported by Esri company for interoperability between products of 
+     Esri and other software.     
      
    GeoTIFF
-     Открытый формат представления растровых данных в формате TIFF совместно с 
-     метаданными о географической привязке. Использует спецификации TIFF 6.0, в 
-     которую добавляет несколько видов гео-тегов, которые определяют вид 
-     картографической проекции, систему географических координат, модель геоида, 
-     датум и любую другую информацию, необходимую для точного пространственного 
-     ориентирования космического снимка.
+     Open geodata format for raster data representation in a TIFF format with  
+     matadata about georeferencing. Uses TIFF 6.0 specification, and 
+     adds some types of geotags that defines a type 
+     of cartographic projection, geographical coordinate system, geoid,  
+     datum and all other information required for precise 
+     spatial orientation of satellite image.
      
    WMS
    Web Map Service 
-     Стандартный протокол для обслуживания через Интернет географически привязанных 
-     изображений, генерируемых картографическим сервером на основе данных из БД ГИС. 
-     Данный стандарт был разработан и впервые опубликован международной организацией 
-     `OGC <http://www.opengeospatial.org/>`_ (Open Geospatial Consortium — 
-     открытый геопространственный консорциум) в 1999 году.
+     A standard protocol for serving of georeferenced images through the Internet 
+     that are generated on server on a basis of data from a gis database. 
+     Standard was developed and initially published by international organization  
+     `OGC <http://www.opengeospatial.org/>`_ (Open Geospatial Consortium 
+     ) in 1999.
    
    WFS
    Web Feature Service 
-     Это веб-сервис, предоставляющий данные в векторном виде в формате GML. 
-     Клиент получает как геометрию так и аттрибуты. Существуют расширения стандарта:
+     A web service that represents data in a vector GML format. 
+     Client gets both attributes and geometry. Thare are standard extensions:
      
-     * Transactional (WFS-T) - позволяющий клиентам передавать обратно на WFS 
-       сервер новые и измененные данные;
-     * Gazetteer (WFS-G) - черновик стандарта, добавляющий поиск и запрос 
-       элементов по словарю географических названий; изначально разработан в USGS;
-     * Temporal - черновик стандарта, добавляющий временное измерение;
-     * Versioning (WFS-V, WFSV) - позволяет работать с различными версиями данных 
-       (частная разработка проекта GeoServer, не стандартизирована OGC). 
+     * Transactional (WFS-T) - allows clients to send to WFS 
+       server new and updated data;
+     * Gazetteer (WFS-G) - a draft of a standard that adds a search and a query 
+       of items by dictionary of geographical names. Initially developed by USGS;
+     * Temporal - a draft of a standard that adds a temporal measurement;
+     * Versioning (WFS-V, WFSV) - allows to work with different versions of data 
+       (particular development of GeoServer project, not standardized by OGC). 
 
 
    Open Source
-     Программное обеспечение с открытым исходным кодом. Исходный код таких 
-     программ доступен для просмотра, изучения и изменения, что позволяет 
-     пользователю принять участие в доработке самой открытой программы, 
-     использовать код для создания новых программ и исправления в них ошибок — 
-     через заимствование исходного кода, если это позволяет совместимость 
-     лицензий, или через изучение использованных алгоритмов, структур данных, 
-     технологий, методик и интерфейсов (поскольку исходный код может существенно 
-     дополнять документацию, а при отсутствии таковой сам служит документацией).
+     Software with open source code. Source code of such 
+     software is available for view, study and update. This allows 
+     a user to participate in a process of development of open source software, 
+     to use a code for creation of new software and debugging — 
+     through borrowing of source code if that is allowed by license compatibility,  
+     or to study of used algorithms, data structures, 
+     technologies, methods and interfaces (as source code could essentially 
+     complete documentation or be a kind of documentation if there is no one).
 
    URL
    Uniform Resource Locator
@@ -135,22 +131,22 @@ Glossary
       URL служит стандартизированным способом записи адреса ресурса в сети Интернет.
         
    QGIS
-     Это дружественная к пользователю географическая информационная система 
-     с открыты кодом, распространяющаяся под GNU General Public License. QGIS 
-     является проектом Open Source Geospatial Foundation. Она работает на Linux, 
-     Unix, Mac OSX, Windows и Android, поддерживает множество векторных, 
-     растровых форматов, баз данных и обладает широкими возможностями.
+     A user-friendly geographical information system 
+     with open source code, distributed under GNU General Public License. QGIS 
+     is a project of Open Source Geospatial Foundation. It works on Linux, 
+     Unix, Mac OSX, Windows and Android, supports for various vector, 
+     raster formats, databases and has a variety of functions.
    
    Mapnik  
-     Свободный инструментарий отрисовки карты. Он написан на C++ и Python. 
-     Использует библиотеку AGG и дает возможность сглаживать объекты на карте с 
-     большой точностью. Может читать данные в формате компании ESRI, PostGIS, 
-     точечные рисунки TIFF, файлы .osm, а также поддерживает любые GDAL или OGR 
-     форматы. 
+     Open source map renderer. Written on C++ and Python. 
+     Uses a AGG library and has a function of smoothing of features with 
+     high acuracy. It can read from ESRI formats, PostGIS, 
+     TIFF, .osm files, and also supports for any GDAL or OGR 
+     formats. 
      
    MapServer
-     Cерверная геоинформационная система с открытыми исходными кодами, запускаемая 
-     через интерфейс CGI.   
+     Server geographical information system with open source that is launched 
+     through CGI interface.
    
    ПО
    программное обеспечение
