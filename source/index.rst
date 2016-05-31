@@ -10,18 +10,10 @@
        
    /docs_ngcom/source/toc    
    /docs_ngweb/source/toc    
-   /docs_ngqgis/source/toc
-   /docs_ngmobile/source/toc
-   /docs_ngmanager/source/toc
-   /docs_formbuilder/source/toc
-   /docs_ngbio/source/toc
-   /docs_ogportal/source/toc
-   /docs_forestinspector/source/toc
    /docs_ngweb_dev/doc/toc
    /ngmobile_dev/toc
    /qms_srv_dev/doc/api
-   /docs_howto/source/toc
-   
+
 *****************
 Services
 *****************
@@ -33,51 +25,26 @@ Main products
 *****************
 
 2. :doc:`NextGIS Web documentation</docs_ngweb/source/toc>`
-3. :doc:`NextGIS QGIS documentation</docs_ngqgis/source/toc>`
-4. :doc:`NextGIS Mobile documentation</docs_ngmobile/source/toc>`
-5. :doc:`NextGIS Manager documentation</docs_ngmanager/source/toc>`
-
-*******************
-Support products
-*******************
-
-6. :doc:`NextGIS Formbuilder documentation</docs_formbuilder/source/toc>`
-
-**************************
-Specialized solutions
-**************************
-
-7. :doc:`NextGIS Bio documentation</docs_ngbio/source/toc>`
-8. :doc:`NextGIS Opengeodata portal documentation</docs_ogportal/source/toc>`
-9. :doc:`NextGIS Forest Inspector documentation</docs_forestinspector/source/toc>`
 
 ***********************
 Developer documentation
 ***********************
 
-10. :doc:`NextGIS Web documentation</docs_ngweb_dev/doc/toc>`
-11. :doc:`NextGIS Mobile documentation</ngmobile_dev/toc>`
-12. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
+3. :doc:`NextGIS Web developer documentation</docs_ngweb_dev/doc/toc>`
+4. :doc:`NextGIS Mobile developer documentation</ngmobile_dev/toc>`
+5. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
 
 *************
 Additional
 *************
 
-13. :doc:`Use cases </docs_howto/source/toc>`
-14. :doc:`Glossary <glossary>`
+6. :doc:`Glossary <glossary>`
 
 ******************
 PDFs
 ******************
    
 * :download:`NextGIS Web documentation<docs_ngweb/build/latex/NextGISWeb.pdf>`
-* :download:`NextGIS QGIS documentation<docs_ngqgis/build/latex/NextGISQGIS.pdf>`
-* :download:`NextGIS Mobile documentation<docs_ngmobile/build/latex/NextGISMobile.pdf>`
-* :download:`NextGIS Manager documentation<docs_ngmanager/build/latex/NextGISManager.pdf>`
-* :download:`NextGIS Formbuilder documentation<docs_formbuilder/build/latex/NextGISFormbuilder.pdf>`
-* :download:`NextGIS Bio documentation<docs_ngbio/build/latex/NextGISBio.pdf>`
-* :download:`NextGIS Opengeodata portal documentation<docs_ogportal/build/latex/NextGISOGPortal.pdf>`
-* :download:`NextGIS Forest Inspector documentation<docs_forestinspector/build/latex/NextGISFW.pdf>`
 
 *******
 Search
