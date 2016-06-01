@@ -8,8 +8,9 @@
    :hidden:
    :maxdepth: 2
        
-   /docs_ngcom/source/toc    
-   /docs_ngweb/source/toc    
+   /docs_ngcom/source/toc
+   /docs_ngweb/source/toc
+   /docs_ngmobile/source/toc
    /docs_ngweb_dev/doc/toc
    /ngmobile_dev/toc
    /qms_srv_dev/doc/api
@@ -25,26 +26,28 @@ Main products
 *****************
 
 2. :doc:`NextGIS Web documentation</docs_ngweb/source/toc>`
+3. :doc:`NextGIS Mobile documentation</docs_ngmobile/source/toc>`
 
 ***********************
 Developer documentation
 ***********************
 
-3. :doc:`NextGIS Web developer documentation</docs_ngweb_dev/doc/toc>`
-4. :doc:`NextGIS Mobile developer documentation</ngmobile_dev/toc>`
-5. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
+4. :doc:`NextGIS Web developer documentation</docs_ngweb_dev/doc/toc>`
+5. :doc:`NextGIS Mobile developer documentation</ngmobile_dev/toc>`
+6. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
 
 *************
 Additional
 *************
 
-6. :doc:`Glossary <glossary>`
+7. :doc:`Glossary <glossary>`
 
 ******************
 PDFs
 ******************
    
 * :download:`NextGIS Web documentation<docs_ngweb/build/latex/NextGISWeb.pdf>`
+* :download:`NextGIS Mobile documentation<docs_ngmobile/build/latex/NextGISMobile.pdf>`
 
 *******
 Search
