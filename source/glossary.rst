@@ -55,18 +55,7 @@ Glossary
       BeiDou currently functions as regional).
    
    Android
-      Операционная система для смартфонов, планшетных компьютеров, электронных 
-      книг, цифровых проигрывателей, наручных часов, игровых приставок, нетбуков, 
-      смартбуков, очков Google, телевизоров и других устройств. В будущем 
-      планируется поддержка автомобилей. Основана на ядре Linux и собственной 
-      реализации виртуальной машины Java от Google. Изначально разрабатывалась 
-      компанией Android Inc., которую затем купила Google. Впоследствии Google 
-      инициировала создание альянса :abbr:`Open Handset Alliance (OHA)`, который 
-      сейчас занимается поддержкой и дальнейшим развитием платформы. Android 
-      позволяет создавать Java-приложения, управляющие устройством через разработанные 
-      Google библиотеки. Android Native Development Kit позволяет портировать 
-      (но не отлаживать) библиотеки и компоненты приложений, написанные на Си и 
-      других языках.
+      Operating system for smartphones, tablet computers, e-books, digital players, smart watches, game consoles, Google glasses, TVs and other devices. It plans to support vehicles. It is based on a Java virtual machine by Google. Initially developed by Android Inc. which was aquired by Google. Subsequently Google initiated the creation of :abbr:`Open Handset Alliance (OHA)`, which is now engaged in the support and further development of the platform. Android allowes to create Java applications that use libraries developed by Google to control the device. Android Native Development Kit allows to port (but not to degug) libraries and components written in C and other languages.
       
    TMS
    Tile map service
@@ -126,9 +115,8 @@ Glossary
 
    URL
    Uniform Resource Locator
-      Eдинообразный локатор (определитель местонахождения) ресурса. Ранее 
-      назывался Universal Resource Locator  — универсальный указатель ресурса. 
-      URL служит стандартизированным способом записи адреса ресурса в сети Интернет.
+      A Uniform resource locator (description of location). Previously called Universal Resource Locator (URL). 
+      URL is a standartized way to record a resource address in the Internet.
         
    QGIS
      A user-friendly geographical information system 
@@ -148,36 +136,31 @@ Glossary
      Server geographical information system with open source that is launched 
      through CGI interface.
    
-   ПО
-   программное обеспечение
-     1. Все или часть программ, процедур, правил и соответствующей документации системы 
-        обработки информации [ISO/IEC 2382-1:1993].
-     2. Компьютерные программы, процедуры и, возможно, соответствующая документация 
-        и данные, относящиеся к функционированию компьютерной системы [IEEE Std 829—2008].
-     3. Программа или множество программ, используемых для управления компьютером 
+   Software
+     1. All or part of the programs, procedures, rules, and associated documentation of an information processing system [ISO/IEC 2382-1:1993].
+     2. Computer programs, procedures and potentially associated documentation related to functioning of computer system [IEEE Std 829—2008].
+     3. A program or a set of programs used to control a computer 
         [IEEE Std 829—2008].
-     4. Совокупность программ системы обработки информации и программных документов, 
-        необходимых для эксплуатации этих программ [ГОСТ 19781-90].  
+     4. The collection of programs of information processing system and documentation required for the operation of these programs [GOST 19781-90].  
 
-   Охват
-   Экстент
-     Координаты границ карты, обычно записываются 4 цифрами. Охват обозначает место показываемое на карте, и её масштаб. 
+   Extent
+     Coordinates of map borders usually written with 4 numbers. Extent identifies the place shown on the map and its scale. 
         
-   Открытые данные
-     Информация, которую кто угодно может свободно использовать и распространять. Допустимы лишь требования указывать источник данных и распространять их на тех же условиях, что и исходные. Самые важные требования к ним: 
+   Open data
+     Open data is data that can be freely used, re-used and redistributed by anyone - subject only, at most, to the requirement to attribute and sharealike. Most important requirements are: 
      
-     * Доступность и читаемость: данные должны быть доступны целиком не дороже разумной стоимости их воспроизведения; желательно через интернет. Формат данных должен быть удобным для чтения и изменения.
-     * Повторное использование и распространение: данные должны предоставляться на условиях, которые разрешают их повторное использование и распространение, в том числе - в комбинации с другими наборами данных.
-     * Всеобщее участие: каждый должен иметь возможность использовать и распространять данные. Не должно быть дискриминации областей применения, людей или групп. 
-       Например, ограничение «только для некоммерческого использования», которое запрещает «коммерческое» применение, или ограничение возможных областей применения (к примеру, только в образовании), недопустимы. 
-     Смотрите так же http://government.ru/open_data/, http://opendatahandbook.org/guide/ru/what-is-open-data/
+     * Availability and Access: the data must be available as a whole and at no more than a reasonable reproduction cost, preferably by downloading over the internet. The data must also be available in a convenient and modifiable form.
+     * Re-use and Redistribution: the data must be provided under terms that permit re-use and redistribution including the intermixing with other datasets.
+     * Universal Participation: everyone must be able to use, re-use and redistribute - there should be no discrimination against fields of endeavour or against persons or groups. 
+      For example, ‘non-commercial’ restrictions that would prevent ‘commercial’ use, or restrictions of use for certain purposes (e.g. only in education), are not allowed. 
+     See more at http://government.ru/open_data/, http://opendatahandbook.org/guide/en/what-is-open-data/
        
    CSV
-     Формат хранения электронной таблицы в текстовом файле. Представляет собой набор строк, где столбцы разделены запятыми или точкой с запятой. Применяется для передачи информации между програмами, если они не могут читать более сложные форматы. В CSV можно хранить и географические данные: в столбцах могут быть записаны координаты точек, или же геометрия в форматах записи WKT или WKB.
-     Пример cтроки: 37.2200309,55.8320522,2001755270,Аникеевка,halt
+     A format for storage of tabular data in plain text.  The file contains a set of rows where columns are separated with commas or semicolons. The format is used for data exchange between programs if they can not read more complex formats. CSV could be used to store geodata: columns may store coordinates for points or geometry description in WKT or WKB formats.
+     Example: 37.2200309,55.8320522,2001755270,Anikeevka,halt
        
    API
-     Набор протоколов, инструментов и процедур, которые приложение (программа, веб-сервис) предоставляет для использования внешними программными продуктами. У веб-сервисов как правило представляет собой описание возможных запросов по протоколу HTTP
+     A set of protocols, tools and procedures that an application (software or web service) provides for the use by external software. Web services API is typically a description of possible HTTP requests.
      
    QML
-     Язык описания картостилей, основной для программы NextGIS QGIS. Векторные и растровые стили редактируются в ней, и сохраняются в файл с расширением qml. Внутреннее представление - xml. Картостили формата qml поддерживаются в NextGIS Web. 
+     A main language for description of map styles for the NextGIS QGIS software. Vector and raster styles are edited in QGIS and saved to a file with qml extension. Internal representations is xml. Map styles in qml format are supported by NextGIS Web. 
