@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 .. toctree::
-   :numbered:
+   :numbered: 3
    :hidden:
    :maxdepth: 2
        
