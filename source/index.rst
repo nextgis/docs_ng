@@ -20,6 +20,7 @@
    /docs_ngweb_dev/doc/toc
    /ngmobile_dev/toc
    /qms_srv_dev/doc/api
+   /docs_formbuilder_dev/doc/toc
    /docs_howto/source/toc
 
 *****************
