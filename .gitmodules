@@ -50,3 +50,6 @@
 	path = source/docs_ngcom
 	url = git@github.com:nextgis/docs_ngcom.git
 	branch = en
+[submodule "source/docs_formbuilder_dev"]
+	path = source/docs_formbuilder_dev
+	url = git@github.com:nextgis/formbuilder.git
