@@ -35,12 +35,13 @@ Developer documentation
 4. :doc:`NextGIS Web developer documentation</docs_ngweb_dev/doc/toc>`
 5. :doc:`NextGIS Mobile developer documentation</ngmobile_dev/toc>`
 6. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
+7. :doc:`NextGIS Formbuilder documentation</docs_frombuilder_dev/doc/toc>`
 
 *************
 Additional
 *************
 
-7. :doc:`Glossary <glossary>`
+8. :doc:`Glossary <glossary>`
 
 ******************
 PDFs
