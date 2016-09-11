@@ -5,6 +5,7 @@ Main repositories
 =================
 
 * [NextGIS Web](https://github.com/nextgis/docs_ngweb)
+* [Get Started with your Web GIS](https://github.com/nextgis/docs_ngcom)
 * [NextGIS QGIS](https://github.com/nextgis/docs_ngqgis)
 * [NextGIS Mobile](https://github.com/nextgis/docs_ngmobile)
 * [NextGIS Manager](https://github.com/nextgis/docs_ngmanager)
