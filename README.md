@@ -15,7 +15,7 @@ Main repositories
 * [NextGIS Forest Inspector](https://github.com/nextgis/docs_forestinspector)
 * [NextGIS Web for developers](https://github.com/nextgis/nextgisweb/tree/3/doc)
 * [NextGIS Mobile for developers](https://github.com/nextgis/ngmobile_dev)
-* [NextGIS QMS Server for developers](https://github.com/nextgis/qms_srv_dev)
+* [NextGIS QMS Server for developers](https://github.com/nextgis/quickmapservices_server/tree/master/doc)
 
 To start generating documentation locally you need some packages be installed python > 2.7 and:
 
