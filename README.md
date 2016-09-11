@@ -13,8 +13,8 @@ Main repositories
 * [NextGIS Bio](https://github.com/nextgis/docs_ngbio)
 * [NextGIS Opengeodata Portal](https://github.com/nextgis/docs_ogportal)
 * [NextGIS Forest Inspector](https://github.com/nextgis/docs_forestinspector)
-* [NextGIS Web for developers](https://github.com/nextgis/docs_ngweb_dev)
-* [NextGIS Mobile for developers](https://github.com/nextgis/docs_ngmobile_dev)
+* [NextGIS Web for developers](https://github.com/nextgis/nextgisweb/tree/3/doc)
+* [NextGIS Mobile for developers](https://github.com/nextgis/ngmobile_dev)
 * [NextGIS QMS Server for developers](https://github.com/nextgis/qms_srv_dev)
 
 To start generating documentation locally you need some packages be installed python > 2.7 and:
