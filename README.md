@@ -37,4 +37,4 @@ Build status
 
 License
 -------------
-This documentaion is licensed under CC-BY-SA 3.0
+This documentaion is licensed under CC-BY-ND 3.0
