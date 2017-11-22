@@ -23,7 +23,7 @@ NextGIS iOS SDK это набор библиотек для работы с ге
 
 Для взаимодействия с библиотекой используется `С API` и биндинги для других языков программирования при помощи `swig`. 
 
-Библиотека **ios_maplib** написана на `Swift` и представляет собой удобную обвзяку вокруг C API nextgis_datastore.
+Библиотека **ios_maplib** написана на `Swift` и представляет собой удобную обвязку вокруг C API nextgis_datastore.
 
 Установка
 ----------
@@ -75,9 +75,23 @@ NextGIS iOS SDK это набор библиотек для работы с ге
 
    $(SRCROOT)/Carthage/Build/iOS/ngstore.framework
    $(SRCROOT)/Carthage/Build/iOS/ngmaplib.framework
+   
+.. figure:: _static/build_run_script_xcode.png
+   :name: ngmobdev_build_run_script_xcode
+   :align: center
+   :width: 15cm   
+   
+   Вкладка проекта `Build Phases`.
 
 Подробнее см. документацию `Carthage <https://github.com/Carthage/Carthage/>`_.
 
-На заключительном этапе на форму необходимо добавить gl view и назначить ему в качестве базового класса ngmobile или производный ...
+На заключительном этапе на форму необходимо добавить `GLK View` и назначить ему в качестве базового класса MapView из модуля ngmaplib или производный класс.
 
-Подробнее по работе с библиотекой см. документацию по API :ref:
+.. figure:: _static/storyboard_xcode.png
+   :name: ngmobdev_storyboard_xcode
+   :align: center
+   :width: 15cm  
+   
+   Настройка формы окна карты.
+
+Подробнее по работе с библиотекой см. документацию по API.
