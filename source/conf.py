@@ -133,6 +133,8 @@ gettext_compact = False
 autodoc_member_order = 'bysource'
 autoclass_content = 'both'
 
+swift_search_path = ['docs_ngqgis/source/ngmobile_dev/ios_maplib_src/MapLib']
+
 # -- Options for HTML output ----------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
