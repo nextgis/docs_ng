@@ -53,3 +53,6 @@
 [submodule "source/docs_formbuilder_dev"]
 	path = source/docs_formbuilder_dev
 	url = git@github.com:nextgis/formbuilder.git
+[submodule "source/ngmobile_dev/ios_maplib_src"]
+	path = source/ngmobile_dev/ios_maplib_src
+	url = git@github.com:nextgis/ios_maplib.git
