@@ -7,6 +7,8 @@ Mobile Android SDK v.2
 
 В данном разделе содержится документация по NextGIS Mobile SDK версии **2**. Подробнее о подключении и использовании библиотек из состава SDK см. в описании интерфейса `IGISApplication <http://docs.nextgis.ru/ngmobile_dev/maplib/com/nextgis/maplib/api/IGISApplication.html>`_.
 
+SDK состоит из двух библиотек: **Maplib** и **MaplibUI**.
+
 Состав классов и методов приведен по ссылкам ниже.
 
 .. toctree::
