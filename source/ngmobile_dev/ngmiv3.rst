@@ -85,7 +85,7 @@ NextGIS iOS SDK это набор библиотек для работы с ге
 
 Подробнее см. документацию `Carthage <https://github.com/Carthage/Carthage/>`_.
 
-На заключительном этапе на форму необходимо добавить ``GLK View`` и назначить ему в качестве базового класса MapView из модуля ngmaplib или производный класс.
+На заключительном этапе на форму необходимо добавить ``GLK View`` и назначить ему в качестве базового класса ``MapView`` из модуля ``ngmaplib`` или производный класс.
 
 .. figure:: _static/storyboard_xcode.png
    :name: ngmobdev_storyboard_xcode
