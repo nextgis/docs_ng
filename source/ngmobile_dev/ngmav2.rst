@@ -2,7 +2,7 @@
 .. NextGIS Mobile SDK v2
 .. doc:`Библиотека Maplib <maplib/packages>`
 
-NextGIS Mobile SDK v.2 для Android
+Mobile Android SDK v.2
 ====================================
 
 В данном разделе содержится документация по NextGIS Mobile SDK версии 2. Подробнее о подулючении и использовании библиотек из состава SDK описано в описании интерфейса `IGISApplication <http://docs.nextgis.ru/ngmobile_dev/maplib/com/nextgis/maplib/api/IGISApplication.html>`_.
