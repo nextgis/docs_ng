@@ -12,7 +12,7 @@ NextGIS iOS SDK это набор библиотек для работы с ге
 * Библиотека `nextgis_datastore<https://github.com/nextgis/nextgis_datastore>`_
 * Библиотека `ios_maplib<https://github.com/nextgis/ios_maplib>`_
 
-Библиотека **nextgis_datastore** написана на `С++11` и основана на `GDAL<http://gdal.org/>`_. Она обеспечивает следующие возможности:
+Библиотека **nextgis_datastore** написана на `С++11` и основана на `GDAL <http://gdal.org/>`_. Она обеспечивает следующие возможности:
 
 * создание, изменение и удаление геоданных (растровых и векторных)
 * редактирование геоданных (модификация географии и атрибутики)
