@@ -7,5 +7,7 @@ NextGIS Mobile для разработчиков
 .. toctree::
    :maxdepth: 2
 
+   ngmiv3
+   ngmav3
    ngmav2 
    
