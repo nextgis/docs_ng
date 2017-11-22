@@ -9,8 +9,8 @@ NextGIS iOS SDK
 
 NextGIS iOS SDK это набор библиотек для работы с геоданным в мобильном приложении для iPhone и iPad. В состав библиотек входят:
 
-* Библиотека `nextgis_datastore<https://github.com/nextgis/nextgis_datastore>`_
-* Библиотека `ios_maplib<https://github.com/nextgis/ios_maplib>`_
+* Библиотека `nextgis_datastore <https://github.com/nextgis/nextgis_datastore>`_
+* Библиотека `ios_maplib <https://github.com/nextgis/ios_maplib>`_
 
 Библиотека **nextgis_datastore** написана на `С++11` и основана на `GDAL <http://gdal.org/>`_. Она обеспечивает следующие возможности:
 
@@ -28,7 +28,7 @@ NextGIS iOS SDK это набор библиотек для работы с ге
 Установка
 ----------
 
-Для использования SDK необходимо :program:`Xcode 8` или выше. Также необходимо установить `Carthage` - легковесный менеджер зависимостей для `Swift` и `Objective-C`. Для установки Carthage следуйте инструкциям на `следующей странице<https://github.com/Carthage/Carthage/>`_. 
+Для использования SDK необходимо :program:`Xcode 8` или выше. Также необходимо установить `Carthage` - легковесный менеджер зависимостей для `Swift` и `Objective-C`. Для установки Carthage следуйте инструкциям на `следующей странице <https://github.com/Carthage/Carthage/>`_. 
 
 В папке вашего проекта необходимо создать `Cartfile` со следующим содержанием:
 
@@ -76,7 +76,7 @@ NextGIS iOS SDK это набор библиотек для работы с ге
    $(SRCROOT)/Carthage/Build/iOS/ngstore.framework
    $(SRCROOT)/Carthage/Build/iOS/ngmaplib.framework
 
-Подробнее см. документацию `Carthage<https://github.com/Carthage/Carthage/>`_.
+Подробнее см. документацию `Carthage <https://github.com/Carthage/Carthage/>`_.
 
 На заключительном этапе на форму необходимо добавить gl view и назначить ему в качестве базового класса ngmobile или производный ...
 
