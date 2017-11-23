@@ -36,7 +36,7 @@ sys.path.insert(2, os.path.abspath('_ext'))
 # ones.
 extensions = [
     'sphinx.ext.autodoc',
-    'sphinx.ext.intersphinx',
+#    'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.imgmath',
     'sphinx.ext.ifconfig',
@@ -44,6 +44,7 @@ extensions = [
     'sphinxcontrib.httpdomain',
     'edit_on_github',
     'javasphinx',
+    'swift_domain',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -131,6 +132,9 @@ gettext_compact = False
 
 autodoc_member_order = 'bysource'
 autoclass_content = 'both'
+autosummary_generate = True
+autodoc_default_flags = ['members']
+swift_search_path = ['docs_ngqgis/source/ngmobile_dev/ios_maplib_src/MapLib']
 
 # -- Options for HTML output ----------------------------------------------
 
