@@ -5,5 +5,19 @@
 Документация по API
 ====================
  
-.. autoswift:: Api
-    :members: 
+.. toctree::
+   :maxdepth: 2
+
+   MapLib/Api
+   MapLib/AttributesView
+   MapLib/Auth
+   MapLib/Catalog
+   MapLib/ColorControl
+   MapLib/Common
+   MapLib/Json
+   MapLib/Layer
+   MapLib/Map
+   MapLib/MapView
+   MapLib/Store
+   MapLib/TimeIntervalControl
+   MapLib/Url
