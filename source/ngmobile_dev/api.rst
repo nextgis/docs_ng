@@ -2,8 +2,7 @@
 .. NextGIS Mobile iOS SDK
 
 .. _ngmobdev_api_swift:
-
- Документация по API
- ====================
+Документация по API
+====================
  
  
