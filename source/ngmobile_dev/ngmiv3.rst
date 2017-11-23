@@ -96,5 +96,5 @@ NextGIS iOS SDK это набор библиотек для работы с ге
 
 Подробнее по работе с библиотекой см. документацию по API.
 
-.. autoswift:: MapLib
+.. autoswift:: Api
     :members:
