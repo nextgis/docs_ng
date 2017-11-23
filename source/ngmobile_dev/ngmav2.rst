@@ -1,6 +1,5 @@
 .. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
 .. NextGIS Mobile SDK v2
-.. doc:`Библиотека Maplib <maplib/packages>`
 
 Mobile Android SDK v.2
 ====================================
