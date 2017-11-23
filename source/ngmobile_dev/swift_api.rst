@@ -6,7 +6,7 @@
 ====================
  
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    ios_maplib/MapLib/Api
    ios_maplib/MapLib/AttributesView
