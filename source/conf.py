@@ -44,7 +44,7 @@ extensions = [
     'sphinxcontrib.httpdomain',
     'edit_on_github',
     'javasphinx',
-#    'swift_domain',
+    'swift_domain',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
