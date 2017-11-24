@@ -133,8 +133,7 @@ gettext_compact = False
 autodoc_member_order = 'bysource'
 autoclass_content = 'both'
 autosummary_generate = True
-autodoc_default_flags = ['members']
-swift_search_path = ['docs_ngqgis/source/ngmobile_dev/ios_maplib_src/MapLib']
+#autodoc_default_flags = ['members']
 
 # -- Options for HTML output ----------------------------------------------
 
