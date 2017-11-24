@@ -62,7 +62,7 @@ NextGIS iOS SDK это набор библиотек для работы с ге
 
    Вкладка проекта **General settings** секция **Linked Frameworks and Libraries**.
 
-Далее следует настроить копирование ``ngstore.framework`` и ``ngmaplib.framework`` в папку сборки. Для этого на вкладке ``Build Phases`` следует вбрать иконку со знаком плюс и в контекстном меню выбрать ``New Run Script Phase``. Далее в секции  
+Далее следует настроить копирование ``ngstore.framework`` и ``ngmaplib.framework`` в папку сборки. Для этого на вкладке ``Build Phases`` следует выбрать иконку со знаком плюс и в контекстном меню выбрать ``New Run Script Phase``. Далее в секции  
 ``Run Script`` добавить следующий текст в область под строкой коммандного интерпертатора ``Shell``:
 
 .. code-block:: bash
