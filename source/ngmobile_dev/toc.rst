@@ -7,6 +7,6 @@ NextGIS Mobile for developers
 .. toctree::
    :maxdepth: 2
 
-   Maplib library <maplib/packages>
-   MaplibUI library <maplibui/packages> 
-   
+   ngmiv3
+   ngmav3
+   ngmav2 
