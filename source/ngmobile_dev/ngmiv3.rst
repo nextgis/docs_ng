@@ -85,6 +85,15 @@ NextGIS iOS SDK это набор библиотек для работы с ге
 
 Подробнее см. документацию `Carthage <https://github.com/Carthage/Carthage/>`_.
 
+Библиотека собрана с отключенной опцией **bitcode** поэтому в проекте ее тоже следует выключить. Для этого необходимо в настройках проекта перейти на вкладку ``Build Settings`` и для обоих типов сборок **Debug** и **Release** указать настройку ``Enable bitcode NO``. 
+
+.. figure:: _static/bitcode_disable_xcode.png
+   :name: ngmobdev_bitcode_disable_xcode
+   :align: center
+   :width: 15cm   
+   
+   Вкладка проекта **Build Settings**.
+
 На заключительном этапе на форму необходимо добавить ``GLK View`` и назначить ему в качестве базового класса ``MapView`` из модуля ``ngmaplib`` или производный класс.
 
 .. figure:: _static/storyboard_xcode.png
