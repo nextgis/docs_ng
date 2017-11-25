@@ -104,4 +104,5 @@ At last step add to your View controller the ``GLK View`` and set put to custom 
    Map view form setup.
 
 The SDK API can be found in :doc:`documentation <swift_api>`.
+
 See demo projects at this :doc:`page <ios_demos>`.
