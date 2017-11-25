@@ -16,7 +16,7 @@ The application screenshot is below.
 
 .. figure:: _static/simple_app.png
    :name: ngmobdev_simple_app
-   :align: center
+   :align: left
    :height: 10cm   
 
 The demo project `github page <https://github.com/nextgis/ios.mobile.demo>`_.
