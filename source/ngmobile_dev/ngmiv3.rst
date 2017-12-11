@@ -1,8 +1,8 @@
 .. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
 .. NextGIS Mobile iOS SDK
 
-NextGIS iOS SDK
-================
+NextGIS iOS SDK v3
+==================
 
 Введение
 ----------
