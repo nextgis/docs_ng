@@ -49,7 +49,7 @@ See [wiki for future details](https://github.com/nextgis/docs_ng/wiki/%D0%9E%D0%
 Build status
 ============
 
-![build status](http://176.9.38.120/buildbot/png?builder=docs_en)
+![build status](https://buildbot.nextgis.com/badges/docs_en.svg)
 
 License
 -------------
