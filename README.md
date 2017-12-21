@@ -33,6 +33,7 @@ To start generating documentation locally you need some packages be installed py
 You have to generate key for ssh git access. See: https://help.github.com/articles/generating-ssh-keys/
 ```
 git clone --recursive git@github.com:nextgis/docs_ng.git
+cd docs_ng
 make html
 make latexpdf
 ```
