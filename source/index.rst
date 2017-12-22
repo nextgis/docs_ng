@@ -7,9 +7,9 @@
    :numbered: 3
    :hidden:
    :maxdepth: 2
-       
-   /docs_ngcom/source/toc    
-   /docs_ngweb/source/toc    
+
+   /docs_ngcom/source/toc
+   /docs_ngweb/source/toc
    /docs_ngqgis/source/toc
    /docs_ngmobile/source/toc
    /docs_ngmanager/source/toc
@@ -22,6 +22,7 @@
    /qms_srv_dev/doc/api
    /docs_formbuilder_dev/doc/toc
    /docs_howto/source/toc
+   /docs_ngcourses/source/toc
 
 *****************
 Сервисы
@@ -65,13 +66,14 @@
 Дополнительно
 *************
 
-14. :doc:`Примеры использования </docs_howto/source/toc>`
-15. :doc:`Словарь <glossary>`
+14. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
+15. :doc:`Примеры использования </docs_howto/source/toc>`
+16. :doc:`Словарь <glossary>`
 
 ******************
 Документация в pdf
 ******************
-   
+
 * :download:`Документация по NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`
 * :download:`Документация по NextGIS QGIS <docs_ngqgis/build/latex/NextGISQGIS.pdf>`
 * :download:`Документация по NextGIS Mobile <docs_ngmobile/build/latex/NextGISMobile.pdf>`
@@ -87,11 +89,11 @@
 
 * :ref:`genindex`
 * :ref:`search`
- 
+
 
 .. only:: html
 
-   Данная документация распространяется по лицензии Creative Commons 
+   Данная документация распространяется по лицензии Creative Commons
    **"Attribution-NoDerivs" ("Атрибуция — Без производных произведений") СC BY-ND**
-   
-   .. image:: _static/cc_by.png  
+
+   .. image:: _static/cc_by.png
