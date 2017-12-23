@@ -70,7 +70,7 @@ author = u'Команда NextGIS'
 # built documents.
 #
 # The short X.Y version.
-version = '1.10.0'
+version = '1.10.1'
 # The full version, including alpha/beta/rc tags.
 release = '1.10'
 
