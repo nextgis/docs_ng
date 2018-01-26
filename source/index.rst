@@ -66,8 +66,8 @@
 Дополнительно
 *************
 
-14. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
-15. :doc:`Примеры использования </docs_howto/source/toc>`
+14. :doc:`Примеры использования </docs_howto/source/toc>`
+15. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
 16. :doc:`Словарь <glossary>`
 
 ******************
