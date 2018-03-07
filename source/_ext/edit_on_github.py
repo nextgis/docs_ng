@@ -57,7 +57,7 @@ def html_page_context(app, pagename, templatename, context, doctree):
         branch = 'master'
     elif dirs[0].startswith('docs_ngcourses'):
         repo = dirs[0]  
-        if 'toc.rst' == *dirs[-1]:
+        if 'toc.rst' == dirs[-1]:
             path = os.path.join(*dirs[2:])
         else:    
             path = os.path.join(*dirs[3:])        
