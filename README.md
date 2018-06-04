@@ -23,6 +23,7 @@ To start generating documentation locally you need some packages be installed py
 2. sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended 
 3. sudo apt-get install texlive-doc-ru texlive-lang-cyrillic texlive-fonts-extra
 4. sudo pip install sphinxcontrib-httpdomain sphinx-bootstrap-theme
+5. sudo apt-get install latexmk
 
 Еще можно устанавливать в виртуальное окружение, тогда 1 и 4 пункты надо выполнять в нем:
 
