@@ -25,25 +25,27 @@ To start generating documentation locally you need some packages be installed py
 4. sudo pip install sphinxcontrib-httpdomain sphinx-bootstrap-theme
 5. sudo apt-get install latexmk
 
-Еще можно устанавливать в виртуальное окружение, тогда 1 и 4 пункты надо выполнять в нем:
+You can install packages in virtual environment, so 1 and 4 must be executed in vetualenv:
 
 1. source env/bin/activate
 2. pip install sphinx
 3. pip install sphinxcontrib-httpdomain sphinx-bootstrap-theme
 
 You have to generate key for ssh git access. See: https://help.github.com/articles/generating-ssh-keys/
+
 ```
 git clone --recursive git@github.com:nextgis/docs_ng.git
 cd docs_ng
 make html
 make latexpdf
 ```
+
 See [wiki for future details](https://github.com/nextgis/docs_ng/wiki/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8)
 
-Обновление документации
+Update documentation
 =======================
 
-Обновление документации на docs.nextgis.ru после правки конкретной странице на Github:
+Documentation automaticaly updates on docs.nextgis.com after git push or edits on Github:
 
 * Склонировать или обновить этот репозиторий ([как правильно](https://github.com/nextgis/docs_ng/wiki/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8#%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8-%D0%BF%D1%80%D0%B8-%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B5-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81-github))
 * Дождаться что сработает buildbot (проверка раз в 15 мин)
