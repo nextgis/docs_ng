@@ -14,6 +14,7 @@
    /docs_ngmobile/source/toc
    /docs_ngmanager/source/toc
    /docs_formbuilder/source/toc
+   /docs_simplecollector/source/toc
    /docs_ngbio/source/toc
    /docs_ogportal/source/toc
    /docs_forestinspector/source/toc
@@ -44,31 +45,32 @@
 ******************
 
 6. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder/source/toc>`
+7. :doc:`Документация по Simple Collector </docs_simplecollector/source/toc>`
 
 **************************
 Специализированные решения
 **************************
 
-7. :doc:`Документация по NextGIS Bio </docs_ngbio/source/toc>`
-8. :doc:`Документация по NextGIS Портал открытых геоданных </docs_ogportal/source/toc>`
-9. :doc:`Документация по NextGIS Лесной инспектор </docs_forestinspector/source/toc>`
+8. :doc:`Документация по NextGIS Bio </docs_ngbio/source/toc>`
+9. :doc:`Документация по NextGIS Портал открытых геоданных </docs_ogportal/source/toc>`
+10. :doc:`Документация по NextGIS Лесной инспектор </docs_forestinspector/source/toc>`
 
 *******************************
 Документация для разработчиков
 *******************************
 
-10. :doc:`Документация по NextGIS Web </docs_ngweb_dev/doc/toc>`
-11. :doc:`Документация по NextGIS Mobile </ngmobile_dev/toc>`
-12. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
-13. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder_dev/doc/toc>`
+11. :doc:`Документация по NextGIS Web </docs_ngweb_dev/doc/toc>`
+12. :doc:`Документация по NextGIS Mobile </ngmobile_dev/toc>`
+13. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
+14. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder_dev/doc/toc>`
 
 *************
 Дополнительно
 *************
 
-14. :doc:`Примеры использования </docs_howto/source/toc>`
-15. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
-16. :doc:`Словарь <glossary>`
+15. :doc:`Примеры использования </docs_howto/source/toc>`
+16. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
+17. :doc:`Словарь <glossary>`
 
 ******************
 Документация в pdf
