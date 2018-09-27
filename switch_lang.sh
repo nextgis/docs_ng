@@ -14,6 +14,8 @@ cd ../docs_ngweb
 git checkout $1
 cd ../docs_ngcom
 git checkout $1
+cd ../docs_simplecollector
+git checkout $1
 cd ../../
 
 exit 0
