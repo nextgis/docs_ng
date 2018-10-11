@@ -21,7 +21,7 @@ The **nextgis_datastore** library is written in ``С++11`` and based on `GDAL <h
 * utility functions (network requests, oAuth2, json)
 * ``nextgis.com``/``NextGIS Web`` integration (under development)
 
-The library has ``С API`` and bindings to other programming languages using ``swig``. 
+The library has ``С API`` and bindings to android java/kotlin programming languages using ``jni``. 
 
 The **ios_maplib** library is written in ``Swift`` and acts as easy wrapper around C API nextgis_datastore.
 
