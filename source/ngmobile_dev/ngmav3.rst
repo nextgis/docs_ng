@@ -40,7 +40,7 @@ NextGIS Android SDK это набор библиотек для работы с 
 3. Убедитесь что параметр ``minSdkVersion`` в проекте соответсвует API уровня 14 или выше.
 4. В блоке зависимостей добавть новую строку вида:
 
-.. code-block:: gradle
+.. code-block:: groovy
 
     dependencies {
       implementation 'com.nextgis.maplib:maplib:3.0.+'
