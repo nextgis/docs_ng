@@ -1,8 +1,8 @@
 .. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
 .. NextGIS Mobile Android SDK
 
-NextGIS Android SDK
-====================
+NextGIS Android SDK v3
+======================
 
 Введение
 ----------
@@ -46,7 +46,7 @@ NextGIS Android SDK это набор библиотек для работы с 
       implementation 'com.nextgis.maplib:maplib:3.0.+'
     }
 
-Добавлени карты
+Добавлениe карты
 -----------------
 
 Для добавления карты в приложение необходимо:
