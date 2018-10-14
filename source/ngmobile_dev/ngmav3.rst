@@ -7,7 +7,7 @@ NextGIS Android SDK
 Введение
 ----------
 
-NextGIS Android SDK это набор библиотек для работы с геоданными в мобильном приложении для iPhone и iPad. В состав библиотек входят:
+NextGIS Android SDK это набор библиотек для работы с геоданными в мобильном приложении для Android. В состав библиотек входят:
 
 * Библиотека `nextgis_datastore <https://github.com/nextgis/nextgis_datastore>`_
 * Библиотека `android_maplib <https://github.com/nextgis/android_maplib>`_
