@@ -92,6 +92,12 @@ You need to add map into your application:
       }
       mapView.freeze = false
 
+SDK API References
+-------------------
+
 The SDK API can be found in :doc:`documentation <kotlin_api>`.
+
+Demo projects
+--------------
 
 See demo projects at this :doc:`page <android_demos>`.
