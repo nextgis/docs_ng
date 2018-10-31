@@ -45,6 +45,7 @@ extensions = [
     'edit_on_github',
     'javasphinx',
     'swift_domain',
+    'kotlin_domain',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -245,7 +246,7 @@ latex_elements = {
 # The font size ('10pt', '11pt' or '12pt').
 'pointsize': '11pt',
 
-'classoptions': ',openany,oneside', 
+'classoptions': ',openany,oneside',
 
 'babel' : '\\usepackage[russian]{babel}',
 
