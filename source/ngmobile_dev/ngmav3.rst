@@ -40,7 +40,7 @@ To add ``NextGIS Mobile SDK`` to your project follow these steps:
 3. Make sure that the parameter ``minSdkVersion`` has API level 14 or higher.
 4. Add following line to dependency block:
 
-.. code-block:: gradle
+.. code-block:: groovy
 
     dependencies {
       implementation 'com.nextgis.maplib:maplib:3.0.+'
@@ -92,6 +92,12 @@ You need to add map into your application:
       }
       mapView.freeze = false
 
-The SDK API can be found in :doc:`документацию по API <kotlin_api>`.
+SDK API References
+-------------------
 
-See demo projects at this :doc:`странице <android_demos>`.
+The SDK API can be found in :doc:`documentation <kotlin_api>`.
+
+Demo projects
+--------------
+
+See demo projects at this :doc:`page <android_demos>`.
