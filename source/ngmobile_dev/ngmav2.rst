@@ -1,5 +1,5 @@
 .. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
-.. NextGIS Mobile SDK v2
+.. NextGIS Mobile Android SDK v2
 
 Mobile Android SDK v.2
 ====================================
@@ -14,4 +14,4 @@ SDK состоит из двух библиотек: **Maplib** и **MaplibUI**.
    :maxdepth: 1
 
    Библиотека Maplib <maplib/packages>
-   Библиотека MaplibUI <maplibui/packages> 
+   Библиотека MaplibUI <maplibui/packages>

@@ -44,6 +44,7 @@ extensions = [
     'edit_on_github',
     'javasphinx',
     'swift_domain',
+    'kotlin_domain',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
