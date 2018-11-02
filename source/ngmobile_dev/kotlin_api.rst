@@ -22,3 +22,4 @@ API Documentation
    Overlay <kotlin_maplib/maplib/Overlay>
    QMS <kotlin_maplib/maplib/QMS>
    Store <kotlin_maplib/maplib/Store>
+   Url <kotlin_maplib/maplib/Url>
