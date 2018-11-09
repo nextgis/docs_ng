@@ -91,6 +91,144 @@ NextGIS Android SDK это набор библиотек для работы с 
           mapView.setMap(map)
       }
       mapView.freeze = false
+      
+Создание векторного слоя
+-------------------------
+
+Для создания векторного слоя необходимо выполнить ряд шагов:
+
+1. Получить или создать хранилище. Имя хранилища может быть любым  (например, *store*).
+
+   .. code-block:: kotlin
+   
+      val dataStore = API.getStore("store")
+      
+2. Создать в хранилище векторный слой с необходимой структурой. 
+
+   .. code-block:: kotlin
+   
+      val options = mapOf(
+        "CREATE_OVERVIEWS" to "ON",
+        "ZOOM_LEVELS" to "2,3,4,5,6,7,8,9,10,11,12,13,14"
+      )
+
+      val fields = listOf(
+        Field("long", "long", Field.Type.REAL),
+        Field("lat", "lat", Field.Type.REAL),
+        Field("datetime", "datetime", Field.Type.DATE, "CURRENT_TIMESTAMP"),
+        Field("name", "name", Field.Type.STRING)
+      )
+
+      val pointsFC = dataStore.createFeatureClass("points", Geometry.Type.POINT, fields, options)
+      
+3. Загрузить в созданный слой геоданные.
+       
+   .. code-block:: kotlin
+
+      // Сформируем массив координат
+      data class PtCoord(val name: String, val x: Double, val y: Double)
+      val coordinates = listOf(
+        PtCoord("Moscow", 37.616667, 55.75),
+        PtCoord("London", -0.1275, 51.507222),
+        PtCoord("Washington", -77.016389, 38.904722),
+        PtCoord("Beijing", 116.383333, 39.916667)
+      )
+      
+      // Преобразуем системку координат из EPSG:4326 в EPSG:3857
+      val coordTransform = CoordinateTransformation.new(4326, 3857)
+
+      for(coordinate in coordinates) {
+        val feature = pointsFC.createFeature()
+        if(feature != null) {
+          val geom = feature.createGeometry() as? GeoPoint
+          if(geom != null) {
+            val point = Point(coordinate.x, coordinate.y)
+            val transformPoint = coordTransform.transform(point)
+            geom.setCoordinates(transformPoint)
+            feature.geometry = geom
+            feature.setField(0, coordinate.x)
+            feature.setField(1, coordinate.y)
+            feature.setField(3, coordinate.name)
+            pointsFC.insertFeature(feature)
+          }
+        }
+      }
+
+Загрузка векторного слоя
+-------------------------
+
+Для загрузки векторного слоя в хранилище из файла ГИС формата необходимо выполнить 
+следующие шаги:
+
+1. Получить или создать хранилище. Имя хранилища может быть любым  (например, *store*).
+
+   .. code-block:: kotlin
+   
+      val dataStore = API.getStore("store")
+
+2. Получить из каталога ссылку на файл ГИС формата и скопировать его в хранилище.  
+        
+   .. code-block:: kotlin
+   
+      val tmpDir = API.getTmpDirectory()
+      val testGeojsonObj = tmpDir?.child("test.geojson")
+      val copyOptions = mapOf(
+        "CREATE_OVERVIEWS" to "ON",
+        "NEW_NAME" to "trees"
+      )
+
+      val createResult = testGeojsonObj?.copy(Object.Type.FC_GPKG, store!!, true, copyOptions) ?: false
+      val treesFC = Object.forceChildToFeatureClass(store?.child("trees")!!)
+
+Создание растрового слоя  
+---------------------------
+
+Для создания растрового слоя необходимо задать следующие сведения:
+
+* охват растрового слоя
+* имя слоя
+* URL к источникам тайлов XYZ
+* минимальный и максимальный уровни увеличения (zoom level)
+* система координат слоя EPSG  
+
+   .. code-block:: kotlin
+   
+      val bbox = Envelope(-20037508.34, 20037508.34, -20037508.34, 20037508.34)
+      val baseMap = dataDir.createTMS("osm.wconn", "http://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                    3857, 0, 18, bbox, bbox, 14)
+
+Создание слоя на карте со стилем 
+----------------------------------
+
+Для добавления слоя в карту необходимо выполнить:
+
+1. Добавить векторный слой в карту
+
+   .. code-block:: kotlin
+
+      val pointsLayer = map.addLayer("Points", pointsFC)
+      
+2. Установить тип стиля 
+
+   .. code-block:: kotlin
+         
+      pointsLayer.styleName = "pointsLayer"
+                    
+3. Настроить свойства стиля
+
+                    
+   .. code-block:: kotlin
+   
+      val style = pointsLayer.style
+      style.setString("color", colorToHexString(Color.rgb(0, 190,120)))
+      style.setDouble("size", 8.0)
+      style.setInteger("type", 6) // Star symbol
+
+4. Применить модифицированный стиль к слою
+
+   .. code-block:: kotlin
+   
+      pointsLayer.style = style
 
 Документация по API
 ---------------------
