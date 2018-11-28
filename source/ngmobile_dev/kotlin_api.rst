@@ -9,6 +9,7 @@
    :caption: Classes
    :maxdepth: 1
 
+    Account <kotlin_maplib/maplib/Account>
     Api <kotlin_maplib/maplib/API>
     Auth <kotlin_maplib/maplib/Auth>
     Catalog <kotlin_maplib/maplib/Catalog>
