@@ -9,6 +9,7 @@ API Documentation
    :caption: Classes
    :maxdepth: 1
 
+   Account <ios_maplib/MapLib/Account> 
    Api <ios_maplib/MapLib/Api>
    AttributesView <ios_maplib/MapLib/AttributesView>
    Auth <ios_maplib/MapLib/Auth>
