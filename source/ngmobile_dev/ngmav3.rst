@@ -134,7 +134,7 @@ NextGIS Android SDK это набор библиотек для работы с 
         PtCoord("Beijing", 116.383333, 39.916667)
       )
       
-      // Преобразуем системку координат из EPSG:4326 в EPSG:3857
+      // Преобразуем систему координат из EPSG:4326 в EPSG:3857
       val coordTransform = CoordinateTransformation.new(4326, 3857)
 
       for(coordinate in coordinates) {
