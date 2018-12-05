@@ -46,31 +46,32 @@
 
 6. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder/source/toc>`
 7. :doc:`Документация по Simple Collector (Простые учёты) </docs_simplecollector/source/toc>`
+7. :doc:`Документация по NextGIS Collector </docs_collector/source/toc>`
 
 **************************
 Специализированные решения
 **************************
 
-8. :doc:`Документация по NextGIS Bio </docs_ngbio/source/toc>`
-9. :doc:`Документация по NextGIS Портал открытых геоданных </docs_ogportal/source/toc>`
-10. :doc:`Документация по NextGIS Лесной инспектор </docs_forestinspector/source/toc>`
+9. :doc:`Документация по NextGIS Bio </docs_ngbio/source/toc>`
+10. :doc:`Документация по NextGIS Портал открытых геоданных </docs_ogportal/source/toc>`
+11. :doc:`Документация по NextGIS Лесной инспектор </docs_forestinspector/source/toc>`
 
 *******************************
 Документация для разработчиков
 *******************************
 
-11. :doc:`Документация по NextGIS Web </docs_ngweb_dev/doc/toc>`
-12. :doc:`Документация по NextGIS Mobile </ngmobile_dev/toc>`
-13. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
-14. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder_dev/doc/toc>`
+12. :doc:`Документация по NextGIS Web </docs_ngweb_dev/doc/toc>`
+13. :doc:`Документация по NextGIS Mobile </ngmobile_dev/toc>`
+14. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
+15. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder_dev/doc/toc>`
 
 *************
 Дополнительно
 *************
 
-15. :doc:`Примеры использования </docs_howto/source/toc>`
-16. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
-17. :doc:`Словарь <glossary>`
+16. :doc:`Примеры использования </docs_howto/source/toc>`
+17. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
+18. :doc:`Словарь <glossary>`
 
 ******************
 Документация в pdf
