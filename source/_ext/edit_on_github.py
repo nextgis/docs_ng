@@ -65,13 +65,11 @@ def html_page_context(app, pagename, templatename, context, doctree):
         path = os.path.join('source', path)
         branch = app.config.edit_on_github_branch
 
-    #else repo = 'docs_ng'
     show_url = get_github_url(app, repo, 'blob', branch, path)
     edit_url = get_github_url(app, repo, 'edit', branch, path)
 
     context['show_on_github_url'] = show_url
     context['edit_on_github_url'] = edit_url
-
 
 def setup(app):
     app.add_config_value('edit_on_github_user', '', True)
