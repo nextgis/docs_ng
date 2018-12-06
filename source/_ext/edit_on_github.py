@@ -54,7 +54,7 @@ def html_page_context(app, pagename, templatename, context, doctree):
         repo = dirs[0]
         path = os.path.join(*dirs[1:])
         branch = 'master'
-    elif dirs[0].startswith('docs_ngcom') or dirs[0].startswith('docs_ngweb') or dirs[0].startswith('docs_ngqgis') or dirs[0].startswith('docs_ngmobile') or dirs[0].startswith('docs_ngmanager') or dirs[0].startswith('docs_formbuilder') or dirs[0].startswith('docs_simplecollector'):
+    elif dirs[0].startswith('docs_ngcom') or dirs[0].startswith('docs_ngweb') or dirs[0].startswith('docs_ngqgis') or dirs[0].startswith('docs_ngmobile') or dirs[0].startswith('docs_ngmanager') or dirs[0].startswith('docs_formbuilder') or dirs[0].startswith('docs_simplecollector') or dirs[0].startswith('docs_collector'):
         repo = dirs[0]
         path = os.path.join(*dirs[1:])
         branch = app.config.edit_on_github_branch
