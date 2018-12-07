@@ -63,3 +63,4 @@
 [submodule "source/docs_collector"]
 	path = source/docs_collector
 	url = git@github.com:nextgis/docs_collector.git
+	branch = en
