@@ -70,7 +70,7 @@
 Дополнительно
 *************
 
-16. :doc:`Примеры использования </docs_howto/source/toc>`
+16. :doc:`Описание применения ПО NextGIS </docs_howto/source/toc>`
 17. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
 18. :doc:`Словарь <glossary>`
 
