@@ -138,6 +138,7 @@ autosummary_generate = True
 
 # -- Spelling options --
 spelling_lang='ru_RU'
+spelling_word_list_filename='spelling_wordlist.txt'
 
 # -- Options for HTML output ----------------------------------------------
 
