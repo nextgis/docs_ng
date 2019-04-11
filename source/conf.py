@@ -42,7 +42,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinxcontrib.httpdomain',
     'edit_on_github',
-    'javasphinx',
+    # 'javasphinx',
     'swift_domain',
     'kotlin_domain',
 ]
@@ -134,6 +134,9 @@ autodoc_member_order = 'bysource'
 autoclass_content = 'both'
 autosummary_generate = True
 # autodoc_default_flags = ['members']
+
+# -- Spelling options --
+spelling_lang='ru_RU'
 
 # -- Options for HTML output ----------------------------------------------
 

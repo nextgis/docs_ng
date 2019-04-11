@@ -65,14 +65,15 @@
 13. :doc:`Документация по NextGIS Mobile </ngmobile_dev/toc>`
 14. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
 15. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder_dev/doc/toc>`
+16. :doc:`Документация по NextGIS Tracker </tracker_hub/toc>`
 
 *************
 Дополнительно
 *************
 
-16. :doc:`Описание применения ПО NextGIS </docs_howto/source/toc>`
-17. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
-18. :doc:`Словарь <glossary>`
+17. :doc:`Описание применения ПО NextGIS </docs_howto/source/toc>`
+18. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
+19. :doc:`Словарь <glossary>`
 
 ******************
 Документация в pdf
