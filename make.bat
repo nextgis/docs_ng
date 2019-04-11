@@ -37,6 +37,7 @@ if "%1" == "help" (
 	echo.  pseudoxml  to make pseudoxml-XML files for display purposes
 	echo.  linkcheck  to check all external links for integrity
 	echo.  doctest    to run all doctests embedded in the documentation if enabled
+	echo.  spelling   to run spelling checks
 	echo.  coverage   to run coverage check of the documentation if enabled
 	goto end
 )
@@ -232,6 +233,15 @@ if "%1" == "doctest" (
 	echo.
 	echo.Testing of doctests in the sources finished, look at the ^
 results in %BUILDDIR%/doctest/output.txt.
+	goto end
+)
+
+if "%1" == "spelling" (
+	%SPHINXBUILD% -b spelling %ALLSPHINXOPTS% %BUILDDIR%/spelling
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Testing of spelling in the sources finished, look at the ^
+results in %BUILDDIR%/spelling/output.txt.
 	goto end
 )
 
