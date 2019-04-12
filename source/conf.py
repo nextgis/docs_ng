@@ -138,6 +138,7 @@ autosummary_generate = True
 
 # -- spell checking --
 spelling_lang = 'en_US'
+spelling_word_list_filename='spelling_wordlist.txt'
 
 # -- Options for HTML output ----------------------------------------------
 
