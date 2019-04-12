@@ -84,9 +84,6 @@
 * :download:`Документация по NextGIS Mobile <docs_ngmobile/build/latex/NextGISMobile.pdf>`
 * :download:`Документация по NextGIS Manager <docs_ngmanager/build/latex/NextGISManager.pdf>`
 * :download:`Документация по NextGIS Formbuilder <docs_formbuilder/build/latex/NextGISFormbuilder.pdf>`
-* :download:`Документация по NextGIS Bio <docs_ngbio/build/latex/NextGISBio.pdf>`
-* :download:`Документация по NextGIS Портал открытых геоданных <docs_ogportal/build/latex/NextGISOGPortal.pdf>`
-* :download:`Документация по NextGIS Лесной инспектор <docs_forestinspector/build/latex/NextGISFV.pdf>`
 
 *****
 Поиск
