@@ -81,7 +81,7 @@ if [ -d "../ngmobile_dev" ]; then
     git checkout master
     cd ..
   fi
-  if [ -d "/maplib_src" ]; then
+  if [ -d "maplib_src" ]; then
     cd maplib_src
     echo "$(pwd)"
     git checkout master
@@ -95,5 +95,6 @@ git checkout master
 fi
 cd ../../
 echo "$(pwd)"
+git checkout $1
 
 exit 0
