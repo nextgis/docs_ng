@@ -51,16 +51,17 @@ cd ../docs_ogportal
 git checkout master
 fi
 if [ -d "../ngmobile_dev" ]; then
-cd ../ngmobile_dev
-if [ -d "ios_maplib_src" ]; then
-cd ios_maplib_src
-git checkout master
-cd ..
-fi
-if [ -d "/maplib_src" ]; then
-cd maplib_src
-git checkout master
-cd ..
+  cd ../ngmobile_dev
+    if [ -d "ios_maplib_src" ]; then
+      cd ios_maplib_src
+      git checkout master
+      cd ..
+    fi
+    if [ -d "/maplib_src" ]; then
+      cd maplib_src
+      git checkout master
+      cd ..
+    fi
 fi
 if [ -d "../qms_srv_dev" ]; then
 cd ../qms_srv_dev
