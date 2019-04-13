@@ -9,4 +9,3 @@ NextGIS Mobile for developers
 
    ngmiv3
    ngmav3
-   ngmav2 
