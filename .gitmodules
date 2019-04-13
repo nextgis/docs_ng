@@ -24,25 +24,10 @@
 [submodule "source/ngmobile_dev/maplibui_src"]
 	path = source/ngmobile_dev/maplibui_src
 	url = git@github.com:nextgis/android_maplibui.git
-[submodule "source/docs_howto"]
-	path = source/docs_howto
-	url = git@github.com:nextgis/docs_howto.git
-[submodule "source/docs_ngbio"]
-	path = source/docs_ngbio
-	url = git@github.com:nextgis/docs_ngbio.git
 [submodule "source/docs_ngqgis"]
 	path = source/docs_ngqgis
 	url = git@github.com:nextgis/docs_ngqgis.git
 	branch = en
-[submodule "source/docs_ngcourses"]
-	path = source/docs_ngcourses
-	url = git@github.com:nextgis/docs_ngcourses.git
-[submodule "source/docs_ogportal"]
-	path = source/docs_ogportal
-	url = git@github.com:nextgis/docs_ogportal.git
-[submodule "source/docs_forestinspector"]
-	path = source/docs_forestinspector
-	url = git@github.com:nextgis/docs_forestinspector.git
 [submodule "source/qms_srv_dev"]
 	path = source/qms_srv_dev
 	url = git@github.com:nextgis/quickmapservices_server.git
