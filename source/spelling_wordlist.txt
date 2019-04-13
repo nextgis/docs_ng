@@ -217,3 +217,11 @@ Details
 returns
 icon
 image
+lon
+gp
+gl
+lat
+geodata
+geoid
+georeferencing
+geospatial
