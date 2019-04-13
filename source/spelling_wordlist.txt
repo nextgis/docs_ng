@@ -225,3 +225,13 @@ geodata
 geoid
 georeferencing
 geospatial
+licensor
+sublicense
+uwsgi
+Gunicorn
+systemd
+TCP
+symlink
+Keyname
+ru
+config
