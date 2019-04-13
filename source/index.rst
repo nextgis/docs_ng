@@ -16,6 +16,7 @@
    /ngmobile_dev/toc
    /qms_srv_dev/doc/api
    /docs_formbuilder_dev/doc/toc
+   /tracker_hub_dev/main
 
 *****************
 Services
@@ -44,12 +45,13 @@ Developer documentation
 6. :doc:`NextGIS Mobile developer documentation</ngmobile_dev/toc>`
 7. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
 8. :doc:`NextGIS Formbuilder documentation</docs_formbuilder_dev/doc/toc>`
+9. :doc:`Документация по NextGIS Tracker </tracker_hub_dev/main>`
 
 *************
 Additional
 *************
 
-9. :doc:`Glossary <glossary>`
+10. :doc:`Glossary <glossary>`
 
 ******************
 PDFs
