@@ -14,4 +14,3 @@
    /ngmobile_dev/toc
    /qms_srv_dev/doc/api
    /docs_formbuilder/dev/doc/toc
-   /tracker_hub/toc

@@ -52,6 +52,10 @@ def html_page_context(app, pagename, templatename, context, doctree):
         repo = 'quickmapservices_server'
         path = os.path.join(*dirs[1:])
         branch = 'master'
+    elif dirs[0].startswith('docs_formbuilder_dev'):
+        repo = 'formbuilder'
+        path = os.path.join(*dirs[1:])
+        branch = 'master'
     elif dirs[0].startswith('docs_ogportal') or dirs[0].startswith('docs_howto') or dirs[0].startswith('docs_ngbio') or dirs[0].startswith('docs_forestinspector') or dirs[0].startswith('docs_ngcourses'):
         repo = dirs[0]
         path = os.path.join(*dirs[1:])

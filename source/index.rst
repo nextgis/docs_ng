@@ -23,6 +23,7 @@
    /ngmobile_dev/toc
    /qms_srv_dev/doc/api
    /docs_formbuilder_dev/doc/toc
+   /tracker_hub_dev/main
    /docs_howto/source/toc
    /docs_ngcourses/source/toc
 
@@ -65,7 +66,7 @@
 13. :doc:`Документация по NextGIS Mobile </ngmobile_dev/toc>`
 14. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
 15. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder_dev/doc/toc>`
-16. :doc:`Документация по NextGIS Tracker </tracker_hub/toc>`
+16. :doc:`Документация по NextGIS Tracker </tracker_hub_dev/main>`
 
 *************
 Дополнительно
