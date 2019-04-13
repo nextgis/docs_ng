@@ -1,7 +1,7 @@
 .. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
 .. NextGIS tracker hub ащк developer
 
-NextGIS Tracker hub для разработчиков
+NextGIS Tracker hub for developers
 =====================================
 
 The endpoint for tracker API is ``track.nextgis.com``.
