@@ -9,7 +9,7 @@ The endpoint for tracker API is ``track.nextgis.com``.
 Send location packet
 ---------------------
 
-To send tack points to NextGIS tracker hub execute following request:
+To send track points to NextGIS tracker hub execute following request:
 
 .. http:post:: /ng-mobile/(string:guid)/packet
 
@@ -19,7 +19,7 @@ To send tack points to NextGIS tracker hub execute following request:
    :reqheader Accept: must be ``*/*``
    :<jsonarr: track points array
    :<json double lt: latitude of track point
-   :<json double ln: longtitude of track point
+   :<json double ln: longitude of track point
    :<json int ts: timestamp
    :<json double a: elevation of track point
    :<json int s: satellite count used in fix
@@ -67,12 +67,12 @@ To send tack points to NextGIS tracker hub execute following request:
         "sp": 25.2,
         "ha": 7
     }
-   ]   
+   ]
 
 Check tracker is registered at tracker hub
 -------------------------------------------
 
-To check if tacker is registered at NextGIS tracker hub execute following request:
+To check if tracker is registered at NextGIS tracker hub execute following request:
 
 .. http:post:: /ng-mobile/(string:guid)/registered
 
@@ -93,7 +93,7 @@ If registered at NextGIS tracker hub:
    Accept: */*
 
    {"registered": true}
-   
+
 If not registered at NextGIS tracker hub:
 
 .. sourcecode:: http
@@ -106,11 +106,11 @@ If not registered at NextGIS tracker hub:
 
 Get track points
 ----------------
- 
+
 Short output 1
 ^^^^^^^^^^^^^^
 
-To get tack points from NextGIS Web execute following request:
+To get track points from NextGIS Web execute following request:
 
 .. http:get:: /tracker/tracks/short?devices_id=(int:id1),(int:id2)&date_time_from=(string: ISO timestamp)&date_time_to=(string: ISO timestamp)
 
@@ -201,12 +201,12 @@ To get tack points from NextGIS Web execute following request:
     ],
     "23": []
   }
-  
+
 
 Short output 2
 ^^^^^^^^^^^^^^
 
-To get tack points from NextGIS Web execute following request:
+To get track points from NextGIS Web execute following request:
 
 .. http:get:: /tracker/tracks/short?devices_id=(int:id1),(int:id2)&date_time_from=(string: ISO timestamp)&date_time_to=(string: ISO timestamp)&array&srs=(int:srs)
 
@@ -222,8 +222,8 @@ To get tack points from NextGIS Web execute following request:
 
    GET /tracker/tracks/short?devices_id=14,23&date_time_from=2019-04-01T10:00:00.000Z&date_time_to=2019-04-01T15:00:00.000Z HTTP/1.1
    Host: demo.nextgis.com
-   Accept: */*  
-   
+   Accept: */*
+
    {
     "14": [
         [
@@ -267,7 +267,7 @@ To get tack points from NextGIS Web execute following request:
 Full output
 ^^^^^^^^^^^^
 
-To get tack points from NextGIS Web execute following request:
+To get track points from NextGIS Web execute following request:
 
 .. http:get:: /tracker/tracks/full?devices_id=(int:id1),(int:id2)&date_time_from=(string: ISO timestamp)&date_time_to=(string: ISO timestamp)
 
@@ -283,7 +283,7 @@ To get tack points from NextGIS Web execute following request:
 
    GET /tracker/tracks/full?devices_id=14,23&date_time_from=2019-04-01T10:00:00.000Z&date_time_to=2019-04-01T15:00:00.000Z HTTP/1.1
    Host: demo.nextgis.com
-   Accept: */*  
+   Accept: */*
 
    {
        "14": [
