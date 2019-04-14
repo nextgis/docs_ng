@@ -23,7 +23,6 @@
    Overlay <kotlin_maplib/maplib/Overlay>
    QMS <kotlin_maplib/maplib/QMS>
    Store <kotlin_maplib/maplib/Store>
-   SyncAdapter <kotlin_maplib/maplib/SyncAdapter>
    Track <kotlin_maplib/maplib/Track>
    Url <kotlin_maplib/maplib/Url>
    LocationInfoFragment <kotlin_maplib/maplib/fragment/LocationInfoFragment>
