@@ -49,3 +49,24 @@
 	path = source/docs_collector
 	url = git@github.com:nextgis/docs_collector.git
 	branch = en
+[submodule "source/docs_forestinspector"]
+    path = source/docs_forestinspector
+    url = git@github.com:nextgis/docs_forestinspector.git
+    branch = master
+[submodule "source/docs_howto"]
+    path = source/docs_howto
+    url = git@github.com:nextgis/docs_howto.git
+    branch = master
+[submodule "source/docs_ngbio"]
+    path = source/docs_ngbio
+    url = git@github.com:nextgis/docs_ngbio.git
+    branch = master
+[submodule "source/docs_ngcourses"]
+    path = source/docs_ngcourses
+    url = git@github.com:nextgis/docs_ngcourses.git
+    branch = master
+[submodule "source/docs_ogportal"]
+    path = source/docs_ogportal
+    url = git@github.com:nextgis/docs_ogportal.git
+    branch = master
+    
