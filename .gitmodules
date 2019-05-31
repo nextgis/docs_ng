@@ -64,3 +64,6 @@
 	path = source/docs_collector
 	url = git@github.com:nextgis/docs_collector.git
 	branch = ru
+[submodule "source/docs_toolbox"]
+	path = source/docs_toolbox
+	url = git@github.com:nextgis/docs_toolbox.git
