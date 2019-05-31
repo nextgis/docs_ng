@@ -32,46 +32,61 @@ cd ../docs_simplecollector
 echo "$(pwd)"
 git checkout $1
 fi
+
 if [ -d "../docs_collector" ]; then
 cd ../docs_collector
 echo "$(pwd)"
 git checkout $1
 fi
+
+if [ -d "../docs_toolbox" ]; then
+cd ../docs_toolbox
+echo "$(pwd)"
+git checkout $1
+fi
+
 if [ -d "../docs_forestinspector" ]; then
 cd ../docs_forestinspector
 echo "$(pwd)"
 git checkout master
 fi
+
 if [ -d "../docs_formbuilder_dev" ]; then
 cd ../docs_formbuilder_dev
 echo "$(pwd)"
 git checkout master
 fi
+
 if [ -d "../docs_howto" ]; then
 cd ../docs_howto
 echo "$(pwd)"
 git checkout master
 fi
+
 if [ -d "../docs_ngbio" ]; then
 cd ../docs_ngbio
 echo "$(pwd)"
 git checkout master
 fi
+
 if [ -d "../docs_ngcourses" ]; then
 cd ../docs_ngcourses
 echo "$(pwd)"
 git checkout master
 fi
+
 if [ -d "../docs_ngweb_dev" ]; then
 cd ../docs_ngweb_dev
 echo "$(pwd)"
 git checkout 3
 fi
+
 if [ -d "../docs_ogportal" ]; then
 cd ../docs_ogportal
 echo "$(pwd)"
 git checkout master
 fi
+
 if [ -d "../ngmobile_dev" ]; then
   cd ../ngmobile_dev
   echo "$(pwd)"
@@ -88,11 +103,13 @@ if [ -d "../ngmobile_dev" ]; then
     cd ..
   fi
 fi
+
 if [ -d "../qms_srv_dev" ]; then
 cd ../qms_srv_dev
 echo "$(pwd)"
 git checkout master
 fi
+
 cd ../../
 echo "$(pwd)"
 git checkout $1

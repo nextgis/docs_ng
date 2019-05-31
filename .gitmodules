@@ -70,3 +70,6 @@
     url = git@github.com:nextgis/docs_ogportal.git
     branch = master
     
+[submodule "source/docs_toolbox"]
+	path = source/docs_toolbox
+	url = git@github.com:nextgis/docs_toolbox.git
