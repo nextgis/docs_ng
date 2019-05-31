@@ -48,7 +48,7 @@
 
 6. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder/source/toc>`
 7. :doc:`Документация по Simple Collector (Простые учёты) </docs_simplecollector/source/toc>`
-8. :doc:`Документация по NextGIS Collector </docs_collector/source/toc>`
+8. :doc:`Документация по мобильному приложению NextGIS Collector </docs_collector/source/toc>`
 
 **************************
 Специализированные решения
