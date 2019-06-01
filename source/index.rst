@@ -12,6 +12,7 @@
    /docs_ngweb/source/toc
    /docs_ngmobile/source/toc
    /docs_simplecollector/source/toc
+   /docs_toolbox/source/toc
    /docs_ngweb_dev/doc/toc
    /ngmobile_dev/toc
    /qms_srv_dev/doc/api
@@ -36,22 +37,23 @@ Additional products
 ***********************
 
 4. :doc:`Simple collector documentation</docs_simplecollector/source/toc>`
+5. :doc:`NextGIS Toolbox documentation</docs_toolbox/source/toc>`
 
 ***********************
 Developer documentation
 ***********************
 
-5. :doc:`NextGIS Web developer documentation</docs_ngweb_dev/doc/toc>`
-6. :doc:`NextGIS Mobile developer documentation</ngmobile_dev/toc>`
-7. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
-8. :doc:`NextGIS Formbuilder documentation</docs_formbuilder_dev/doc/toc>`
-9. :doc:`NextGIS Tracker documentation</tracker_hub_dev/main>`
+6. :doc:`NextGIS Web developer documentation</docs_ngweb_dev/doc/toc>`
+7. :doc:`NextGIS Mobile developer documentation</ngmobile_dev/toc>`
+8. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
+9. :doc:`NextGIS Formbuilder documentation</docs_formbuilder_dev/doc/toc>`
+10. :doc:`NextGIS Tracker documentation</tracker_hub_dev/main>`
 
 *************
 Additional
 *************
 
-10. :doc:`Glossary <glossary>`
+11. :doc:`Glossary <glossary>`
 
 ******************
 PDFs
