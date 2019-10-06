@@ -20,6 +20,7 @@
    Layer <kotlin_maplib/maplib/Layer>
    Map <kotlin_maplib/maplib/Map>
    MapView <kotlin_maplib/maplib/MapView>
+   NGW <kotlin_maplib/maplib/NGW>
    Overlay <kotlin_maplib/maplib/Overlay>
    QMS <kotlin_maplib/maplib/QMS>
    Store <kotlin_maplib/maplib/Store>
