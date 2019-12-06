@@ -63,6 +63,7 @@ PDFs
 
 * :download:`NextGIS Web documentation<docs_ngweb/build/latex/NextGISWeb.pdf>`
 * :download:`NextGIS Mobile documentation<docs_ngmobile/build/latex/NextGISMobile.pdf>`
+* :download:`NextGIS Formbuilder documentation<docs_formbuilder/build/latex/NextGISFormbuilder.pdf>`
 
 *******
 Search
