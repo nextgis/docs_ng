@@ -38,9 +38,11 @@
 [submodule "source/docs_formbuilder_dev"]
 	path = source/docs_formbuilder_dev
 	url = git@github.com:nextgis/formbuilder.git
+	brach = master
 [submodule "source/ngmobile_dev/ios_maplib_src"]
 	path = source/ngmobile_dev/ios_maplib_src
 	url = git@github.com:nextgis/ios_maplib.git
+	branch = master
 [submodule "source/docs_simplecollector"]
 	path = source/docs_simplecollector
 	url = git@github.com:nextgis/docs_simplecollector.git
@@ -50,26 +52,26 @@
 	url = git@github.com:nextgis/docs_collector.git
 	branch = en
 [submodule "source/docs_forestinspector"]
-    path = source/docs_forestinspector
-    url = git@github.com:nextgis/docs_forestinspector.git
-    branch = master
+	path = source/docs_forestinspector
+	url = git@github.com:nextgis/docs_forestinspector.git
+	branch = master
 [submodule "source/docs_howto"]
-    path = source/docs_howto
-    url = git@github.com:nextgis/docs_howto.git
-    branch = master
+	path = source/docs_howto
+	url = git@github.com:nextgis/docs_howto.git
+	branch = master
 [submodule "source/docs_ngbio"]
-    path = source/docs_ngbio
-    url = git@github.com:nextgis/docs_ngbio.git
-    branch = master
+	path = source/docs_ngbio
+	url = git@github.com:nextgis/docs_ngbio.git
+	branch = master
 [submodule "source/docs_ngcourses"]
-    path = source/docs_ngcourses
-    url = git@github.com:nextgis/docs_ngcourses.git
-    branch = master
+	path = source/docs_ngcourses
+	url = git@github.com:nextgis/docs_ngcourses.git
+	branch = master
 [submodule "source/docs_ogportal"]
-    path = source/docs_ogportal
-    url = git@github.com:nextgis/docs_ogportal.git
-    branch = master
-    
+	path = source/docs_ogportal
+	url = git@github.com:nextgis/docs_ogportal.git
+	branch = master
 [submodule "source/docs_toolbox"]
 	path = source/docs_toolbox
 	url = git@github.com:nextgis/docs_toolbox.git
+	branch = en
