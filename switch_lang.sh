@@ -40,7 +40,7 @@ git checkout $1
 fi
 
 if [ -d "../docs_toolbox" ]; then
-cd ../docs_collector
+cd ../docs_toolbox
 echo "$(pwd)"
 git checkout $1
 fi
