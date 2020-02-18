@@ -50,12 +50,13 @@ Developer documentation
 9. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
 10. :doc:`NextGIS Formbuilder documentation</docs_formbuilder_dev/doc/toc>`
 11. :doc:`NextGIS Tracker documentation</tracker_hub_dev/main>`
+12. :doc:`NextGIS Web Docker documentation</docs_ngwdocker/index>`
 
 *************
 Additional
 *************
 
-12. :doc:`Glossary <glossary>`
+13. :doc:`Glossary <glossary>`
 
 ******************
 PDFs

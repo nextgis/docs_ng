@@ -75,3 +75,8 @@
 	path = source/docs_toolbox
 	url = git@github.com:nextgis/docs_toolbox.git
 	branch = en
+[submodule "source/docs_ngwdocker"]
+	path = source/docs_ngwdocker
+	url = git@github.com:nextgis/ngwdocker.git
+        branch = master
+
