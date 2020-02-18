@@ -25,6 +25,7 @@
    /qms_srv_dev/doc/api
    /docs_formbuilder_dev/doc/toc
    /tracker_hub_dev/main
+   /docs_ngwdocker/doc/index
    /docs_howto/source/toc
    /docs_ngcourses/source/toc
 
@@ -69,14 +70,15 @@
 15. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
 16. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder_dev/doc/toc>`
 17. :doc:`Документация по NextGIS Tracker </tracker_hub_dev/main>`
+18. :doc:`Документация по NextGIS Docker </docs_ngwdocker/doc/index>`
 
 *************
 Дополнительно
 *************
 
-18. :doc:`Описание применения ПО NextGIS </docs_howto/source/toc>`
-19. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
-20. :doc:`Словарь <glossary>`
+19. :doc:`Описание применения ПО NextGIS </docs_howto/source/toc>`
+20. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
+21. :doc:`Словарь <glossary>`
 
 ******************
 Документация в pdf

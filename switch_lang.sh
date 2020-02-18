@@ -109,6 +109,14 @@ cd ../qms_srv_dev
 echo "$(pwd)"
 git checkout master
 fi
+
+if [ -d "../docs_ngwdocker" ]; then
+cd ../docs_ngwdocker
+echo "$(pwd)"
+git checkout master
+fi
+
+
 cd ../../
 echo "$(pwd)"
 git checkout $1
