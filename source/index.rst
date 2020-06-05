@@ -10,6 +10,7 @@
 
    /docs_ngcom/source/toc
    /docs_ngweb/source/toc
+   /docs_ngqgis/source/toc
    /docs_ngmobile/source/toc
    /docs_formbuilder/source/toc
    /docs_simplecollector/source/toc
@@ -32,32 +33,33 @@ Main products
 *****************
 
 2. :doc:`NextGIS Web documentation</docs_ngweb/source/toc>`
-3. :doc:`NextGIS Mobile documentation</docs_ngmobile/source/toc>`
+3. :doc:`NextGIS QGIS documentation</docs_ngqgis/source/toc>`
+4. :doc:`NextGIS Mobile documentation</docs_ngmobile/source/toc>`
 
 ***********************
 Additional products
 ***********************
 
-4. :doc:`NextGIS Formbuilder documentation</docs_formbuilder/source/toc>`
-5. :doc:`Simple collector documentation</docs_simplecollector/source/toc>`
-6. :doc:`NextGIS Toolbox documentation</docs_toolbox/source/toc>`
+5. :doc:`NextGIS Formbuilder documentation</docs_formbuilder/source/toc>`
+6. :doc:`Simple collector documentation</docs_simplecollector/source/toc>`
+7. :doc:`NextGIS Toolbox documentation</docs_toolbox/source/toc>`
 
 ***********************
 Developer documentation
 ***********************
 
-7. :doc:`NextGIS Web developer documentation</docs_ngweb_dev/doc/toc>`
-8. :doc:`NextGIS Mobile developer documentation</ngmobile_dev/toc>`
-9. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
-10. :doc:`NextGIS Formbuilder documentation</docs_formbuilder_dev/doc/toc>`
-11. :doc:`NextGIS Tracker documentation</tracker_hub_dev/main>`
-12. :doc:`NextGIS Web Docker documentation</docs_ngwdocker/doc/index>`
+8. :doc:`NextGIS Web developer documentation</docs_ngweb_dev/doc/toc>`
+9. :doc:`NextGIS Mobile developer documentation</ngmobile_dev/toc>`
+10. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
+11. :doc:`NextGIS Formbuilder documentation</docs_formbuilder_dev/doc/toc>`
+12. :doc:`NextGIS Tracker documentation</tracker_hub_dev/main>`
+13. :doc:`NextGIS Web Docker documentation</docs_ngwdocker/doc/index>`
 
 *************
 Additional
 *************
 
-13. :doc:`Glossary <glossary>`
+14. :doc:`Glossary <glossary>`
 
 ******************
 PDFs
