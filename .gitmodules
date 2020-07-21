@@ -9,7 +9,7 @@
 [submodule "source/docs_ngweb_dev"]
 	path = source/docs_ngweb_dev
 	url = git@github.com:nextgis/nextgisweb.git
-	branch = 3
+	branch = master
 [submodule "source/docs_formbuilder"]
 	path = source/docs_formbuilder
 	url = git@github.com:nextgis/docs_formbuilder.git
