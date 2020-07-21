@@ -78,7 +78,7 @@ fi
 if [ -d "../docs_ngweb_dev" ]; then
 cd ../docs_ngweb_dev
 echo "$(pwd)"
-git checkout 3
+git checkout master
 fi
 
 if [ -d "../docs_ogportal" ]; then

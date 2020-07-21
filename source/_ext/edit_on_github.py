@@ -8,9 +8,7 @@ Loosely based on https://github.com/astropy/astropy/pull/347
 import os
 import warnings
 
-
 __licence__ = 'BSD (3 clause)'
-
 
 def get_github_url(app, repo, view, branch, path):
     return 'https://github.com/{user}/{repo}/{view}/{branch}/{path}'.format(
@@ -45,7 +43,7 @@ def html_page_context(app, pagename, templatename, context, doctree):
     if dirs[0].startswith('docs_ngweb_dev'):
         repo = 'nextgisweb'
         path = os.path.join(*dirs[1:])
-        branch = '3'
+        branch = 'master'
     elif dirs[0].startswith('qms_srv_dev'):
         repo = 'quickmapservices_server'
         path = os.path.join(*dirs[1:])
@@ -69,7 +67,6 @@ def html_page_context(app, pagename, templatename, context, doctree):
 
     context['show_on_github_url'] = show_url
     context['edit_on_github_url'] = edit_url
-
 
 def setup(app):
     app.add_config_value('edit_on_github_user', '', True)
