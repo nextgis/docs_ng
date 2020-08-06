@@ -14,7 +14,6 @@
    /docs_ngmobile/source/toc
    /docs_ngmanager/source/toc
    /docs_formbuilder/source/toc
-   /docs_simplecollector/source/toc
    /docs_collector/source/toc
    /docs_toolbox/source/toc
    /docs_ngbio/source/toc
