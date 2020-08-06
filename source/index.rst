@@ -13,7 +13,6 @@
    /docs_ngqgis/source/toc
    /docs_ngmobile/source/toc
    /docs_formbuilder/source/toc
-   /docs_simplecollector/source/toc
    /docs_toolbox/source/toc
    /docs_ngweb_dev/doc/toc
    /ngmobile_dev/toc
