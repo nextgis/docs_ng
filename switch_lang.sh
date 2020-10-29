@@ -27,11 +27,13 @@ cd ../docs_ngcom
 echo "$(pwd)"
 git checkout $1
 
-if [ -d "../docs_simplecollector" ]; then
-cd ../docs_simplecollector
+cd ../docs_data
 echo "$(pwd)"
 git checkout $1
-fi
+
+cd ../docs_ngid
+echo "$(pwd)"
+git checkout $1
 
 if [ -d "../docs_collector" ]; then
 cd ../docs_collector

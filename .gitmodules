@@ -79,4 +79,11 @@
 	path = source/docs_ngwdocker
 	url = git@github.com:nextgis/ngwdocker.git
 	branch = master
-
+[submodule "source/docs_data"]
+	path = source/docs_data
+	url = git@github.com:nextgis/docs_data.git
+	branch = en
+[submodule "source/docs_ngid"]
+	path = source/docs_ngid
+	url = git@github.com:nextgis/docs_ngid.git
+	branch = en

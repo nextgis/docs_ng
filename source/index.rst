@@ -27,38 +27,39 @@ Services
 
 1. :doc:`Get Started with your Web GIS</docs_ngcom/source/toc>`
 2. :doc:`NextGIS Toolbox documentation</docs_toolbox/source/toc>`
+3. :doc:`NextGIS Data documentation</docs_data/source/toc>`
 
 *************
 Main products
 *************
 
-3. :doc:`NextGIS Web documentation</docs_ngweb/source/toc>`
-4. :doc:`NextGIS QGIS documentation</docs_ngqgis/source/toc>`
-5. :doc:`NextGIS Mobile documentation</docs_ngmobile/source/toc>`
+4. :doc:`NextGIS Web documentation</docs_ngweb/source/toc>`
+5. :doc:`NextGIS QGIS documentation</docs_ngqgis/source/toc>`
+6. :doc:`NextGIS Mobile documentation</docs_ngmobile/source/toc>`
 
 **********************
 Supplementary products
 **********************
 
-6. :doc:`NextGIS Formbuilder documentation</docs_formbuilder/source/toc>`
-7. :doc:`Simple collector documentation</docs_simplecollector/source/toc>`
+7. :doc:`NextGIS Formbuilder documentation</docs_formbuilder/source/toc>`
+8. :doc:`NextGIS ID documentation</docs_ngid/source/toc>`
 
 *************************
 Developer's documentation
 *************************
 
-8. :doc:`NextGIS Web developer documentation</docs_ngweb_dev/doc/toc>`
-9. :doc:`NextGIS Mobile developer documentation</ngmobile_dev/toc>`
-10. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
-11. :doc:`NextGIS Formbuilder documentation</docs_formbuilder_dev/doc/toc>`
-12. :doc:`NextGIS Tracker documentation</tracker_hub_dev/main>`
-13. :doc:`NextGIS Web Docker documentation</docs_ngwdocker/doc/index>`
+9. :doc:`NextGIS Web developer documentation</docs_ngweb_dev/doc/toc>`
+10. :doc:`NextGIS Mobile developer documentation</ngmobile_dev/toc>`
+11. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
+12. :doc:`NextGIS Formbuilder documentation</docs_formbuilder_dev/doc/toc>`
+13. :doc:`NextGIS Tracker documentation</tracker_hub_dev/main>`
+14. :doc:`NextGIS Web Docker documentation</docs_ngwdocker/doc/index>`
 
 **********
 Additional
 **********
 
-14. :doc:`Glossary <glossary>`
+15. :doc:`Glossary <glossary>`
 
 ****
 PDFs
