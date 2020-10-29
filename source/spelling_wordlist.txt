@@ -1989,3 +1989,5 @@ top
 bookmark
 adapter
 filters
+пиксел
+pixel

@@ -35,7 +35,11 @@
 *****************
 
 1. :doc:`Начало работы с Веб ГИС </docs_ngcom/source/toc>`
+<<<<<<< HEAD
 2. :doc:`Документация по NextGIS Data </docs_data/source/toc>`
+=======
+2. :doc:`Документация по NextGIS Toolbox </docs_toolbox/source/toc>`
+>>>>>>> 74aa4b8c6828eb9b8954398fb492ae5bcad8cfe2
 
 *****************
 Основные продукты
@@ -52,8 +56,11 @@
 
 7. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder/source/toc>`
 8. :doc:`Документация по мобильному приложению NextGIS Collector </docs_collector/source/toc>`
+<<<<<<< HEAD
 9. :doc:`Документация по NextGIS Toolbox </docs_toolbox/source/toc>`
 10. :doc:`Документация по NextGIS ID </docs_ngid/source/toc>`
+=======
+>>>>>>> 74aa4b8c6828eb9b8954398fb492ae5bcad8cfe2
 
 **************************
 Специализированные решения
