@@ -9,6 +9,7 @@
    :maxdepth: 2
 
    /docs_ngcom/source/toc
+   /docs_toolbox/source/toc
    /docs_data/source/toc
    /docs_ngweb/source/toc
    /docs_ngqgis/source/toc
@@ -16,7 +17,6 @@
    /docs_ngmanager/source/toc
    /docs_formbuilder/source/toc
    /docs_collector/source/toc
-   /docs_toolbox/source/toc
    /docs_ngid/source/toc
    /docs_ngbio/source/toc
    /docs_ogportal/source/toc
@@ -35,24 +35,24 @@
 *****************
 
 1. :doc:`Начало работы с Веб ГИС </docs_ngcom/source/toc>`
-2. :doc:`Документация по NextGIS Data </docs_data/source/toc>`
+2. :doc:`Документация по NextGIS Toolbox </docs_toolbox/source/toc>`
+3. :doc:`Документация по NextGIS Data </docs_data/source/toc>`
 
 *****************
 Основные продукты
 *****************
 
-3. :doc:`Документация по NextGIS Web </docs_ngweb/source/toc>`
-4. :doc:`Документация по NextGIS QGIS </docs_ngqgis/source/toc>`
-5. :doc:`Документация по NextGIS Mobile </docs_ngmobile/source/toc>`
-6. :doc:`Документация по NextGIS Manager </docs_ngmanager/source/toc>`
+4. :doc:`Документация по NextGIS Web </docs_ngweb/source/toc>`
+5. :doc:`Документация по NextGIS QGIS </docs_ngqgis/source/toc>`
+6. :doc:`Документация по NextGIS Mobile </docs_ngmobile/source/toc>`
+7. :doc:`Документация по NextGIS Manager </docs_ngmanager/source/toc>`
 
 ******************
 Вспомогательное ПО
 ******************
 
-7. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder/source/toc>`
-8. :doc:`Документация по мобильному приложению NextGIS Collector </docs_collector/source/toc>`
-9. :doc:`Документация по NextGIS Toolbox </docs_toolbox/source/toc>`
+8. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder/source/toc>`
+9. :doc:`Документация по мобильному приложению NextGIS Collector </docs_collector/source/toc>`
 10. :doc:`Документация по NextGIS ID </docs_ngid/source/toc>`
 
 **************************
