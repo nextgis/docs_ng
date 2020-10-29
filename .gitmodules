@@ -43,10 +43,6 @@
 	path = source/ngmobile_dev/ios_maplib_src
 	url = git@github.com:nextgis/ios_maplib.git
 	branch = master
-[submodule "source/docs_simplecollector"]
-	path = source/docs_simplecollector
-	url = git@github.com:nextgis/docs_simplecollector.git
-	branch = en
 [submodule "source/docs_collector"]
 	path = source/docs_collector
 	url = git@github.com:nextgis/docs_collector.git
