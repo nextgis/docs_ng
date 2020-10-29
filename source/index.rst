@@ -9,11 +9,13 @@
    :maxdepth: 2
 
    /docs_ngcom/source/toc
+   /docs_toolbox/source/toc
+   /docs_data/source/toc
    /docs_ngweb/source/toc
    /docs_ngqgis/source/toc
    /docs_ngmobile/source/toc
    /docs_formbuilder/source/toc
-   /docs_toolbox/source/toc
+   /docs_ngid/source/toc
    /docs_ngweb_dev/doc/toc
    /ngmobile_dev/toc
    /qms_srv_dev/doc/api
