@@ -78,9 +78,9 @@
 Дополнительно
 *************
 
-18. :doc:`Описание применения ПО NextGIS </docs_howto/source/toc>`
-19. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
-20. :doc:`Словарь <glossary>`
+20. :doc:`Описание применения ПО NextGIS </docs_howto/source/toc>`
+21. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
+22. :doc:`Словарь <glossary>`
 
 ******************
 Документация в pdf
