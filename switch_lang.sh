@@ -104,6 +104,12 @@ if [ -d "../ngmobile_dev" ]; then
     git checkout master
     cd ..
   fi
+  if [ -d "maplibui_src" ]; then
+    cd maplib_src
+    echo "$(pwd)"
+    git checkout master
+    cd ..
+  fi
 fi
 
 if [ -d "../qms_srv_dev" ]; then
