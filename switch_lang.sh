@@ -105,7 +105,7 @@ if [ -d "../ngmobile_dev" ]; then
     cd ..
   fi
   if [ -d "maplibui_src" ]; then
-    cd maplib_src
+    cd maplibui_src
     echo "$(pwd)"
     git checkout master
     cd ..

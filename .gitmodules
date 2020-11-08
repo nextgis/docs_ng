@@ -21,9 +21,11 @@
 [submodule "source/ngmobile_dev/maplib_src"]
 	path = source/ngmobile_dev/maplib_src
 	url = git@github.com:nextgis/android_maplib.git
+	branch = master
 [submodule "source/ngmobile_dev/maplibui_src"]
 	path = source/ngmobile_dev/maplibui_src
 	url = git@github.com:nextgis/android_maplibui.git
+	branch = master
 [submodule "source/docs_ngqgis"]
 	path = source/docs_ngqgis
 	url = git@github.com:nextgis/docs_ngqgis.git
