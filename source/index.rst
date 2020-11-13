@@ -52,7 +52,7 @@
 ******************
 
 8. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder/source/toc>`
-9. :doc:`Документация по мобильному приложению NextGIS Collector </docs_collector/source/toc>`
+9. :doc:`Документация по NextGIS Collector (мобильное приложение) </docs_collector/source/toc>`
 10. :doc:`Документация по NextGIS ID </docs_ngid/source/toc>`
 
 **************************
