@@ -45,7 +45,7 @@ Supplementary products
 **********************
 
 7. :doc:`NextGIS Formbuilder documentation</docs_formbuilder/source/toc>`
-8. :doc:`NextGIS Collector dicumentation (mobile application) </docs_collector/source/toc>`
+8. :doc:`NextGIS Collector documentation (mobile application) </docs_collector/source/toc>`
 9. :doc:`NextGIS ID documentation</docs_ngid/source/toc>`
 
 *************************
