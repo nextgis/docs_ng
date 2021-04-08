@@ -7,7 +7,7 @@ SPHINXBUILD   = sphinx-build
 SPHINXINTL    = sphinx-intl
 LANG          = ru
 SOURCEDIR     = source
-PAPER         =
+PAPER         = a4
 BUILDDIR      = build
 
 # User-friendly check for sphinx-build
