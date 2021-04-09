@@ -10,6 +10,7 @@
 
    /docs_ngcom/source/toc
    /docs_toolbox/source/toc
+   /docs_data/source/toc
    /docs_ngweb/source/toc
    /docs_ngqgis/source/toc
    /docs_ngmobile/source/toc
@@ -29,7 +30,8 @@ Services
 
 1. :doc:`Get Started with your Web GIS</docs_ngcom/source/toc>`
 2. :doc:`NextGIS Toolbox documentation</docs_toolbox/source/toc>`
-3. :doc:`NextGIS Data documentation</docs_data/source/toc>`
+.. 
+   3. :doc:`NextGIS Data documentation</docs_data/source/toc>`
 
 *************
 Main products
