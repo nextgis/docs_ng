@@ -10,7 +10,6 @@
 
    /docs_ngcom/source/toc
    /docs_toolbox/source/toc
-   /docs_data/source/toc
    /docs_ngweb/source/toc
    /docs_ngqgis/source/toc
    /docs_ngmobile/source/toc
