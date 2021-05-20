@@ -165,10 +165,10 @@ Glossary
    QML
      A main language for description of map styles for the NextGIS QGIS software. Vector and raster styles are edited in QGIS and saved to a file with qml extension. Internal representations is xml. Map styles in qml format are supported by NextGIS Web.
      
-     GML
+   GML
    Geographic Markup Language
-      The XML grammar defined by the Open Geospatial Consortium (`OGC <https://www.ogc.org/standards/gml>`_) to express geographical features
+     The XML grammar defined by the Open Geospatial Consortium (`OGC <https://www.ogc.org/standards/gml>`_) to express geographical features
    
    KML
    Keyhole Markup Language
-      The file `format <https://www.ogc.org/standards/kml/>`_ used to display geographic data in an Earth browser such as Google Earth. 
+     The file `format <https://www.ogc.org/standards/kml/>`_ used to display geographic data in an Earth browser such as Google Earth. 
