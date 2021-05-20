@@ -163,4 +163,12 @@ Glossary
      A set of protocols, tools and procedures that an application (software or web service) provides for the use by external software. Web services API is typically a description of possible HTTP requests.
      
    QML
-     A main language for description of map styles for the NextGIS QGIS software. Vector and raster styles are edited in QGIS and saved to a file with qml extension. Internal representations is xml. Map styles in qml format are supported by NextGIS Web. 
+     A main language for description of map styles for the NextGIS QGIS software. Vector and raster styles are edited in QGIS and saved to a file with qml extension. Internal representations is xml. Map styles in qml format are supported by NextGIS Web.
+     
+     GML
+   Geographic Markup Language
+      The XML grammar defined by the Open Geospatial Consortium (`OGC <https://www.ogc.org/standards/gml>`_) to express geographical features
+   
+   KML
+   Keyhole Markup Language
+      The file `format <https://www.ogc.org/standards/kml/>`_ used to display geographic data in an Earth browser such as Google Earth. 
