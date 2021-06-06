@@ -11,6 +11,7 @@
    /docs_ngcom/source/toc
    /docs_toolbox/source/toc
    /docs_data/source/toc
+   /docs_geoservices/source/toc
    /docs_ngweb/source/toc
    /docs_ngqgis/source/toc
    /docs_ngmobile/source/toc
@@ -31,39 +32,40 @@ Services
 1. :doc:`Get Started with your Web GIS</docs_ngcom/source/toc>`
 2. :doc:`NextGIS Toolbox documentation</docs_toolbox/source/toc>`
 3. :doc:`NextGIS Data documentation</docs_data/source/toc>`
+4. :doc:`NextGIS Geoservices documentation</docs_geoservices/source/toc>`
 
 *************
 Main products
 *************
 
-4. :doc:`NextGIS Web documentation</docs_ngweb/source/toc>`
-5. :doc:`NextGIS QGIS documentation</docs_ngqgis/source/toc>`
-6. :doc:`NextGIS Mobile documentation</docs_ngmobile/source/toc>`
+5. :doc:`NextGIS Web documentation</docs_ngweb/source/toc>`
+6. :doc:`NextGIS QGIS documentation</docs_ngqgis/source/toc>`
+7. :doc:`NextGIS Mobile documentation</docs_ngmobile/source/toc>`
 
 **********************
 Supplementary products
 **********************
 
-7. :doc:`NextGIS Formbuilder documentation</docs_formbuilder/source/toc>`
-8. :doc:`NextGIS Collector documentation (mobile application) </docs_collector/source/toc>`
-9. :doc:`NextGIS ID documentation</docs_ngid/source/toc>`
+8. :doc:`NextGIS Formbuilder documentation</docs_formbuilder/source/toc>`
+9. :doc:`NextGIS Collector documentation (mobile application) </docs_collector/source/toc>`
+10. :doc:`NextGIS ID documentation</docs_ngid/source/toc>`
 
 *************************
 Developer's documentation
 *************************
 
-10. :doc:`NextGIS Web developer documentation</docs_ngweb_dev/doc/toc>`
-11. :doc:`NextGIS Mobile developer documentation</ngmobile_dev/toc>`
-12. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
-13. :doc:`NextGIS Formbuilder documentation</docs_formbuilder_dev/doc/toc>`
-14. :doc:`NextGIS Tracker documentation</tracker_hub_dev/main>`
-15. :doc:`NextGIS Web Docker documentation</docs_ngwdocker/doc/index>`
+11. :doc:`NextGIS Web developer documentation</docs_ngweb_dev/doc/toc>`
+12. :doc:`NextGIS Mobile developer documentation</ngmobile_dev/toc>`
+13. :doc:`NextGIS QMS Service API documentation</qms_srv_dev/doc/api>`
+14. :doc:`NextGIS Formbuilder documentation</docs_formbuilder_dev/doc/toc>`
+15. :doc:`NextGIS Tracker documentation</tracker_hub_dev/main>`
+16. :doc:`NextGIS Web Docker documentation</docs_ngwdocker/doc/index>`
 
 **********
 Additional
 **********
 
-16. :doc:`Glossary <glossary>`
+17. :doc:`Glossary <glossary>`
 
 ****
 PDFs
