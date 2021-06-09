@@ -10,3 +10,4 @@
 
    intro
    reissue_api_key
+   auth
