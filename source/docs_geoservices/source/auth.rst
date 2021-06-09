@@ -5,7 +5,7 @@
 Авторизация
 ============
 
-Для авторизации на  `NextGIS Geoservices<https://my.nextgis.com>`_ используется учетная запись `NextGIS ID <https://my.nextgis.com>`_ (:numref:`nggeos_auth`).
+Для авторизации на  `NextGIS Geoservices <https://my.nextgis.com>`_ используется учетная запись `NextGIS ID <https://my.nextgis.com>`_ (:numref:`nggeos_auth`).
 
 .. figure:: _static/nggeos_auth.png
    :name: nggeos_auth
