@@ -10,7 +10,7 @@
 1. Перейдите в раздел **Profile** настроек *Settings* на левой панели;
 2. Нажмите кнопку **Refresh** напротив поля текущего API ключа (см. :numref:`nggeos_refresh_api_key`).
 
-.. figure:: _static/nggeos_refresh_api_key.png
+.. figure:: _static/nggeos_refresh_api_key_rus.png
    :name: nggeos_refresh_api_key
    :align: center
    :width: 20cm
