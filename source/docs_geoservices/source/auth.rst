@@ -10,6 +10,6 @@
 .. figure:: _static/nggeos_auth.png
    :name: nggeos_auth
    :align: center
-   :width: 20cm
+   :width: 15cm
 
    Авторизация в NextGIS Geoservices
