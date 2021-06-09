@@ -9,5 +9,5 @@
    :maxdepth: 2
 
    intro
-   reissue_api_key
    auth
+   reissue_api_key
