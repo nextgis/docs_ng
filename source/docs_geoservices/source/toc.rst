@@ -11,4 +11,5 @@
    intro
    auth
    basemap_tiles
+   rosreestr_pkk
    reissue_api_key
