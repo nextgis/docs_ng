@@ -13,7 +13,7 @@
 .. figure:: _static/nggeos_refresh_api_key_rus.png
    :name: nggeos_refresh_api_key
    :align: center
-   :width: 20cm
+   :width: 30cm
  
    Перевыпуск API ключа
 
