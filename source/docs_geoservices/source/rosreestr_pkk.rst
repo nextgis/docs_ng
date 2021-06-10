@@ -2,7 +2,7 @@
 
 .. _nggeos_pkk:
 
-Сервис Публичной кадастровой карты Росреестра
+Сервисы Публичной кадастровой карты Росреестра
 =============================================
 
 `NextGIS Geoservices <https://my.nextgis.com>`_ позволяет получить растровые данные сервиса ПКК и подключить их как внешние источники (:numref:`nggeos_basemap_rosreestr_pkk`).
@@ -22,8 +22,7 @@
    Сервисы Публичной кадастровой карты
 
 .. note:: 
-	Для подключения данных необходимо получить персональный `API ключ <https://docs.nextgis.ru/docs_geoservices/source/reissue_api_key.html>`_ (apikey в строке запроса,
-  размыто на изображении).
+	Для подключения данных необходимо получить персональный `API ключ <https://docs.nextgis.ru/docs_geoservices/source/reissue_api_key.html>`_ (apikey в строке запроса, размыто на изображении).
    
 `Пример <https://demo.nextgis.com/resource/3928>`_ подключения кадастровых данных
 как `слои TMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#tms>`_ в NextGIS Web.
