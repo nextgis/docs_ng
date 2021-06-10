@@ -5,7 +5,7 @@
 Сервисы базовых подложек
 ========================
 
-С помощью `NextGIS Geoservices <https://my.nextgis.com>`_ есть возможность подключить векторные и растровые карты с GL стилями (:numref:`nggeos_basemap_tiles`):
+С помощью `NextGIS Geoservices <https://my.nextgis.com>`_ есть возможность подключить векторные и растровые карты с GL стилями (:numref:`nggeos_basemap_tiles`).
 
 1. Klokantech 3D
 2. Klokantech Basic
