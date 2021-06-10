@@ -20,5 +20,4 @@
  
    Сервисы базовых подложек NextGIS Geoservices
    
-   `Пример <https://demo.nextgis.com/resource/5217>`_ подключения сервиса как `базовой подложки <https://docs.nextgis.ru/docs_ngcom/source/data_connect.html#ngcom-basemap-layer>`_ в NextGIS Web
-   с помощью `TMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#tms>`_.
+   `Пример <https://demo.nextgis.com/resource/5217>`_ подключения сервиса как `базовой подложки <https://docs.nextgis.ru/docs_ngcom/source/data_connect.html#ngcom-basemap-layer>`_ в NextGIS Web.
