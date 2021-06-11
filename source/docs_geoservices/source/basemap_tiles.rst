@@ -23,4 +23,4 @@ Basemap tiles services
 .. note:: 
 	A personal `API key <https://docs.nextgis.com/docs_geoservices/source/reissue_api_key.html>`_ is required to connect data (by default apikey is in the query string, blurry in the image). 
    
-`Example <https://demo.nextgis.com/resource/5217>`_ of adding a service as a `Basemap <https://docs.nextgis.com/docs_ngcom/source/data_connect.html#basemaps>`_ in NextGIS Web.
+`Example <https://demo.nextgis.com/resource/5226>`_ of adding a service as a `Basemap <https://docs.nextgis.com/docs_ngcom/source/data_connect.html#basemaps>`_ in NextGIS Web.
