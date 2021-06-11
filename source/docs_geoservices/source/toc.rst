@@ -5,7 +5,6 @@
 NextGIS Geoservices documentation
 =================================
 
-Contents:
     
 .. toctree::
    :maxdepth: 2
