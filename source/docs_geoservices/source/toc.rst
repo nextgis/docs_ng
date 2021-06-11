@@ -13,3 +13,4 @@ Contents:
    intro
    auth
    basemap_tiles
+   reissue_api_key
