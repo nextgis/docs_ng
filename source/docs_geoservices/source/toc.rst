@@ -12,3 +12,4 @@ Contents:
 
    intro
    auth
+   basemap_tiles
