@@ -14,6 +14,7 @@
    /docs_geoservices/source/toc
    /docs_ngweb/source/toc
    /docs_ngqgis/source/toc
+   /docs_ngconnect/source/toc
    /docs_ngmobile/source/toc
    /docs_formbuilder/source/toc
    /docs_collector/source/toc
@@ -54,6 +55,7 @@
 8. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder/source/toc>`
 9. :doc:`Документация по NextGIS Collector (мобильное приложение) </docs_collector/source/toc>`
 10. :doc:`Документация по NextGIS ID </docs_ngid/source/toc>`
+11. :doc:`Документация по NextGIS Connect </docs_ngconnect/source/toc>`
 
 **************************
 Специализированные решения
