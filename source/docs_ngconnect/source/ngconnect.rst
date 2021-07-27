@@ -42,17 +42,17 @@ Creating and configuring a connection
 
 When plugin is installed its icon appears in a toolbar:
 
-.. figure:: _static/nextgis_connect/logo.png
+.. figure:: _static/logo.png
    :align: center
 
 Clicking on the icon calls NextGIS Connect panel.
 
-.. figure:: _static/nextgis_connect/panel.png
+.. figure:: _static/panel.png
    :align: center
 
 If no connection is set at the moment, corresponding message will be shown.
 
-.. figure:: _static/nextgis_connect/panel_no_connections.png
+.. figure:: _static/panel_no_connections.png
    :align: center
    
    
@@ -63,12 +63,12 @@ Create a Connection
 
 To create a connection you need to know an address of a target Web GIS. For instance, if you’ve created your own Web GIS, its address can be found on https://my.nextgis.com/webgis page. 
 
-.. figure:: _static/nextgis_connect/my_nextgis.png
+.. figure:: _static/my_nextgis.png
    :align: center
 
 Click on “Settings” button in NextGIS Connect panel.
 
-.. figure:: _static/nextgis_connect/call_settings.png
+.. figure:: _static/call_settings.png
    :align: center
 
 In pop-up window press on “New” and fill in the fields:
@@ -78,7 +78,7 @@ In pop-up window press on “New” and fill in the fields:
 
 If you want to perform actions that need special permission, uncheck box next to **As guest** and fill in *Login* and *Password* fields. For example, unauthorized users usually can’t create or delete resources.
 
-.. figure:: _static/nextgis_connect/connection_settings.png
+.. figure:: _static/connection_settings.png
    :align: center
 
 Press “OK”. In the drop-down list of the dialog "Settings" select the connection that becomes active **after closing** dialogue.
@@ -89,7 +89,7 @@ Press “OK”. In the drop-down list of the dialog "Settings" select the connec
 Main Settings
 ~~~~~~~~~~~~~
 
-.. figure:: _static/nextgis_connect/settings.png
+.. figure:: _static/settings.png
    :align: center
 
 1. Rename forbidden fields – while uploading layer itself or as a part of a project, plugin renames fields forbidden for Web GIS.
@@ -171,7 +171,7 @@ Imported resources will be added to a group selected in NextGIS Connect panel. I
 Exporting data from Web GIS to QGIS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: _static/nextgis_connect/add_to_qgis.png
+.. figure:: _static/add_to_qgis.png
    :align: center
 
 
@@ -228,19 +228,19 @@ This block of operations is located in the top menu of the NextGIS Connect.
 
 New group will be created in resource group selected via NextGIS Connect panel. If other type of resources but a group is selected, group will be created in a closest parent group to selected resource. If no resource is selected, group will be created in the root directory.
 
-.. figure:: _static/nextgis_connect/create_group.png
+.. figure:: _static/create_group.png
    :align: center
 
 
 The "update" operation will update the entire Web GIS resource tree to the current state.
 
-.. figure:: _static/nextgis_connect/reload.png
+.. figure:: _static/reload.png
    :align: center
 
 
 Option is available if web map (NGW Web Map) |resource_webmap|  is selected in NextGIS Connect resource tree. Map will be opened in a new tab of default browser.
 
-.. |resource_webmap| image:: _static/nextgis_connect/resource_webmap.png
+.. |resource_webmap| image:: _static/resource_webmap.png
 
 .. figure:: _static/nextgis_connect/open_webmap.png
    :align: center
@@ -253,7 +253,7 @@ Context Menu
 -----------------------
 Context menu may differ depending on resource type.
 
-.. figure:: _static/nextgis_connect/context_menu.png
+.. figure:: _static/context_menu.png
    :align: center
 
 Common options:
