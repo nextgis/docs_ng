@@ -9,3 +9,4 @@ NextGIS Connect for QGIS documentation
    :maxdepth: 2
 
    intro
+   ngconnect
