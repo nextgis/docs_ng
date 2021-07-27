@@ -156,7 +156,7 @@ NextGIS Connect module allows you to import:
 
 Algorithm for importing each data type is described `here <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#creating-and-uploading-data>`_.
 
-.. figure:: _static/nextgis_connect/add_to_ngw.png
+.. figure:: _static/add_to_ngw.png
    :align: center
 
 - Vector layer – vector layer with its style will be imported into Web GIS. Style can be added directly on web map.
@@ -184,9 +184,9 @@ Option is available if one of the following resources is selected in NextGIS Web
 - WMS Service - a WMS layer will be created in QGIS, the data source for which the selected WMS Service will be;
 - WFS Connection - you can select the WMS layer from the list to add to QGIS.
 
-.. |resource_vector| image:: _static/nextgis_connect/resource_vector.png
+.. |resource_vector| image:: _static/resource_vector.png
 
-.. |resource_wfs| image:: _static/nextgis_connect/resource_wfs.png
+.. |resource_wfs| image:: _static/resource_wfs.png
 
 
 The algorithm for Exporting data to QGIS is described `here <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#exporting-data>`_.
