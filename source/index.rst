@@ -61,20 +61,20 @@
 Специализированные решения
 **************************
 
-11. :doc:`Документация по NextGIS Bio </docs_ngbio/source/toc>`
-12. :doc:`Документация по NextGIS Портал открытых геоданных </docs_ogportal/source/toc>`
-13. :doc:`Документация по NextGIS Лесной инспектор </docs_forestinspector/source/toc>`
+12. :doc:`Документация по NextGIS Bio </docs_ngbio/source/toc>`
+13. :doc:`Документация по NextGIS Портал открытых геоданных </docs_ogportal/source/toc>`
+14. :doc:`Документация по NextGIS Лесной инспектор </docs_forestinspector/source/toc>`
 
 *******************************
 Документация для разработчиков
 *******************************
 
-14. :doc:`Документация по NextGIS Web </docs_ngweb_dev/doc/toc>`
-15. :doc:`Документация по NextGIS Mobile </ngmobile_dev/toc>`
-16. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
-17. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder_dev/doc/toc>`
-18. :doc:`Документация по NextGIS Tracker </tracker_hub_dev/main>`
-19. :doc:`Документация по NextGIS Docker </docs_ngwdocker/doc/index>`
+15. :doc:`Документация по NextGIS Web </docs_ngweb_dev/doc/toc>`
+16. :doc:`Документация по NextGIS Mobile </ngmobile_dev/toc>`
+17. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
+18. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder_dev/doc/toc>`
+19. :doc:`Документация по NextGIS Tracker </tracker_hub_dev/main>`
+20. :doc:`Документация по NextGIS Docker </docs_ngwdocker/doc/index>`
 
 *************
 Дополнительно
