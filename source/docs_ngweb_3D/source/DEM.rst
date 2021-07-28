@@ -22,7 +22,7 @@
 .. figure:: _static/ngw3D_select_TMS_connection.png
    :name: ngw3D_select_TMS_connection
    :align: center
-   :width: 20cm
+   :width: 10cm
 
    Выбор ресурса "TMS connection"
 
