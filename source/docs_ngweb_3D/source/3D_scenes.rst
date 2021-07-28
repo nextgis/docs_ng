@@ -89,7 +89,7 @@
 .. figure:: _static/ngw3D_select_basemap_3D_scene.png
    :name: ngw3D_select_basemap_3D_scene
    :align: center
-   :width: 20cm
+   :width: 10cm
 
    Выбор подложки 3D сцены
    
@@ -99,7 +99,7 @@
 .. figure:: _static/ngw3D_create_basemap_3D_scene.png
    :name: ngw3D_create_basemap_3D_scene
    :align: center
-   :width: 20cm
+   :width: 10cm
 
    Ресурс "Подложка веб-карты"
 
