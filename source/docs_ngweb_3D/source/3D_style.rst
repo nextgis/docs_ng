@@ -34,7 +34,7 @@
 .. figure:: _static/ngw3D_select_3D_style.png
    :name: ngw3D_select_3D_style
    :align: center
-   :width: 20cm
+   :width: 7cm
 
    Выбор ресурса "3D стиль"
 
