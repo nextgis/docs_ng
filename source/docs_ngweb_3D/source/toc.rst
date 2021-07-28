@@ -9,3 +9,9 @@
    :maxdepth: 2
 
    intro
+   3D_models
+   3D_tilesets
+   DEM
+   3D_style
+   3D_scenes
+   3D_scene_visualization
