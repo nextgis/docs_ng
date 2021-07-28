@@ -118,7 +118,7 @@ POI
 .. figure:: _static/ngw3D_id_3D_model.png
    :name: ngw3D_id_3D_model
    :align: center
-   :width: 20cm
+   :width: 15cm
 
    Идентификатор (id = 14) ресурса 3D модель
    
