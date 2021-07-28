@@ -45,7 +45,7 @@
 .. figure:: _static/ngw3D_settings_TMS_connection.png
    :name: ngw3D_settings_TMS_connection
    :align: center
-   :width: 20cm
+   :width: 10cm
 
    Настройка ресурса "TMS connection"
 
@@ -63,7 +63,7 @@
 .. figure:: _static/ngw3D_select_TMS_layer.png
    :name: ngw3D_select_TMS_layer
    :align: center
-   :width: 20cm
+   :width: 7cm
 
    Выбор ресурса "Слой TMS"
    
@@ -84,7 +84,7 @@
 .. figure:: _static/ngw3D_connection_TMS_layer.png
    :name: ngw3D_connection_TMS_layer
    :align: center
-   :width: 20cm
+   :width: 10cm
 
    Выбор ресурса TMS connection для TMS слоя
 
@@ -118,7 +118,7 @@
 .. figure:: _static/ngw3D_encoding_terrain_provider.png
    :name: ngw3D_encoding_terrain_provider
    :align: center
-   :width: 20cm
+   :width: 10cm
 
    Выбор кодировки рельефа
 
