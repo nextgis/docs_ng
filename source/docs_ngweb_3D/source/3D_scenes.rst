@@ -11,7 +11,7 @@
 .. figure:: _static/ngw3D_select_3D_scene.png
    :name: ngw3D_select_3D_scene
    :align: center
-   :width: 20cm
+   :width: 7cm
 
    Создание ресурса "3D сцена"
    
@@ -51,7 +51,7 @@
 .. figure:: _static/ngw3D_extent_by_layer_3D_scene.png
    :name: ngw3D_extent_by_layer_3D_scene
    :align: center
-   :width: 20cm
+   :width: 10cm
 
    Окно Выбора Ресурса охвата 3D сцены
 
@@ -70,7 +70,7 @@
 .. figure:: _static/ngw3D_select_elements_3D_scene.png
    :name: ngw3D_select_elements_3D_scene
    :align: center
-   :width: 20cm
+   :width: 10cm
 
    Выбор ресурса 3D стиль для добавления на 3D сцену
 
@@ -112,20 +112,13 @@
 
    Настройки подложки
          
-На вкладке "Рельеф" на 3D сцену добавляется ресурс рельефа созданного ранее TMS слоя (:numref:`ngw3D_terrain_3D_scene`). 
+На вкладке "Рельеф" на 3D сцену добавляется ресурс рельефа созданного ранее TMS слоя. 
 Добавление происходит через стандартное добавление ресурса в соответствующем окне (:numref:`ngw3D_select_terrain_3D_scene`).
-
-.. figure:: _static/ngw3D_settings_basemap_3D_scene.png
-   :name: ngw3D_settings_basemap_3D_scene
-   :align: center
-   :width: 20cm
-
-   Настройки ресурса Рельеф 3D сцены
 
 .. figure:: _static/ngw3D_select_terrain_3D_scene.png
    :name: ngw3D_select_terrain_3D_scene
    :align: center
-   :width: 20cm
+   :width: 10cm
 
    Выбор ресурса Рельеф для 3D сцены
    
