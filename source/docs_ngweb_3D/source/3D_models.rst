@@ -24,7 +24,7 @@
 .. figure:: _static/ngw3D_select_3D_model.png
    :name: ngw3D_select_3D_model
    :align: center
-   :width: 20cm
+   :width: 7cm
 
    Выбор ресурса "3D модель"
 
