@@ -1,6 +1,6 @@
 .. sectionauthor:: Роман Гайнуллов <roman.gainullov@nextgis.ru>
 
-.. NextGIS Web 3D
+.. NextGIS Web 3D TOC
 
 Документация NextGIS Web 3D
 ===========================
