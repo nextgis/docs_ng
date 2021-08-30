@@ -2,8 +2,8 @@
 
 .. NextGIS Web 3D TOC
 
-Documentation NextGIS Web 3D
-===========================
+NextGIS Web 3D documentation
+============================
     
 .. toctree::
    :maxdepth: 2
