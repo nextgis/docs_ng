@@ -17,7 +17,8 @@
 
 
 **Получение mesh из TMS подключения**.
-Для подключения рельефа **Mapbox Terrain-RGB** необходимо создать **TMS connection** (:numref:`ngw3D_select_TMS_connection`).
+
+Для подключения рельефа **Terrain-RGB** необходимо создать **TMS connection** (:numref:`ngw3D_select_TMS_connection`).
 
 .. figure:: _static/ngw3D_select_TMS_connection.png
    :name: ngw3D_select_TMS_connection
@@ -39,7 +40,7 @@
 
 Вкладки описание и метаданные являются опциональными. При создании подключения обязательно нужно настроить параметры вкладки TMS connection (:numref:`ngw3D_settings_TMS_connection`). 
 Для подключения к рельефу Mapbox нужно указать настраиваемый способ подключения, шаблон URL, параметр и сам ключ API. 
-Все параметры описаны здесь, api-ключ access-токена генерируется при авторизации на https://account.mapbox.com/. 
+Все параметры описаны `здесь <https://docs.mapbox.com/help/troubleshooting/access-elevation-data/#mapbox-terrain-rgb>`_, api-ключ access-токена генерируется при авторизации на https://account.mapbox.com/. 
 После указания всех параметров создается TMS подключение (:numref:`ngw3D_finished_TMS_connection`).
 
 .. figure:: _static/ngw3D_settings_TMS_connection.png
