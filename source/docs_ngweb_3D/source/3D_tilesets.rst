@@ -16,10 +16,10 @@
 Набор тайлов описывается, по меньшей мере, одним файлом JSON, содержащим метаданные набора тайлов и дерево объектов тайлов, 
 каждый из которых может ссылаться на обновляемое содержимое одного из следующих форматов:
 
-* Batched 3D Model (b3dm)
-* Instanced 3D Model (i3dm)
-* Point Cloud (pnts)
-* Composite (cmpt)
+* `Batched 3D Model (b3dm) <https://github.com/CesiumGS/3d-tiles/blob/master/specification/TileFormats/Batched3DModel/README.md>`_
+* `Instanced 3D Model (i3dm) (b3dm) <https://github.com/CesiumGS/3d-tiles/blob/master/specification/TileFormats/Instanced3DModel/README.md>`_
+* `Point Cloud (pnts) <https://github.com/CesiumGS/3d-tiles/blob/master/specification/TileFormats/PointCloud/README.md>`_
+* `Composite (cmpt) <https://github.com/CesiumGS/3d-tiles/blob/master/specification/TileFormats/Composite/README.md>`_
 
 .. _ngw_3D_tileset_upload:
 
