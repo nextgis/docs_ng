@@ -45,7 +45,7 @@ You can also Skip SSL/TLS certificate verification and specify tiling scheme. Af
 .. figure:: _static/ngw3D_settings_TMS_connection_en.png
    :name: ngw3D_settings_TMS_connection
    :align: center
-   :width: 20cm
+   :width: 15cm
 
    TMS connection resource settings
 
