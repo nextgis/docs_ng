@@ -34,7 +34,7 @@ Vector layer styling is carried out using the 3D style resource (:numref:`ngw3D_
 .. figure:: _static/ngw3D_select_3D_style_en.png
    :name: ngw3D_select_3D_style
    :align: center
-   :width: 7cm
+   :width: 5cm
 
    3D style resource
 
