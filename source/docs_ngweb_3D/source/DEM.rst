@@ -21,7 +21,7 @@ To connect the **Terrain-RGB terrain** you need to create a **TMS connection** (
 .. figure:: _static/ngw3D_select_TMS_connection_en.png
    :name: ngw3D_select_TMS_connection
    :align: center
-   :width: 10cm
+   :width: 5cm
 
    Selecting a TMS connection resource
 
@@ -45,12 +45,12 @@ You can also Skip SSL/TLS certificate verification and specify tiling scheme. Af
 .. figure:: _static/ngw3D_settings_TMS_connection_en.png
    :name: ngw3D_settings_TMS_connection
    :align: center
-   :width: 10cm
+   :width: 20cm
 
    TMS connection resource settings
 
 
-.. figure:: _static/ngw3D_finished_TMS_connection.png
+.. figure:: _static/ngw3D_finished_TMS_connection_en.png
    :name: ngw3D_finished_TMS_connection
    :align: center
    :width: 20cm
@@ -125,7 +125,7 @@ For it, you must specify the name and encoding (:numref:`ngw3D_encoding_terrain_
 
 After creating a resource it will appear in the corresponding NextGIS Web directory (:numref:`ngw3D_finished_terrain_provider`).
 
-.. figure:: _static/ngw3D_finished_terrain_provider.png
+.. figure:: _static/ngw3D_finished_terrain_provider_en.png
    :name: ngw3D_finished_terrain_provider
    :align: center
    :width: 20cm
