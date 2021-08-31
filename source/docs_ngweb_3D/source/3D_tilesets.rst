@@ -43,6 +43,8 @@ The first one is to set the name of the 3D tileset resource (:numref:`ngw3D_name
 
    Resource name "3D tileset"
 
+
+On the second tab it is possible to add a textual description of the resource in any form.
 On the third tab the user can add metadata to the 3D tileset resource (:numref:`ngw3D_metadata_3D_tileset`).
 
 .. figure:: _static/ngw3D_metadata_3D_tileset_en.png
