@@ -59,7 +59,7 @@ There are three types of styling for 3D data:
 
 .. _ngw_3d_style:
 
-3D Стиль
+3D Style
 ----------
 
 **3D style** - a display of the layer is similar to a 2D web map. 
