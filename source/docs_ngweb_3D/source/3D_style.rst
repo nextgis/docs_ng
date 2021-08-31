@@ -31,7 +31,7 @@ and uploading objects into it in the ESRI Shapefile or GeoJSON format (:numref:`
 
 Vector layer styling is carried out using the 3D style resource (:numref:`ngw3D_select_3D_style`) which is a child of the vector layer resource.
 
-.. figure:: _static/ngw3D_select_3D_style.png
+.. figure:: _static/ngw3D_select_3D_style_en.png
    :name: ngw3D_select_3D_style
    :align: center
    :width: 7cm
@@ -118,7 +118,7 @@ Configurable parameters:
 .. figure:: _static/ngw3D_id_3D_model_en.png
    :name: ngw3D_id_3D_model
    :align: center
-   :width: 15cm
+   :width: 10cm
 
    Resource identifier (id = 116) 3D model
    
