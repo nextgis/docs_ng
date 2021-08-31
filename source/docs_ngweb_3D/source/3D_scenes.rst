@@ -26,7 +26,7 @@ The Resource tab indicates the name of the future 3D scene (:numref:`ngw3D_name_
    Resource name 3D scene
 
 
-The “3D scene” tab allows you to select the type of data display on the 3D scene - a globe or a plane (:numref:`ngw3D_settings_3D_scene`). 
+The '3D scene' tab allows you to select the type of data display on the 3D scene - a globe or a plane (:numref:`ngw3D_settings_3D_scene`). 
 It is also possible to connect Yandex Panoramas and Google Street View data by specifying the appropriate API keys.
 Also you can specify a quality value that affects the performance of a 3D scene.
 
@@ -37,7 +37,7 @@ Also you can specify a quality value that affects the performance of a 3D scene.
 
    Method of displaying data on a 3D scene
 
-В окне "Экстент" задается область охвата 3D сцены в градусах (:numref:`ngw3D_extent_3D_scene`).
+The 'Extent' window sets the area of coverage of the 3D scene in degrees (:numref:`ngw3D_extent_3D_scene`).
 
 .. figure:: _static/ngw3D_extent_3D_scene_en.png
    :name: ngw3D_extent_3D_scene
@@ -54,7 +54,7 @@ Clicking on the folder icon with a plus opens a window where you can select the 
    :align: center
    :width: 10cm
 
-    Window for Selecting layer of 3D Scene’s extent
+   Window for Selecting layer of 3D Scene’s extent
 
 The 'Items' tab allows you to add and remove items of various NextGIS Web resources on/from a 3D scene - for example, 3D styles and 3D tilesets (Fig. 38),
 as well as form them into various groups.
@@ -105,7 +105,7 @@ To upload a basemap onto a 3D scene, you must first create it in NextGIS Web. Fo
 
 You can specify the URL or find the one you need in the search In the Settings, if there is one in `QuickMapServices <https://qms.nextgis.com/>`_ (:numref:`ngw3D_settings_basemap_3D_scene`) directory.
 
-.. figure:: _static/ngw3D_settings_basemap_3D_scen_en.png
+.. figure:: _static/ngw3D_settings_basemap_3D_scene1_en.png
    :name: ngw3D_settings_basemap_3D_scene
    :align: center
    :width: 20cm
@@ -113,7 +113,7 @@ You can specify the URL or find the one you need in the search In the Settings, 
    Basemap settings
          
 The Terrain resource of the previously created TMS layer is added to the 3D scene on the Terrain tab (:numref:`ngw3D_terrain_3D_scen_en`).
-Adding occurs through the standard addition of a resource in the corresponding window (:numref:`ngw3D_select_terrain_3D_scene`).
+Adding occurs through the standard addition of a resource in the corresponding window (:numref:`ngw3D_select_terrain_3D_scen`).
 
 .. figure:: _static/ngw3D_terrain_3D_scen_en.png
    :name: ngw3D_terrain_3D_scen
@@ -121,7 +121,6 @@ Adding occurs through the standard addition of a resource in the corresponding w
    :width: 20cm
 
    Terrain Resource settings of 3D scene
-
 
 .. figure:: _static/ngw3D_select_terrain_3D_scene_en.png
    :name: ngw3D_select_terrain_3D_scene
