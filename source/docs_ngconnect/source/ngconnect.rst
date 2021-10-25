@@ -1,10 +1,10 @@
 .. sectionauthor:: Екатерина Петруненко <ekaterina.petrunenko@nextgis.com>
 .. sectionauthor:: Роман Гайнуллов <roman.gainullov@nextgis.com>
 
-.. _ng_connect:
+.. _ng_connect_overview :
     
-NextGIS Connect
-===============
+Overview 
+=========
 
 This plugin allows QGIS user to upload and download resources to and from Web GIS or NextGIS Web (further both refer as “Web GIS”) directly from QGIS interface.
 
@@ -18,6 +18,7 @@ With NextGIS Connect you can:
 6.	Create resource groups and delete any resources.
 
 
+
 .. important::
 	If you plan to share large data through NextGIS Connect, you might need to configure QGIS timeouts for network requests. This setting is in the menu section **Settings** -> **Options** -> **Network** -> Timeout for network requests (ms). The recommended value is **300,000**, it can be increased if necessary.
 
@@ -25,88 +26,12 @@ With NextGIS Connect you can:
 .. warning::
 
    **Photos** made via NextGIS Collector/Mobile apps and uploaded to Web GIS as attachments to layers **wouldn’t be available** in desktop NextGIS QGIS after downloading these layers through NextGIS Connect plugin.
-   
-
-.. _ng_connect_install:
-
-Installing NextGIS Connect
---------------------------
-   
-Connect plugin is a part of `NextGIS QGIS <http://nextgis.com/nextgis-qgis/>`_ distributive and ready to go right after installation of desktop app. Plugin is also available through official QGIS repository, so it can be launched in other QGIS compilations. If necessary, you can check/update the version of the module in the menu section **Modules -> Manage modules -> NextGIS Connect**.
-
-
-.. _ng_connect_connection:
-
-Creating and configuring a connection
--------------------------------------
-
-When plugin is installed its icon appears in a toolbar:
-
-.. figure:: _static/logo.png
-   :align: center
-
-Clicking on the icon calls NextGIS Connect panel.
-
-.. figure:: _static/panel.png
-   :align: center
-
-If no connection is set at the moment, corresponding message will be shown.
-
-.. figure:: _static/panel_no_connections.png
-   :align: center
-   
-   
-.. _ng_connect_set_connection:
-
-Create a Connection
-~~~~~~~~~~~~~~~~~~~  
-
-To create a connection you need to know an address of a target Web GIS. For instance, if you’ve created your own Web GIS, its address can be found on https://my.nextgis.com/webgis page. 
-
-.. figure:: _static/my_nextgis.png
-   :align: center
-
-Click on “Settings” button in NextGIS Connect panel.
-
-.. figure:: _static/call_settings.png
-   :align: center
-
-In pop-up window press on “New” and fill in the fields:
-
-1.	URL – address of a target Web GIS.
-2.	Name – connection id, how it will be shown in the list of connections.
-
-If you want to perform actions that need special permission, uncheck box next to **As guest** and fill in *Login* and *Password* fields. For example, unauthorized users usually can’t create or delete resources.
-
-.. figure:: _static/connection_settings.png
-   :align: center
-
-Press “OK”. In the drop-down list of the dialog "Settings" select the connection that becomes active **after closing** dialogue.
-
-
-.. _ng_connect_main_settings:
-
-Main Settings
-~~~~~~~~~~~~~
-
-.. figure:: _static/settings.png
-   :align: center
-
-1. Rename forbidden fields – while uploading layer itself or as a part of a project, plugin renames fields forbidden for Web GIS.
-
-2. Fix incorrect geometries – while uploading layer itself or as a part of a project, plugin transforms geometries into same type.
-
-3. Abort project import after first layer import failure – plugin wouldn’t keep on uploading project if any layer is failed to be imported into Web GIS.
-
-4. Open web map automatically on creation – after successful import of a project into Web GIS, web map will be created and automatically opened in browser. 
-
-5. Add WFS layer to QGIS on WFS service creation – after creation of WFS service in Web GIS it will be automatically added to QGIS as a layer.
 
 
 .. _ng_connect_types:
 
 Resource Types
--------------------------
+-----------------
 
 The following types of resources are available for data exchange and operation:
 
@@ -134,18 +59,119 @@ The following types of resources are available for data exchange and operation:
 - |resource_group| - Resource group (NGW Web Map)
 
 
+Context Menu
+-----------------------
+Context menu may differ depending on resource type.
+
+.. figure:: _static/context_menu.png
+   :align: center
+
+Common options:
+
+-	Open in WebGIS – open page with selected resource in Web GIS;
+
+-	Rename – rename resource;
+
+-	Delete – delete resource.
+
+
+Variable options – depend on resource type:
+
+-	Add to QGIS – option is described above;
+
+-	Create Web Map – available for resources: Vector layer, Vector layer style, Raster layer;
+
+-	Download as QML – available only for QGIS vector layer style.
+
+
+.. _ng_connect_install:
+
+Installation
+=============
+   
+Connect plugin is a part of `NextGIS QGIS <http://nextgis.com/nextgis-qgis/>`_ distributive and ready to go right after installation of desktop app. Plugin is also available through official QGIS repository, so it can be launched in other QGIS compilations. If necessary, you can check/update the version of the module in the menu section **Modules -> Manage modules -> NextGIS Connect**.
+
+
+.. _ng_connect_connection:
+
+Set up connection
+=================
+
+When plugin is installed its icon appears in a toolbar:
+
+.. figure:: _static/logo.png
+   :align: center
+
+Clicking on the icon calls NextGIS Connect panel.
+
+.. figure:: _static/panel.png
+   :align: center
+
+If no connection is set at the moment, corresponding message will be shown.
+
+.. figure:: _static/panel_no_connections.png
+   :align: center
+   
+   
+.. _ng_connect_set_connection:
+
+Create a Connection
+-------------------
+
+To create a connection you need to know an address of a target Web GIS. For instance, if you’ve created your own Web GIS, its address can be found on https://my.nextgis.com/webgis page. 
+
+.. figure:: _static/my_nextgis.png
+   :align: center
+
+Click on “Settings” button in NextGIS Connect panel.
+
+.. figure:: _static/call_settings.png
+   :align: center
+
+In pop-up window press on “New” and fill in the fields:
+
+1.	URL – address of a target Web GIS.
+2.	Name – connection id, how it will be shown in the list of connections.
+
+If you want to perform actions that need special permission, uncheck box next to **As guest** and fill in *Login* and *Password* fields. For example, unauthorized users usually can’t create or delete resources.
+
+.. figure:: _static/connection_settings.png
+   :align: center
+
+Press “OK”. In the drop-down list of the dialog "Settings" select the connection that becomes active **after closing** dialogue.
+
+
+.. _ng_connect_main_settings:
+
+Main Settings
+-------------
+
+.. figure:: _static/settings.png
+   :align: center
+
+1. Rename forbidden fields – while uploading layer itself or as a part of a project, plugin renames fields forbidden for Web GIS.
+
+2. Fix incorrect geometries – while uploading layer itself or as a part of a project, plugin transforms geometries into same type.
+
+3. Abort project import after first layer import failure – plugin wouldn’t keep on uploading project if any layer is failed to be imported into Web GIS.
+
+4. Open web map automatically on creation – after successful import of a project into Web GIS, web map will be created and automatically opened in browser. 
+
+5. Add WFS layer to QGIS on WFS service creation – after creation of WFS service in Web GIS it will be automatically added to QGIS as a layer.
+
+
 
 .. _ng_connect_data_imp_exp:
 
-Data sharing
-------------
+Data transfer
+=============
 
 NextGIS Connect module allows you to share geodata between QGIS and Web GIS in both directions.
 
 .. _ng_connect_import:
 
 Importing data into Web GIS from QGIS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------
 
 NextGIS Connect module allows you to import:
 
@@ -169,7 +195,7 @@ Imported resources will be added to a group selected in NextGIS Connect panel. I
 .. _ng_connect_export:
 
 Exporting data from Web GIS to QGIS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------
 
 .. figure:: _static/add_to_qgis.png
    :align: center
@@ -222,7 +248,7 @@ More info `here <https://docs.nextgiscom/docs_ngcom/source/ngqgis_connect.html#c
 .. _ng_connect_res_group:
 
 Other operations
-----------------
+=================
 
 This block of operations is located in the top menu of the NextGIS Connect.
 
@@ -248,28 +274,4 @@ Option is available if web map (NGW Web Map) |resource_webmap|  is selected in N
 
 "Delete" a resource permanently deletes the selected geodata.
 
-
-Context Menu
------------------------
-Context menu may differ depending on resource type.
-
-.. figure:: _static/context_menu.png
-   :align: center
-
-Common options:
-
--	Open in WebGIS – open page with selected resource in Web GIS;
-
--	Rename – rename resource;
-
--	Delete – delete resource.
-
-
-Variable options – depend on resource type:
-
--	Add to QGIS – option is described above;
-
--	Create Web Map – available for resources: Vector layer, Vector layer style, Raster layer;
-
--	Download as QML – available only for QGIS vector layer style.
 
