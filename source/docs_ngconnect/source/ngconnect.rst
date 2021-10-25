@@ -1,7 +1,7 @@
 .. sectionauthor:: Екатерина Петруненко <ekaterina.petrunenko@nextgis.com>
 .. sectionauthor:: Роман Гайнуллов <roman.gainullov@nextgis.com>
 
-.. _ng_connect_overview :
+.. _ng_connect_overview:
     
 Overview 
 =========
@@ -58,8 +58,11 @@ The following types of resources are available for data exchange and operation:
 - |resource_group| - Resource group (NGW Web Map)
 
 
+.. _ng_connect_cont_menu:
+
 Context Menu
 -------------
+
 Context menu may differ depending on resource type.
 
 .. figure:: _static/context_menu.png
@@ -159,8 +162,7 @@ Main Settings
 5. Add WFS layer to QGIS on WFS service creation – after creation of WFS service in Web GIS it will be automatically added to QGIS as a layer.
 
 
-
-.. _ng_connect_data_imp_exp:
+.. _ng_connect_data_transfer:
 
 Data transfer
 =============
