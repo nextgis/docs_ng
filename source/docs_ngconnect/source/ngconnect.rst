@@ -160,7 +160,7 @@ https://my.nextgis.com/webgis
 .. _ng_connect_main_settings:
 
 Основные настройки
-~~~~~~~~~~~~~~~~~~
+--------------------
 
 .. figure:: _static/nextgis_connect/settings.png
    :align: center
