@@ -18,7 +18,6 @@ With NextGIS Connect you can:
 6.	Create resource groups and delete any resources.
 
 
-
 .. important::
 	If you plan to share large data through NextGIS Connect, you might need to configure QGIS timeouts for network requests. This setting is in the menu section **Settings** -> **Options** -> **Network** -> Timeout for network requests (ms). The recommended value is **300,000**, it can be increased if necessary.
 
@@ -60,7 +59,7 @@ The following types of resources are available for data exchange and operation:
 
 
 Context Menu
------------------------
+-------------
 Context menu may differ depending on resource type.
 
 .. figure:: _static/context_menu.png
@@ -113,10 +112,10 @@ If no connection is set at the moment, corresponding message will be shown.
    :align: center
    
    
-.. _ng_connect_set_connection:
+.. _ng_connect_new_connection:
 
-Create a Connection
--------------------
+New Connection
+--------------
 
 To create a connection you need to know an address of a target Web GIS. For instance, if you’ve created your own Web GIS, its address can be found on https://my.nextgis.com/webgis page. 
 
@@ -264,14 +263,7 @@ The "update" operation will update the entire Web GIS resource tree to the curre
    :align: center
 
 
-Option is available if web map (NGW Web Map) |resource_webmap|  is selected in NextGIS Connect resource tree. Map will be opened in a new tab of default browser.
-
-.. |resource_webmap| image:: _static/resource_webmap.png
-
-.. figure:: _static/nextgis_connect/open_webmap.png
-   :align: center
+Option is available if web map (NGW Web Map) is selected in NextGIS Connect resource tree. Map will be opened in a new tab of default browser.
 
 
 "Delete" a resource permanently deletes the selected geodata.
-
-
