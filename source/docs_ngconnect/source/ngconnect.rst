@@ -1,10 +1,10 @@
 .. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
 .. sectionauthor:: Роман Гайнуллов <roman.gainullov@nextgis.ru>
 
-.. _ng_connect:
+.. _ng_connect_overview:
     
-NextGIS Connect
-===============
+Обзор
+=====
 
 С помощью данного модуля расширения пользователь QGIS получает возможность обмениваться 
 ресурсами с Веб ГИС или NextGIS Web (далее будет использоваться только термин "Веб ГИС") непосредственно из интерфейса QGIS.
@@ -27,10 +27,69 @@ NextGIS Connect
    Здесь пользователь может столкнуться с задачей, когда нужно изменить стилевые настройки слоя, не потеряв при этом фотографии. Порядок действий в данном случае следующий:
 
 
+.. _ng_connect_types:
+
+Типы ресурсов 
+--------------
+
+Для обмена данными и работы доступны следующие типы ресурсов:
+
+.. |resource_vector_point| image:: _static/nextgis_connect/vector_layer_point.png
+.. |resource_vector_mpoint| image:: _static/nextgis_connect/vector_layer_mpoint.png
+.. |resource_vector_line| image:: _static/nextgis_connect/vector_layer_line.png
+.. |resource_vector_mline| image:: _static/nextgis_connect/vector_layer_mline.png
+.. |resource_vector_polygon| image:: _static/nextgis_connect/vector_layer_polygon.png
+.. |resource_vector_mpolygon| image:: _static/nextgis_connect/vector_layer_mpolygon.png
+.. |resource_wfs| image:: _static/nextgis_connect/resource_wfs.png
+.. |resource_wms| image:: _static/nextgis_connect/resource_wms.png
+.. |resource_style| image:: _static/nextgis_connect/resource_style.png
+.. |resource_webmap| image:: _static/nextgis_connect/resource_webmap.png
+.. |resource_group| image:: _static/nextgis_connect/resource_group.png
+- |resource_vector_point| - Точечный векторный слой (NGW Vector Layer)
+- |resource_vector_mpoint| - Мультиточечный векторный слой (NGW Vector Layer)
+- |resource_vector_line| - Линейный векторный слой (NGW Vector Layer)
+- |resource_vector_line| - Мультилинейный векторный слой (NGW Vector Layer)
+- |resource_vector_polygon| - Полигональный векторный слой (NGW Vector Layer)
+- |resource_vector_mpolygon| - Мультиполигональный векторный слой (NGW Vector Layer)
+- |resource_style| - Стиль векторного слоя. QGIS стиль помечается префиксом "(qgis)", стиль MapServer - "(ms)"
+- |resource_wfs| - WFS Сервис (NGW WFS Service)
+- |resource_wms| - WMS Сервис (NGW WMS Service)
+- |resource_webmap| - Веб карта (NGW Web Map)
+- |resource_group| - Группа ресурсов (NGW Web Map)
+
+.. _ng_connect_cont_menu:
+
+Контекстное меню
+-----------------------
+Контекстное меню может отличаться у различных ресурсов. 
+
+.. figure:: _static/nextgis_connect/context_menu.png
+   :align: center
+   :alt: Контекстное меню qgis стиля векторного слоя
+
+Общедоступные операции:
+
+- Открыть в ВебГИС - открывать страницу выбранного ресурса в Веб ГИС;
+
+- Переименовать - переименовать ресурс;
+
+- Удалить - удалить ресурс.
+
+
+Опциональные - зависит от типа ресурса:
+
+- Добавить в QGIS - операция описана выше;
+
+- Создать Веб Карту - доступен только для ресурсов: Векторный слой и Стиль Векторного слоя;
+
+- Загрузить как QML - доступен только для ресурса QGIS Стиль Векторного слоя.
+
+
+
 .. _ng_connect_install:
 
-Установка модуля
-------------------
+Установка
+=========
 
 В ПО `NextGIS QGIS <http://nextgis.ru/nextgis-qgis/>`_ модуль NextGIS Connect уже установлен по умолчанию, и вы можете сразу начинать работу. При необходимости проверить/обновить версию модуля можно в разделе меню **Модули -> Управление модулями -> NextGIS Connect**. Модуль также доступен и через официальный репозиторий плагинов 
 QGIS, так что возможно начать работу с ним и если у вас другая сборка ПО.
@@ -39,7 +98,7 @@ QGIS, так что возможно начать работу с ним и ес
 .. _ng_connect_connection:
 
 Создание и настройка подключения
---------------------------------
+==================================
 
 После установки модуля на панели инструментов появится иконка: 
 
@@ -61,10 +120,10 @@ QGIS, так что возможно начать работу с ним и ес
    :alt: Панель модуля расширения NextGIS Connect при отсутствии подключения
 
 
-.. _ng_connect_set_connection:
+.. _ng_connect_new_connection:
 
 Создание подключения
-~~~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 Для создания подключения вам необходимо знать адрес вашей Веб ГИС.
 Например, если вы создали свою Веб ГИС, ее адрес вы можете узнать на странице:
@@ -120,48 +179,17 @@ https://my.nextgis.com/webgis
 операций, в ходе которых была создана веб карта, она будет открыта в браузере автоматически.
 
 
-.. _ng_connect_types:
-
-Типы ресурсов 
---------------
-
-Для обмена данными и работы доступны следующие типы ресурсов:
-
-.. |resource_vector_point| image:: _static/nextgis_connect/vector_layer_point.png
-.. |resource_vector_mpoint| image:: _static/nextgis_connect/vector_layer_mpoint.png
-.. |resource_vector_line| image:: _static/nextgis_connect/vector_layer_line.png
-.. |resource_vector_mline| image:: _static/nextgis_connect/vector_layer_mline.png
-.. |resource_vector_polygon| image:: _static/nextgis_connect/vector_layer_polygon.png
-.. |resource_vector_mpolygon| image:: _static/nextgis_connect/vector_layer_mpolygon.png
-.. |resource_wfs| image:: _static/nextgis_connect/resource_wfs.png
-.. |resource_wms| image:: _static/nextgis_connect/resource_wms.png
-.. |resource_style| image:: _static/nextgis_connect/resource_style.png
-.. |resource_webmap| image:: _static/nextgis_connect/resource_webmap.png
-.. |resource_group| image:: _static/nextgis_connect/resource_group.png
-- |resource_vector_point| - Точечный векторный слой (NGW Vector Layer)
-- |resource_vector_mpoint| - Мультиточечный векторный слой (NGW Vector Layer)
-- |resource_vector_line| - Линейный векторный слой (NGW Vector Layer)
-- |resource_vector_line| - Мультилинейный векторный слой (NGW Vector Layer)
-- |resource_vector_polygon| - Полигональный векторный слой (NGW Vector Layer)
-- |resource_vector_mpolygon| - Мультиполигональный векторный слой (NGW Vector Layer)
-- |resource_style| - Стиль векторного слоя. QGIS стиль помечается префиксом "(qgis)", стиль MapServer - "(ms)"
-- |resource_wfs| - WFS Сервис (NGW WFS Service)
-- |resource_wms| - WMS Сервис (NGW WMS Service)
-- |resource_webmap| - Веб карта (NGW Web Map)
-- |resource_group| - Группа ресурсов (NGW Web Map)
-
-
-.. _ng_connect_data_imp_exp:
+.. _ng_connect_data_transfer:
 
 Обмен данными
------------------------------------
+==============
 
 Модуль NextGIS Connect позволяет обмениваться геоданными между QGIS и Веб ГИС в обоих направлениях, но со своими особенностями.
 
 .. _ng_connect_import:
 
 Импорт данных в Веб ГИС из QGIS 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 Модуль NextGIS Connect позволяет импортировать:
 
@@ -190,7 +218,7 @@ https://my.nextgis.com/webgis
 .. _ng_connect_export:
 
 Экспорт данных из Веб ГИС в QGIS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------
 
 .. figure:: _static/nextgis_connect/add_to_qgis.png
    :align: center
@@ -243,7 +271,7 @@ https://my.nextgis.com/webgis
 .. _ng_connect_res_group:
 
 Другие операции
-----------------
+=================
 
 Этот блок операций расположен в верхнем меню модуля NextGIS Connect.
 
@@ -277,32 +305,4 @@ https://my.nextgis.com/webgis
 то она откроется в новой вкладке браузера.
 
 .. |resource_webmap| image:: _static/nextgis_connect/resource_webmap.png
-
-
-.. _ng_connect_cont_menu:
-
-Контекстное меню
------------------------
-Контекстное меню может отличаться у различных ресурсов. 
-
-.. figure:: _static/nextgis_connect/context_menu.png
-   :align: center
-   :alt: Контекстное меню qgis стиля векторного слоя
-
-Общедоступные операции:
-
-- Открыть в ВебГИС - открывать страницу выбранного ресурса в Веб ГИС;
-
-- Переименовать - переименовать ресурс;
-
-- Удалить - удалить ресурс.
-
-
-Опциональные - зависит от типа ресурса:
-
-- Добавить в QGIS - операция описана выше;
-
-- Создать Веб Карту - доступен только для ресурсов: Векторный слой и Стиль Векторного слоя;
-
-- Загрузить как QML - доступен только для ресурса QGIS Стиль Векторного слоя.
 
