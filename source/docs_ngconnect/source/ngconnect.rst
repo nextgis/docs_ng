@@ -169,8 +169,8 @@ NextGIS Connect module allows you to share geodata between QGIS and Web GIS in b
 
 .. _ng_connect_import:
 
-Importing data into Web GIS from QGIS
-------------------------------------
+From QGIS to Web GIS 
+---------------------
 
 NextGIS Connect module allows you to import:
 
@@ -193,8 +193,8 @@ Imported resources will be added to a group selected in NextGIS Connect panel. I
 
 .. _ng_connect_export:
 
-Exporting data from Web GIS to QGIS
-------------------------------------
+From Web GIS to QGIS
+----------------------
 
 .. figure:: _static/add_to_qgis.png
    :align: center
@@ -233,11 +233,10 @@ Select two vector layers: in resource tree and in QGIS Layer Panel. This operati
 More info about updating `data <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#updating-data>`_ and `styles <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#updating-style>`_.
 
 
-
 .. _ng_connect_wfs_wms:
 
-Publishing data by WMS/WFS protocols
--------------------------------------
+Manage WMS/WFS services
+------------------------
 
 NextGIS Connect module allows publishing vector data using standard protocols :term:`WFS` and :term:`WMS`.
 To do this, in the context menu of the required layer select the appropriate operation.
