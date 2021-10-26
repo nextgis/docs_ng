@@ -242,7 +242,7 @@ Manage WMS/WFS services
 
 NextGIS Connect module allows publishing vector data using standard protocols :term:`WFS` and :term:`WMS`.
 To do this, in the context menu of the required layer select the appropriate operation.
-More info `here <https://docs.nextgiscom/docs_ngcom/source/ngqgis_connect.html#creating-wfs-and-wfs-services>`_.
+More info `here <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#creating-wfs-and-wfs-services>`_.
 
 
 .. _ng_connect_res_group:
