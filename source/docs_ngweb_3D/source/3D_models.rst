@@ -14,7 +14,7 @@ Uploading 3D Models
 .. _ngw_3D_model_formats:
 
 **What formats are supported**.
-You can upload 3D models in formats rbx and glb.
+You can upload 3D models in formats FBX and GLB.
 
 .. _ngw_3D_model_how_upload:
 
