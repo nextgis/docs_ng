@@ -1,7 +1,7 @@
 .. sectionauthor:: Ekaterina Petrunenko <ekaterina.petrunenko@nextgis.com>
 
-Просмотр лесосек
-====================
+Просмотр и редактирование лесосек
+======================================
 
 
 .. _les_view_lesoseki_table:
