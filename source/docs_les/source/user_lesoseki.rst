@@ -7,3 +7,4 @@
 
    user_lesoseki_create
    user_lesoseki_view
+   user_lesoseki_navigation
