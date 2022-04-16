@@ -11,5 +11,6 @@
    user_forestdecl
    user_priloj3
    user_priloj4
+   user_decl
    user_otchet
    user_fire
