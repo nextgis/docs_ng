@@ -167,8 +167,11 @@ Glossary
      
    GML
    Geographic Markup Language
-     The XML grammar defined by the Open Geospatial Consortium (`OGC <https://www.ogc.org/standards/gml>`_) to express geographical features
+     The XML grammar defined by the Open Geospatial Consortium (`OGC <https://www.ogc.org/standards/gml>`_) to express geographical features.
    
    KML
    Keyhole Markup Language
      The file `format <https://www.ogc.org/standards/kml/>`_ used to display geographic data in an Earth browser such as Google Earth. 
+
+   GeoPackage
+     Open, standards-based, platform-independent, portable, self-describing, compact format for transferring geospatial information.
