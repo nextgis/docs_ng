@@ -67,6 +67,7 @@ Glossary
      of geodata in a database. PostGIS has a support for spatial 
      indexes R-Tree/GiST and geodata processing functions.
      
+   ESRI Shapefile
    ESRI Shape
    Shapefile
      Popular format for geodata files. Is developed and  
