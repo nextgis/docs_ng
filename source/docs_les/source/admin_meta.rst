@@ -28,3 +28,180 @@
 Здесь для любого параметра можно изменить информацию в колонке "Значения". Описания параметров и их значения по умолчанию приведены ниже:
 
 
+.. list-table:: Конфигурация метаданных
+   :widths: 25 25 50 50
+   :header-rows: 1
+
+   * - Ключ
+     - Тип
+     - Значение по умолчанию
+     - Описание
+   * - app
+     - text
+     - ngles
+     - Уникальный код приложения "NextGIS Лес"
+   * - title
+     - text
+     - NextGIS Лес
+     - Заголовок приложения
+   * - qmsId
+     - integer
+     - 465
+     - QMS сервис, который будет использоваться для карт без подложек
+   * - setViewDelay
+     - integer
+     - 500
+     - Задержка загрузки тайлов при изменении положения карты (опция оптимизации). В миллисекундах
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4  
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4  
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+      * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4  
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4  
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+      * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4  
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4  
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+      * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4  
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4  
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4 * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4  
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4  
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4 * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4  
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4  
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+      * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4  
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4  
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+      * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4  
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4  
+   * - Row 2, column 1
+     - Row 2, column 2
+     - Row 2, column 3
+     - Row 1, column 4
+     
+     
+     
