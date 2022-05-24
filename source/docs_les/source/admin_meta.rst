@@ -28,40 +28,37 @@
 Здесь для любого параметра можно изменить информацию в колонке "Значения". Описания параметров и их значения по умолчанию приведены ниже:
 
 
-+------------+------------+-----------+
-| Header 1   | Header 2   | Header 3  |
-+============+============+===========+
-| body row 1 | column 2   | column 3  |
-+------------+------------+-----------+
-| body row 2 | Cells may span columns.|
-+------------+------------+-----------+
-| body row 3 | Cells may  | - Cells   |
-+------------+ span rows. | - contain |
-| body row 4 |            | - blocks. |
-+------------+------------+-----------+
++------------+------------+-----------+-----------+
+| Ключ   | Тип   | Значение по умолчанию  | Описание  |
++============+============+===========+===========+
+| app | text  | ngles  | Уникальный код приложения "NextGIS Лес" |
++------------+------------+-----------+-----------+
+| title | text   |   NextGIS Лес| Заголовок приложения  |
++------------+------------+-----------+-----------+
+| qmsId | integer  | 465 | QMS сервис, который будет использоваться для карт без подложек |
++------------+------------+-----------+-----------+
+| body row 2 | Cells may  |   columns.| column 3  |
++------------+------------+-----------+-----------+
+| body row 1 | column 2   | column 3  | column 3  |
++------------+------------+-----------+-----------+
+| body row 2 | Cells may  |   columns.| column 3  |
++------------+------------+-----------+-----------+
+| body row 1 | column 2   | column 3  | column 3  |
++------------+------------+-----------+-----------+
+| body row 2 | Cells may  |   columns.| column 3  |
++------------+------------+-----------+-----------+
+| body row 1 | column 2   | column 3  | column 3  |
++------------+------------+-----------+-----------+
+| body row 2 | Cells may  |   columns.| column 3  |
++------------+------------+-----------+-----------+
+| body row 1 | column 2   | column 3  | column 3  |
++------------+------------+-----------+-----------+
+| body row 2 | Cells may  |   columns.| column 3  |
++------------+------------+-----------+-----------+
 
 
 
-.. list-table:: Конфигурация метаданных
-   :widths: 25 25 50 50
-   :header-rows: 1
 
-   * - Ключ
-     - Тип
-     - Значение по умолчанию
-     - Описание
-   * - app
-     - text
-     - ngles
-     - Уникальный код приложения "NextGIS Лес"
-   * - title
-     - text
-     - NextGIS Лес
-     - Заголовок приложения
-   * - qmsId
-     - integer
-     - 465
-     - QMS сервис, который будет использоваться для карт без подложек
    * - setViewDelay
      - integer
      - 500
@@ -150,74 +147,7 @@
      - text
      - nglesannex3webmap
      - keyname ресурса
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4  
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4 
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4  
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4  
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-      * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4  
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4  
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-      * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4  
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4  
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
+  
      
      
      
