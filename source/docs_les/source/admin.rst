@@ -12,3 +12,4 @@
    admin_otchet
    admin_fires
    admin_obzor
+   admin_meta
