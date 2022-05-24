@@ -28,7 +28,7 @@
 Здесь для любого параметра можно изменить информацию в колонке "Значения". Описания параметров и их значения по умолчанию приведены ниже:
 
 
- .. list-table:: Конфигурация метаданных
+.. list-table:: Конфигурация метаданных
    :widths: 25 25 50 50
    :header-rows: 1
 
@@ -64,14 +64,78 @@
      - text
      - KV,YEAR_DEV,SENDER_NAM,TYPE_RUB,FARM
      - Поля фильтра на странице карты
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
+   * - components.nep.enabled
+     - text
+     - TRUE
+     - Активировать компонент
+   * - components.nep.filterFields
+     - text
+     - NEP_NAME,NEP_CAT
+     - Поля фильтра на странице карты
+   * - components.infra.enabled
+     - text
+     - TRUE
+     - Активировать компонент  
+   * - components.infra.filterFields
+     - text
+     - KV,SENDER_NAM,FARM
+     - Поля фильтра на странице карты
+   * - components.annex3.enabled
+     - text
+     - TRUE
+     - Активировать компонент
+   * - components.annex4.enabled
+     - text
+     - TRUE
+     - Активировать компонент
+   * - components.reports.enabled
+     - text
+     - TRUE
+     - Активировать компонент
+   * - components.fires.enabled
+     - text
+     - TRUE
+     - Активировать компонент  
+   * - components.fires.viirsResource
+     - integer
+     - 
+     - ID ресурса, в который загружаются хотспоты VIIRS 
+   * - components.fires.modisResource
+     - integer
+     - 
+     - ID ресурса, в который загружаются хотспоты MODIS
+   * - resources.firewebmap
+     - text
+     - 
+     - ID ресурса вебкарты для карты пожаров
+   * - components.plot-selec.enabled
+     - text
+     - FALSE
+     - Активировать компонент
+   * - components.overview.enabled
+     - text
+     - TRUE
+     - Активировать компонент  
+   * - components.download-and-prepare-l8-s2.enabled
+     - text
+     - TRUE
+     - Активировать компонент 
+   * - components.explication2poly.enabled
+     - text
+     - FALSE
+     - Активировать компонент 
+   * - components.poly2explication.enabled
+     - text
+     - FALSE
+     - Активировать компонент
+   * - resources.space
+     - text
+     - nglesspace
+     - keyname ресурса
+   * - resources.annex3webmap
+     - text
+     - nglesannex3webmap
+     - keyname ресурса
    * - Row 2, column 1
      - Row 2, column 2
      - Row 2, column 3
@@ -79,70 +143,8 @@
    * - Row 2, column 1
      - Row 2, column 2
      - Row 2, column 3
-     - Row 1, column 4  
+     - Row 1, column 4 
    * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-      * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4  
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4  
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-      * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4  
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4  
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4 * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4  
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4  
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4 * - Row 2, column 1
      - Row 2, column 2
      - Row 2, column 3
      - Row 1, column 4
