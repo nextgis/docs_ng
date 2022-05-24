@@ -52,19 +52,19 @@
      - integer
      - 500
      - Задержка загрузки тайлов при изменении положения карты (опция оптимизации). В миллисекундах
+   * - lookupTableResourceGroup
+     - integer
+     - 
+     - ID группового ресурса Веб ГИС, в котором хранятся списки алиасов полей  
+   * - components.plot.enabled
+     - text
+     - TRUE
+     - Активировать компонент 
+   * - components.plot.filterFields
+     - text
+     - KV,YEAR_DEV,SENDER_NAM,TYPE_RUB,FARM
+     - Поля фильтра на странице карты
    * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4  
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4  
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
-     - Row 1, column 4
-      * - Row 2, column 1
      - Row 2, column 2
      - Row 2, column 3
      - Row 1, column 4
