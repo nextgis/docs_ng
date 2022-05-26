@@ -5,7 +5,7 @@
 Basemap tiles services
 ========================
 
-`NextGIS Geoservices <https://my.nextgis.com>`_ allows you to add vector and raster maps with GL styles:
+`NextGIS Geoservices <https://geoservices.nextgis.com/>`_ allows you to add vector and raster maps with GL styles:
 
 1. Klokantech 3D
 2. Klokantech Basic
