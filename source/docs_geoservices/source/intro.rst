@@ -6,4 +6,4 @@
 Introduction
 ============
 
-`NextGIS Geoservices <https://my.nextgis.com>`_ is a growing collection of pluggable basic spatial data services.
+`NextGIS Geoservices <https://geoservices.nextgis.com/>`_ is a growing collection of pluggable basic spatial data services.
