@@ -16,6 +16,7 @@ import sys
 import os
 import shlex
 import sphinx_rtd_theme
+from datetime import date
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -64,7 +65,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'NextGIS'
-copyright = u'2011-2020, NextGIS'
+copyright = u'2011-{}, NextGIS'.format(date.today().year)
 author = u'Команда NextGIS'
 
 # The version info for the project you're documenting, acts as replacement for
