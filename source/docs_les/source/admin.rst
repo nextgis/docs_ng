@@ -7,6 +7,7 @@
    admin_start
    admin_lesoseki
    admin_infra
+   admin_nep
    admin_priloj3and4
    admin_decl
    admin_otchet
