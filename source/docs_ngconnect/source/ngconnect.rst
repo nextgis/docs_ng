@@ -26,6 +26,18 @@ With NextGIS Connect you can:
 
    **Photos** made via NextGIS Collector/Mobile apps and uploaded to Web GIS as attachments to layers **wouldn’t be available** in desktop NextGIS QGIS after downloading these layers through NextGIS Connect plugin.
 
+To **keep the photos** intact while modifying the style, perform the following steps:
+
+1. Add the layer's style from Web GIS to QGIS using NextGIS Connect.
+2. Modify the style.
+3. Update the style using NextGIS Connect.
+
+.. figure:: _static/ngconnect_modify_keep_photo_en.png
+   :align: center
+   :width: 20cm   
+   
+   Updating a style
+
 
 .. _ng_connect_types:
 
@@ -135,7 +147,7 @@ In pop-up window press on “New” and fill in the fields:
 1.	URL – address of a target Web GIS.
 2.	Name – connection id, how it will be shown in the list of connections.
 
-If you want to perform actions that need special permission, uncheck box next to **As guest** and fill in *Login* and *Password* fields. For example, unauthorized users usually can’t create or delete resources.
+If you want to perform actions that need special permission, uncheck box next to **As guest** and fill in *Login* and *Password* fields with your NextGIS ID credentials. For example, unauthorized users usually can’t create or delete resources. These actions are only available for the owner of the Web GIS and users added to its `team <https://docs.nextgis.com/docs_ngcom/source/create.html#team-management>`_.
 
 .. figure:: _static/connection_settings.png
    :align: center
