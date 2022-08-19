@@ -64,29 +64,26 @@
 Специализированные решения
 **************************
 
-13. :doc:`Документация по NextGIS Bio </docs_ngbio/source/toc>`
-14. :doc:`Документация по NextGIS Портал открытых геоданных </docs_ogportal/source/toc>`
-15. :doc:`Документация по NextGIS Лесной инспектор </docs_forestinspector/source/toc>`
-16. :doc:`Документация NextGIS Лес </docs_les/source/toc>`
+13. :doc:`Документация NextGIS Лес </docs_les/source/toc>`
 
 *******************************
 Документация для разработчиков
 *******************************
 
-17. :doc:`Документация по NextGIS Web </docs_ngweb_dev/doc/toc>`
-18. :doc:`Документация по NextGIS Mobile </ngmobile_dev/toc>`
-19. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
-20. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder_dev/doc/toc>`
-21. :doc:`Документация по NextGIS Tracker </tracker_hub_dev/main>`
-22. :doc:`Документация по NextGIS Docker </docs_ngwdocker/doc/index>`
+14. :doc:`Документация по NextGIS Web </docs_ngweb_dev/doc/toc>`
+15. :doc:`Документация по NextGIS Mobile </ngmobile_dev/toc>`
+16. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
+17. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder_dev/doc/toc>`
+18. :doc:`Документация по NextGIS Tracker </tracker_hub_dev/main>`
+19. :doc:`Документация по NextGIS Docker </docs_ngwdocker/doc/index>`
 
 *************
 Дополнительно
 *************
 
-23. :doc:`Описание применения ПО NextGIS </docs_howto/source/toc>`
-24. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
-25. :doc:`Словарь <glossary>`
+20. :doc:`Описание применения ПО NextGIS </docs_howto/source/toc>`
+21. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
+22. :doc:`Словарь <glossary>`
 
 ******************
 Документация в pdf
