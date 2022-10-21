@@ -56,7 +56,7 @@ On the third tab the user can add metadata to the 3D model resource (:numref:`ng
 
    Metadata resource tab
 
-On the fourth tab you need to upload a 3D model file in rbx or glb format from your computer (:numref:`ngw3D_metadata_3D_model`).
+On the fourth tab you need to upload a 3D model file in FBX or GLB format from your computer (:numref:`ngw3D_metadata_3D_model`).
 
 .. figure:: _static/ngw3D_file_3D_model_en.png
    :name: ngw3D_file_3D_model
