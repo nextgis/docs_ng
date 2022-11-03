@@ -49,7 +49,7 @@
 Учетные данные
 ~~~~~~~~~~~~~~
 
-Проверьте учетные данные при создании подключения к Веб ГИС (URL, логин и пароль пользователя). формат URL - https://demo.nextgis.com. Если забыли пароль, инструкции по восстановлению `здесь <https://docs.nextgis.ru/docs_ngcom/source/faq_webgis.html#ngcom-change-passwords-webgis>`_.
+Проверьте учетные данные при создании подключения к Веб ГИС (URL, логин и пароль пользователя). Формат URL - https://demo.nextgis.com. Если забыли пароль, инструкции по восстановлению `здесь <https://docs.nextgis.ru/docs_ngcom/source/faq_webgis.html#ngcom-change-passwords-webgis>`_.
 
 
 .. _rasters:
