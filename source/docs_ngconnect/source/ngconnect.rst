@@ -108,15 +108,15 @@ Connect plugin is a part of `NextGIS QGIS <http://nextgis.com/nextgis-qgis/>`_ d
 
 .. _ng_connect_connection:
 
-Set up connection
-=================
+Сonnecting to your Web GIS
+==========================
 
 When plugin is installed its icon appears in a toolbar:
 
 .. figure:: _static/logo.png
    :align: center
 
-Clicking on the icon calls NextGIS Connect panel.
+Click on the icon to open NextGIS Connect panel.
 
 .. figure:: _static/panel.png
    :align: center
@@ -129,10 +129,10 @@ If no connection is set at the moment, corresponding message will be shown.
    
 .. _ng_connect_new_connection:
 
-New Connection
---------------
+Create a connection
+-------------------
 
-To create a connection you need to know an address of a target Web GIS. For instance, if you’ve created your own Web GIS, its address can be found on https://my.nextgis.com/webgis page. 
+To create a connection you need to know the address of your Web GIS. The address for your own Web GIS can be found at https://my.nextgis.com/webgis. 
 
 .. figure:: _static/my_nextgis.png
    :align: center
