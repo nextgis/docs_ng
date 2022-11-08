@@ -10,3 +10,4 @@ NextGIS Connect for QGIS documentation
 
    intro
    ngconnect
+   troubleshooting
