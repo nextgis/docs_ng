@@ -16,6 +16,7 @@
    /docs_ngweb_3D/source/toc
    /docs_ngqgis/source/toc
    /docs_ngconnect/source/toc
+   /docs_rosreestr_tools/toc
    /docs_ngmobile/source/toc
    /docs_formbuilder/source/toc
    /docs_collector/source/toc
@@ -58,32 +59,33 @@
 9. :doc:`Документация по NextGIS Collector (мобильное приложение) </docs_collector/source/toc>`
 10. :doc:`Документация по NextGIS ID </docs_ngid/source/toc>`
 11. :doc:`Документация по NextGIS Connect </docs_ngconnect/source/toc>`
-12. :doc:`Документация по NextGIS Web 3D </docs_ngweb_3D/source/toc>`
+12.
+13. :doc:`Документация по NextGIS Web 3D </docs_ngweb_3D/source/toc>`
 
 **************************
 Специализированные решения
 **************************
 
-13. :doc:`Документация NextGIS Лес </docs_les/source/toc>`
+14. :doc:`Документация NextGIS Лес </docs_les/source/toc>`
 
 *******************************
 Документация для разработчиков
 *******************************
 
-14. :doc:`Документация по NextGIS Web </docs_ngweb_dev/doc/toc>`
-15. :doc:`Документация по NextGIS Mobile </ngmobile_dev/toc>`
-16. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
-17. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder_dev/doc/toc>`
-18. :doc:`Документация по NextGIS Tracker </tracker_hub_dev/main>`
-19. :doc:`Документация по NextGIS Docker </docs_ngwdocker/doc/index>`
+15. :doc:`Документация по NextGIS Web </docs_ngweb_dev/doc/toc>`
+16. :doc:`Документация по NextGIS Mobile </ngmobile_dev/toc>`
+17. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
+18. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder_dev/doc/toc>`
+19. :doc:`Документация по NextGIS Tracker </tracker_hub_dev/main>`
+20. :doc:`Документация по NextGIS Docker </docs_ngwdocker/doc/index>`
 
 *************
 Дополнительно
 *************
 
-20. :doc:`Описание применения ПО NextGIS </docs_howto/source/toc>`
-21. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
-22. :doc:`Словарь <glossary>`
+21. :doc:`Описание применения ПО NextGIS </docs_howto/source/toc>`
+22. :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
+23. :doc:`Словарь <glossary>`
 
 ******************
 Документация в pdf
