@@ -59,7 +59,7 @@
 9. :doc:`Документация по NextGIS Collector (мобильное приложение) </docs_collector/source/toc>`
 10. :doc:`Документация по NextGIS ID </docs_ngid/source/toc>`
 11. :doc:`Документация по NextGIS Connect </docs_ngconnect/source/toc>`
-12.
+12. :doc:`Документация по NGQ Rosreestr Tools </docs_rosreestr_tools/source//toc>`
 13. :doc:`Документация по NextGIS Web 3D </docs_ngweb_3D/source/toc>`
 
 **************************
