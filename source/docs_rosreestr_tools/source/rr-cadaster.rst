@@ -10,23 +10,24 @@
 
 Вторая иконка модуля **NGQ Rosreestr Tools** |icon_add_layers| позволяет добавлять различные слои данных Росреестра (см. :numref:`add_layers_pkk`) из публичной кадастровой карты (далее - ПКК):
 
-.. |icon_add_layers| image:: _static/icon_add_layers.png
+.. |icon_add_layers| image:: _static/icon_add_layers_ru.png
 
 * слой кадастровых кварталов, округа
 * слой земельных участков, ОКС (Объекты капитального строительства)
 * слой зон с особыми условиями использования
 
-.. figure:: _static/add_layers_pkk.png
+.. figure:: _static/add_layers_pkk_ru.png
    :name: add_layers_pkk
    :align: center
+   :width: 12cm
    
    Добавление слоёв из ПКК
 
 
-.. figure:: _static/pkk_on_map.png
+.. figure:: _static/pkk_on_map_ru.png
    :name: pkk_on_map
    :align: center
-   :width: 16cm
+   :width: 20cm
    
    Слой кадастровых кварталов на карте
 
@@ -40,14 +41,16 @@
 * кадастровым кварталам
 * земельным участкам
 * объектам капитального строительства (ОКС)
-* кадастровым округам
 * зонам с особыми условиями использования территорий (ЗОУИТ)
+* кадастровым округам
 
-.. |identificaion_oicon| image:: _static/identificaion_oicon.png
 
-.. figure:: _static/identificaion_objects.png
+.. |identificaion_oicon| image:: _static/identificaion_oicon_ru.png
+
+.. figure:: _static/identificaion_objects_ru.png
    :name: identificaion_objects
    :align: center
+   :width: 14cm
    
    Идентификация объектов Росреестра
    
@@ -82,7 +85,7 @@
 
 Иконка панели поиска |search_icon| позволяет находить объекты из базы данных Росреестра (см. :numref:`search_object`) по кадастровому номеру.
 
-.. |search_icon| image:: _static/search_icon.png
+.. |search_icon| image:: _static/search_icon_ru.png
 
 .. figure:: _static/search_object.png
    :name: search_object
