@@ -16,7 +16,7 @@
    /docs_ngweb_3D/source/toc
    /docs_ngqgis/source/toc
    /docs_ngconnect/source/toc
-   /docs_rosreestr_tools/toc
+   /docs_rosreestr_tools/source/toc
    /docs_ngmobile/source/toc
    /docs_formbuilder/source/toc
    /docs_collector/source/toc
