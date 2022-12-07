@@ -54,19 +54,19 @@
    
    Идентификация объектов Росреестра
    
-.. figure:: _static/objects_on_map.png
+.. figure:: _static/objects_on_map_ru.png
    :name: object_on_map
    :align: center
-   :width: 16cm
+   :width: 20cm
    
    Отображение карточки найденного объекта (ОКС) и подсветка его контура
 
 Если в искомой точке слоя находится несколько объектов (ЗОУИТ например), то можно выбрать нужный из выпадающего списка. При идентификации объект можно сохранить в пользовательский векторный слой, а также создать специальный слой со структурой идентифицируемого объекта. Аналогично при поиске объектов: найденные объекты можно добавлять в пользовательские или специальные векторные слои (см. :numref:`ngq_identification`, :numref:`ngq_temp_layer`).
 
-.. figure:: _static/ngq_identification.png
+.. figure:: _static/ngq_identification_ru.png
    :name: ngq_identification
    :align: center
-   :width: 16cm
+   :width: 20cm
    
    Доступные опции при идентификации объекта
    
@@ -87,10 +87,10 @@
 
 .. |search_icon| image:: _static/search_icon_ru.png
 
-.. figure:: _static/search_object.png
+.. figure:: _static/search_object_ru.png
    :name: search_object
    :align: center
-   :width: 16cm
+   :width: 20cm
    
    Отображение карточки найденного объекта и подсветка его контура
 
