@@ -71,12 +71,19 @@
    Доступные опции при идентификации объекта
    
    
-.. figure:: _static/ngq_temp_layer.png
+.. figure:: _static/ngq_temp_layer_ru.png
    :name: ngq_temp_layer
    :align: center
-   :width: 16cm
+   :width: 20cm
    
    Добавление объекта во временный пользовательский слой
+   
+.. figure:: _static/ngq_temp_layer_attributes_ru.png
+   :name: ngq_temp_layer_attributes
+   :align: center
+   :width: 20cm
+   
+   Объект во временном слое. 1 - временный слой, 2 - карточка информации об объекте, 3 - таблица атрибутов временного слоя, 4 - объект на карте.
    
 Также можно скопировать запись (строку), значение отдельного атрибута или всю карточку.  
 
