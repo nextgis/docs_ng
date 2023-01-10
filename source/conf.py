@@ -45,8 +45,8 @@ extensions = [
     'sphinxcontrib.httpdomain',
     'edit_on_github',
     # 'javasphinx',
-    'swift_domain',
-    'kotlin_domain',
+    #'swift_domain',
+    #'kotlin_domain',
     'sphinxcontrib.spelling',
 ]
 
