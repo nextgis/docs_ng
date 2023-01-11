@@ -47,7 +47,7 @@ extensions = [
     # 'javasphinx',
     #'swift_domain',
     #'kotlin_domain',
-    'sphinxcontrib.spelling',
+    #'sphinxcontrib.spelling',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
