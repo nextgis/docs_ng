@@ -45,7 +45,7 @@ extensions = [
     'edit_on_github',
     # 'javasphinx',
     #'swift_domain',
-    #'kotlin_domain',
+    'kotlin_domain',
     #'sphinxcontrib.spelling',
 ]
 
