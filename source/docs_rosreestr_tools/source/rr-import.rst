@@ -11,6 +11,7 @@
 * КПТ: `KPT_v10 <https://rosreestr.gov.ru/upload/Doc/10-upr/KPT_v10.zip>`_
 * КВЗУ: `KVZU_v07 <https://rosreestr.gov.ru/upload/Doc/10-upr/KVZU_v07.zip>`_
 * ОКС: `KVOKS_v03 <https://rosreestr.gov.ru/upload/Doc/10-upr/KVOKS_v03.zip>`_ 
+* Техплан сооружения: `TP_v06 <https://rosreestr.gov.ru/upload/Doc/10-upr/TP_v06_редакция_4_к10-0783.zip>`_ 
 * Выписка о характеристиках и права на земельный участок: `extract_base_params_land <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_base_params_land_v01.rar>`_ 
 * Выписка о земельном участке: `extract_about_property_land <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_about_property_land_v01.rar>`_ 
 * Выписка о ЗОУИТ: `extract_about_zone <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_about_zones_v01.rar>`_ 
