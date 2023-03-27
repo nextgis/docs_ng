@@ -30,7 +30,7 @@
 Чтобы подключить функциональность кадастровых сервисов для работы на веб-картах в NextGIS Web, воспользуйтесь `этой <https://docs.nextgis.ru/docs_ngweb/source/admin_tasks.html#nextgis-web-on-premise>`_ инструкцией.
 
 1. Создать глобальный аккаунт my.nextgis.com (если его еще нет);
-2. Сообщить через систему поддержки о создании аккаунта, запросить перевод на Premium;
+2. Сообщить письмом на support@nextgis.com о создании аккаунта, указать на какой email он зарегистрирован, запросить его перевод на Premium;
 3. Дождаться уведомления о переводе на Premium;
 4. Авторизоваться на geoservices.nextgis.com (облачный аккаунт NextGIS ID, пункт 1);
 5. Перейти на вкладку `Rosreestr <https://geoservices.nextgis.com/pkk>`_ и скопировать `API ключ <https://docs.nextgis.ru/docs_geoservices/source/rosreestr_pkk.html#nggeos-pkk>`_;
