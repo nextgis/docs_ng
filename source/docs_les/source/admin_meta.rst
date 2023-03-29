@@ -100,37 +100,46 @@
 | | resources.space              | text    | | nglesspace              | | keyname группы ресурсов         |
 |                                |         |                           | | "Космосъемка для отчетов"       |
 +--------------------------------+---------+---------------------------+-----------------------------------+
-| | resources.annex3webmap       | text    | | nglesannex3webmap       | | keyname ресурса                 |
+| | resources.annex3webmap       | text    | | nglesannex3webmap       | | keyname веб-карты "Карта для    |
+|                                |         |                           | | приложения 3"                   |
 +--------------------------------+---------+---------------------------+-----------------------------------+
-| | resources.turnpoint          | text    | | nglesturnpoint          | | keyname ресурса                 |
+| | resources.turnpoint          | text    | | nglesturnpoint          | | keyname слоя "Точки привязки"   |
 +--------------------------------+---------+---------------------------+-----------------------------------+
-| | resources.nep                | text    | | nglesnep                | | keyname ресурса                 |
+| | resources.nep                | text    | | nglesnep                | | keyname слоя "НЭП"              |
 +--------------------------------+---------+---------------------------+-----------------------------------+
-| | resources.reportwebmap       | text    | | nglesreportwebmap       | | keyname ресурса                 |
+| | resources.reportwebmap       | text    | | nglesreportwebmap       | | keyname веб-карты "Карта для    |
+|                                |         |                           | | отчетов"                        |
 +--------------------------------+---------+---------------------------+-----------------------------------+
-| | resources.plotwebmap         | text    | | nglesplotwebmap         | | keyname ресурса                 |
+| | resources.plotwebmap         | text    | | nglesplotwebmap         | | keyname веб-карты "Карта для    |
+|                                |         |                           | | лесосек"                        |
 +--------------------------------+---------+---------------------------+-----------------------------------+
-| | resources.overviewmap        | text    | | nglesoverviewmap        | | keyname ресурса                 |
+| | resources.overviewmap        | text    | | nglesoverviewmap        | | keyname веб-карты "Обзорная     |
+|                                |         |                           | | карта"                          |
 +--------------------------------+---------+---------------------------+-----------------------------------+
-| | resources.annex3             | text    | | nglesannex3             | | keyname ресурса                 |
+| | resources.annex3             | text    | | nglesannex3             | | keyname слоя "Приложение 3"     |
 +--------------------------------+---------+---------------------------+-----------------------------------+
-| | resources.annex4             | text    | | nglesannex4             | | keyname ресурса                 |
+| | resources.annex4             | text    | | nglesannex4             | | keyname слоя "Приложение 4"     |
 +--------------------------------+---------+---------------------------+-----------------------------------+
-| | resources.plot               | text    | | nglesplot               | | keyname ресурса                 |
+| | resources.plot               | text    | | nglesplot               | | keyname слоя "Лесосеки"         |
 +--------------------------------+---------+---------------------------+-----------------------------------+
-| | resources.reports            | text    | | nglesreports            | | keyname ресурса                 |
+| | resources.reports            | text    | | nglesreports            | | keyname слоя "Отчеты"           |
 +--------------------------------+---------+---------------------------+-----------------------------------+
-| | resources.annex4webmap       | text    | | nglesannex4webmap       | | keyname ресурса                 |
+| | resources.annex4webmap       | text    | | nglesannex4webmap       | | keyname веб-карты "Карта для    |
+|                                |         |                           | | приложения 4"                   |
 +--------------------------------+---------+---------------------------+-----------------------------------+
-| | resources.nepturnpoint       | text    | | nglesnepturnpoint       | | keyname ресурса                 |
+| | resources.nepturnpoint       | text    | | nglesnepturnpoint       | | keyname слоя "Точки привязки -  |
+|                                |         |                           | | НЭП"                            |
 +--------------------------------+---------+---------------------------+-----------------------------------+
-| | resources.nepwebmap          | text    | | nglesnepwebmap          | | keyname ресурса                 |
+| | resources.nepwebmap          | text    | | nglesnepwebmap          | | keyname веб-карты "Карта для    |
+|                                |         |                           | | НЭП"                            |
 +--------------------------------+---------+---------------------------+-----------------------------------+
-| | resources.infraturnpoint     |text     | | nglesinfraturnpoint     | | keyname ресурса                 |
+| | resources.infraturnpoint     |text     | | nglesinfraturnpoint     | | keyname слоя "Точки привязки -  |
+|                                |         |                           | | инфраструктура"                 |
 +--------------------------------+---------+---------------------------+-----------------------------------+
-| | resources.infrawebmap        | text    | | nglesinfrawebmap        | | keyname ресурса                 |
+| | resources.infrawebmap        | text    | | nglesinfrawebmap        | | keyname веб-карты "Карта для    |
+|                                |         |                           | | инфраструктуры"                 |
 +--------------------------------+---------+---------------------------+-----------------------------------+
-| | resources.infra              | text    | | nglesinfra              | | keyname ресурса                 |
+| | resources.infra              | text    | | nglesinfra              | | keyname слоя "Инфраструктура"   |
 +--------------------------------+---------+---------------------------+-----------------------------------+
 
   
