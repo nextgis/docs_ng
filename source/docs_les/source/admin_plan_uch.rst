@@ -18,7 +18,7 @@
  .. figure:: _static/admin_plan_uch_2.png
    :name: admin_plan_uch_2
    :align: center
-   :width: 16cm
+   :width: 10cm
 
    Выбор создания новой системы координат
    
