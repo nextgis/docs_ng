@@ -13,4 +13,5 @@
    user_priloj4
    user_decl
    user_otchet
+   user_plan_uch
    user_fire
