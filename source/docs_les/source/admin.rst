@@ -12,6 +12,7 @@
    admin_decl
    admin_otchet
    admin_plan_uch
+   admin_filter_vd
    admin_fires
    admin_obzor
    admin_meta
