@@ -14,4 +14,5 @@
    user_decl
    user_otchet
    user_plan_uch
+   user_filter_vd
    user_fire
