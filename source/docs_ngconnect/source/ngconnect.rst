@@ -174,6 +174,22 @@ Main Settings
 5. Add WFS layer to QGIS on WFS service creation – after creation of WFS service in Web GIS it will be automatically added to QGIS as a layer.
 
 
+.. _ng_connect_proxy:
+
+Proxy server settings
+----------------------
+
+If your company uses its own proxy server, you need to specify it in the NextGIS QGIS settings:
+
+Upper menu > Settings > Options > Network > Use Proxy for Web Access
+
+.. figure:: _static/nextgis_connect/proxy.jpg
+   :align: center
+   :alt: Proxy server settings
+   
+   Proxy server settings
+
+
 .. _ng_connect_data_transfer:
 
 Data transfer
