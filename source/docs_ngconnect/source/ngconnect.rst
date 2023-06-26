@@ -14,8 +14,10 @@ With NextGIS Connect you can:
 2.	Upload vector and raster layers from desktop GIS to Web GIS;
 3.	Upload whole QGIS projects to Web GIS , including styles, layer hierarchy, etc;
 4.	Create WFS service in one click and edit data directly in Web GIS;
-5.	Update geodata keeping styles and attributes;
-6.	Create resource groups and delete any resources.
+5.      Create WMS service in one click;
+6.	Update geodata keeping styles and attributes;
+7.	Create resource groups and delete any resources;
+8.      Add new vector layer styles to an existing style in Web GIS.
 
 
 .. important::
@@ -101,7 +103,7 @@ Variable options – depend on resource type:
 
 -	Download as QML – available only for QGIS vector layer style.
 
--       Copy Style - only available for the QGIS resource Vector Layer Style;
+-       Copy Style (Clipboard) - only available for the QGIS resource Vector Layer Style;
 
 -       Create WFS Service - only available for the Feature Layer resource;
 
