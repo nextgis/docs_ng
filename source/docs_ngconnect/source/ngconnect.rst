@@ -57,6 +57,7 @@ The following types of resources are available for data exchange and operation:
 .. |resource_style| image:: _static/nextgis_connect/resource_style.png
 .. |resource_webmap| image:: _static/nextgis_connect/resource_webmap.png
 .. |resource_group| image:: _static/nextgis_connect/resource_group.png
+.. |raster_layer| image:: _static/raster_layer.png
 - |resource_vector_point| - Point vector layer (NGW Vector Layer)
 - |resource_vector_mpoint| - Multipoint vector layer (NGW Vector Layer)
 - |resource_vector_line| - Line vector layer (NGW Vector Layer)
@@ -68,6 +69,7 @@ The following types of resources are available for data exchange and operation:
 - |resource_wms| - WMS Service (NGW WMS Service)
 - |resource_webmap| - Web map (NGW Web Map)
 - |resource_group| - Resource group (NGW Web Map)
+- |raster_layer| - Raster layer ((NGW Raster Layer)
 
 
 .. _ng_connect_cont_menu:
@@ -88,6 +90,8 @@ Common options:
 
 -	Delete – delete resource.
 
+-       Edit metadata - edit metadata.
+
 
 Variable options – depend on resource type:
 
@@ -96,6 +100,18 @@ Variable options – depend on resource type:
 -	Create Web Map – available for resources: Vector layer, Vector layer style, Raster layer;
 
 -	Download as QML – available only for QGIS vector layer style.
+
+-       Copy Style - only available for the QGIS resource Vector Layer Style;
+
+-       Create WFS Service - only available for the Feature Layer resource;
+
+-       Create WMS service - available only for the Feature layer resource;
+
+-       Duplicate resource - only available for resources: Vector layer and raster layer;
+
+-       Overwrite selected layer - available only for the Feature layer resource.
+
+
 
 
 .. _ng_connect_install:
@@ -165,13 +181,14 @@ Main Settings
 
 1. Rename forbidden fields – while uploading layer itself or as a part of a project, plugin renames fields forbidden for Web GIS.
 
-2. Fix incorrect geometries – while uploading layer itself or as a part of a project, plugin transforms geometries into same type.
+2. Open web map automatically on creation – after successful import of a project into Web GIS, web map will be created and automatically opened in browser. 
 
-3. Abort project import after first layer import failure – plugin wouldn’t keep on uploading project if any layer is failed to be imported into Web GIS.
+3. Add WFS layer to QGIS on WFS service creation – after creation of WFS service in Web GIS it will be automatically added to QGIS as a layer.
 
-4. Open web map automatically on creation – after successful import of a project into Web GIS, web map will be created and automatically opened in browser. 
+4. Load rasters as Cloud Optimized GeoTIFF (COG) - if this option is selected, all rasters will be loaded as Cloud Optimized GeoTIFF (COG).
 
-5. Add WFS layer to QGIS on WFS service creation – after creation of WFS service in Web GIS it will be automatically added to QGIS as a layer.
+5. Display debug messages - if this option is selected, then all debug messages will be automatically displayed in the “Debug messages” panel.
+
 
 
 .. _ng_connect_proxy:
@@ -216,7 +233,9 @@ Algorithm for importing each data type is described `here <https://docs.nextgis.
 
 - Vector layer – vector layer with its style will be imported into Web GIS. Style can be added directly on web map.
 - Raster layer – raster layer with a default style will be created in Web GIS. Style can be added directly on web map.
-- Current project - All layers for which option “Import selected layer(s)” is available will be added to Web GIS, as well as all groups with retained hierarchy from QGIS Layers Panel. Also web map will be created and all imported layers will be added to it retaining hierarchy and visibility of QGIS Layers Panel. While importing a project you need to specify the name of the new resource group which will be created in Web GIS. This group will hold all resources imported along with a project. Upon project import created web map will be opened automatically if corresponding option is selected in plugin settings.
+- Upload all - All layers for which option “Import selected layer(s)” is available will be added to Web GIS, as well as all groups with retained hierarchy from QGIS Layers Panel. Also web map will be created and all imported layers will be added to it retaining hierarchy and visibility of QGIS Layers Panel. While importing a project you need to specify the name of the new resource group which will be created in Web GIS. This group will hold all resources imported along with a project. Upon project import created web map will be opened automatically if corresponding option is selected in plugin settings.
+- Update layer style - Web GIS will update the style of the layer, similar to the style of the selected layer in QGIS.
+Add new style to layer - Web GIS will add a new style to the layer, similar to the selected layer in QGIS.
 
 Imported resources will be added to a group selected in NextGIS Connect panel. If other type of resources but a group is selected, import will be performed to a closest parent group to selected resource. If no resource is selected, import will be performed to the root directory.
 
@@ -235,6 +254,7 @@ Option is available if one of the following resources is selected in NextGIS Web
 - Vector layer (NGW Vector Layer) |resource_vector| - GeoJSON vector layer will be created in QGIS;
 - WFS service (NGW WFS Service) |resource_wfs| - WFS layer will be created in QGIS;
 - QGIS style of a vector layer |resource_style| - GeoJSON vector layer with the style identical to selected one will be created in QGIS;
+- Raster layer (NGW Raster layer)  |raster_layer|  - a GeoTIFF raster layer will be created in QGIS.
 - WMS Layer - the selected WMS layer will be added to QGIS;
 - WMS Service - a WMS layer will be created in QGIS, the data source for which the selected WMS Service will be;
 - WFS Connection - you can select the WMS layer from the list to add to QGIS.
