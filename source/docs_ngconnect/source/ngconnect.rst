@@ -17,7 +17,8 @@ With NextGIS Connect you can:
 5.      Create WMS service in one click;
 6.	Update geodata keeping styles and attributes;
 7.	Create resource groups and delete any resources;
-8.      Add new vector layer styles to an existing style in Web GIS.
+8.      Copy the QML layer style in Web GIS to apply it to the layer in QGIS;
+9.      Add new vector layer styles from QGIS to the existing style of this layer in Web GIS.
 
 
 .. important::
