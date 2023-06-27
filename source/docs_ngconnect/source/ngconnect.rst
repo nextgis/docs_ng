@@ -71,7 +71,7 @@ The following types of resources are available for data exchange and operation:
 - |resource_wms| - WMS Service (NGW WMS Service)
 - |resource_webmap| - Web map (NGW Web Map)
 - |resource_group| - Resource group (NGW Web Map)
-- |raster_layer| - Raster layer ((NGW Raster Layer)
+- |raster_layer| - Raster layer (NGW Raster Layer)
 
 
 .. _ng_connect_cont_menu:
@@ -237,7 +237,7 @@ Algorithm for importing each data type is described `here <https://docs.nextgis.
 - Raster layer – raster layer with a default style will be created in Web GIS. Style can be added directly on web map.
 - Upload all - All layers for which option “Import selected layer(s)” is available will be added to Web GIS, as well as all groups with retained hierarchy from QGIS Layers Panel. Also web map will be created and all imported layers will be added to it retaining hierarchy and visibility of QGIS Layers Panel. While importing a project you need to specify the name of the new resource group which will be created in Web GIS. This group will hold all resources imported along with a project. Upon project import created web map will be opened automatically if corresponding option is selected in plugin settings.
 - Update layer style - Web GIS will update the style of the layer, similar to the style of the selected layer in QGIS.
-Add new style to layer - Web GIS will add a new style to the layer, similar to the selected layer in QGIS.
+- Add new style to layer - Web GIS will add a new style to the layer, similar to the selected layer in QGIS.
 
 Imported resources will be added to a group selected in NextGIS Connect panel. If other type of resources but a group is selected, import will be performed to a closest parent group to selected resource. If no resource is selected, import will be performed to the root directory.
 
@@ -259,7 +259,7 @@ Option is available if one of the following resources is selected in NextGIS Web
 - Raster layer (NGW Raster layer)  |raster_layer|  - a GeoTIFF raster layer will be created in QGIS.
 - WMS Layer - the selected WMS layer will be added to QGIS;
 - WMS Service - a WMS layer will be created in QGIS, the data source for which the selected WMS Service will be;
-- WFS Connection - you can select the WMS layer from the list to add to QGIS.
+- WMS Connection - you can select the WMS layer from the list to add to QGIS.
 
 .. |resource_vector| image:: _static/resource_vector.png
 
