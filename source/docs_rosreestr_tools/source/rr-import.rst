@@ -5,6 +5,9 @@
 Импорт данных
 =============
 
+Поддерживаемые форматы XML
+-----------------------------
+
 Поддерживаемые на данный момент форматы данных ЕГРН (список расширяется):
 
 * КПТ: `extract_cadastral_plan_territory_v01 <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_cadastral_plan_territory_v01.rar>`_ 
@@ -24,6 +27,9 @@
 * Решение о ЗОУИТ: `ZoneToGKN <https://rosreestr.gov.ru/upload/Doc/10-upr/ZoneToGKN_v05.rar>`_
 * также, поддерживается выгрузка секции ReestrExtract с таблицами о правах собственности, сделках и т.п. и аналогичные таблицы в extract_about_property_land.
 
+
+Процесс импорта XML
+--------------------
 Функция импорта выписок из ЕГРН (XML файлы) обозначена следующей иконкой |import_icon| и называется “Импорт данных ЕГРН”. При запуске этого инструмента открывается окно следующего вида (см. :numref:`import-egrn`):
 
 .. |import_icon| image:: _static/import_icon_ru.png
