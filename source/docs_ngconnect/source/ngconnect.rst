@@ -188,9 +188,9 @@ Main Settings
 
 3. Add WFS layer to QGIS on WFS service creation – after creation of WFS service in Web GIS it will be automatically added to QGIS as a layer.
 
-4. Load rasters as Cloud Optimized GeoTIFF (COG) - if this option is selected, all rasters will be loaded as Cloud Optimized GeoTIFF (COG).
+4. Upload rasters as Cloud Optimized GeoTIFF (COG) - if this option is selected, all rasters will be loaded as Cloud Optimized GeoTIFF (COG).
 
-5. Display debug messages - if this option is selected, then all debug messages will be automatically displayed in the “Debug messages” panel.
+5. Enable log messages - if this option is selected, then all debug messages will be automatically displayed in the “Debug messages” panel.
 
 
 
