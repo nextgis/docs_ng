@@ -168,7 +168,7 @@ In pop-up window press on “New” and fill in the fields:
 
 If you want to perform actions that need special permission, uncheck box next to **As guest** and fill in *Login* and *Password* fields with your NextGIS ID credentials. For example, unauthorized users usually can’t create or delete resources. These actions are only available for the owner of the Web GIS and users added to its `team <https://docs.nextgis.com/docs_ngcom/source/create.html#team-management>`_.
 
-.. figure:: _static/connection_settings.png
+.. figure:: _static/nextgis_connect/connection_settings_en.bmp.png
    :align: center
 
 Press “OK”. In the drop-down list of the dialog "Settings" select the connection that becomes active **after closing** dialogue.
@@ -179,7 +179,7 @@ Press “OK”. In the drop-down list of the dialog "Settings" select the connec
 Main Settings
 -------------
 
-.. figure:: _static/settings.png
+.. figure:: _static/nextgis_connect/settings_en.png
    :align: center
 
 1. Rename forbidden fields – while uploading layer itself or as a part of a project, plugin renames fields forbidden for Web GIS.
@@ -203,7 +203,7 @@ If your company uses its own proxy server, you need to specify it in the NextGIS
 
 Upper menu > Settings > Options > Network > Use Proxy for Web Access
 
-.. figure:: _static/nextgis_connect/proxy.jpg
+.. figure:: _static/nextgis_connect/proxy_en.png
    :align: center
    :alt: Proxy server settings
    
