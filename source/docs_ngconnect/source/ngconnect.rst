@@ -191,7 +191,7 @@ https://my.nextgis.com/webgis
 Например, для того чтобы получить возможность создавать/удалять ресурсы - 
 обычно эти действия недоступны неавторизованным пользователям, только владельцу Веб ГИС и участникам `команды <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-team-management>`_.
 
-.. figure:: _static/nextgis_connect/connection_settings.bmp
+.. figure:: _static/nextgis_connect/connection_settings.bmp.png
    :align: center
    :alt: Настройки соединения
    
@@ -232,7 +232,7 @@ https://my.nextgis.com/webgis
 
 Верхнее меню > Настроки > Параметры > Сеть > Использовать прокси для доступа к web ресурсам
 
-.. figure:: _static/nextgis_connect/proxy.jpg
+.. figure:: _static/nextgis_connect/proxy.png
    :align: center
    :alt: Настройки прокси сервера
    
