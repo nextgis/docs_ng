@@ -10,7 +10,7 @@
 
 Поддерживаемые на данный момент форматы данных ЕГРН (список расширяется):
 
-* КПТ: `extract_cadastral_plan_territory_v01 <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_cadastral_plan_territory_v01.rar>`_ 
+* КПТ: `KPT_v11, extract_cadastral_plan_territory_v01 <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_cadastral_plan_territory_v01.rar>`_ 
 * КПТ: `KPT_v10 <https://rosreestr.gov.ru/upload/Doc/10-upr/KPT_v10.zip>`_
 * КВЗУ: `KVZU_v07 <https://rosreestr.gov.ru/upload/Doc/10-upr/KVZU_v07.zip>`_
 * ОКС: `KVOKS_v03 <https://rosreestr.gov.ru/upload/Doc/10-upr/KVOKS_v03.zip>`_ 
