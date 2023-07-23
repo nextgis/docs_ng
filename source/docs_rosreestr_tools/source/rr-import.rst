@@ -5,17 +5,16 @@
 Импорт данных
 =============
 
-Поддерживаемые форматы XML
------------------------------
+Поддерживаемые типы документов ЕГРН
+-----------------------------------
 
-Поддерживаемые на данный момент форматы данных ЕГРН (список расширяется):
+Поддерживаемые на данный момент типы документов ЕГРН (список расширяется):
 
-* КПТ: `KPT_v11, extract_cadastral_plan_territory_v01 <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_cadastral_plan_territory_v01.rar>`_ 
-* КПТ: `KPT_v10 <https://rosreestr.gov.ru/upload/Doc/10-upr/KPT_v10.zip>`_
-* КВЗУ: `KVZU_v07 <https://rosreestr.gov.ru/upload/Doc/10-upr/KVZU_v07.zip>`_
-* ОКС: `KVOKS_v03 <https://rosreestr.gov.ru/upload/Doc/10-upr/KVOKS_v03.zip>`_ 
+* Кадастровый план территории (КПТ): `KPT_v11, extract_cadastral_plan_territory_v01 <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_cadastral_plan_territory_v01.rar>`_ 
+* Кадастровый план территории (КПТ): `KPT_v10 <https://rosreestr.gov.ru/upload/Doc/10-upr/KPT_v10.zip>`_
+* Кадастровая выписка о земельном участке (КВЗУ): `KVZU_v07 <https://rosreestr.gov.ru/upload/Doc/10-upr/KVZU_v07.zip>`_
+* Кадастровая выписка об объекте капитального строительства (ОКС): `KVOKS_v03 <https://rosreestr.gov.ru/upload/Doc/10-upr/KVOKS_v03.zip>`_ 
 * Техплан сооружения: `TP_v06 <https://rosreestr.gov.ru/upload/Doc/10-upr/TP_v06_редакция_4_к10-0783.zip>`_ 
-* Кадастровый план территории: `extract_cadastral_plan_territory <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_cadastral_plan_territory_v01.rar>`_
 * Выписка о земельном участке: `extract_about_property_land <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_about_property_land_v01.rar>`_ 
 * Выписка об объекте недвижимости (сооружении): `extract_about_property_construction <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_about_property_construction_v01.rar>`_ 
 * Выписка о характеристиках и правах на земельный участок: `extract_base_params_land <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_base_params_land_v01.rar>`_ 
@@ -45,7 +44,7 @@
 В этом интерфейсе предлагается:
 
 * Определить путь до файла XML (или ZIP-архива со вложенными XML-файлами);
-* Формат выходных данных из списка (ESRI Shapefile, GPKG, MapInfo File, GeoJSON);
+* Формат выходных данных из списка (ESRI Shapefile, GeoPackage, MapInfo File, GeoJSON);
 * Задать имя выходного набора;
 * Выбрать опцию добавления импортированных файлов в проект;
 * Не трансформировать координаты;
