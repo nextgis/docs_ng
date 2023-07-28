@@ -21,7 +21,6 @@
    /docs_formbuilder/source/toc
    /docs_collector/source/toc
    /docs_ngid/source/toc
-   /docs_ngbio/source/toc
    /docs_ogportal/source/toc
    /docs_forestinspector/source/toc
    /docs_les/source/toc
