@@ -34,11 +34,13 @@ CORS Origins
 Пример скрипта
 ------------------
 
-``import requests
-
-url = 'https://geoservices.nextgis.com/pkk/features/by_pos?apikey=YOUR-API-KEY&lat=55.676511886387196&lon=37.587604244740675&types=1'
-
-resp = requests.get(url)
-data = resp.json()
-print(data['features'][0]['geometry'])``
+.. code-block:: bash
+    
+    import requests
+    
+    url = 'https://geoservices.nextgis.com/pkk/features/by_pos?apikey=YOUR-API-KEY&lat=55.676511886387196&lon=37.587604244740675&types=1'
+    
+    resp = requests.get(url)
+    data = resp.json()
+    print(data['features'][0]['geometry'])``
 
