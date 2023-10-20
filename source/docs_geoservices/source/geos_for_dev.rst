@@ -42,5 +42,5 @@ CORS Origins
     
     resp = requests.get(url)
     data = resp.json()
-    print(data['features'][0]['geometry'])``
+    print(data['features'][0]['geometry'])
 
