@@ -189,7 +189,7 @@ https://my.nextgis.com/webgis
 .. |resource_wfs| image:: _static/nextgis_connect/resource_wfs_symbol.png
 .. |resource_wms| image:: _static/nextgis_connect/resource_wms_symbol.png
 .. |resource_style| image:: _static/nextgis_connect/resource_style_symbol.png
-.. |resource_webmap| image:: _static/nextgis_connect/resource_webmap.png
+.. |resource_webmap| image:: _static/nextgis_connect/resource_webmap_symbol.png
 .. |resource_group| image:: _static/nextgis_connect/resource_group.png
 .. |raster_layer| image:: _static/nextgis_connect/raster_layer.png
 .. |vector_layer| image:: _static/nextgis_connect/vector_layer_symbol.png
@@ -274,9 +274,6 @@ https://my.nextgis.com/webgis
 - QGIS Стиль Векторного слоя |resource_style| - в QGIS будет создан векторный слой GeoJSON, со стилем идентичным выбранному стилю.
 - Растровый слой |raster_layer| - в QGIS будет создан растровый слой GeoTIFF.
 
-.. |resource_vector| image:: _static/nextgis_connect/resource_vector.png
-
-.. |resource_wfs| image:: _static/nextgis_connect/resource_wfs.png
 
 Особенности загрузки слоев с **несколькими стилями**:
 
@@ -363,9 +360,12 @@ https://my.nextgis.com/webgis
 .. _ng_connect_res_group:
 
 Другие операции
-=================
+----------------
 
 Этот блок операций расположен в верхнем меню модуля NextGIS Connect.
+
+Создать группу ресурсов
+~~~~~~~~~~~~~~~~~~~~
 
 Новая группа будет создана в группе ресурсов:
 
@@ -379,22 +379,33 @@ https://my.nextgis.com/webgis
    :alt: Создать новую группу ресурсов
    :width: 10cm
 
+   Создание группы ресурсов
 
-Операция "обновления" обновит все дерево ресурсов Веб ГИС до актуального на текущий момент состояния.
+Обновить
+~~~~~~~~~~~~~~~~~~
+
+Операция обновит все дерево ресурсов Веб ГИС до актуального на текущий момент состояния.
 
 .. figure:: _static/nextgis_connect/reload_ru.png
    :align: center
    :alt: Обновить дерево ресурсов
    :width: 10cm
 
+   Актуализация данных Веб ГИС
+
+Открыть веб-карту в браузере
+~~~~~~~~~~~~~~~~~~~~
+
+Если в дереве ресурсов выбран ресурс веб-карта (NGW Web Map) |resource_webmap|, 
+то она откроется в новой вкладке браузера.
 
 .. figure:: _static/nextgis_connect/open_webmap_ru.png
    :align: center
    :alt: Открыть веб-карту в браузере
    :width: 10cm
 
-Если в дереве ресурсов выбран ресурс веб-карта (NGW Web Map) |resource_webmap|, 
-то она откроется в новой вкладке браузера.
+   Открытие веб-карты
 
-.. |resource_webmap| image:: _static/nextgis_connect/resource_webmap_symbol.png
+
+
 
