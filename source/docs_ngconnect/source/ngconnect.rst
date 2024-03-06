@@ -44,89 +44,6 @@
    Обновление стиля
 
 
-.. _ng_connect_types:
-
-Типы ресурсов 
---------------
-
-Для обмена данными и работы доступны следующие типы ресурсов:
-
-.. |resource_vector_point| image:: _static/nextgis_connect/vector_layer_point.png
-.. |resource_vector_mpoint| image:: _static/nextgis_connect/vector_layer_mpoint.png
-.. |resource_vector_line| image:: _static/nextgis_connect/vector_layer_line.png
-.. |resource_vector_mline| image:: _static/nextgis_connect/vector_layer_mline.png
-.. |resource_vector_polygon| image:: _static/nextgis_connect/vector_layer_polygon.png
-.. |resource_vector_mpolygon| image:: _static/nextgis_connect/vector_layer_mpolygon.png
-.. |resource_wfs| image:: _static/nextgis_connect/resource_wfs_symbol.png
-.. |resource_wms| image:: _static/nextgis_connect/resource_wms_symbol.png
-.. |resource_style| image:: _static/nextgis_connect/resource_style_symbol.png
-.. |resource_webmap| image:: _static/nextgis_connect/resource_webmap.png
-.. |resource_group| image:: _static/nextgis_connect/resource_group.png
-.. |raster_layer| image:: _static/nextgis_connect/raster_layer.png
-.. |vector_layer| image:: _static/nextgis_connect/vector_layer_symbol.png
-
-- |vector_layer| - Векторный слой (NGW Vector Layer), он может быть: 
-  |resource_vector_point| Точечный; 
-  |resource_vector_mpoint| Мультиточечный; 
-  |resource_vector_line| Линейный; 
-  |resource_vector_line| Мультилинейный; 
-  |resource_vector_polygon| Полигональный; 
-  |resource_vector_mpolygon| Мультиполигональный; 
-
-- |resource_style| - Стиль векторного слоя. QGIS стиль помечается префиксом "(qgis)", стиль MapServer - "(ms)"
-- |resource_wfs| - WFS Сервис (NGW WFS Service)
-- |resource_wms| - WMS Сервис (NGW WMS Service)
-- |resource_webmap| - Веб карта (NGW Web Map)
-- |resource_group| - Группа ресурсов (NGW Web Map)
-- |raster_layer| - Растровый слой (NGW Raster Layer)
-
-.. _ng_connect_cont_menu:
-
-Контекстное меню
-----------------
-Контекстное меню может отличаться у различных ресурсов. 
-
-.. figure:: _static/nextgis_connect/context_menu_ru.png
-   :align: center
-   :alt: Контекстное меню qgis стиля векторного слоя
-   :width: 10cm
-   
-   Пример контекстного меню
-
-Общедоступные операции:
-
-- Открыть в ВебГИС - открывать страницу выбранного ресурса в Веб ГИС;
-
-- Переименовать - переименовать ресурс;
-
-- Удалить - удалить ресурс;
-
-- Редактировать метаданные - редактирование метаданных.
-
-
-Опциональные - зависит от типа ресурса:
-
-- Добавить в QGIS - операция описана выше;
-
-- Создать Веб Карту - доступен только для ресурсов: Векторный слой и Стиль Векторного слоя;
-
-- Загрузить как QML - доступен только для ресурса QGIS Стиль Векторного слоя;
-
-- Копировать стиль (буфер обмена)  - доступен только для ресурса QGIS Стиль Векторного слоя;
-
-- Создать сервис WFS - доступен только для ресурса Векторный слой;
-
-- Создать сервис OGC API - Features - доступен только для ресурса Векторный слой;
-
-- Создать сервис WMS - доступен только для ресурса Векторный слой;
-
-- Дублировать ресурс - доступен только для ресурсов: Векторный слой и Растровый слой;
-
-- Перезаписать выбранный слой - доступен только для ресурса Векторный слой.
-
-
-
-
 .. _ng_connect_install:
 
 Установка
@@ -187,7 +104,8 @@ https://my.nextgis.com/webgis
 .. figure:: _static/nextgis_connect/call_settings_ru.png
    :align: center
    :alt: Вызов диалога настроек
-   
+   :width: 10cm
+
    Вызов диалога настроек
 
 В открывшемся окне нажмите кнопку "Новое" и заполните поля:
@@ -248,14 +166,50 @@ https://my.nextgis.com/webgis
    Настройки прокси сервера
 
 
-
-
 .. _ng_connect_data_transfer:
 
 Обмен данными
 ==============
 
 Модуль NextGIS Connect позволяет обмениваться геоданными между QGIS и Веб ГИС в обоих направлениях, но со своими особенностями.
+
+.. _ng_connect_types:
+
+Типы ресурсов 
+--------------
+
+Для обмена данными и работы доступны следующие типы ресурсов:
+
+.. |resource_vector_point| image:: _static/nextgis_connect/vector_layer_point.png
+.. |resource_vector_mpoint| image:: _static/nextgis_connect/vector_layer_mpoint.png
+.. |resource_vector_line| image:: _static/nextgis_connect/vector_layer_line.png
+.. |resource_vector_mline| image:: _static/nextgis_connect/vector_layer_mline.png
+.. |resource_vector_polygon| image:: _static/nextgis_connect/vector_layer_polygon.png
+.. |resource_vector_mpolygon| image:: _static/nextgis_connect/vector_layer_mpolygon.png
+.. |resource_wfs| image:: _static/nextgis_connect/resource_wfs_symbol.png
+.. |resource_wms| image:: _static/nextgis_connect/resource_wms_symbol.png
+.. |resource_style| image:: _static/nextgis_connect/resource_style_symbol.png
+.. |resource_webmap| image:: _static/nextgis_connect/resource_webmap.png
+.. |resource_group| image:: _static/nextgis_connect/resource_group.png
+.. |raster_layer| image:: _static/nextgis_connect/raster_layer.png
+.. |vector_layer| image:: _static/nextgis_connect/vector_layer_symbol.png
+
+- |vector_layer| - Векторный слой (NGW Vector Layer), он может быть: 
+  |resource_vector_point| Точечный; 
+  |resource_vector_mpoint| Мультиточечный; 
+  |resource_vector_line| Линейный; 
+  |resource_vector_line| Мультилинейный; 
+  |resource_vector_polygon| Полигональный; 
+  |resource_vector_mpolygon| Мультиполигональный; 
+
+- |resource_style| - Стиль векторного слоя. QGIS стиль помечается префиксом "(qgis)", стиль MapServer - "(ms)"
+- |resource_wfs| - WFS Сервис (NGW WFS Service)
+- |resource_wms| - WMS Сервис (NGW WMS Service)
+- |resource_webmap| - Веб карта (NGW Web Map)
+- |resource_group| - Группа ресурсов (NGW Web Map)
+- |raster_layer| - Растровый слой (NGW Raster Layer)
+
+
 
 .. _ng_connect_import:
 
@@ -285,6 +239,8 @@ https://my.nextgis.com/webgis
 - Загрузить всё - В Веб ГИС будут добавлены все слои, для которых доступна операция "Импортировать выбранный слой", и все группы в соответствии с иерархией в панели слоёв QGIS. Также будет создана веб-карта, на которую будут добавлены все импортируемые слои с учетом иерархии и видимости в панели слоёв QGIS. Вам необходимо ввести название новой группы, которая будет создана в Веб ГИС для размещения всех ресурсов, импортируемых в рамках данной операции. После импорта проекта созданная веб-карта откроется в браузере автоматически, если в настройках модуля выбрана соответствуюйщая опция.
 - Обновить стиль слоя - В Веб ГИС будет обновлен стиль слоя аналогично стилю выбранного слоя в QGIS.
 - Добавить новый стиль к слою - В Веб ГИС будет добавлен новый стиль к слою, аналогично выбранного слоя в QGIS.
+
+При загрузке слоя с **несколькими стилями** в NGW, они загружаются со своими именами. Если название стиля - default (или "по умолчанию"), используется название слоя. 
 
 
 Добавление ресурсов в Веб ГИС производится в выбранную на панели ресурсов Веб ГИС группу.
@@ -322,7 +278,59 @@ https://my.nextgis.com/webgis
 
 .. |resource_wfs| image:: _static/nextgis_connect/resource_wfs.png
 
+Особенности загрузки слоев с **несколькими стилями**:
+
+* При выборе в дереве Connect слоя с несколькими стилями, они подгрузятся все, но будет предложено выбрать текущий.
+* При выборе в дереве Connect стиля слоя, добавятся все стили, по умолчанию будет выбранный.
+* При добавлении группы ресурсов, которая содержит слои с несколькими стилями, будут добавлены все стили и выбран либо одноименный слою, либо первый по алфавиту. Диалог с выбором показан не будет.
+* При добавлении WFS/OGCF стиль будет выбран либо одноименный слою, либо первый по алфавиту.
+
 Алгоритм Экспорта данных в QGIS описан `здесь <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-ngqgis-connect-data-export>`_.
+
+.. _ng_connect_cont_menu:
+
+Контекстное меню
+----------------
+Контекстное меню может отличаться у различных ресурсов. 
+
+.. figure:: _static/nextgis_connect/context_menu_ru.png
+   :align: center
+   :alt: Контекстное меню qgis стиля векторного слоя
+   :width: 10cm
+   
+   Пример контекстного меню
+
+Общедоступные операции:
+
+- Открыть в ВебГИС - открывать страницу выбранного ресурса в Веб ГИС;
+
+- Переименовать - переименовать ресурс;
+
+- Удалить - удалить ресурс;
+
+- Редактировать метаданные - редактирование метаданных.
+
+
+Опциональные - зависит от типа ресурса:
+
+- Добавить в QGIS - операция описана выше;
+
+- Создать Веб Карту - доступен только для ресурсов: Векторный слой и Стиль Векторного слоя;
+
+- Загрузить как QML - доступен только для ресурса QGIS Стиль Векторного слоя;
+
+- Копировать стиль (буфер обмена)  - доступен только для ресурса QGIS Стиль Векторного слоя;
+
+- Создать сервис WFS - доступен только для ресурса Векторный слой;
+
+- Создать сервис OGC API - Features - доступен только для ресурса Векторный слой;
+
+- Создать сервис WMS - доступен только для ресурса Векторный слой;
+
+- Дублировать ресурс - доступен только для ресурсов: Векторный слой и Растровый слой;
+
+- Перезаписать выбранный слой - доступен только для ресурса Векторный слой.
+
 
 
 .. _ng_connect_update_data:
