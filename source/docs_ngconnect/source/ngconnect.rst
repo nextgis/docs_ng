@@ -63,13 +63,15 @@ When plugin is installed its icon appears in a toolbar:
 
 Click on the icon to open NextGIS Connect panel.
 
-.. figure:: _static/panel.png
+.. figure:: _static/connect_panel_en.png
    :align: center
+   :width: 9cm
 
 If no connection is set at the moment, corresponding message will be shown.
 
-.. figure:: _static/panel_no_connections.png
+.. figure:: _static/panel-no-connections_en.png
    :align: center
+   :width: 9cm
    
    
 .. _ng_connect_new_connection:
@@ -82,10 +84,15 @@ To create a connection you need to know the address of your Web GIS. The address
 .. figure:: _static/my_nextgis.png
    :align: center
 
+   Where to find your Web GIS address
+
 Click on “Settings” button in NextGIS Connect panel.
 
-.. figure:: _static/call_settings.png
+.. figure:: _static/call_settings_en.png
    :align: center
+   :width: 9cm
+
+   Opening Settings menu
 
 In pop-up window press on “New” and fill in the fields:
 
@@ -157,18 +164,21 @@ The following types of resources are available for data exchange and operation:
 .. |resource_vector_mline| image:: _static/nextgis_connect/vector_layer_mline.png
 .. |resource_vector_polygon| image:: _static/nextgis_connect/vector_layer_polygon.png
 .. |resource_vector_mpolygon| image:: _static/nextgis_connect/vector_layer_mpolygon.png
-.. |resource_wfs| image:: _static/nextgis_connect/resource_wfs.png
-.. |resource_wms| image:: _static/nextgis_connect/resource_wms.png
-.. |resource_style| image:: _static/nextgis_connect/resource_style.png
-.. |resource_webmap| image:: _static/nextgis_connect/resource_webmap.png
+.. |resource_wfs| image:: _static/resource_wfs_symbol.png
+.. |resource_wms| image:: _static/resource_wms_symbol.png
+.. |resource_style| image:: _static/resource_style_symbol.png
+.. |resource_webmap| image:: _static/resource_webmap_symbol.png
 .. |resource_group| image:: _static/nextgis_connect/resource_group.png
 .. |raster_layer| image:: _static/raster_layer.png
-- |resource_vector_point| - Point vector layer (NGW Vector Layer)
-- |resource_vector_mpoint| - Multipoint vector layer (NGW Vector Layer)
-- |resource_vector_line| - Line vector layer (NGW Vector Layer)
-- |resource_vector_line| - Multiline vector layer (NGW Vector Layer)
-- |resource_vector_polygon| - Polygon vector layer (NGW Vector Layer)
-- |resource_vector_mpolygon| - Multipolygon vector layer (NGW Vector Layer)
+.. |vector_layer| image:: _static/vector_layer_symbol.png
+
+- |vector_layer| - Vector layer (NGW Vector Layer), it can be: 
+  |resource_vector_point| - Point vector layer (NGW Vector Layer); 
+  |resource_vector_mpoint| - Multipoint vector layer (NGW Vector Layer); 
+  |resource_vector_line| - Line vector layer (NGW Vector Layer);
+  |resource_vector_line| - Multiline vector layer (NGW Vector Layer);
+  |resource_vector_polygon| - Polygon vector layer (NGW Vector Layer);
+  |resource_vector_mpolygon| - Multipolygon vector layer (NGW Vector Layer);
 - |resource_style| - Vector layer style. QGIS style gets "(qgis)" prefix, MapServer style - "(ms)"
 - |resource_wfs| - WFS Service (NGW WFS Service)
 - |resource_wms| - WMS Service (NGW WMS Service)
@@ -196,8 +206,9 @@ NextGIS Connect module allows you to import:
 
 Algorithm for importing each data type is described `here <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#creating-and-uploading-data>`_.
 
-.. figure:: _static/add_to_ngw.png
+.. figure:: _static/add_to_ngw_en.png
    :align: center
+   :width: 9cm
 
 - Vector layer – vector layer with its style will be imported into Web GIS. Style can be added directly on web map.
 - Raster layer – raster layer with a default style will be created in Web GIS. Style can be added directly on web map.
@@ -213,13 +224,14 @@ Imported resources will be added to a group selected in NextGIS Connect panel. I
 From Web GIS to QGIS
 ----------------------
 
-.. figure:: _static/add_to_qgis.png
+.. figure:: _static/add_to_qgis_en.png
    :align: center
+   :width: 9cm
 
 
 Option is available if one of the following resources is selected in NextGIS Web resource tree:
 
-- Vector layer (NGW Vector Layer) |resource_vector| - GeoJSON vector layer will be created in QGIS;
+- Vector layer (NGW Vector Layer) |vector_layer| - GeoJSON vector layer will be created in QGIS;
 - WFS service (NGW WFS Service) |resource_wfs| - WFS layer will be created in QGIS;
 - QGIS style of a vector layer |resource_style| - GeoJSON vector layer with the style identical to selected one will be created in QGIS;
 - Raster layer (NGW Raster layer)  |raster_layer|  - a GeoTIFF raster layer will be created in QGIS.
@@ -242,8 +254,9 @@ Context Menu
 
 Context menu may differ depending on resource type.
 
-.. figure:: _static/context_menu.png
+.. figure:: _static/context_menu_en.png
    :align: center
+   :width: 10cm
 
 Common options:
 
@@ -267,6 +280,8 @@ Variable options – depend on resource type:
 -       Copy Style (Clipboard) - only available for the QGIS resource Vector Layer Style;
 
 -       Create WFS Service - only available for the Feature Layer resource;
+
+-       Create OGC API - Features service - only available for Vector layer
 
 -       Create WMS service - available only for the Feature layer resource;
 
@@ -304,23 +319,45 @@ More info `here <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#
 .. _ng_connect_res_group:
 
 Other operations
-=================
+-------------------
 
 This block of operations is located in the top menu of the NextGIS Connect.
 
-New group will be created in resource group selected via NextGIS Connect panel. If other type of resources but a group is selected, group will be created in a closest parent group to selected resource. If no resource is selected, group will be created in the root directory.
+Create resource group
+~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: _static/create_group.png
+New group will be created:
+
+* In the resource group selected via NextGIS Connect panel. 
+* If other type of resources but a group is selected - in the closest parent group. 
+* If no resource is selected - in the main resource group.
+
+.. figure:: _static/create_group_en.png
    :align: center
+   :width: 9cm
 
+   Creating resource group using NextGIS Connect
 
-The "update" operation will update the entire Web GIS resource tree to the current state.
+Refresh
+~~~~~~~~~~~
 
-.. figure:: _static/reload.png
+The "refresh" operation will update the entire Web GIS resource tree to the current state.
+
+.. figure:: _static/reload_en.png
    :align: center
+   :width: 9cm
+
+   Refreshing Web GIS data
+
+Open Web Map in browser
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Option is available if a Web Map (|resource_webmap| NGW Web Map) is selected in NextGIS Connect resource tree. The Web Map will be opened in a new tab of default browser.
+
+.. figure:: _static/nextgis_connect/open_webmap_en.png
+   :align: center
+   :width: 10cm
+
+   Opening Web Map from NextGIS Connect
 
 
-Option is available if web map (NGW Web Map) is selected in NextGIS Connect resource tree. Map will be opened in a new tab of default browser.
-
-
-"Delete" a resource permanently deletes the selected geodata.
