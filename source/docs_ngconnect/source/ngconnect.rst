@@ -42,80 +42,6 @@ To **keep the photos** intact while modifying the style, perform the following s
    Updating a style
 
 
-.. _ng_connect_types:
-
-Resource Types
------------------
-
-The following types of resources are available for data exchange and operation:
-
-.. |resource_vector_point| image:: _static/nextgis_connect/vector_layer_point.png
-.. |resource_vector_mpoint| image:: _static/nextgis_connect/vector_layer_mpoint.png
-.. |resource_vector_line| image:: _static/nextgis_connect/vector_layer_line.png
-.. |resource_vector_mline| image:: _static/nextgis_connect/vector_layer_mline.png
-.. |resource_vector_polygon| image:: _static/nextgis_connect/vector_layer_polygon.png
-.. |resource_vector_mpolygon| image:: _static/nextgis_connect/vector_layer_mpolygon.png
-.. |resource_wfs| image:: _static/nextgis_connect/resource_wfs.png
-.. |resource_wms| image:: _static/nextgis_connect/resource_wms.png
-.. |resource_style| image:: _static/nextgis_connect/resource_style.png
-.. |resource_webmap| image:: _static/nextgis_connect/resource_webmap.png
-.. |resource_group| image:: _static/nextgis_connect/resource_group.png
-.. |raster_layer| image:: _static/raster_layer.png
-- |resource_vector_point| - Point vector layer (NGW Vector Layer)
-- |resource_vector_mpoint| - Multipoint vector layer (NGW Vector Layer)
-- |resource_vector_line| - Line vector layer (NGW Vector Layer)
-- |resource_vector_line| - Multiline vector layer (NGW Vector Layer)
-- |resource_vector_polygon| - Polygon vector layer (NGW Vector Layer)
-- |resource_vector_mpolygon| - Multipolygon vector layer (NGW Vector Layer)
-- |resource_style| - Vector layer style. QGIS style gets "(qgis)" prefix, MapServer style - "(ms)"
-- |resource_wfs| - WFS Service (NGW WFS Service)
-- |resource_wms| - WMS Service (NGW WMS Service)
-- |resource_webmap| - Web map (NGW Web Map)
-- |resource_group| - Resource group (NGW Web Map)
-- |raster_layer| - Raster layer (NGW Raster Layer)
-
-
-.. _ng_connect_cont_menu:
-
-Context Menu
--------------
-
-Context menu may differ depending on resource type.
-
-.. figure:: _static/context_menu.png
-   :align: center
-
-Common options:
-
--	Open in WebGIS – open page with selected resource in Web GIS;
-
--	Rename – rename resource;
-
--	Delete – delete resource.
-
--       Edit metadata - edit metadata.
-
-
-Variable options – depend on resource type:
-
--	Add to QGIS – option is described above;
-
--	Create Web Map – available for resources: Vector layer, Vector layer style, Raster layer;
-
--	Download as QML – available only for QGIS vector layer style.
-
--       Copy Style (Clipboard) - only available for the QGIS resource Vector Layer Style;
-
--       Create WFS Service - only available for the Feature Layer resource;
-
--       Create WMS service - available only for the Feature layer resource;
-
--       Duplicate resource - only available for resources: Vector layer and raster layer;
-
--       Overwrite selected layer - available only for the Feature layer resource.
-
-
-
 
 .. _ng_connect_install:
 
@@ -210,12 +136,51 @@ Upper menu > Settings > Options > Network > Use Proxy for Web Access
    Proxy server settings
 
 
+
+
 .. _ng_connect_data_transfer:
 
 Data transfer
 =============
 
 NextGIS Connect module allows you to share geodata between QGIS and Web GIS in both directions.
+.. _ng_connect_types:
+
+Resource Types
+-----------------
+
+The following types of resources are available for data exchange and operation:
+
+.. |resource_vector_point| image:: _static/nextgis_connect/vector_layer_point.png
+.. |resource_vector_mpoint| image:: _static/nextgis_connect/vector_layer_mpoint.png
+.. |resource_vector_line| image:: _static/nextgis_connect/vector_layer_line.png
+.. |resource_vector_mline| image:: _static/nextgis_connect/vector_layer_mline.png
+.. |resource_vector_polygon| image:: _static/nextgis_connect/vector_layer_polygon.png
+.. |resource_vector_mpolygon| image:: _static/nextgis_connect/vector_layer_mpolygon.png
+.. |resource_wfs| image:: _static/nextgis_connect/resource_wfs.png
+.. |resource_wms| image:: _static/nextgis_connect/resource_wms.png
+.. |resource_style| image:: _static/nextgis_connect/resource_style.png
+.. |resource_webmap| image:: _static/nextgis_connect/resource_webmap.png
+.. |resource_group| image:: _static/nextgis_connect/resource_group.png
+.. |raster_layer| image:: _static/raster_layer.png
+- |resource_vector_point| - Point vector layer (NGW Vector Layer)
+- |resource_vector_mpoint| - Multipoint vector layer (NGW Vector Layer)
+- |resource_vector_line| - Line vector layer (NGW Vector Layer)
+- |resource_vector_line| - Multiline vector layer (NGW Vector Layer)
+- |resource_vector_polygon| - Polygon vector layer (NGW Vector Layer)
+- |resource_vector_mpolygon| - Multipolygon vector layer (NGW Vector Layer)
+- |resource_style| - Vector layer style. QGIS style gets "(qgis)" prefix, MapServer style - "(ms)"
+- |resource_wfs| - WFS Service (NGW WFS Service)
+- |resource_wms| - WMS Service (NGW WMS Service)
+- |resource_webmap| - Web map (NGW Web Map)
+- |resource_group| - Resource group (NGW Web Map)
+- |raster_layer| - Raster layer (NGW Raster Layer)
+
+
+
+
+
+
 
 .. _ng_connect_import:
 
@@ -270,6 +235,47 @@ Option is available if one of the following resources is selected in NextGIS Web
 The algorithm for Exporting data to QGIS is described `here <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#exporting-data>`_.
 
 
+.. _ng_connect_cont_menu:
+
+Context Menu
+-------------
+
+Context menu may differ depending on resource type.
+
+.. figure:: _static/context_menu.png
+   :align: center
+
+Common options:
+
+-	Open in WebGIS – open page with selected resource in Web GIS;
+
+-	Rename – rename resource;
+
+-	Delete – delete resource.
+
+-       Edit metadata - edit metadata.
+
+
+Variable options – depend on resource type:
+
+-	Add to QGIS – option is described above;
+
+-	Create Web Map – available for resources: Vector layer, Vector layer style, Raster layer;
+
+-	Download as QML – available only for QGIS vector layer style.
+
+-       Copy Style (Clipboard) - only available for the QGIS resource Vector Layer Style;
+
+-       Create WFS Service - only available for the Feature Layer resource;
+
+-       Create WMS service - available only for the Feature layer resource;
+
+-       Duplicate resource - only available for resources: Vector layer and raster layer;
+
+-       Overwrite selected layer - available only for the Feature layer resource.
+
+
+
 .. _ng_connect_update_data:
 
 Updating data and style
@@ -294,7 +300,6 @@ Manage WMS/WFS services
 NextGIS Connect module allows publishing vector data using standard protocols :term:`WFS` and :term:`WMS`.
 To do this, in the context menu of the required layer select the appropriate operation.
 More info `here <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#creating-wfs-and-wfs-services>`_.
-
 
 .. _ng_connect_res_group:
 
