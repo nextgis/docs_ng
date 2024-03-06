@@ -57,18 +57,22 @@
 .. |resource_vector_mline| image:: _static/nextgis_connect/vector_layer_mline.png
 .. |resource_vector_polygon| image:: _static/nextgis_connect/vector_layer_polygon.png
 .. |resource_vector_mpolygon| image:: _static/nextgis_connect/vector_layer_mpolygon.png
-.. |resource_wfs| image:: _static/nextgis_connect/resource_wfs.png
-.. |resource_wms| image:: _static/nextgis_connect/resource_wms.png
-.. |resource_style| image:: _static/nextgis_connect/resource_style.png
+.. |resource_wfs| image:: _static/nextgis_connect/resource_wfs_symbol.png
+.. |resource_wms| image:: _static/nextgis_connect/resource_wms_symbol.png
+.. |resource_style| image:: _static/nextgis_connect/resource_style_symbol.png
 .. |resource_webmap| image:: _static/nextgis_connect/resource_webmap.png
 .. |resource_group| image:: _static/nextgis_connect/resource_group.png
 .. |raster_layer| image:: _static/nextgis_connect/raster_layer.png
-- |resource_vector_point| - Точечный векторный слой (NGW Vector Layer)
-- |resource_vector_mpoint| - Мультиточечный векторный слой (NGW Vector Layer)
-- |resource_vector_line| - Линейный векторный слой (NGW Vector Layer)
-- |resource_vector_line| - Мультилинейный векторный слой (NGW Vector Layer)
-- |resource_vector_polygon| - Полигональный векторный слой (NGW Vector Layer)
-- |resource_vector_mpolygon| - Мультиполигональный векторный слой (NGW Vector Layer)
+.. |vector_layer| image:: _static/nextgis_connect/vector_layer_symbol.png
+
+- |vector_layer| - Векторный слой (NGW Vector Layer), он может быть: 
+  |resource_vector_point| Точечный; 
+  |resource_vector_mpoint| Мультиточечный; 
+  |resource_vector_line| Линейный; 
+  |resource_vector_line| Мультилинейный; 
+  |resource_vector_polygon| Полигональный; 
+  |resource_vector_mpolygon| Мультиполигональный; 
+
 - |resource_style| - Стиль векторного слоя. QGIS стиль помечается префиксом "(qgis)", стиль MapServer - "(ms)"
 - |resource_wfs| - WFS Сервис (NGW WFS Service)
 - |resource_wms| - WMS Сервис (NGW WMS Service)
@@ -82,9 +86,10 @@
 ----------------
 Контекстное меню может отличаться у различных ресурсов. 
 
-.. figure:: _static/nextgis_connect/context_menu.png
+.. figure:: _static/nextgis_connect/context_menu_ru.png
    :align: center
    :alt: Контекстное меню qgis стиля векторного слоя
+   :width: 10cm
    
    Пример контекстного меню
 
@@ -111,9 +116,11 @@
 
 - Создать сервис WFS - доступен только для ресурса Векторный слой;
 
+- Создать сервис OGC API - Features - доступен только для ресурса Векторный слой;
+
 - Создать сервис WMS - доступен только для ресурса Векторный слой;
 
-- Дублировать ресурс - доступен только для ресурсов: Векторный слой и растровый слой;
+- Дублировать ресурс - доступен только для ресурсов: Векторный слой и Растровый слой;
 
 - Перезаписать выбранный слой - доступен только для ресурса Векторный слой.
 
@@ -142,18 +149,20 @@ QGIS, поэтому работу с модулем можно начать, и 
 
 При нажатии на иконку появится панель управления ресурсами Веб ГИС.
 
-.. figure:: _static/nextgis_connect/panel.png
+.. figure:: _static/nextgis_connect/connect_panel_ru.png
    :align: center
    :alt: Панель модуля расширения NextGIS Connect
+   :width: 10cm
    
    Панель модуля расширения NextGIS Connect
 
 Если на данный момент не настроено ни одно подключение, вы увидите сообщение с предложением 
 создать свою Веб ГИС.
 
-.. figure:: _static/nextgis_connect/panel-no-connections.png
+.. figure:: _static/nextgis_connect/panel-no-connections_ru.png
    :align: center
    :alt: Панель модуля расширения NextGIS Connect при отсутствии подключения
+   :width: 10cm
    
    Панель модуля расширения NextGIS Connect при отсутствии подключения
 
@@ -175,7 +184,7 @@ https://my.nextgis.com/webgis
 
 Нажмите кнопку "Настройки" на панели модуля расширения NextGIS Connect.
 
-.. figure:: _static/nextgis_connect/call_settings.png
+.. figure:: _static/nextgis_connect/call_settings_ru.png
    :align: center
    :alt: Вызов диалога настроек
    
@@ -260,10 +269,12 @@ https://my.nextgis.com/webgis
 3. Базовые карты (подложек) - только при наличии у Веб ГИС тарифного плана 'Mini' или 'Premium'
 4. Проект QGIS целиком
 
+
 Алгоритм загрузки каждого типа данных описан `здесь <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-ngqgis-connect-data-upload>`_.
 
-.. figure:: _static/nextgis_connect/add_to_ngw.png
+.. figure:: _static/nextgis_connect/add_to_ngw_ru.png
    :align: center
+   :width: 10cm
    
    Меню импорта данных
 
@@ -287,15 +298,16 @@ https://my.nextgis.com/webgis
 Экспорт данных из Веб ГИС в QGIS
 ---------------------------------
 
-.. figure:: _static/nextgis_connect/add_to_qgis.png
+.. figure:: _static/nextgis_connect/add_to_qgis_ru.png
    :align: center
    :alt: Добавить в QGIS
+   :width: 10cm
    
    Кнопка экспорта данных в QGIS
 
 Операция доступна, если в дереве ресурсов NextGIS выбран один из следующих видов ресурсов:
 
-- Векторный слой (NGW Vector Layer) |resource_vector| - в QGIS будет создан векторный 
+- Векторный слой (NGW Vector Layer) |vector_layer| - в QGIS будет создан векторный 
   слой GeoJSON;
 - WFS Сервис (NGW WFS Service) |resource_wfs| - в QGIS будет создан WFS слой, источником 
   данных для которого будет выбранный WFS Сервис;
@@ -328,6 +340,8 @@ https://my.nextgis.com/webgis
 Подробно про обновление `данных <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-ngqgis-connect-data-overwrite>`_ и `стилей <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-ngqgis-connect-style-overwrite>`_.
 
 
+
+
 .. _ng_connect_wfs_wms:
 
 Публикация данных по WMS/WFS протоколам
@@ -352,27 +366,27 @@ https://my.nextgis.com/webgis
   не является группой ресурсов;
 - в основной группе ресурсов, если не выбран ни один ресурс в дереве ресурсов Веб ГИС.
 
-.. figure:: _static/nextgis_connect/create_group.png
+.. figure:: _static/nextgis_connect/create_group_ru.png
    :align: center
    :alt: Создать новую группу ресурсов
+   :width: 10cm
 
 
 Операция "обновления" обновит все дерево ресурсов Веб ГИС до актуального на текущий момент состояния.
 
-.. figure:: _static/nextgis_connect/reload.png
+.. figure:: _static/nextgis_connect/reload_ru.png
    :align: center
    :alt: Обновить дерево ресурсов
+   :width: 10cm
 
 
-Удаление ресурса безвозвратно удаляет выбранные геоданные.
-
-
-.. figure:: _static/nextgis_connect/open_webmap.png
+.. figure:: _static/nextgis_connect/open_webmap_ru.png
    :align: center
    :alt: Открыть веб-карту в браузере
+   :width: 10cm
 
 Если в дереве ресурсов выбран ресурс веб-карта (NGW Web Map) |resource_webmap|, 
 то она откроется в новой вкладке браузера.
 
-.. |resource_webmap| image:: _static/nextgis_connect/resource_webmap.png
+.. |resource_webmap| image:: _static/nextgis_connect/resource_webmap_symbol.png
 
