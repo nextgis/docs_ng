@@ -354,7 +354,7 @@ Open Web Map in browser
 
 Option is available if a Web Map (|resource_webmap| NGW Web Map) is selected in NextGIS Connect resource tree. The Web Map will be opened in a new tab of default browser.
 
-.. figure:: _static/nextgis_connect/open_webmap_en.png
+.. figure:: _static/open_webmap_en.png
    :align: center
    :width: 10cm
 
