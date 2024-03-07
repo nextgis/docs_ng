@@ -21,8 +21,7 @@ With NextGIS Connect you can:
 9.      Add new vector layer styles from QGIS to the existing style of this layer in Web GIS.
 
 
-.. important::
-	If you plan to share large data through NextGIS Connect, you might need to configure QGIS timeouts for network requests. This setting is in the menu section **Settings** -> **Options** -> **Network** -> Timeout for network requests (ms). The recommended value is **300,000**, it can be increased if necessary.
+
 
 
 .. warning::
