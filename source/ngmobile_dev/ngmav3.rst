@@ -231,7 +231,7 @@ To add new layer to the map you need:
 SDK API References
 -------------------
 
-The SDK API can be found in :doc:`documentation <kotlin_api>`.
+The section is in progress
 
 Demo projects
 --------------
