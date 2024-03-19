@@ -150,6 +150,7 @@ Data transfer
 =============
 
 NextGIS Connect module allows you to share geodata between QGIS and Web GIS in both directions.
+
 .. _ng_connect_types:
 
 Resource Types
@@ -209,13 +210,19 @@ Algorithm for importing each data type is described `here <https://docs.nextgis.
    :align: center
    :width: 9cm
 
-- Vector layer – vector layer with its style will be imported into Web GIS. Style can be added directly on web map.
-- Raster layer – raster layer with a default style will be created in Web GIS. Style can be added directly on web map.
-- Upload all - All layers for which option “Import selected layer(s)” is available will be added to Web GIS, as well as all groups with retained hierarchy from QGIS Layers Panel. Also web map will be created and all imported layers will be added to it retaining hierarchy and visibility of QGIS Layers Panel. While importing a project you need to specify the name of the new resource group which will be created in Web GIS. This group will hold all resources imported along with a project. Upon project import created web map will be opened automatically if corresponding option is selected in plugin settings.
+- Vector layer – vector layer with its style will be imported into Web GIS. You can later add this style to a Web Map.
+- Raster layer – raster layer with a default style will be created in Web GIS. Style can be added directly to Web Map.
+- Upload all - All layers for which option “Import selected layer(s)” is available will be added to Web GIS, as well as all groups with retained hierarchy from QGIS Layers Panel. Also a Web Map will be created and all imported layers will be added to it retaining hierarchy and visibility of QGIS Layers Panel. While importing a project you need to specify the name of the new resource group which will be created in Web GIS. This group will hold all resources imported along with the project. When the process is complete, the Web Map will be opened automatically if corresponding option is selected in plugin settings.
 - Update layer style - Web GIS will update the style of the layer, similar to the style of the selected layer in QGIS.
 - Add new style to layer - Web GIS will add a new style to the layer, similar to the selected layer in QGIS.
 
-Imported resources will be added to a group selected in NextGIS Connect panel. If other type of resources but a group is selected, import will be performed to a closest parent group to selected resource. If no resource is selected, import will be performed to the root directory.
+If a layer has **multiple styles**, they will all be uploaded. Their names will be kept. If the style name is "default", the layer's name will be used instead.
+
+Imported resources will be added to a group selected in NextGIS Connect panel. 
+
+* If other type of resource but a group is selected, import will be performed to the closest parent group to selected resource. 
+
+* If no resource is selected, import will be performed to the Main resource group (the root directory).
 
 
 .. _ng_connect_export:
@@ -232,15 +239,22 @@ Option is available if one of the following resources is selected in NextGIS Web
 
 - Vector layer (NGW Vector Layer) |vector_layer| - GeoJSON vector layer will be created in QGIS;
 - WFS service (NGW WFS Service) |resource_wfs| - WFS layer will be created in QGIS;
-- QGIS style of a vector layer |resource_style| - GeoJSON vector layer with the style identical to selected one will be created in QGIS;
-- Raster layer (NGW Raster layer)  |raster_layer|  - a GeoTIFF raster layer will be created in QGIS.
 - WMS Layer - the selected WMS layer will be added to QGIS;
 - WMS Service - a WMS layer will be created in QGIS, the data source for which the selected WMS Service will be;
 - WMS Connection - you can select the WMS layer from the list to add to QGIS.
+- QGIS style of a vector layer |resource_style| - GeoJSON vector layer with the style identical to selected one will be created in QGIS;
+- Raster layer (NGW Raster layer)  |raster_layer|  - a GeoTIFF raster layer will be created in QGIS.
 
 .. |resource_vector| image:: _static/resource_vector.png
 
 .. |resource_wfs| image:: _static/resource_wfs.png
+
+For layers with **multiple styles**:
+
+* If you select a layer with multiple styles in the Connect window, all the styles will be added, but you need to chose current style in a dialog window.
+* If you select a style in the Connect window, all the styles of the layer weill be added, with the selected style chosen as current style.
+* If you select a resource group containing layers with multiple styles, all the styles will be added. The style used as current will be the one with the same name as the layer or the first in alphabetical order. No dialog will be displayed.
+* If you add WFS/OGCF, the style with the same name as the layer or the first in alphabetical order will be chosen.
 
 
 The algorithm for Exporting data to QGIS is described `here <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#exporting-data>`_.
@@ -265,7 +279,7 @@ Common options:
 
 -	Delete – delete resource.
 
--       Edit metadata - edit metadata.
+-   Edit metadata - edit metadata.
 
 
 Variable options – depend on resource type:
@@ -284,9 +298,9 @@ Variable options – depend on resource type:
 
 -       Create WMS service - available only for the Feature layer resource;
 
--       Duplicate resource - only available for resources: Vector layer and raster layer;
+-       Duplicate resource - only available for resources: Vector layer and Raster layer;
 
--       Overwrite selected layer - available only for the Feature layer resource.
+-       Overwrite selected layer - available only for the Vector layer resource.
 
 
 
@@ -308,10 +322,10 @@ More info about updating `data <https://docs.nextgis.com/docs_ngcom/source/ngqgi
 
 .. _ng_connect_wfs_wms:
 
-Manage WMS/WFS services
+Manage WMS/WFS and OGC services
 ------------------------
 
-NextGIS Connect module allows publishing vector data using standard protocols :term:`WFS` and :term:`WMS`.
+NextGIS Connect module allows publishing vector data using standard protocols :term:`WFS`, :term:`WMS` and OGC.
 To do this, in the context menu of the required layer select the appropriate operation.
 More info `here <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#creating-wfs-and-wfs-services>`_.
 
