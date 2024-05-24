@@ -25,7 +25,6 @@
    /docs_forestinspector/source/toc
    /docs_les/source/toc
    /docs_ngweb_dev/doc/toc
-   /ngmobile_dev/toc
    /qms_srv_dev/doc/api
    /docs_formbuilder_dev/doc/toc
    /tracker_hub_dev/main
