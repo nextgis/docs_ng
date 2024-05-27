@@ -2,8 +2,7 @@
 .. NextGIS Mobile Android SDK
 
 .. _ngmobdev_api_kotlin:
-Документация по API
-====================
+
 
 .. toctree::
    :caption: Classes
