@@ -8,6 +8,8 @@
 .. toctree::
    :maxdepth: 2
 
-   intro
    ngconnect
+   ngc_install
+   ngc_settings
+   ngc_data_transfer
    troubleshooting
