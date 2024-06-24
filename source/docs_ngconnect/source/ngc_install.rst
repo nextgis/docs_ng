@@ -47,7 +47,7 @@ If the previously used version of NextGIS Connect didn't support QGIS authentica
    :align: center
    :name: connect_update_convert_pic
    :alt: NextGIS Connect panel after update
-   :width: 8cm
+   :width: 10cm
 
    Message announcing the need to convert connections
 
@@ -101,15 +101,15 @@ In the pop-up window press **New** and fill in the fields:
 Next, in the *Authentication* section, add a new configuration or select a previously created one (the list items consist of configuration name, user name and authentication type).
 
 The default setting, "No Authentication" can be used if you don't need to perform actions that a Guest has no permissions for.
-For instance, only the Web GIS owner and the `team members <https://docs.nextgis.com/docs_ngcom/source/create.html#ngcom-team-management>`_ can create and delete resources.
+For instance, only the Web GIS owner and the `team members <https://docs.nextgis.com/docs_ngcom/source/create.html#team-management>`_ can create and delete resources.
 
 To **add a new configuration**, press the button with a green plus.
 
 The "Authentication" dialog will pop up.
 
-.. figure:: _static/nextgis_connect/auth_config_create_en.png
+.. figure:: _static/auth_config_create_en.png
    :align: center
-   :width: 12cm
+   :width: 8cm
    :name: auth_config_create_pic
    :alt: Adding authentication configuration
    
