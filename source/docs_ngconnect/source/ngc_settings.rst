@@ -4,6 +4,15 @@
 Основные настройки
 ===================
 
+Меню настроек можно открыть из верхнего меню или нажав кнопку с шестеренкой в панели NextGIS Connect.
+
+.. figure:: _static/nextgis_connect/call_settings_ru.png
+   :align: center
+   :alt: Вызов диалога настроек
+   :width: 10cm
+
+   Вызов диалога настроек
+
 .. figure:: _static/nextgis_connect/ngc_settings_ru.png
    :align: center
    :alt: Основные настройки
