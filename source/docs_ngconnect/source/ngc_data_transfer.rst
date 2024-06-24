@@ -191,7 +191,7 @@ Variable options – depend on resource type:
 
 - Duplicate resource - only available for resources: Vector layer and Raster layer;
 
-Overwrite selected layer - available only for Vector layer.
+- Overwrite selected layer - available only for Vector layer.
 
 
 The plugin also allows you to navigate to the Web GIS data directly from the the Layers panel in QGIS. In the layer's context menu find "NextGIS Connect" and press "Open in Web GIS".
