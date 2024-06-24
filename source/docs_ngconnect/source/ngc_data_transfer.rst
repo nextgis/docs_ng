@@ -91,7 +91,7 @@ Imported resources will be added to the group selected in NextGIS Connect panel.
 * If no resource is selected, import will be performed to the Main resource group (the root directory).
 
 
-.. ng_connect_keep_photo:
+
 
 .. warning::
 
@@ -103,6 +103,8 @@ To **keep the photos** intact while modifying the style, perform the following s
 1. Add the layer's style from Web GIS to QGIS using NextGIS Connect.
 2. Modify the style.
 3. Update the style using NextGIS Connect. 
+
+.. ng_connect_keep_photo:
 
 .. figure:: _static/ngconnect_modify_keep_photo_en.png
    :align: center
@@ -251,7 +253,7 @@ If the edits made in the cloud were incorrect and you need to replace them with 
 
 .. _ng_connect_update_data:
 
-Обновление данных и стилей
+Update data or styles
 --------------------------
 
 .. warning:: 
