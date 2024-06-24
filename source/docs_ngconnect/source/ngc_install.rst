@@ -3,11 +3,11 @@
 Installation
 =========
 
-To download NextGIS Connect plugin, from the main menu open *Plugins‣ Manage and install plugins*. Start typing the name of the plugin in the search bar, select it in the list and press **Install**.
+To download NextGIS Connect plugin, from the main menu open *Plugins ‣ Manage and install plugins*. Start typing the name of the plugin in the search bar, select it in the list and press **Install**.
 
 NextGIS Connect plugin is a part of `NextGIS QGIS <http://nextgis.com/nextgis-qgis/>`_ distributive and is ready to go right after installation of desktop app.
 
-If you need to check the version of the plugin or update it, go to * *Plugins‣ Manage and install plugins ‣ NextGIS Connect*. 
+If you need to check the version of the plugin or update it, go to *Plugins‣ Manage and install plugins ‣ NextGIS Connect*. 
 
 
 
