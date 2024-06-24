@@ -18,19 +18,19 @@ The following types of resources are available for data exchange and operation:
 .. |resource_vector_mline| image:: _static/nextgis_connect/vector_layer_mline.png
 .. |resource_vector_polygon| image:: _static/nextgis_connect/vector_layer_polygon.png
 .. |resource_vector_mpolygon| image:: _static/nextgis_connect/vector_layer_mpolygon.png
-.. |resource_wfs| image:: _static/nextgis_connect/resource_wfs_symbol.png
-.. |resource_wms| image:: _static/nextgis_connect/resource_wms_symbol.png
-.. |resource_style| image:: _static/nextgis_connect/resource_style_symbol.png
-.. |resource_webmap| image:: _static/nextgis_connect/resource_webmap_symbol.png
+.. |resource_wfs| image:: _static/resource_wfs_symbol.png
+.. |resource_wms| image:: _static/resource_wms_symbol.png
+.. |resource_style| image:: _static/resource_style_symbol.png
+.. |resource_webmap| image:: _static/resource_webmap_symbol.png
 .. |resource_group| image:: _static/nextgis_connect/resource_group.png
-.. |raster_layer| image:: _static/nextgis_connect/raster_layer.png
-.. |vector_layer| image:: _static/nextgis_connect/vector_layer_symbol.png
-.. |basemap_symbol| image:: _static/nextgis_connect/basemap_symbol.png
-.. |tms_service_symbol| image:: _static/nextgis_connect/tms_service_symbol.png
-.. |postgis_layer_symbol| image:: _static/nextgis_connect/postgis_layer_symbol.png
-.. |demo_project_symbol| image:: _static/nextgis_connect/demo_project_symbol.png
-.. |wms_layer_symbol| image:: _static/nextgis_connect/wms_layer_symbol.png
-.. |wms_connection_symbol| image:: _static/nextgis_connect/wms_connection_symbol.png
+.. |raster_layer| image:: _static/raster_layer.png
+.. |vector_layer| image:: _static/vector_layer_symbol.png
+.. |basemap_symbol| image:: _static/basemap_symbol.png
+.. |tms_service_symbol| image:: _static/tms_service_symbol.png
+.. |postgis_layer_symbol| image:: _static/postgis_layer_symbol.png
+.. |demo_project_symbol| image:: _static/demo_project_symbol.png
+.. |wms_layer_symbol| image:: _static/wms_layer_symbol.png
+.. |wms_connection_symbol| image:: _static/wms_connection_symbol.png
 
 - |vector_layer| - Vector layer (NGW Vector Layer), which can be:  
   |resource_vector_point| - Point vector layer (NGW Vector Layer); 
@@ -62,7 +62,7 @@ NextGIS Connect module allows you to import:
 
 1. Vector data
 2. Raster data
-3. Basemaps - only for `'Mini' or 'Premium' plans <<https://nextgis.com/pricing-base/>`_
+3. Basemaps - only for `'Mini' or 'Premium' plans <https://nextgis.com/pricing-base/>`_
 4. Entire QGIS project
 
 
@@ -98,9 +98,7 @@ Imported resources will be added to the group selected in NextGIS Connect panel.
     **Photos** made via NextGIS Collector/Mobile apps and uploaded to Web GIS as attachments to layers **wouldn't be available** in desktop NextGIS QGIS after downloading these layers through NextGIS Connect plugin.
    
    
-To **keep the photos** intact while modifying the style, 
-
- perform the following steps:
+To **keep the photos** intact while modifying the style, perform the following steps:
 
 1. Add the layer's style from Web GIS to QGIS using NextGIS Connect.
 2. Modify the style.
@@ -126,10 +124,8 @@ From Web GIS to QGIS
 
 Option is available if one of the following resources is selected in NextGIS Web resource tree:
 
-- Vector layer (NGW Vector Layer) |vector_layer| - GeoJSON vector layer will be created in QGIS 
-  ;
-- WFS service (NGW WFS Service) |resource_wfs| - WFS layer will be created in QGIS 
-  ;
+- Vector layer (NGW Vector Layer) |vector_layer| - GeoJSON vector layer will be created in QGIS;
+- WFS service (NGW WFS Service) |resource_wfs| - WFS layer will be created in QGIS;
 - WMS Layer - the selected WMS layer will be added to QGIS;
 - WMS Service - a WMS layer will be created in QGIS, the data source for which the selected WMS Service will be;
 - WMS Connection - you can select the WMS layer from the list to add to QGIS;
@@ -139,7 +135,7 @@ Option is available if one of the following resources is selected in NextGIS Web
 - Raster layer (NGW Raster layer)  |raster_layer|  - a GeoTIFF raster layer will be created in QGIS;
 - Basemap|basemap_symbol|;
 - Web Map |resource_webmap| - a QGIS project will be created containing layers, styles and basemaps;
-- Demo Project <https://docs.nextgis.com/docs_ngcom/source/demoprojects.html>`_ |demo_project_symbol| - a QGIS project will be created, containing layers, styles and basemaps.
+- `Demo Project <https://docs.nextgis.com/docs_ngcom/source/demoprojects.html>`_ |demo_project_symbol| - a QGIS project will be created, containing layers, styles and basemaps.
 
 
 For layers with **multiple styles**:
