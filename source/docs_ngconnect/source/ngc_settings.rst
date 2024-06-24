@@ -3,6 +3,15 @@
 Main Settings
 ===================
 
+You can access this dialog via top menu *Settings > Options > NextGIS Connect*, or from NextGIS Connect panel by clicking on the gear button.
+
+.. figure:: _static/call_settings_en.png
+   :align: center
+   :alt: Open settings dialog
+   :width: 10cm
+
+   Opening Settings menu
+
 .. figure:: _static/ngc_settings_en.png
    :align: center
    :alt: Main settings
