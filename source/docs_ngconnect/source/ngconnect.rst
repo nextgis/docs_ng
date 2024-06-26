@@ -27,5 +27,5 @@ With NextGIS Connect you can:
 
 .. warning::
 
-    **Photos** made via NextGIS Collector/Mobile apps and uploaded to Web GIS as attachments to layers **wouldn't be available** in desktop NextGIS QGIS after downloading these layers through NextGIS Connect plugin. To **keep the photos** intact while modifying the style, follow `this instruction <https://docs.nextgis.com/docs_ngconnect/source/ngc_data_transfer.html#ng-connect-keep-photo>`_.
+    **Photos** made via NextGIS Collector/Mobile apps and uploaded to Web GIS as attachments to layers **wouldn't be available** in desktop NextGIS QGIS after downloading these layers through NextGIS Connect plugin. To **keep the photos** intact while modifying the style, follow `this instruction <https://docs.nextgis.com/docs_ngconnect/source/ngc_data_transfer.html#how-to-keep-the-attachments>`_.
 
