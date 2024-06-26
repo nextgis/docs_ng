@@ -96,7 +96,7 @@ Imported resources will be added to the group selected in NextGIS Connect panel.
     **Photos** made via NextGIS Collector/Mobile apps and uploaded to Web GIS as attachments to layers **wouldn't be available** in desktop NextGIS QGIS after downloading these layers through NextGIS Connect plugin.
    
 
-.. ng_connect_keep_photo:
+
 
 How to keep the attachments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
