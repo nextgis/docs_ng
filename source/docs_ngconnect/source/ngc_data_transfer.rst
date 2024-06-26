@@ -91,20 +91,21 @@ Imported resources will be added to the group selected in NextGIS Connect panel.
 * If no resource is selected, import will be performed to the Main resource group (the root directory).
 
 
-
-
 .. warning::
 
     **Photos** made via NextGIS Collector/Mobile apps and uploaded to Web GIS as attachments to layers **wouldn't be available** in desktop NextGIS QGIS after downloading these layers through NextGIS Connect plugin.
    
-   
+
+.. ng_connect_keep_photo:
+
+How to keep the attachments
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 To **keep the photos** intact while modifying the style, perform the following steps:
 
 1. Add the layer's style from Web GIS to QGIS using NextGIS Connect.
 2. Modify the style.
 3. Update the style using NextGIS Connect. 
-
-.. ng_connect_keep_photo:
 
 .. figure:: _static/ngconnect_modify_keep_photo_en.png
    :align: center
@@ -158,7 +159,7 @@ Context menu may differ depending on resource type.
 .. figure:: _static/context_menu_en.png
    :align: center
    :alt: Context menu for a qgis vector style
-   :width: 10cm
+   :width: 9cm
    
    Context menu example
 
@@ -235,7 +236,8 @@ Press the symbol to open the layer status window.
 
 .. figure:: _static/ngc_layer_status_en.png
    :align: center
-   :width: 14cm
+   :width: 10cm
+   :alt: Layer status dialog
 
    Layer status dialog
 
@@ -288,7 +290,7 @@ In Web GIS you can create `Lookup tables <https://docs.nextgis.com/docs_ngcom/so
 
 When the layer is exported from Web GIS to QGIS the values of the lookup table will be added to the layer using value map widget. After that they will be available in the desktop app in the corresponding field of the table when you enter edit mode.
 
-.. figure:: _static/nextgis_connect/ngc_lookup_en.png
+.. figure:: _static/ngc_lookup_en.png
    :align: center
    :width: 20cm
 
