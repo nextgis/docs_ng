@@ -245,7 +245,8 @@ It has the date and time of the latest synchronization and the status: synchroni
 
 You can start the process manually by pressing the **Synchronization** button.
 
-While the layer is in edit mode, synchronization is not available.
+.. important::
+    While the layer is in edit mode, synchronization is not available.
 
 If changes have been made to the layer in Web GIS since the last synchronization, further synchronization will not be possible and a message will appear. To continue working with the layer you need to reload it by resetting it to the current state it is in NGW. In the synchronization dialog in the dropdown menu select **Reset layer**. Keep in mind that if you reset the layer, all local changes that had not been synchronized will be lost. 
 
