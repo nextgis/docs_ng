@@ -49,7 +49,7 @@
 - |raster_layer| - Растровый слой (NGW Raster Layer)
 - |basemap_symbol| - Подложка
 - |resource_webmap| - Веб карта (NGW Web Map)
-- |resource_group| - Группа ресурсов (NGW Web Map)
+- |resource_group| - Группа ресурсов
 
 
 
