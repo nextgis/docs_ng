@@ -48,7 +48,7 @@ The following types of resources are available for data exchange and operation:
 - |raster_layer| - Raster layer (NGW Raster Layer)
 - |basemap_symbol| - Basemap
 - |resource_webmap| - Web Map (NGW Web Map)
-- |resource_group| - Resource group (NGW Web Map)
+- |resource_group| - Resource group
 
 
 
