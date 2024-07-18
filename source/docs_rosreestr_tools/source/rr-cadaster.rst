@@ -37,7 +37,7 @@
 .. figure:: _static/add_layer_ppk_ru.png
    :name: add_layer_ppk_ru
    :align: center
-   :width: 20cm
+   :width: 14cm
 
    Добавление слоёв из ПКК через панель "Браузер"
 
@@ -63,16 +63,16 @@
    
    Идентификация объектов Росреестра
    
-.. figure:: _static/objects_on_map_ru.png
+.. figure:: _static/objects_on_map_ru_2.png
    :name: object_on_map
    :align: center
    :width: 20cm
    
-   Отображение карточки найденного объекта (ОКС) и подсветка его контура
+   Отображение карточки найденного объекта и подсветка его контура
 
 Если в искомой точке слоя находится несколько объектов (ЗОУИТ например), то можно выбрать нужный из выпадающего списка. При идентификации объект можно сохранить в пользовательский векторный слой, а также создать специальный слой со структурой идентифицируемого объекта. Аналогично при поиске объектов: найденные объекты можно добавлять в пользовательские или специальные векторные слои (см. :numref:`ngq_identification`, :numref:`ngq_temp_layer`).
 
-.. figure:: _static/ngq_identification_ru.png
+.. figure:: _static/ngq_identification_ru_2.png
    :name: ngq_identification
    :align: center
    :width: 20cm
@@ -99,11 +99,11 @@
 Поиск по кадастровому номеру
 ----------------------------
 
-Иконка панели поиска |search_icon| позволяет находить объекты имеющие границы из базы данных Росреестра (см. :numref:`search_object`) по кадастровому номеру.
+Иконка панели поиска |search_icon| позволяет находить объекты, имеющие границы из базы данных Росреестра (см. :numref:`search_object`), по кадастровому номеру.
 
 .. |search_icon| image:: _static/search_icon_ru.png
 
-.. figure:: _static/search_object_ru.png
+.. figure:: _static/search_object_ru_2.png
    :name: search_object
    :align: center
    :width: 20cm
@@ -111,6 +111,26 @@
    Отображение карточки найденного объекта и подсветка его контура
 
 Для снятия выделения нажмите кнопку |button_clear_selection|.
+
+В карточке объекта отображается статистика: для кадастрового округа, например, будет указано, сколько кварталов, участков и ОКС он включает в себя.
+
+.. figure:: _static/search_object_stat_ru.png
+   :name: search_object
+   :align: center
+   :width: 20cm
+
+   Статистические данные квартала
+
+Поддерживается поиск объектов без геометрий. Можно просмотреть карточку объекта и добавить его на слой. Функция перехода к объекту будет недоступна, поскольку он не имеет геометрии.
+
+.. figure:: _static/no_geometry_card_ru.png
+   :name: no_geometry_card_pic
+   :align: center
+   :width: 20cm
+   
+   Отображение карточки найденного объекта без геометрии
+
+
 
 .. |button_clear_selection| image:: _static/button_clear_selection.png
 
