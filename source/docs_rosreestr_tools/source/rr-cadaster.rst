@@ -51,12 +51,12 @@
 * земельным участкам
 * объектам капитального строительства (ОКС)
 * зонам с особыми условиями использования территорий (ЗОУИТ)
-* кадастровым округам
+
 
 
 .. |identificaion_oicon| image:: _static/identificaion_oicon_ru.png
 
-.. figure:: _static/identificaion_objects_ru.png
+.. figure:: _static/identificaion_objects_ru_2.png
    :name: identificaion_objects
    :align: center
    :width: 14cm
@@ -80,21 +80,30 @@
    Доступные опции при идентификации объекта
    
    
-.. figure:: _static/ngq_temp_layer_ru.png
+.. figure:: _static/ngq_temp_layer_ru_2.png
    :name: ngq_temp_layer
    :align: center
    :width: 20cm
    
    Добавление объекта во временный пользовательский слой
    
-.. figure:: _static/ngq_temp_layer_attributes_ru.png
+.. figure:: _static/ngq_temp_layer_attributes_ru_2.png
    :name: ngq_temp_layer_attributes
    :align: center
    :width: 20cm
    
-   Объект во временном слое. 1 - временный слой, 2 - карточка информации об объекте, 3 - таблица атрибутов временного слоя, 4 - объект на карте.
+   Объект во временном слое. 1 - временный слой, 2 - карточка информации об объекте, 3 - таблица атрибутов временного слоя, 4 - объект на карте
    
 Также можно скопировать запись (строку), значение отдельного атрибута или всю карточку.  
+
+Поля, содержащие большие числа и единицы измерения, представлены в атрибутах объекта в двух вариантах: с форматированием и без.
+
+.. figure:: _static/feature_format_ru.png
+   :name: feature_format_pic
+   :align: center
+   :width: 20cm
+
+   Поля с визуальным форматированием больших чисел и единиц измерения
 
 Поиск по кадастровому номеру
 ----------------------------
@@ -106,7 +115,7 @@
 .. figure:: _static/search_object_ru_2.png
    :name: search_object
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    Отображение карточки найденного объекта и подсветка его контура
 
@@ -117,7 +126,7 @@
 .. figure:: _static/search_object_stat_ru.png
    :name: search_object
    :align: center
-   :width: 20cm
+   :width: 22cm
 
    Статистические данные квартала
 
@@ -126,7 +135,7 @@
 .. figure:: _static/no_geometry_card_ru.png
    :name: no_geometry_card_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
    
    Отображение карточки найденного объекта без геометрии
 
