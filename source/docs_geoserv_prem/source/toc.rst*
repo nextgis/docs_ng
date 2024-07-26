@@ -8,4 +8,4 @@ NextGIS Geoservices on-premise documentation
 .. toctree::
    :maxdepth: 2
 
-   
+   intro
