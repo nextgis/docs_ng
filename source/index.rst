@@ -12,6 +12,7 @@
    /docs_toolbox/source/toc
    /docs_data/source/toc
    /docs_geoservices/source/toc
+   /docs_geoserv_prem/source/toc
    /docs_ngweb/source/toc
    /docs_ngweb_3D/source/toc
    /docs_ngqgis/source/toc
