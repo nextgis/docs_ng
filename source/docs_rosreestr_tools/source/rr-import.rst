@@ -41,7 +41,7 @@
 .. figure:: _static/import_egrn_ru_2.png
    :name: import-egrn
    :align: center
-   :width: 16cm
+   :width: 14cm
    
    Интерфейс инструмента “Импорт данных ЕГРН”
    
@@ -82,22 +82,16 @@
 .. figure:: _static/import_proc2_ru_2.png
    :name: import_proc2
    :align: center
-   :width: 16cm
-
+   :width: 14cm
   
    Процесс импорта xml-файла
 
 По завершении импорта xml-файла окно закроется автоматически.
 
-.. figure:: _static/import_proc_zip2_ru.png
+.. figure:: _static/import_proc_zip2_ru_2.png
    :name: import_proc_zip2
    :align: center
-   :width: 16cm
-   
-.. figure:: _static/import_proc_zip3_ru.png
-   :name: import_proc_zip3
-   :align: center
-   :width: 16cm
+   :width: 14cm
    
    Процесс импорта zip-архива
    
@@ -124,7 +118,7 @@
 .. figure:: _static/import_egrn_srs_ru.png
    :name: import_egrn_srs_pic
    :align: center
-   :width: 16cm
+   :width: 14cm
 
    Поля выбора СК данных и целевой СК
 
