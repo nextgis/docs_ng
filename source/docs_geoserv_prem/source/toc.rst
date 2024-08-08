@@ -11,3 +11,4 @@
    intro
    auth
    services
+   settings
