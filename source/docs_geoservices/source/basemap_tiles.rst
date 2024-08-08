@@ -5,6 +5,9 @@
 Сервисы базовых подложек
 ========================
 
+.. important::
+   Данный инструмент доступен только владельцам `плана Premium <https://nextgis.ru/nextgis-com/plans>`_.
+
 С помощью `NextGIS Geoservices <https://geoservices.nextgis.com/>`_ есть возможность подключить векторные и растровые карты с GL стилями:
 
 1. Klokantech 3D
