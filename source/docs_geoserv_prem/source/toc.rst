@@ -10,3 +10,4 @@
 
    intro
    auth
+   services
