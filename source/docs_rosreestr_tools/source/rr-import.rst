@@ -27,7 +27,8 @@
 * Выписка о ЗОУИТ: `extract_about_zone <https://rosreestr.gov.ru/upload/Doc/10-upr/extract_about_zones_v01.rar>`_
 * Местоположения ЗОУИТ: `TerritoryToGKN <https://rosreestr.gov.ru/upload/Doc/10-upr/TerritoryToGKN_v01.rar>`_
 * Решение о ЗОУИТ: `ZoneToGKN <https://rosreestr.gov.ru/upload/Doc/10-upr/ZoneToGKN_v05.rar>`_
-* также, поддерживается выгрузка секции ReestrExtract с таблицами о правах собственности, сделках и т.п. и аналогичные таблицы в extract_about_property_land.
+
+Для выписок, где есть дополнительная информация: о правах их обладателях, ограничениях, лицах в пользу которых они установлени, документах, сделках, и т.д., - она попадает в соответствующие слои. 
 
 Если вы столкнулись с ошибкой «Неподдерживаемый тип документа» и необходимой выписки нет в списке поддерживаемых плагином, обратитесь в support@nextgis.ru
 
