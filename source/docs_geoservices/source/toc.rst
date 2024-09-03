@@ -1,8 +1,8 @@
 .. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
 
-.. NextGIS Geoservices TOC
+.. NextGIS GeoServices TOC
 
-Документация NextGIS Geoservices
+Документация NextGIS GeoServices
 ================================
     
 .. toctree::
