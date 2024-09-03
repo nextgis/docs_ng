@@ -49,87 +49,92 @@
 
 	nano docker-compose.yml
 
-version: '3.7'
-services:
-  app:
-    image: registry.nextgis.com/geoservices:2.5.0
-    depends_on:
-      - "postgis"
-      - "postgres"
-      - "redis"
-      - "s3"
-    environment:
-      SESSION_KEY: 5n3zczvhe3v0
-      DB_TYPE: postgres
-      DB_HOST: postgres
-      DB_PASSWORD: b0apciz6p3n9
-      REDIS_ENDPOINT: redis:6379
-      ADMIN_PASSWORD: admin
-      BM_DB_HOST: postgis
-      DEBUG: "false"
-      GIN_MODE: release
-      S3_ACCESS_KEY: 8lo5m0wcteuf
-      S3_SECRET_KEY: rro48pbjh6o8
-      S3_ENDPOINT: s3:9000
-      S3_SSL: "false"
-      S3_DEFAULT_STORAGE_CLASS: REDUCED_REDUNDANCY
-      S3_BUCKET_PREFIX: tiles
-      EXT_TMS_SUPPORT: "true"
-    volumes:
-      - data:/work
-    ports:
-      - 8088:8088
-    restart: always
+.. code-block::
+
+	version: '3.7'
+	services:
+	  app:
+	    image: registry.nextgis.com/geoservices:2.5.0
+	    depends_on:
+	      - "postgis"
+	      - "postgres"
+	      - "redis"
+	      - "s3"
+	    environment:
+	      SESSION_KEY: 5n3zczvhe3v0
+	      DB_TYPE: postgres
+	      DB_HOST: postgres
+	      DB_PASSWORD: b0apciz6p3n9
+	      REDIS_ENDPOINT: redis:6379
+	      ADMIN_PASSWORD: admin
+	      BM_DB_HOST: postgis
+	      DEBUG: "false"
+	      GIN_MODE: release
+	      S3_ACCESS_KEY: 8lo5m0wcteuf
+	      S3_SECRET_KEY: rro48pbjh6o8
+	      S3_ENDPOINT: s3:9000
+	      S3_SSL: "false"
+	      S3_DEFAULT_STORAGE_CLASS: REDUCED_REDUNDANCY
+	      S3_BUCKET_PREFIX: tiles
+	      EXT_TMS_SUPPORT: "true"
+	    volumes:
+	      - data:/work
+	    ports:
+	      - 8088:8088
+	    restart: always
+	
+	
+	  postgres:
+	    image: postgres:15-alpine
+	    environment:
+	      POSTGRES_PASSWORD: b0apciz6p3n9
+	      POSTGRES_DB: geoservices
+	      POSTGRES_USER: geoservices
+	    volumes:
+	      - postgres:/var/lib/postgresql/data
+	    restart: always
+	
+	
+	  redis:
+	    image: redis:alpine
+	    command: "redis-server --maxmemory 20Gb --maxmemory-policy allkeys-lru --appendonly no"
+	    volumes:
+	      - redis:/data
+	    restart: always
+	
+	
+	  postgis:
+	    image: registry.nextgis.com/postgis:3.3.2
+	    environment:
+	      POSTGRES_PASSWORD: b0apciz6p3n9
+	      POSTGRES_DB: basemap
+	      POSTGRES_USER: geoservices
+	    volumes:
+	      - postgis:/var/lib/postgresql/data
+	    restart: always
+	
+	
+	  s3:
+	    image: minio/minio
+	    command: server /data
+	    environment:
+	      MINIO_ACCESS_KEY: 8lo5m0wcteuf
+	      MINIO_SECRET_KEY: rro48pbjh6o8
+	      MINIO_BROWSER: "false"
+	    volumes:
+	      - s3:/data
+	    restart: always
+	
+	
+	volumes:
+	  data: {}
+	  postgres: {}
+	  redis: {}
+	  s3: {}
+	  postgis: {}
+	
 
 
-  postgres:
-    image: postgres:15-alpine
-    environment:
-      POSTGRES_PASSWORD: b0apciz6p3n9
-      POSTGRES_DB: geoservices
-      POSTGRES_USER: geoservices
-    volumes:
-      - postgres:/var/lib/postgresql/data
-    restart: always
-
-
-  redis:
-    image: redis:alpine
-    command: "redis-server --maxmemory 20Gb --maxmemory-policy allkeys-lru --appendonly no"
-    volumes:
-      - redis:/data
-    restart: always
-
-
-  postgis:
-    image: registry.nextgis.com/postgis:3.3.2
-    environment:
-      POSTGRES_PASSWORD: b0apciz6p3n9
-      POSTGRES_DB: basemap
-      POSTGRES_USER: geoservices
-    volumes:
-      - postgis:/var/lib/postgresql/data
-    restart: always
-
-
-  s3:
-    image: minio/minio
-    command: server /data
-    environment:
-      MINIO_ACCESS_KEY: 8lo5m0wcteuf
-      MINIO_SECRET_KEY: rro48pbjh6o8
-      MINIO_BROWSER: "false"
-    volumes:
-      - s3:/data
-    restart: always
-
-
-volumes:
-  data: {}
-  postgres: {}
-  redis: {}
-  s3: {}
-  postgis: {}
 
 Для интеграции с внешними геосервисами для получения данных ПКК необходимо в переменные окружения контейнера app добавить переменную PKK_EXTERNAL_APIKEY с API ключом из вашего профиля на https://geoservices.nextgis.com.
 
@@ -428,6 +433,274 @@ NGW_LOGIN и NGW_APIKEY - логин и пароль для доступа к Ne
        | require - I want my data to be encrypted, and I accept the overhead. I trust that the network will make sure I always connect to the server I want.
        | verify-ca - I want my data encrypted, and I accept the overhead. I want to be sure that I connect to a server that I trust.
        | verify-full - I want my data encrypted, and I accept the overhead. I want to be sure that I connect to a server I trust, and that it's the one I specify.
+   * - DB_SSL_CERT
+     - нет
+     - 
+     - Путь до файла сертификата
+   * - DB_SSL_KEY
+     - нет
+     - 
+     - Путь до файла ключа
+   * - DB_SSL_ROOT_CERT
+     - нет
+     - 
+     - Путь до корневого сертификата
+   * - REDIS_ENDPOINT
+     - да
+     - localhost:6379
+     - Адрес сервиса Redis
+   * - REDIS_MAX_IDLE
+     - нет
+     - 100
+     - Максимальная длительность когда подключение в пуле не будет закрыто
+   * - REDIS_MAX_ACTIVE
+     - нет
+     - 1000
+     - Максимальное количество активных подключений в пуле
+   * - REDIS_IDLE_TIMEOUT
+     - нет
+     - 60
+     - длительность когда подключение в пуле не будет закрыто
+   * - REDIS_CLUSTER
+     - нет
+     - false
+     - Подключаться к кластеру Redis
+   * - REDIS_NODES
+     - нет
+     - "localhost:6379 localhost:7001 localhost:7002 localhost:7003 localhost:7004 localhost:7004"
+     - Ноды Redis cluster (применяется только при REDIS_CLUSTER == true)
+   * - REDIS_KEY_PREFIX
+     - нет
+     - “”
+     - Префикс ключей Redis которые создаются приложением
+   * - REDIS_USER
+     - нет
+     - geoservices
+     - Логин пользователя Redis
+   * - REDIS_DATABASE
+     - нет
+     - 0
+     - База Redis
+   * - REDIS_SSL
+     - нет
+     - false
+     - Соединение с использованием SSL/TLS
+   * - REDIS_INSECURE_SSL
+     - нет
+     - false
+     - Не валидировать SSL/TLS
+   * - S3_ACCESS_KEY
+     - да
+     - Q3AM3UQ867SPQQA43P2F
+     - Ключ доступа к S3
+   * - S3_SECRET_KEY
+     - да
+     - zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG
+     - Секретный ключ доступа к S3
+   * - S3_ENDPOINT
+     - да
+     - play.min.io
+     - Адрес сервера S3
+   * - S3_SSL
+     - нет
+     - true
+     - Использовать шифрование
+   * - S3_INSECURE_SSL
+     - нет
+     - false
+     - Не проверять сертификаты SSL
+   * - S3_DEFAULT_STORAGE_CLASS
+     - нет
+     - REDUCED_REDUNDANCY
+     - Способ хранения REDUCED_REDUNDANCY или STANDARD
+   * - S3_BUCKET_NAME
+     - нет
+     - geoservices
+     - Имя бакета
+   * - S3_KEY_PREFIX
+     - нет
+     - “”
+     - Префикс ключей S3 которые создаются приложением
+   * - S3_NO_OBJECT_TAGGING
+     - нет
+     - false
+     - Не использовать дедупликацию и время истечения если S3 не поддерживает тэги
+   * - RASTER_MAX_ZOOM
+     - нет
+     - 20
+     - Максимальный уровень увеличения растровых тайлов
+   * - VECTOR_MAX_ZOOM
+     - нет
+     - 14
+     - Максимальный уровень увеличения векторных тайлов
+   * - EXPIRE_TILES_MIN_ZOOM
+     - нет
+     - 7
+     - Минимальный уровень увеличения контроля устаревания тайлов
+   * - EXPIRE_TILES_MAX_ZOOM
+     - нет
+     - 16
+     - Максимальный уровень увеличения контроля устаревания тайлов
+   * - NET_MAX_RETRY_COUNT
+     - нет
+     - 5
+     - Количество попыток перезапроса сетевых запросов
+   * - LONG_REQUEST_MIN_TIME
+     - нет
+     - 0
+     - Выводить в журнал длительные запросы - 0 отключено
+   * - NGW_URL
+     - нет
+     - https://sandbox.nextgis.com
+     - Адрес ассоциированного NextGIS Web (для создания кэшей на основе веб-карт)
+   * - NGW_LOGIN
+     - нет
+     - administrator
+     - Логин для доступа к NextGIS Web - нужен для отрисовки тайлов сидировании
+   * - NGW_APIKEY
+     - нет
+     - admin
+     - Пароль доступа к NextGIS Web - нужен для отрисовки тайлов при сидировании
+   * - NGW_FEATURE_LIMIT
+     - нет
+     - 256
+     - Количество записей при постраничном запросе
+   * - USERS_MAINTANCE_SCHEDULE
+     - нет
+     - @every 9m1s
+     - Планировщик очистки кэшей пользователей
+   * - SERVICE_MAINTANCE_SCHEDULE
+     - нет
+     - @every 10m4s
+     - Планировщик очистки кэшей сервисов
+   * - SERVICE_HOUSEKEEPING_SCHEDULE
+     - нет
+     - @every 25h30m10s
+     - Планировщик очистки системы
+   * - DATA_STORE
+     - нет
+     - /data
+     - | Путь до данных необходимых для функционирования сервисов
+       | Оставить по умолчанию
+   * - FILE_STORE
+     - нет
+     - /work
+     - Путь до рабочей папки. Сюда загружаются файлы, выполняются операции, создаются временные файлы.
+   * - BM_DB_HOST
+     - нет
+     - localhost
+     - Хост с БД PostGIS. При старте веб приложения выполняется проверка подключения к БД и наличия всех расширений, необходимых для работы. Если подключение неспешно или нет расширений, то раздел базовых карт отключается. 
+   * - BM_DB_PORT
+     - нет
+     - 5432
+     - Порт до БД PostGIS
+   * - BM_DB_NAME
+     - нет
+     - basemap
+     - Имя БД для импорта дампа OSM
+   * - BM_DB_USER
+     - нет
+     - geoservices
+     - Пользователь из под которого будет выполнено подключение к БД базовой картографической подложки
+   * - BM_DB_PASSWORD
+     - да
+     - 
+     - Пароль от БД данных базовой картографической подложки
+   * - BM_DB_SSL_MODE
+     - нет
+     - 
+     - | disable - I don't care about security, and I don't want to pay the overhead of encryption.
+       | allow - I don't care about security, but I will pay the overhead of encryption if the server insists on it.
+       | prefer - I don't care about encryption, but I wish to pay the overhead of encryption if the server supports it.
+       | require - I want my data to be encrypted, and I accept the overhead. I trust that the network will make sure I always connect to the server I want.
+       | verify-ca - I want my data encrypted, and I accept the overhead. I want to be sure that I connect to a server that I trust.
+       | verify-full - I want my data encrypted, and I accept the overhead. I want to be sure that I connect to a server I trust, and that it's the one I specify.
+   * - BM_DB_SSL_CERT
+     - нет
+     - 
+     - Путь до файла сертификата
+   * - BM_DB_SSL_KEY
+     - нет
+     - 
+     - Путь до файла ключа
+   * - BM_DB_SSL_ROOT_CERT
+     - нет
+     - 
+     - Путь до корневого сертификата
+   * - BM_DB_PARALLEL_SQL
+     - нет
+     - true
+     - Выполнять запросы к БД на получение векторных тайлов параллельно
+   * - BM_DIFF_URL
+     - нет
+     - 
+     - Адрес скачивания дельт ОСМ (имеет смысл только если EXT_SOURCES_SUPPORT == true
+   * - BM_EXPIRE_TILES_MIN_ZOOM
+     - нет
+     - 7
+     - Минимальный уровень увеличения для учета инвалидации тайлов
+   * - BM_EXPIRE_TILES_MAX_ZOOM
+     - нет
+     - 16
+     - Максимальный уровень увеличения для учета инвалидации тайлов
+   * - EXT_SOURCES_SUPPORT
+     - нет
+     - false
+     - | Флаг для разрешения/запрета получения файлов из Интернета. Например для инициализации БД через загрузку дампа из интернета или периодического получения diff. 
+       | Оставить по умолчанию
+   * - EXT_RASTER_RESAMPLING
+     - нет
+     - bilinear
+     - | Сглаживание растра. Поддерживаемые методы:
+       | near: nearest neighbour resampling (default, fastest algorithm, worst interpolation quality).
+       | bilinear: bilinear resampling.
+       | cubic: cubic resampling.
+       | cubicspline: cubic spline resampling.
+       | lanczos: Lanczos windowed sinc resampling.
+       | average: average resampling, computes the weighted average of all non-NODATA contributing pixels.
+       | rms root mean square / quadratic mean of all non-NODATA contributing pixels (GDAL >= 3.3)
+       | mode: mode resampling, selects the value which appears most often of all the sampled points. In the case of ties, the first value identified as the mode will be selected.
+       | max: maximum resampling, selects the maximum value from all non-NODATA contributing pixels.
+       | min: minimum resampling, selects the minimum value from all non-NODATA contributing pixels.
+       | med: median resampling, selects the median value of all non-NODATA contributing pixels.
+       | q1: first quartile resampling, selects the first quartile value of all non-NODATA contributing pixels.
+       | q3: third quartile resampling, selects the third quartile value of all non-NODATA contributing pixels.
+       | sum: compute the weighted sum of all non-NODATA contributing pixels (since GDAL 3.1)
+   * - EXT_ZEROBLOCKHTTPCODES
+     - нет
+     - "204,404"
+     - Коды ответов HTTP для белых тайлов
+   * - LOCALES
+     - нет
+     - “ru en”
+     - Список языков пользовательского интерфейса
+   * - OUTDATED_STAT_TABLE_ROWS
+     - нет
+     - 2*365*24*time.Hour
+     - Удалять записи лога старше 2х лет
+   * - ENABLE_SWAGGER
+     - нет
+     - true
+     - Включить веб интерфейс для swagger
+   * - SSL_CERT_FILE
+     - нет
+     - 
+     - | Для переопределения пути до сертификата
+       | https://stackoverflow.com/a/67622500/2901140
+       | 
+       | Также можно примонтировать файлы с сертификатами по следующим путям (в зависимости от платформы):
+       | 
+       | "/etc/ssl/certs/ca-certificates.crt", // Debian/Ubuntu/Gentoo etc. "/etc/pki/tls/certs/ca-bundle.crt", // Fedora/RHEL 6 "/etc/ssl/ca-bundle.pem", // OpenSUSE "/etc/pki/tls/cacert.pem", // OpenELEC "/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem", // CentOS/RHEL 7 "/etc/ssl/cert.pem", // Alpine Linux
+       | 
+       | 
+       | https://stackoverflow.com/a/40051432/2901140
+   * - DEFAULT_KEY_EXPIRE
+     - нет
+     - 7 дней
+     - TTL тайлов сервисов external
+
+
+
 
 
 
