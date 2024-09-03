@@ -17,19 +17,27 @@
 
 На подготовительном этапе необходимо получить исходные коды. Наиболее простой способ это сделать - склонировать из git репозитория:
 
+.. code-block::
+
 	git clone --depth 1 https://gitlab.com/nextgis_private/geoservices.git
 	cd geoservices
 
 Далее необходимо собрать образ СУБД с поддержкой  PostGIS (например, с названием registry.nextgis.com/postgis:3.3.2):
 
+.. code-block::
+
 	docker build -t registry.nextgis.com/postgis:3.3.2 basemap
 
 На следующем шаге необходимо сформировать исходные данные для наполнения базовой картографической подложки:
+
+.. code-block::
 
 	docker build -t prepare-data -f basemap/Dockerfile-prepare basemap
 	docker run -it --rm -v $(pwd)/basemap:/work prepare-data
 
 Собрать образ веб-приложения (например, с названием registry.nextgis.com/geoservices:2.5.0):
+
+.. code-block::
 
 	docker build -t registry.nextgis.com/geoservices:2.5.0 .
 
@@ -47,7 +55,7 @@
 * Исправить переменные окружения  S3_ACCESS_KEY/MINIO_ACCESS_KEY и S3_SECRET_KEY/MINIO_SECRET_KEY на новые пароли (значения должны быть разными для *_ACCESS_KEY и *_SECRET_KEY)
 * В команде запуска redis установить объем выделяемой памяти (не более доступной контейнеру, лучше на 1-2Гб меньше лимита). Например:
 
-	nano docker-compose.yml
+	**nano docker-compose.yml**
 
 .. code-block::
 
@@ -140,8 +148,8 @@
 
 Для интеграции с NextGIS Web необходимо  в переменные окружения контейнера app добавить следующие переменные: NGW_URL, NGW_LOGIN, NGW_APIKEY.
 
-	NGW_URL - адрес сервера NextGIS Web в виде схема-домен-порт
-NGW_LOGIN и NGW_APIKEY - логин и пароль для доступа к NextGIS Web из сервиса для формирования изображений тайлов. У пользователя должны быть доступ на чтение к данным которые требуется кэшировать в геосервисах. 
+* NGW_URL - адрес сервера NextGIS Web в виде схема-домен-порт
+* NGW_LOGIN и NGW_APIKEY - логин и пароль для доступа к NextGIS Web из сервиса для формирования изображений тайлов. У пользователя должны быть доступ на чтение к данным которые требуется кэшировать в геосервисах. 
 
 .. _docs_geoserv_prem_admin_launch:
 
@@ -150,13 +158,19 @@ NGW_LOGIN и NGW_APIKEY - логин и пароль для доступа к Ne
 
 Для запуска и проверки корректности работы стэка необходимо выполнить:
 
+.. code-block::
+
 	docker-compose up
 
 Для запуска в режиме сервиса:
 
+.. code-block::
+
 	docker-compose up -d
 
 После запуска в браузере открыть адрес сервиса с указанием порта 8088. Например,
+
+.. code-block::
 
 	http://localhost:8088
 
@@ -167,18 +181,18 @@ NGW_LOGIN и NGW_APIKEY - логин и пароль для доступа к Ne
 
 .. list-table::
 
-   * - Переменная
-     - Обязательная
-     - Значение по-умолчанию
-     - Описание
+   * - **Переменная**
+     - **Обязательная**
+     - **Значение по умолчанию**
+     - **Описание**
    * - DEBUG
      - нет
      - true
      - Включить режим отладки SQL запросов
-   * - ADMIN_PASSWORD
-     - да
-     - admin
-     - Изначальный пароль администратора
+   * - **ADMIN_PASSWORD**
+     - **да**
+     - **admin**
+     - **Изначальный пароль администратора**
    * - SESSION_KEY
      - нет
      - secret
@@ -392,26 +406,26 @@ NGW_LOGIN и NGW_APIKEY - логин и пароль для доступа к Ne
      - нет
      - MULTIPOLYGON (((-168.4 84,-168.4 50,-179.999999 50,-179.9999999 84,-168.4 84)),((130 40,130 84,179.999999 84,179.999999 40,130 40)),((129.999999 84,129.999999 47,82.5 47,82.5 84,129.999999 84)),((82.4999999 50,50 50,50 84,82.4999999 84,82.4999999 50)),((20 84,49.999999 84,49.999999 40,20 40,20 84)))
      - Территория для запросов тайлов ПКК
-   * - DB_TYPE
-     - да
-     - sqlite3
-     - Тип БД - sqlite3, postgres, mysql
+   * - **DB_TYPE**
+     - **да**
+     - **sqlite3**
+     - **Тип БД - sqlite3, postgres, mysql**
    * - DB_USER
      - нет
      - geoservices
      - Пользователь из под которого будет выполнено подключение к БД
-   * - DB_PASSWORD
-     - да
+   * - **DB_PASSWORD**
+     - **да**
      - 
-     - Пароль от БД
-   * - DB_HOST
-     - да
-     - localhost
-     - Адрес БД
-   * - DB_PORT
-     - да
-     - 5432
-     - Порт БД
+     - **Пароль от БД**
+   * - **DB_HOST**
+     - **да**
+     - **localhost**
+     - **Адрес БД**
+   * - **DB_PORT**
+     - **да**
+     - **5432**
+     - **Порт БД**
    * - DB_NAME
      - нет
      - geoservices
@@ -445,10 +459,10 @@ NGW_LOGIN и NGW_APIKEY - логин и пароль для доступа к Ne
      - нет
      - 
      - Путь до корневого сертификата
-   * - REDIS_ENDPOINT
-     - да
-     - localhost:6379
-     - Адрес сервиса Redis
+   * - **REDIS_ENDPOINT**
+     - **да**
+     - **localhost:6379**
+     - **Адрес сервиса Redis**
    * - REDIS_MAX_IDLE
      - нет
      - 100
@@ -489,18 +503,18 @@ NGW_LOGIN и NGW_APIKEY - логин и пароль для доступа к Ne
      - нет
      - false
      - Не валидировать SSL/TLS
-   * - S3_ACCESS_KEY
-     - да
-     - Q3AM3UQ867SPQQA43P2F
-     - Ключ доступа к S3
-   * - S3_SECRET_KEY
-     - да
-     - zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG
-     - Секретный ключ доступа к S3
-   * - S3_ENDPOINT
-     - да
-     - play.min.io
-     - Адрес сервера S3
+   * - **S3_ACCESS_KEY**
+     - **да**
+     - **Q3AM3UQ867SPQQA43P2F**
+     - **Ключ доступа к S3**
+   * - **S3_SECRET_KEY**
+     - **да**
+     - **zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG**
+     - **Секретный ключ доступа к S3**
+   * - **S3_ENDPOINT**
+     - **да**
+     - **play.min.io**
+     - **Адрес сервера S3**
    * - S3_SSL
      - нет
      - true
@@ -602,10 +616,10 @@ NGW_LOGIN и NGW_APIKEY - логин и пароль для доступа к Ne
      - нет
      - geoservices
      - Пользователь из под которого будет выполнено подключение к БД базовой картографической подложки
-   * - BM_DB_PASSWORD
-     - да
+   * - **BM_DB_PASSWORD**
+     - **да**
      - 
-     - Пароль от БД данных базовой картографической подложки
+     - **Пароль от БД данных базовой картографической подложки**
    * - BM_DB_SSL_MODE
      - нет
      - 
