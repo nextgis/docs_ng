@@ -12,3 +12,4 @@
    auth
    services
    settings
+   admin
