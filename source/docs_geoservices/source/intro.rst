@@ -6,4 +6,4 @@
 Введение
 ========
 
-`NextGIS Geoservices <https://geoservices.nextgis.com/>`_ - это пополняемая коллекция подключаемых сервисов базовых пространственных данных.
+`NextGIS GeoServices <https://geoservices.nextgis.com/>`_ - это пополняемая коллекция подключаемых сервисов базовых пространственных данных.
