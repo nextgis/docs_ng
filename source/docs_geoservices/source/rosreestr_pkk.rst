@@ -8,7 +8,7 @@
 .. important::
    Данный инструмент доступен только владельцам `плана Premium <https://nextgis.ru/nextgis-com/plans>`_.
 
-`NextGIS Geoservices <https://geoservices.nextgis.com/>`_ позволяет получить растровые данные сервиса ПКК и подключить их как внешние источники (:numref:`nggeos_basemap_rosreestr_pkk`). 
+`NextGIS GeoServices <https://geoservices.nextgis.com/>`_ позволяет получить растровые данные сервиса ПКК и подключить их как внешние источники (:numref:`nggeos_basemap_rosreestr_pkk`). 
 Программно также можно получать границы и атрибутивную информацию по отдельным кадастровым единицам: кварталам, участкам, ОКС, ЗОУИТ.
 
 Доступные следующие слои кадастрового деления:
