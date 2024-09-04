@@ -8,7 +8,7 @@
 .. important::
    Данный инструмент доступен только владельцам `плана Premium <https://nextgis.ru/nextgis-com/plans>`_.
 
-С помощью `NextGIS Geoservices <https://geoservices.nextgis.com/>`_ есть возможность подключить векторные и растровые карты с GL стилями:
+С помощью `NextGIS GeoServices <https://geoservices.nextgis.com/>`_ есть возможность подключить векторные и растровые карты с GL стилями:
 
 1. Klokantech 3D
 2. Klokantech Basic
@@ -21,7 +21,7 @@
    :align: center
    :width: 30cm
  
-   Сервисы базовых подложек NextGIS Geoservices
+   Сервисы базовых подложек NextGIS GeoServices
  
 .. note:: 
 	Для подключения данных необходим персональный `API ключ <https://docs.nextgis.ru/docs_geoservices/source/reissue_api_key.html>`_ (по умолчанию apikey находится в строке запроса, размыто на изображении). 
