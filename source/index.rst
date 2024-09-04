@@ -40,7 +40,7 @@
 1. :doc:`Начало работы с Веб ГИС </docs_ngcom/source/toc>`
 2. :doc:`Документация по NextGIS Toolbox </docs_toolbox/source/toc>`
 3. :doc:`Документация по NextGIS Data </docs_data/source/toc>`
-4. :doc:`Документация по NextGIS Geoservices </docs_geoservices/source/toc>`
+4. :doc:`Документация по NextGIS GeoServices </docs_geoservices/source/toc>`
 
 *****************
 Основные продукты
@@ -49,7 +49,7 @@
 5. :doc:`Документация по NextGIS Web </docs_ngweb/source/toc>`
 6. :doc:`Документация по NextGIS QGIS </docs_ngqgis/source/toc>`
 7. :doc:`Документация по NextGIS Mobile </docs_ngmobile/source/toc>`
-8. :doc:`Документация по NextGIS Geoservices для своего сервера </docs_geoserv_prem/source/toc>`
+8. :doc:`Документация по NextGIS GeoServices для своего сервера </docs_geoserv_prem/source/toc>`
 
 ******************
 Вспомогательное ПО
