@@ -22,9 +22,9 @@
    :align: center
    :width: 20cm
 
-   Раздел "Мой профиль" в NextGIS Geoservices on-premise
+   Раздел "Мой профиль" в NextGIS GeoServices on-premise
 
-**Мои API-ключи** служат для интеграции NextGIS Geoservices с другими сервисами NextGIS и внешними приложениями.
+**Мои API-ключи** служат для интеграции NextGIS GeoServices с другими сервисами NextGIS и внешними приложениями.
 API ключ понадобится например для работы с публичной кадастровой картой в NextGIS Web, в настольном модуле NGQ Rosreestr Tools.
 В данном разделе Администратор может создавать и удалять API-ключи.
 
@@ -36,7 +36,7 @@ API ключ понадобится например для работы с пу
    :align: center
    :width: 20cm
 
-   Раздел "Мой API-ключи" в NextGIS Geoservices on-premise
+   Раздел "Мой API-ключи" в NextGIS GeoServices on-premise
 
 .. figure:: _static/geosop_gr_profile3.png
    :name: geosop_gr_profile3
@@ -59,7 +59,7 @@ API ключ понадобится например для работы с пу
    :align: center
    :width: 20cm
 
-   Создание и удаление пользователя в NextGIS Geoservices on-premise
+   Создание и удаление пользователя в NextGIS GeoServices on-premise
 
 При создании нового пользователя указывается:
 * Логин
@@ -73,14 +73,14 @@ API ключ понадобится например для работы с пу
    :align: center
    :width: 20cm
 
-   Создание нового пользователя в NextGIS Geoservices on-premise
+   Создание нового пользователя в NextGIS GeoServices on-premise
 
 .. figure:: _static/geosop_gr_users3.png
    :name: geosop_gr_users3
    :align: center
    :width: 20cm
 
-   Список пользователей в NextGIS Geoservices on-premise
+   Список пользователей в NextGIS GeoServices on-premise
 
 При создании *группы пользователей* указывается её Название и при необходимости выбирается пользователь из списка, которого нужно включить в эту группу.
 
@@ -89,7 +89,7 @@ API ключ понадобится например для работы с пу
    :align: center
    :width: 20cm
 
-   Создание группы пользователей в NextGIS Geoservices on-premise
+   Создание группы пользователей в NextGIS GeoServices on-premise
 
 
 Базовая карта
@@ -178,7 +178,7 @@ API ключ понадобится например для работы с пу
    :align: center
    :width: 20cm
 
-   Журнал регистрируемых действий в NextGIS Geoservices on-premise
+   Журнал регистрируемых действий в NextGIS GeoServices on-premise
 
 
 О проекте
@@ -191,4 +191,4 @@ API ключ понадобится например для работы с пу
    :align: center
    :width: 20cm
 
-   Информация о версии комнонентов NextGIS Geoservices on-premise
+   Информация о версии комнонентов NextGIS GeoServices on-premise
