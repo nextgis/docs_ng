@@ -408,7 +408,11 @@
      - Максимальный уровень увеличения тайлов ПКК
    * - PKK_REGION
      - нет
-     - MULTIPOLYGON (((-168.4 84,-168.4 50,-179.999999 50,-179.9999999 84,-168.4 84)),((130 40,130 84,179.999999 84,179.999999 40,130 40)),((129.999999 84,129.999999 47,82.5 47,82.5 84,129.999999 84)),((82.4999999 50,50 50,50 84,82.4999999 84,82.4999999 50)),((20 84,49.999999 84,49.999999 40,20 40,20 84)))
+     - | MULTIPOLYGON (((-168.4 84,-168.4 50,-179.999999 50,-179.9999999 84,-168.4 84)),
+       | ((130 40,130 84,179.999999 84,179.999999 40,130 40)),
+       | ((129.999999 84,129.999999 47,82.5 47,82.5 84,129.999999 84)),
+       | ((82.4999999 50,50 50,50 84,82.4999999 84,82.4999999 50)),
+       | ((20 84,49.999999 84,49.999999 40,20 40,20 84)))
      - Территория для запросов тайлов ПКК
    * - **DB_TYPE**
      - **да**
@@ -607,7 +611,8 @@
    * - BM_DB_HOST
      - нет
      - localhost
-     - Хост с БД PostGIS. При старте веб приложения выполняется проверка подключения к БД и наличия всех расширений, необходимых для работы. Если подключение неспешно или нет расширений, то раздел базовых карт отключается. 
+     - | Хост с БД PostGIS. При старте веб приложения выполняется проверка подключения к БД и наличия всех расширений, необходимых для работы. 
+       | Если подключение неспешно или нет расширений, то раздел базовых карт отключается. 
    * - BM_DB_PORT
      - нет
      - 5432
@@ -677,7 +682,8 @@
        | lanczos: Lanczos windowed sinc resampling.
        | average: average resampling, computes the weighted average of all non-NODATA contributing pixels.
        | rms root mean square / quadratic mean of all non-NODATA contributing pixels (GDAL >= 3.3)
-       | mode: mode resampling, selects the value which appears most often of all the sampled points. In the case of ties, the first value identified as the mode will be selected.
+       | mode: mode resampling, selects the value which appears most often of all the sampled points. 
+       | In the case of ties, the first value identified as the mode will be selected.
        | max: maximum resampling, selects the maximum value from all non-NODATA contributing pixels.
        | min: minimum resampling, selects the minimum value from all non-NODATA contributing pixels.
        | med: median resampling, selects the median value of all non-NODATA contributing pixels.
