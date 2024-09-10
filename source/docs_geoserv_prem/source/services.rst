@@ -16,6 +16,8 @@ Services can be added only to specific groups of services. Groups are created in
    :align: center
    :width: 20cm
 
+   One of the service groups 
+
 
 You can delete or edit a group using buttons.
 
@@ -24,14 +26,16 @@ You can delete or edit a group using buttons.
    :align: center
    :width: 20cm
 
+   Service groups settings
 
 To create a new group, press **Add** and enter a name for it.
 
 .. figure:: _static/geosop_gr_serv3_en.png
    :name: geosop_gr_serv3
    :align: center
-   :width: 20cm
+   :width: 16cm
 
+   Adding new service group
 
 NGW Web Maps
 ------------
@@ -50,15 +54,21 @@ Working with the service does not engage NextGIS Web itself, so the service can 
    :align: center
    :width: 20cm
 
+   Button for creating new service
+
 .. figure:: _static/geosop_ngw2_en.png
    :name: geosop_ngw2
    :align: center
    :width: 20cm
 
+   Parameters for the new service
+
 .. figure:: _static/geosop_ngw3_en.png
    :name: geosop_ngw3
    :align: center
    :width: 20cm
+
+   Newly created sevice in the group
 
 
 External TMS
@@ -71,6 +81,8 @@ GeoServices allows to add, cache and use external TMS.
    :align: center
    :width: 20cm
 
+   Button for creating new service
+
 Enter name for the service, URL of the TMS service, select coordinate system and scale limits.
 The newly created service will appear in the selected group. Service can be modified or deleted.
 
@@ -79,7 +91,11 @@ The newly created service will appear in the selected group. Service can be modi
    :align: center
    :width: 20cm
 
+   Parameters for the new TMS service
+
 .. figure:: _static/geosop_tms3_en.png
    :name: geosop_tms3
    :align: center
    :width: 20cm
+
+   Newly created TMS sevice in the group
