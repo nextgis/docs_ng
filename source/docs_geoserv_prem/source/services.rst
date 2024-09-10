@@ -16,6 +16,8 @@
    :align: center
    :width: 20cm
 
+   Одна из групп сервисов
+
 
 Удалить или изменить группу сервисов можно с помощью соответствующей кнопки в интерфейсе, выбрав нужные сервисы.
 
@@ -24,6 +26,8 @@
    :align: center
    :width: 20cm
 
+   Настройки групп сервисов
+
 
 Для создания новой группы следует указать её название.
 
@@ -31,6 +35,8 @@
    :name: geosop_gr_serv3
    :align: center
    :width: 20cm
+
+   Создание новой группы сервисов
 
 
 NGW Web Maps
@@ -50,15 +56,21 @@ NGW Web Maps
    :align: center
    :width: 20cm
 
+   Кнопка добавления нового сервиса
+
 .. figure:: _static/geosop_ngw2.png
    :name: geosop_ngw2
    :align: center
    :width: 20cm
 
+   Параметры создаваемого сервиса
+
 .. figure:: _static/geosop_ngw3.png
    :name: geosop_ngw3
    :align: center
    :width: 20cm
+
+   Созданный сервис в группе
 
 
 External TMS
