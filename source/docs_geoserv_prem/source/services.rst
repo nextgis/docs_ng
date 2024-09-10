@@ -6,7 +6,7 @@
 Services
 =======
 
-Groups of services
+Service groups
 ---------------
 
 Services can be added only to specific groups of services. Groups are created in Settings in **Service groups** tab.
