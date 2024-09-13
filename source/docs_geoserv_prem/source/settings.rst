@@ -5,6 +5,8 @@
 Settings
 ============
 
+.. _geoserv_prem_set_profile:
+
 Profile
 --------
 
@@ -41,18 +43,18 @@ Other API key settings include extent boundary, scale limits and origins.
 .. figure:: _static/geosop_gr_profile3_en.png
    :name: geosop_gr_profile3
    :align: center
-   :width: 20cm
+   :width: 14cm
 
    Creating a new API key
 
+.. _geoserv_prem_set_users:
 
 Users and user groups
 ------------------------------------
 
-В зависимости от прав доступа пользователь имеет различный набор возможностей по настройке разделов Геосервисов.
+Available settings depend on user access rights.
 
-Administrator has full access and can create users, user groups, add users to the groups, delete and modify usersa and groups
-.
+Administrator has full access and can create users, user groups, add users to the groups, delete and modify users and groups.
 
 .. figure:: _static/geosop_gr_users1_en.png
    :name: geosop_gr_users1
@@ -61,7 +63,7 @@ Administrator has full access and can create users, user groups, add users to th
 
    Creating and deleting user in NextGIS GeoServices on-premise
 
-To create a new user press **Add* and fill the following fields:
+To create a new user press **Add** and fill the following fields:
 
 * Login
 * Password
@@ -72,7 +74,7 @@ To create a new user press **Add* and fill the following fields:
 .. figure:: _static/geosop_gr_users2_en.png
    :name: geosop_gr_users2
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Creating new user in NextGIS GeoServices on-premise
 
@@ -88,7 +90,7 @@ To create a User group, in the list of groups press **Add**. Enter the name for 
 .. figure:: _static/geosop_gr_users4_en.png
    :name: geosop_gr_users4
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Creating user group in NextGIS GeoServices on-premise
 
@@ -110,7 +112,7 @@ For **Basemap file** you can upload a PBF file or choose an area from the dropdo
 .. figure:: _static/geosop_base_mapfile_en.png
    :name: geosop_base1
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Two ways of selecting basemap: from list and from file
 
@@ -127,34 +129,43 @@ If you select an area from the list, its boundaries will be set automatically.
 .. figure:: _static/geosop_base_boundary_en.png
    :name: geosop_base2
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Ways to set up boundary for basemap
+
+You can modify the boundary or delete it (**Reset map** button) and start from scratch.
 
 When all files are uploaded and the boundaries are set, press **Submit new basemap data** on the top of the page. The process of creating tile service will begin.
 
 .. figure:: _static/geosop_base_submit_en.png
    :name: geosop_base4
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Submit new Basemap data
 
-Upload progress is displayed on the same tab and in the Log tab. After the process is completed successfully, the progress bar becomes green and a tick appears at the end.
+If you use custom PBF, upload progress is displayed on the same tab and in the Log tab. After the process is completed successfully, the progress bar becomes green and a tick appears at the end.
 
-.. figure:: _static/geosop_base3_en.png
+.. figure:: _static/geosop_base_progress_en.png
    :name: geosop_base3
    :align: center
-   :width: 20cm
+   :width: 16cm
 
-   Upload complete
+   Uploading custom file
+
+.. figure:: _static/geosop_base_complete_en.png
+   :name: geosop_base3
+   :align: center
+   :width: 16cm
+
+   Upload of custom file complete
 
 In the Log the process will be marked by a green dot.
 
-.. figure:: _static/geosop_base5_en.png
+.. figure:: _static/geosop_base_log_en.png
    :name: geosop_base5
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Upload progress status in the Log tab
 
@@ -163,16 +174,18 @@ The tile service XYZ that you created can be found in the Services section. Use 
 .. figure:: _static/geosop_base6_en.png
    :name: geosop_base6
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Link to be used in external apps
 
 .. figure:: _static/geosop_base7_en.png
    :name: geosop_base7
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Newly create tile service
+
+.. _geoserv_prem_set_log:
 
 Log
 -------
@@ -185,12 +198,14 @@ Log entries include status, process source, beginning and end times, task ID and
    :align: center
    :width: 20cm
 
-.. figure:: _static/geosop_journal2_en.png
+   Log tab in NextGIS GeoServices on-premise
+
+.. figure:: _static/geosop_journal_messages_en.png
    :name: geosop_journal2
    :align: center
    :width: 20cm
 
-   Log tab in NextGIS GeoServices on-premise
+   Messages for a process in the log
 
 
 About
