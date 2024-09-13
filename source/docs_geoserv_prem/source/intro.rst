@@ -18,7 +18,7 @@ Menu on left has three main blocks:
 * Services
 * Settings
 
-In `Services <https://docs.nextgis.com/docs_geoserv_prem/source/services.html>`_ you can find all services added to the app (basemaps etc) and add new ones. Services can be devided into groups (managed by the Administrator in Settings -> Service groups).
+In `Services <https://docs.nextgis.com/docs_geoserv_prem/source/services.html>`_ you can find all services added to the app (basemaps etc) and add new ones. Services can be divided into groups (managed by the Administrator in Settings -> Service groups).
 
 `Settings <https://docs.nextgis.ru/docs_geoserv_prem/source/settings.html>`_ - here users manage their profile, other users, user groups, map settings and logs.
 
