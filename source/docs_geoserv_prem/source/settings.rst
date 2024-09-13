@@ -171,18 +171,16 @@ In the Log the process will be marked by a green dot.
 
 The tile service XYZ that you created can be found in the Services section. Use the link to add it to external software such as NextGIS Web or QGIS. 
 
-.. figure:: _static/geosop_base6_en.png
+.. to do:: _static/geosop_base6_en.png
    :name: geosop_base6
    :align: center
    :width: 16cm
-
    Link to be used in external apps
 
-.. figure:: _static/geosop_base7_en.png
+.. to do:: _static/geosop_base7_en.png
    :name: geosop_base7
    :align: center
    :width: 16cm
-
    Newly create tile service
 
 .. _geoserv_prem_set_log:
