@@ -22,7 +22,7 @@ First you need to get source codes. The easiest way is to clone them from a git 
 	git clone --depth 1 https://gitlab.com/nextgis_private/geoservices.git
 	cd geoservices
 
-Далее необходимо собрать образ СУБД с поддержкой  PostGIS (например, с названием registry.nextgis.com/postgis:3.3.2):
+Next build DBMS image with PostGIS support (name example: registry.nextgis.com/postgis:3.3.2):
 
 .. code-block::
 
