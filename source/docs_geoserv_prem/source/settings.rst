@@ -5,6 +5,8 @@
 Настройки
 ============
 
+.. _geoserv_prem_set_profile:
+
 Профиль
 --------
 
@@ -20,7 +22,7 @@
 .. figure:: _static/geosop_gr_profile1.png
    :name: geosop_gr_profile1
    :align: center
-   :width: 20cm
+   :width: 24cm
 
    Раздел "Мой профиль" в NextGIS GeoServices on-premise
 
@@ -41,10 +43,11 @@ API ключ понадобится например для работы с пу
 .. figure:: _static/geosop_gr_profile3.png
    :name: geosop_gr_profile3
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Создание нового API-ключа
 
+.. _geoserv_prem_set_users:
 
 Пользователи и группы пользователей
 ------------------------------------
@@ -72,14 +75,14 @@ API ключ понадобится например для работы с пу
 .. figure:: _static/geosop_gr_users2.png
    :name: geosop_gr_users2
    :align: center
-   :width: 20cm
+   :width: 24cm
 
    Создание нового пользователя в NextGIS GeoServices on-premise
 
 .. figure:: _static/geosop_gr_users3.png
    :name: geosop_gr_users3
    :align: center
-   :width: 20cm
+   :width: 24cm
 
    Список пользователей в NextGIS GeoServices on-premise
 
@@ -88,10 +91,11 @@ API ключ понадобится например для работы с пу
 .. figure:: _static/geosop_gr_users4.png
    :name: geosop_gr_users4
    :align: center
-   :width: 20cm
+   :width: 24cm
 
    Создание группы пользователей в NextGIS GeoServices on-premise
 
+.. _geoserv_prem_set_basemap:
 
 Базовая карта
 --------------
@@ -99,69 +103,80 @@ API ключ понадобится например для работы с пу
 В этом разделе загружаются данные и задаются границы будущего тайлового сервиса базовой карты.
 
 Входные данные:
-* Файл базовой карты в формате pbf.
+
+* Файл базовой карты
 * Границы базовой карты
 
-Задать границу базовой карты можно для:
-* Будущих обновлений
-* Загруженных в данный момент данных
+**Файл базовой карты** можно загрузить в формате PBF или выбрать территорию из списка.
 
-.. figure:: _static/geosop_base1.png
+.. figure:: _static/geosop_base_mapfile_ru.png
    :name: geosop_base1
    :align: center
-   :width: 20cm
+   :width: 15cm
 
-Границу, по которой будет производиться обрезка, можно как нарисовать инструментами на карте в интерфейсе, так и загрузить (мульти)полигон в виде файла в GeoJSON формате.
+   Два варианта выбора базовой карты: из списка и из файла
+
+**Границу**, по которой будет производиться обрезка, можно задать несколькими способами:
+
+* нарисовать инструментами на карте в интерфейсе;
+* загрузить (мульти)полигон в виде файла в GeoJSON формате.
+
+При выборе базовой карты из списка её границы будут заданы автоматически.
 
 .. important::
    Если границу не задать, то при последующем обновлении в БД попадут данные на весь мир, за пределами загруженного ранее региона pbf. Таким образом повышается расход места на диске.
 
-.. figure:: _static/geosop_base2.png
+.. figure:: _static/geosop_base_boundary_ru.png
    :name: geosop_base2
    :align: center
-   :width: 20cm
+   :width: 15cm
+
+   Способы задать обрезку для Базовой карты
+
+Когда все файлы загружены и границы заданы, нужно нажать **Отправить новые данные базовой карты**. Это запустит процесс формирования тайлового сервиса на их основе.
+
+.. figure:: _static/geosop_base_submit_ru.png
+   :name: geosop_base4
+   :align: center
+   :width: 15cm
+
+   Отправить новые данные для базовой карты
+
+Процесс загрузки можно отслеживать на той же вкладке или на вкладке "Журнал". После успешного завершения полоса загрузки станет зеленой и в конце появится галочка.
 
 .. figure:: _static/geosop_base3.png
    :name: geosop_base3
    :align: center
-   :width: 20cm
+   :width: 24cm
 
-   Способы задать обрезку для Базовой карты
+   Процесс загрузки успешно завершен
 
-Когда все файлы загружены и границы заданы, нужно нажать **Отправить новые данные базовой карты**. Это запустит процесса формирования тайлового сервиса на их основе.
-
-
-.. figure:: _static/geosop_base4.png
-   :name: geosop_base4
-   :align: center
-   :width: 20cm
-
-   Отправить новые данные для базовой карты
-
-Отслеживать статус загрузки можно на странице журнала обработки файлов.
-Когда процесс завершится, индикатор перейдет в зеленый статус.
+В Журнале индикатор перейдет в зеленый статус.
 
 .. figure:: _static/geosop_base5.png
    :name: geosop_base5
    :align: center
-   :width: 20cm
+   :width: 24cm
 
    Статус загрузки в журнале обработки файлов
 
-Созданный тайловый сервис XYZ появится в разделе Сервисы. По ссылке его можно подключать во внешнее ПО, такое как NextGIS Web или QGIS.
+Созданный тайловый сервис XYZ появится в разделе Сервисы. По ссылке его можно подключать во внешнее ПО, такое как NextGIS Web или QGIS. 
 
 .. figure:: _static/geosop_base6.png
    :name: geosop_base6
    :align: center
-   :width: 20cm
+   :width: 24cm
+
+   Ссылка, которую можно использовать во внешних приложениях
 
 .. figure:: _static/geosop_base7.png
    :name: geosop_base7
    :align: center
-   :width: 20cm
+   :width: 24cm
 
    Созданный тайловый сервис
 
+.. _geoserv_prem_set_log:
 
 Журнал
 -------
@@ -172,15 +187,16 @@ API ключ понадобится например для работы с пу
 .. figure:: _static/geosop_journal1.png
    :name: geosop_journal1
    :align: center
-   :width: 20cm
+   :width: 24cm
 
 .. figure:: _static/geosop_journal2.png
    :name: geosop_journal2
    :align: center
-   :width: 20cm
+   :width: 24cm
 
    Журнал регистрируемых действий в NextGIS GeoServices on-premise
 
+.. _geoserv_prem_set_about:
 
 О проекте
 -----------
@@ -190,6 +206,6 @@ API ключ понадобится например для работы с пу
 .. figure:: _static/geosop_about.png
    :name: geosop_about
    :align: center
-   :width: 20cm
+   :width: 15cm
 
-   Информация о версии комнонентов NextGIS GeoServices on-premise
+   Информация о версии компонентов NextGIS GeoServices on-premise
