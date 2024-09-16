@@ -13,6 +13,7 @@ Profile
 **Profile** section contains user information. It is devided into two tabs: *My profile* and *My API keys*.
 
 **My profile** tab has the following settings:
+
 * Login
 * Password (can be modified after you log in for the first time)
 * Username
