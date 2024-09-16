@@ -3,4 +3,4 @@
 Введение
 ========
 
-`NextGIS GeoServices <https://geoservices.nextgis.com/>`_ - это пополняемая коллекция подключаемых сервисов базовых пространственных данных.
+`NextGIS GeoServices <https://geoservices.nextgis.com/>`_ is a collection of basic spacial data services that can be expanded and used in external apps.
