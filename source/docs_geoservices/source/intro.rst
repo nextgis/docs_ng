@@ -3,4 +3,4 @@
 Introduction
 ========
 
-`NextGIS GeoServices <https://geoservices.nextgis.com/>`_ is a collection of basic spacial data services that can be expanded and used in external apps.
+`NextGIS GeoServices <https://geoservices.nextgis.com/>`_ is a platform where you can create basic spacial data services and use them in external apps.
