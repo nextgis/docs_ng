@@ -11,7 +11,7 @@
 
 Сервисы в приложение могут быть добавлены только в определенные группы сервисов. Группы задаются в настройках на вкладке **Группы сервисов**.
 
-.. figure:: _static/geosop_gr_serv1.png
+.. figure:: _static/geosop_service_group_ru.png
    :name: geosop_gr_serv1
    :align: center
    :width: 20cm
@@ -21,7 +21,7 @@
 
 Удалить или изменить группу сервисов можно с помощью соответствующей кнопки в интерфейсе, выбрав нужные сервисы.
 
-.. figure:: _static/geosop_gr_serv2.png
+.. figure:: _static/geosop_serv_group_edit_ru.png
    :name: geosop_gr_serv2
    :align: center
    :width: 20cm
@@ -51,21 +51,21 @@ NGW Web Maps
 
 Обращение к созданному сервису не затрагивает NextGIS Web, таким образом можно создать сервис для высоких пиковых нагрузок и снизить нагрузку на сам NextGIS Web.
 
-.. figure:: _static/geosop_ngw1.png
+.. figure:: _static/geosop_ngw_create_button_ru.png
    :name: geosop_ngw1
    :align: center
    :width: 20cm
 
    Кнопка добавления нового сервиса
 
-.. figure:: _static/geosop_ngw2.png
+.. figure:: _static/geosop_ngw_new_param_ru.png
    :name: geosop_ngw2
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Параметры создаваемого сервиса
 
-.. figure:: _static/geosop_ngw3.png
+.. figure:: _static/geosop_ngw_result_ru.png
    :name: geosop_ngw3
    :align: center
    :width: 20cm
@@ -73,12 +73,12 @@ NGW Web Maps
    Созданный сервис в группе
 
 
-External TMS
+Внешний TMS
 ------------
 
 Геосервисы позволяют добавлять внешние TMS для их дальнейшего кэширования и использования.
 
-.. figure:: _static/geosop_tms1.png
+.. figure:: _static/geosop_ngw_create_button_ru.png
    :name: geosop_tms1
    :align: center
    :width: 20cm
@@ -86,12 +86,16 @@ External TMS
 В форме заполняются URL добавляемого TMS сервиса, система координат, название и диапазон уровней отображения.
 После чего сервис появится в списке соответствующей группы. При необходимости сервис можно отредактировать или удалить.
 
-.. figure:: _static/geosop_tms2.png
+.. figure:: _static/geosop_tms_new_param_ru.png
    :name: geosop_tms2
    :align: center
-   :width: 20cm
+   :width: 16cm
 
-.. figure:: _static/geosop_tms3.png
+   Параметры создаваемого сервиса
+
+.. figure:: _static/geosop_tms_result_ru.png
    :name: geosop_tms3
    :align: center
    :width: 20cm
+
+   Созданный сервис в группе
