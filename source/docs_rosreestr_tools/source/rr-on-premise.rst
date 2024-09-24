@@ -11,7 +11,7 @@
 
 Технически, необходимо:
 
-1. Создать глобальный аккаунт `my.nextgis.com <https://my.nextgis.ru>`_ если его еще нет.
+1. Создать глобальный аккаунт `my.nextgis.com <https://my.nextgis.com>`_ если его еще нет.
 2. Сообщить через `систему поддержки <https://nextgis.ru/terms-support>`_ о создании аккаунта, запросить перевод на Premium.
 3. Дождаться уведомления о переводе на Premium.
 4. В NextGIS QGIS в разделе *Настройки > Параметры > NextGIS* поменять Endpoint на ваш сервер авторизации `NextGIS ID on-premise <https://docs.nextgis.ru/docs_ngid/source/ngidop.html>`_
