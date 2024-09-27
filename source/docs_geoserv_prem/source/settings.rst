@@ -101,7 +101,7 @@ To create a User group, in the list of groups press **Add**. Enter the name for 
 Basemap
 --------------
 
-In this section you can upload data and set boundaries for the future basemap tile service.
+In this section you can upload data and set boundaries for the default basemap tile service.
 
 Input:
 
@@ -170,19 +170,15 @@ In the Log the process will be marked by a green dot.
 
    Upload progress status in the Log tab
 
-The tile service XYZ that you created can be found in the Services section. Use the link to add it to external software such as NextGIS Web or QGIS. 
+Default basemap that you configured can be found in the Services section in the Public group. Use the link for the tile service XYZ to add it to external software such as NextGIS Web or QGIS. 
 
-.. to do:: _static/geosop_base6_en.png
+.. figure:: _static/geosop_base_XYZ_en.png
    :name: geosop_base6
    :align: center
-   :width: 16cm
+   :width: 20cm
+
    Link to be used in external apps
 
-.. to do:: _static/geosop_base7_en.png
-   :name: geosop_base7
-   :align: center
-   :width: 16cm
-   Newly create tile service
 
 .. _geoserv_prem_set_log:
 
