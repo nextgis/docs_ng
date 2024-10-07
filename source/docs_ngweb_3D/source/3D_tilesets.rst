@@ -12,87 +12,90 @@
 
 .. _ngw_3D_tileset_formats:
 
-**Какие форматы поддерживаются**  - cesium 3D tileset.
-Набор тайлов описывается, по меньшей мере, одним файлом JSON, содержащим метаданные набора тайлов и дерево объектов тайлов, 
-каждый из которых может ссылаться на обновляемое содержимое одного из следующих форматов:
+Какие форматы поддерживаются
+-----------------------------
+
+Поддерживаемый формат - cesium 3D tileset.
+Набор тайлов описывается, по меньшей мере, одним файлом JSON, содержащим метаданные набора тайлов и дерево объектов тайлов, каждый из которых может ссылаться на обновляемое содержимое одного из следующих форматов:
 
 * `Batched 3D Model (b3dm) <https://github.com/CesiumGS/3d-tiles/blob/master/specification/TileFormats/Batched3DModel/README.md>`_
 * `Instanced 3D Model (i3dm) (b3dm) <https://github.com/CesiumGS/3d-tiles/blob/master/specification/TileFormats/Instanced3DModel/README.md>`_
 * `Point Cloud (pnts) <https://github.com/CesiumGS/3d-tiles/blob/master/specification/TileFormats/PointCloud/README.md>`_
 * `Composite (cmpt) <https://github.com/CesiumGS/3d-tiles/blob/master/specification/TileFormats/Composite/README.md>`_
 
+Поддерживаются 3D тайлы в ZIP-архивах и LAS/LAZ-файлы. LAS/LAZ-файлы будут конвертированы в 3D тайлы при загрузке.
+
+.. warning::
+         Имена в ZIP-архивах должны содержать только символы ASCII. 
+
 .. _ngw_3D_tileset_upload:
 
-**Как выполнить загрузку трехмерного набора данных**.
-Для загрузки трёхмерного набора данных необходимо создать ресурс “3D tileset” (:numref:`ngw3D_select_3D_tileset`).
+Как выполнить загрузку трехмерного набора данных
+------------------------------------------------
 
-.. figure:: _static/ngw3D_select_3D_tileset.png
+Для загрузки трёхмерного набора данных необходимо создать ресурс “3D тайлсет”. Перейдите в группу ресурсов (папку), в которой необходимо его создать. Нажмите кнопку Создать ресурс и выберите во всплывающем окне тип ресурса.
+
+.. figure:: _static/ngw3D_select_3D_tileset_ru.png
    :name: ngw3D_select_3D_tileset
-   :align: center
-   :width: 7cm
-
-   Выбор ресурса "3D tileset"
-
-Процесс создания ресурса трехмерного набора данных выполняется пошагово и в интерфейсе разделяется на 5 вкладок. 
-На первой необходимо задать наименование ресурса 3D tileset (:numref:`ngw3D_name_3D_tileset`). Это поле является обязательным.
-
-.. figure:: _static/ngw3D_name_3D_tileset.png
-   :name: ngw3D_name_3D_tileset
    :align: center
    :width: 20cm
 
+   Выбор ресурса "3D тайлсет"
+
+В открывшемся окне на вкладке «3D тайлсет» необходимо загрузить файл в формате FBX и GLB.
+
+Строка состояния будет отображать процесс текущей загрузки.
+
+.. figure:: _static/ngw3D_upload_3D_tileset_ru.png
+   :name: ngw3D_upload_3D_tileset
+   :align: center
+   :width: 16cm
+
+   Загрузка zip-архива трёхмерного набора данных 
+
+Также на этой вкладке можно задать величину смещения набора данных по оси Z и корреляцию с данными рельефа. 
+В случае выбора опции "Учитывать данные рельефа" нулевой уровень тайлсета будет выставлен по высотам рельефа (:numref:`ngw3D_settings_3D_tileset`).
+
+Во вкладке «Наименование» укажите наименование ресурса, которое будет отображаться в административном интерфейсе.
+
+.. figure:: _static/ngw3D_name_3D_tileset_ru.png
+   :name: ngw3D_name_3D_tileset
+   :align: center
+   :width: 16cm
+
    Наименование ресурса "3D tileset"
 
-На второй вкладке существует возможность добавить текстовое описание ресурса в произвольной форме (:numref:`ngw3D_desc_3D_tileset`).
+На вкладке «Описание» можно добавить произвольный текст, описывающий содержимое данного ресурса(:numref:`ngw3D_desc_3D_tileset`).
 
-.. figure:: _static/ngw3D_desc_3D_tileset.png
+.. figure:: _static/ngw3D_desc_3D_tileset_ru.png
    :name: ngw3D_desc_3D_tileset
    :align: center
    :width: 20cm
 
-   Описание ресурса "3D tileset"
+   Описание ресурса "3D тайлсет"
 
-На третьей вкладке пользователь имеет возможность добавить метаданные к ресурсу 3D tileset (:numref:`ngw3D_metadata_3D_tileset`).
+Также пользователь имеет возможность добавить к ресурсу 3D тайлсет метаданные в формате ключ-значение (:numref:`ngw3D_metadata_3D_tileset`).
 
-.. figure:: _static/ngw3D_metadata_3D_tileset.png
+.. figure:: _static/ngw3D_metadata_3D_tileset_ru.png
    :name: ngw3D_metadata_3D_tileset
    :align: center
-   :width: 20cm
+   :width: 16cm
 
-   Метаданные ресурса "3D tileset"
+   Метаданные ресурса "3D тайлсет"
 
 
-Четвертый шаг предполагает загрузку трехмерного набора данных с компьютера пользователя в виде zip-архива (:numref:`ngw3D_upload_3D_tileset`). 
-Строка состояния будет отображать процесс текущей загрузки.
+После нажатия пользователем кнопки **Сохранить** ресурс 3D тайлсет будет создан в указанной директории NextGIS Web (:numref:`ngw3D_finished_1_3D_tileset`) (:numref:`ngw3D_finished_2_3D_tileset`).
 
-.. figure:: _static/ngw3D_upload_3D_tileset.png
-   :name: ngw3D_upload_3D_tileset
-   :align: center
-   :width: 20cm
-
-   Загрузка zip-архива трёхмерного набора данных 
-
-Пятая вкладка 3D TILESET определяет величину смещения набора данных по оси Z и корреляцию с данными рельефа - 
-в случае выбора опции нулевой уровень тайлсета будет выставлен по высотам рельефа (:numref:`ngw3D_settings_3D_tileset`).
-
-.. figure:: _static/ngw3D_settings_3D_tileset.png
-   :name: ngw3D_settings_3D_tileset
-   :align: center
-   :width: 20cm
-
-   Настройки учета высоты рельефа и смещения тайлсета по оси Z
-
-После нажатия пользователем кнопки “Сохранить” ресурс 3D tileset будет создан в указанной директории NextGIS Web (:numref:`ngw3D_finished_1_3D_tileset`) (:numref:`ngw3D_finished_2_3D_tileset`).
-
-.. figure:: _static/ngw3D_finished_1_3D_tileset.png
+.. figure:: _static/ngw3D_finished_1_3D_tileset_ru.png
    :name: ngw3D_finished_1_3D_tileset
    :align: center
-   :width: 20cm
+   :width: 16cm
 
+   3D тайлсет в директории NextGIS Web
 
 .. figure:: _static/ngw3D_finished_2_3D_tileset.png
    :name: ngw3D_settings_3D_tileset
    :align: center
    :width: 20cm
 
-   3D tileset в директории NextGIS Web
+   Страница ресурса 3D тайлсет
