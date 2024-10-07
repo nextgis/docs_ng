@@ -93,9 +93,4 @@
 
    3D тайлсет в директории NextGIS Web
 
-.. figure:: _static/ngw3D_finished_2_3D_tileset.png
-   :name: ngw3D_settings_3D_tileset
-   :align: center
-   :width: 20cm
 
-   Страница ресурса 3D тайлсет
