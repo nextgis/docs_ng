@@ -84,7 +84,7 @@
    Метаданные ресурса "3D тайлсет"
 
 
-После нажатия пользователем кнопки **Сохранить** ресурс 3D тайлсет будет создан в указанной директории NextGIS Web (:numref:`ngw3D_finished_1_3D_tileset`) (:numref:`ngw3D_finished_1_3D_tileset`).
+После нажатия пользователем кнопки **Сохранить** ресурс 3D тайлсет будет создан в указанной директории NextGIS Web (:numref:`ngw3D_finished_1_3D_tileset`).
 
 .. figure:: _static/ngw3D_finished_1_3D_tileset_ru.png
    :name: ngw3D_finished_1_3D_tileset
