@@ -20,20 +20,20 @@
 
 Для подключения рельефа **Terrain-RGB** необходимо создать **TMS connection** (:numref:`ngw3D_select_TMS_connection`).
 
-.. figure:: _static/ngw3D_select_TMS_connection.png
+.. figure:: _static/ngw3D_select_TMS_connection_ru.png
    :name: ngw3D_select_TMS_connection
    :align: center
-   :width: 10cm
+   :width: 20cm
 
    Выбор ресурса "TMS connection"
 
 
 На первом шаге необходимо дать название TMS подключению (:numref:`ngw3D_name_TMS_connection`).
 
-.. figure:: _static/ngw3D_name_TMS_connection.png
+.. figure:: _static/ngw3D_name_TMS_connection_ru.png
    :name: ngw3D_name_TMS_connection
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Наименование ресурса "TMS connection"
 
@@ -43,10 +43,10 @@
 Все параметры описаны `здесь <https://docs.mapbox.com/help/troubleshooting/access-elevation-data/#mapbox-terrain-rgb>`_, api-ключ access-токена генерируется при авторизации на https://account.mapbox.com/. 
 После указания всех параметров создается TMS подключение (:numref:`ngw3D_finished_TMS_connection`).
 
-.. figure:: _static/ngw3D_settings_TMS_connection.png
+.. figure:: _static/ngw3D_settings_TMS_connection_ru.png
    :name: ngw3D_settings_TMS_connection
    :align: center
-   :width: 10cm
+   :width: 16cm
 
    Настройка ресурса "TMS connection"
 
@@ -61,20 +61,20 @@
 
 Далее необходимо создать TMS слой для рельефа Mapbox на базе готового TMS connection (:numref:`ngw3D_select_TMS_layer`).
 
-.. figure:: _static/ngw3D_select_TMS_layer.png
+.. figure:: _static/ngw3D_select_TMS_layer_ru.png
    :name: ngw3D_select_TMS_layer
    :align: center
-   :width: 7cm
+   :width: 20cm
 
    Выбор ресурса "Слой TMS"
    
    
 По аналогии с остальными ресурсами задается наименование, описание и метаданные (:numref:`ngw3D_name_TMS_layer`).
 
-.. figure:: _static/ngw3D_name_TMS_layer.png
+.. figure:: _static/ngw3D_name_TMS_layer_ru.png
    :name: ngw3D_name_TMS_layer
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Наименование ресурса "Слой TMS"
 
@@ -82,51 +82,52 @@
 При необходимости стоит указать дополнительные параметры в зависимости от специфики загружаемого рельефа. 
 Для Mapbox terrain необходимо указать максимальный уровень масштаба - 15 (:numref:`ngw3D_zoom_TMS_layer`).
 
-.. figure:: _static/ngw3D_connection_TMS_layer.png
+.. figure:: _static/ngw3D_connection_TMS_layer_ru.png
    :name: ngw3D_connection_TMS_layer
    :align: center
-   :width: 10cm
+   :width: 16cm
 
    Выбор ресурса TMS connection для TMS слоя
 
-.. figure:: _static/ngw3D_zoom_TMS_layer.png
+.. figure:: _static/ngw3D_zoom_TMS_layer_ru.png
    :name: ngw3D_zoom_TMS_layer
    :align: center
-   :width: 20cm
+   :width: 18cm
 
    Параметры подключения TMS слоя
 
 
-После сохранения TMS слоя он появится в соответствующей директории NextGIS Web (:numref:`ngw3D_finished_TMS_layer`), 
-и станет доступен его дочерний ресурс - **Рельеф** (:numref:`ngw3D_select_terrain_provider`). Для него необходимо указать наименование и способ кодировки (:numref:`ngw3D_encoding_terrain_provider`).
+После сохранения TMS слоя он появится в соответствующей директории NextGIS Web (:numref:`ngw3D_finished_TMS_layer`).
 
-.. figure:: _static/ngw3D_finished_TMS_layer.png
+.. figure:: _static/ngw3D_finished_TMS_layer_ru.png
    :name: ngw3D_finished_TMS_layer
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    TMS слой в директории NextGIS Web
 
+В меню "Создать ресурс" станет доступен его дочерний ресурс - **Рельеф** (:numref:`ngw3D_select_terrain_provider`). 
 
-.. figure:: _static/ngw3D_select_terrain_provider.png
+.. figure:: _static/ngw3D_select_terrain_provider_ru.png
    :name: ngw3D_select_terrain_provider
    :align: center
    :width: 20cm
 
-   Дочерний ресурс Рельеф TMS слоя
+   Выбор типа ресурса "Рельеф TMS слоя"
+
+Для него необходимо указать наименование и способ кодировки (:numref:`ngw3D_encoding_terrain_provider`).
    
-   
-.. figure:: _static/ngw3D_encoding_terrain_provider.png
+.. figure:: _static/ngw3D_encoding_terrain_provider_ru.png
    :name: ngw3D_encoding_terrain_provider
    :align: center
-   :width: 10cm
+   :width: 16cm
 
    Выбор кодировки рельефа
 
 
 После создания ресурса он появится в соответствующей директории NextGIS Web (:numref:`ngw3D_finished_terrain_provider`).
 
-.. figure:: _static/ngw3D_finished_terrain_provider.png
+.. figure:: _static/ngw3D_finished_terrain_provider_ru.png
    :name: ngw3D_finished_terrain_provider
    :align: center
    :width: 20cm
