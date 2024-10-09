@@ -18,27 +18,27 @@
 
 **Получение mesh из TMS подключения**.
 
-Для подключения рельефа **Terrain-RGB** необходимо создать **TMS connection** (:numref:`ngw3D_select_TMS_connection`).
+Для подключения рельефа **Terrain-RGB** необходимо создать **Соединение TMS** (:numref:`ngw3D_select_TMS_connection`).
 
 .. figure:: _static/ngw3D_select_TMS_connection_ru.png
    :name: ngw3D_select_TMS_connection
    :align: center
    :width: 20cm
 
-   Выбор ресурса "TMS connection"
+   Выбор ресурса "Соединение TMS"
 
 
-На первом шаге необходимо дать название TMS подключению (:numref:`ngw3D_name_TMS_connection`).
+На первом шаге необходимо дать название соединению TMS (:numref:`ngw3D_name_TMS_connection`).
 
 .. figure:: _static/ngw3D_name_TMS_connection_ru.png
    :name: ngw3D_name_TMS_connection
    :align: center
    :width: 16cm
 
-   Наименование ресурса "TMS connection"
+   Наименование соединения TMS
 
 
-Вкладки описание и метаданные являются опциональными. При создании подключения обязательно нужно настроить параметры вкладки TMS connection (:numref:`ngw3D_settings_TMS_connection`). 
+Вкладки описание и метаданные являются опциональными. При создании подключения обязательно нужно настроить параметры вкладки Соединение TMS (:numref:`ngw3D_settings_TMS_connection`). 
 Для подключения к рельефу Mapbox нужно указать настраиваемый способ подключения, шаблон URL, параметр и сам ключ API. 
 Все параметры описаны `здесь <https://docs.mapbox.com/help/troubleshooting/access-elevation-data/#mapbox-terrain-rgb>`_, api-ключ access-токена генерируется при авторизации на https://account.mapbox.com/. 
 После указания всех параметров создается TMS подключение (:numref:`ngw3D_finished_TMS_connection`).
@@ -48,7 +48,7 @@
    :align: center
    :width: 16cm
 
-   Настройка ресурса "TMS connection"
+   Настройка ресурса "Соединение TMS"
 
 
 .. figure:: _static/ngw3D_finished_TMS_connection.png
@@ -56,17 +56,17 @@
    :align: center
    :width: 20cm
 
-   Созданный ресурс TMS connection в NextGIS Web
+   Созданный ресурс Соединение TMS в NextGIS Web
 
 
-Далее необходимо создать TMS слой для рельефа Mapbox на базе готового TMS connection (:numref:`ngw3D_select_TMS_layer`).
+Далее необходимо создать TMS слой для рельефа Mapbox на базе готового соединения TMS (:numref:`ngw3D_select_TMS_layer`).
 
 .. figure:: _static/ngw3D_select_TMS_layer_ru.png
    :name: ngw3D_select_TMS_layer
    :align: center
    :width: 20cm
 
-   Выбор ресурса "Слой TMS"
+   Выбор типа создаваемого ресурса "Слой TMS"
    
    
 По аналогии с остальными ресурсами задается наименование, описание и метаданные (:numref:`ngw3D_name_TMS_layer`).
@@ -78,7 +78,7 @@
 
    Наименование ресурса "Слой TMS"
 
-Вкладка Слой TMS содержит настройки для подключения через созданный ранее ресурс TMS connection, который необходимо указать в соответствующем поле (:numref:`ngw3D_connection_TMS_layer`). 
+Вкладка Слой TMS содержит настройки для подключения через созданный ранее ресурс Соединение TMS, который необходимо указать в соответствующем поле (:numref:`ngw3D_connection_TMS_layer`). 
 При необходимости стоит указать дополнительные параметры в зависимости от специфики загружаемого рельефа. 
 Для Mapbox terrain необходимо указать максимальный уровень масштаба - 15 (:numref:`ngw3D_zoom_TMS_layer`).
 
@@ -87,7 +87,7 @@
    :align: center
    :width: 16cm
 
-   Выбор ресурса TMS connection для TMS слоя
+   Выбор соединения TMS для TMS слоя
 
 .. figure:: _static/ngw3D_zoom_TMS_layer_ru.png
    :name: ngw3D_zoom_TMS_layer
@@ -113,7 +113,7 @@
    :align: center
    :width: 20cm
 
-   Выбор типа ресурса "Рельеф"
+   Выбор типа создаваемого ресурса "Рельеф"
 
 Для него необходимо указать наименование и способ кодировки (:numref:`ngw3D_encoding_terrain_provider`).
    
