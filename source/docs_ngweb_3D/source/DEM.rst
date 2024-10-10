@@ -134,3 +134,4 @@
 
    Созданный ресурс Рельеф в NextGIS Web
 
+Теперь этот рельеф можно добавить на `3D сцену <https://docs.nextgis.ru/docs_ngweb_3D/source/3D_scenes.html>`_.
