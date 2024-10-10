@@ -6,11 +6,11 @@
 ====================
 
 В составе NextGIS Web предусмотрено специальное клиентское приложение для визуализации 3D сцен. 
-Открыть веб-клиент можно с помощью иконки |open_3d_scene_icon| или внутри ресурса нажать кнопку Открыть (:numref:`ngw3D_open_3d_scene_vizual`).
+Открыть веб-клиент можно с помощью иконки |open_3d_scene_icon| или внутри ресурса нажать кнопку Открыть.
 
 .. |open_3d_scene_icon| image:: _static/open_3d_scene_icon.png
 
-.. figure:: _static/ngw3D_open_3d_scene_vizual.png
+.. figure:: _static/ngw3D_open_3d_scene_vizual_ru.png
    :name: ngw3D_open_3d_scene_vizual
    :align: center
    :width: 20cm
@@ -29,7 +29,9 @@
 Веб-клиент включает в себя три основных компонента: 3D сцену (:numref:`ngw3D_open_3d_scene_vizual`, п.1), панели (:numref:`ngw3D_open_3d_scene_vizual`, п.3, 4), 
 и инструменты 3D сцены (:numref:`ngw3D_open_3d_scene_vizual`, п.7, 8).
 
-Масштаб карты можно изменять с помощью кнопок управления масштабом (:numref:`ngw3D_open_3d_scene_vizual`, п.8).
+Масштаб карты можно изменять с помощью кнопок управления масштабом (:numref:`ngw3D_open_3d_scene_vizual`, п.8), прокручиванием колесика мыши или зажимая правую кнопку и двигая мышь.
+
+Менять угол обзора можно зажимая колесико и двигая мышь или зажимая Shift или Ctrl на клавиатуре.
 
 В левой части рабочей области располагаются функциональные панели:
 
