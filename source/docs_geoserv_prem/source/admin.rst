@@ -105,7 +105,7 @@ After all images are successfully built and data is prepared, modify docker-comp
 	
 	  redis:
 	    image: redis:alpine
-	    command: "redis-server --maxmemory 20 --maxmemory-policy allkeys-lru --appendonly no"
+	    command: "redis-server --maxmemory 20gb --maxmemory-policy allkeys-lru --appendonly no"
 	    volumes:
 	      - redis:/data
 	    restart: always
