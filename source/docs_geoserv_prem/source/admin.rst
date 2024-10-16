@@ -53,7 +53,7 @@ After all images are successfully built and data is prepared, modify docker-comp
 * Change environment variables DB_PASSWORD and POSTGRES_PASSWORD to new password (value must be the same in all occurrences)
 * Change environment variable ADMIN_PASSWORD to new password
 * Change environment variables S3_ACCESS_KEY/MINIO_ACCESS_KEY and S3_SECRET_KEY/MINIO_SECRET_KEY to new passwords (values must be different for \*_ACCESS_KEY and \*_SECRET_KEY)
-* In the 'redis' launch command set the memory capacity (within limits available for the container, best set it 1-2 GB lower than limit). Example:
+* In the 'redis' launch command set the memory capacity (within limits available for the container, best set it 1-2 GiB lower than limit). Example:
 
 **nano docker-compose.yml**
 
