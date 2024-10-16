@@ -181,13 +181,13 @@
 
 Опциональные - зависят от типа ресурса:
 
-- Добавить в QGIS - операция описана `выше <https://docs.nextgis.ru/docs_ngconnect/source/ngc_data_transfer.html#ng-connect-export>`_;
+- Добавить в QGIS - операция и список ресурсов, для которых она доступна, описаны `выше <https://docs.nextgis.ru/docs_ngconnect/source/ngc_data_transfer.html#ng-connect-export>`_;
 
-- Создать Веб Карту - доступен для ресурсов: Векторный слой, Стиль Векторного слоя, Растровый слой, слой WMS;
+- `Создать Веб Карту <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#web-map>`_ - доступен для ресурсов: Векторный слой, Стиль Векторного слоя, Растровый слой, слой WMS;
 
-- Загрузить как QML - доступен только для ресурса QGIS Стиль Векторного слоя;
+- `Загрузить как QML <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-connect-save-to-device>`_ - доступен только для ресурса QGIS Стиль Векторного слоя;
 
-- Копировать стиль (буфер обмена)  - доступен только для ресурса QGIS Стиль Векторного слоя;
+- `Копировать стиль <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-ngqgis-connect-style-copy>`_  - доступен только для ресурса QGIS Стиль Векторного слоя;
 
 - `Создать сервис WFS <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#wfs>`_ - доступен только для ресурса Векторный слой;
 
@@ -195,7 +195,7 @@
 
 - `Создать сервис WMS <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#wms>`_ - доступен только для ресурса Векторный слой;
 
-- Дублировать ресурс - доступен только для ресурсов: Векторный слой и Растровый слой;
+- `Дублировать ресурс <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-connect-resource-double>`_ - доступен только для ресурсов: Векторный слой и Растровый слой;
 
 - `Перезаписать выбранный слой <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-ngqgis-connect-data-overwrite>`_ - доступен только для ресурса Векторный слой.
 
