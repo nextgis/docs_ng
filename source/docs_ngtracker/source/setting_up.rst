@@ -13,14 +13,14 @@
 .. figure:: _static/_.png
    :name: 
    :align: center
-   :width: 12cm
+   :width: 8cm
 
 * разрешить приложению NextGIS Tracker отправлять уведомления: необходимо выбрать **Разрешить**, как показано на Рис. 1.2.
 
 .. figure:: _static/_.png
    :name: 
    :align: center
-   :width: 12cm
+   :width: 8cm
 
 .. _ngtr_set_send:
 
@@ -32,28 +32,34 @@
 .. figure:: _static/_.png
    :name: 
    :align: center
-   :width: 12cm
+   :width: 8cm
 
 .. figure:: _static/_.png
    :name: 
    :align: center
-   :width: 12cm
+   :width: 8cm
 
-Далее нужно перевести кнопку-переключатель **Синхронизировать с облаком** в рабочее положение, и ввести данные от своей учетной записи в Веб ГИС и сохранить, как показано на Рис. 1.5. и Рис. 1.6.
+Далее нужно перевести кнопку-переключатель **Синхронизировать с облаком** в рабочее положение (см. :numref:`sync_with_cloud_pic`), и ввести данные от своей учетной записи в Веб ГИС и сохранить, как показано на :numref:`webgis_creds_pic`.
 
-.. figure:: _static/_.png
-   :name: 
+.. figure:: _static/sync_with_cloud_ru.png
+   :name: sync_with_cloud_pic
    :align: center
-   :width: 12cm
+   :width: 8cm
 
-.. figure:: _static/_.png
-   :name: 
+   Переключатель синхронизации с облаком
+
+.. figure:: _static/webgis_creds_ru.png
+   :name: webgis_creds_pic
    :align: center
-   :width: 12cm
+   :width: 8cm
 
-После этого в меню «Настройки» появится сообщение: «Трекер создан», а под кнопкой-переключателем «Синхронизировать с облаком» появится сообщение: «Автоматически отправлять информацию об отслеживании в *адрес указанной Веб ГИС*», как показано на Рис. 1.7
+   Введение адреса, логина и пароля Веб ГИС
 
-.. figure:: _static/_.png
-   :name: 
+После этого в меню «Настройки» появится сообщение: «Трекер создан», а под кнопкой-переключателем «Синхронизировать с облаком» появится сообщение: «Автоматически отправлять информацию об отслеживании в *адрес указанной Веб ГИС*», как показано на :numref:`synced_success_pic`.
+
+.. figure:: _static/synced_success_ru.png
+   :name: synced_success_pic
    :align: center
-   :width: 12cm
+   :width: 8cm
+
+   Синхронизация с Веб ГИС включена
