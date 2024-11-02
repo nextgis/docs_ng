@@ -13,10 +13,10 @@
 
 Главное окно приложения представлено на Рис. 1.8. и Рис. 1.9. 
 
-.. figure:: _static/_.png
+.. figure:: _static/tracker_main_ru.png
    :name: 
    :align: center
-   :width: 12cm
+   :width: 16cm
 
    Главное оконо приложения
 
@@ -45,10 +45,10 @@
 
 Окно настроек приложения представлено на Рис. 1.10. 
 
-.. figure:: _static/_.png
-   :name: 
+.. figure:: _static/tr_settings_ru.png
+   :name: tr_settings_pic
    :align: center
-   :width: 12cm
+   :width: 8cm
 
    Окно настроек приложения
 
