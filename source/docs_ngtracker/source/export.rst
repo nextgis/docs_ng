@@ -5,10 +5,10 @@
 
 Перейдите на главное окно приложения и в разделе «Треки» выберите трек, который необходимо экспортировать, как показано на Рис. 1.18.
 
-.. figure:: _static/_.png
+.. figure:: _static/select_track_share_ru.png
    :name: 
    :align: center
-   :width: 12cm
+   :width: 8cm
 
    Выбор трека для экспорта
 
@@ -17,6 +17,6 @@
 .. figure:: _static/_.png
    :name: 
    :align: center
-   :width: 12cm
+   :width: 8cm
 
    Сохранение файла
