@@ -34,7 +34,7 @@
 
    Открытие веб-карты
 
-На веб-карте нажмите кнопку «Трекеры», похожую на значок «Wi-Fi», в левой боковой панели, как показано на :numref:`trackers_panel_select_ru`
+На веб-карте нажмите кнопку «Трекеры», похожую на значок «Wi-Fi», в левой боковой панели, как показано на :numref:`trackers_panel_select_pic`
 
 .. figure:: _static/trackers_panel_select_ru.png
    :name: trackers_panel_select_pic
@@ -51,7 +51,7 @@
 2. в трекере (трекерах) отметьте, какие элементы треков отображать на карте.
 
 .. figure:: _static/webmap_track_display_ru.png
-   :name: 
+   :name: webmap_track_display_pic
    :align: center
    :width: 20cm
 
