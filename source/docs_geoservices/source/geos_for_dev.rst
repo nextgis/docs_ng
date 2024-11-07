@@ -14,8 +14,19 @@
 
 .. _nggeos_pkk_data_type:
 
-Типы данных
-----------------
+Типы запросов и объектов
+------------------------
+
+На данный момент у API есть два типа запросов:
+
+1. Получить объект по координатам, https://geoservices.nextgis.com/pkk/features/by_pos?lat={lat}&lon={lon}&cache=include&types=1,2,4,5,10&apikey=YOUR-API-KEY
+2. Получить объект по кадастровому номеру, https://geoservices.nextgis.com/pkk/features/by_id?cache=include&type={type:1,2,4,5,10}&id={id}&apikey=YOUR-API-KEY
+
+Параметры запросов:
+
+* lat={lat}&lon={lon} - широта,долгота в СК EPSG:4326 (WGS84).
+* cache=only,include,without - only - только результаты из кэша, include - возвращать результаты из кэша если они там есть, without - только результаты прямых запросов.
+* YOUR-API-KEY - ваш ключ API, получается на https://geoservices.nextgis.com
 
 Возможно получение данных по следующим типам (type) объектов:
 
@@ -28,7 +39,7 @@
 .. _nggeos_pkk_limits:
 
 Что является запросом и лимиты
---------------------------------
+------------------------------
 
 Установленный по умолчанию лимит количества запросов на `команду <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-team-management>`_ - 1050 / час (25 000 / сутки)
 В него входят:
@@ -73,7 +84,7 @@ CORS Origins
     
     import requests
     
-    url = 'https://geoservices.nextgis.com/pkk/features/by_pos?apikey=YOUR-API-KEY&lat=55.67927298459276&lon=37.591867175551606&types=5'
+    url = 'https://geoservices.nextgis.com/pkk/features/by_pos?apikey=YOUR-API-KEY&lat=55.67927298459276&lon=37.591867175551606&type=5'
     
     resp = requests.get(url)
     data = resp.json()
