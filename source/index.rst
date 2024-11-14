@@ -32,6 +32,7 @@
    /docs_ngwdocker/doc/index
    /docs_howto/source/toc
    /docs_ngcourses/source/toc
+   /docs_toolbox_onprem/source/toc
 
 *****************
 Сервисы
