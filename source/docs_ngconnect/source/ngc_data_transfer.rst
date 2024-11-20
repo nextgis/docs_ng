@@ -26,11 +26,13 @@ The following types of resources are available for data exchange and operation:
 .. |raster_layer| image:: _static/raster_layer.png
 .. |vector_layer| image:: _static/vector_layer_symbol.png
 .. |basemap_symbol| image:: _static/basemap_symbol.png
+.. |tms_connection_symbol| image:: _static/tms_connection_symbol.png
 .. |tms_service_symbol| image:: _static/tms_service_symbol.png
 .. |postgis_layer_symbol| image:: _static/postgis_layer_symbol.png
 .. |demo_project_symbol| image:: _static/demo_project_symbol.png
 .. |wms_layer_symbol| image:: _static/wms_layer_symbol.png
 .. |wms_connection_symbol| image:: _static/wms_connection_symbol.png
+.. |wfs_layer_symbol| image:: _static/wfs_layer_symbol.png
 
 - |vector_layer| - Vector layer (NGW Vector Layer), which can be:  
   |resource_vector_point| - Point vector layer (NGW Vector Layer); 
@@ -40,11 +42,13 @@ The following types of resources are available for data exchange and operation:
   |resource_vector_polygon| - Polygon vector layer (NGW Vector Layer); 
   |resource_vector_mpolygon| - Multipolygon vector layer (NGW Vector Layer); 
 
-- |resource_style| - Vector layer style. QGIS style gets "(qgis)" prefix, MapServer style - "(ms)"
+- |resource_style| - Vector layer style.
 - |resource_wfs| - WFS Service (NGW WFS Service)
 - |resource_wms| - WMS Service (NGW WMS Service)
 - |tms_service_symbol| - TMS Layer
+- |tms_connection_symbol| - TMS Connection;
 - |postgis_layer_symbol| - PostGIS Layer
+- |wfs_layer_symbol| - WFS Layer
 - |raster_layer| - Raster layer (NGW Raster Layer)
 - |basemap_symbol| - Basemap
 - |resource_webmap| - Web Map (NGW Web Map)
@@ -58,34 +62,44 @@ The following types of resources are available for data exchange and operation:
 From QGIS to Web GIS 
 -------------------------------
 
-NextGIS Connect module allows you to import:
+NextGIS Connect module allows you to upload:
 
 1. Vector data
 2. Raster data
 3. Basemaps - only for `'Mini' or 'Premium' plans <https://nextgis.com/pricing-base/>`_
-4. Entire QGIS project
+4. Layer groups
+5. Entire QGIS project
 
 
-Algorithm for importing each data type is described `here <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#creating-and-uploading-data>`_.
+Algorithm for uploading each data type is described `here <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#creating-and-uploading-data>`_.
 
 .. figure:: _static/add_to_ngw_en.png
    :align: center
    :width: 10cm
    
-   Data import menu
+   Data import menu in NextGIS Connect panel
 
-- Vector layer – vector layer with its style will be imported into Web GIS.  
+You can select uploading data to Web GIS as one of the export options for a layer, a layer group or a project.
+
+.. figure:: _static/context_export_to_ngw_en.png
+   :align: center
+   :width: 20cm
+
+   Uploading data to Web GIS via context menu of the Layers panel
+
+
+- Vector layer – vector layer with its style will be uploaded to Web GIS.  
   You can later add this style to a Web Map.
 - Raster layer – raster layer with a default style will be created in Web GIS.  
   Style can be added directly to Web Map.
-- Upload all - All layers for which the import option is available will be added to Web GIS, as well as all groups, retaining the hierarchy from QGIS Layers Panel.  Also a Web Map will be created and all imported layers will be added to it retaining hierarchy and visibility of QGIS Layers Panel. While importing a project you need to specify the name of the new resource group which will be created in Web GIS. This group will hold all resources imported along with the project. When the process is complete, the Web Map will be opened automatically if corresponding option is selected in plugin settings.
+- Upload all - All layers for which the option is available will be added to Web GIS, as well as all groups, retaining the hierarchy from QGIS Layers Panel.  Also a Web Map will be created and all imported layers will be added to it retaining hierarchy and visibility of QGIS Layers Panel. While uploading a project you need to specify the name of the new resource group which will be created in Web GIS. This group will hold all resources uploaded along with the project. When the process is complete, the Web Map will be opened automatically if corresponding option is selected in plugin settings.
 - Update layer style - Web GIS will update the style of the layer to match the style of the selected layer in QGIS.
 - Add new style to layer - Web GIS will add to the layer a new style, similar to the selected layer in QGIS.
 
 If a layer has **multiple styles**, they will all be uploaded. Their names will be kept. If the style name is "default", the layer's name will be used instead. 
 
 
-Imported resources will be added to the group selected in NextGIS Connect panel. 
+Uploaded resources will be added to the group selected in NextGIS Connect panel. 
 
 * If other type of resource but a group is selected, import will be performed to the closest parent group to selected resource.
 * If no resource is selected, import will be performed to the Main resource group (the root directory).
@@ -94,7 +108,6 @@ Imported resources will be added to the group selected in NextGIS Connect panel.
 .. warning::
 
     **Photos** made via NextGIS Collector/Mobile apps and uploaded to Web GIS as attachments to layers **wouldn't be available** in desktop NextGIS QGIS after downloading these layers through NextGIS Connect plugin.
-   
 
 
 
@@ -128,17 +141,19 @@ From Web GIS to QGIS
 Option is available if one of the following resources is selected in NextGIS Web resource tree:
 
 - Vector layer (NGW Vector Layer) |vector_layer| - GeoJSON vector layer will be created in QGIS;
+- WFS Layer |wfs_layer_symbol| - WFS layer will be created in QGIS;
 - WFS service (NGW WFS Service) |resource_wfs| - WFS layer will be created in QGIS;
 - WMS Layer - the selected WMS layer will be added to QGIS;
 - WMS Service - a WMS layer will be created in QGIS, the data source for which the selected WMS Service will be;
 - WMS Connection - you can select the WMS layer from the list to add to QGIS;
 - TMS Layer |tms_service_symbol|;
 - PostGIS Layeer |postgis_layer_symbol|;
-- QGIS style of a vector layer |resource_style| - GeoJSON vector layer with the style identical to selected one will be created in QGIS;
+- QGIS style of a vector layer |resource_style| - if it is a vector layer, GeoJSON vector layer with the style identical to selected one will be created in QGIS; if it is a WFS layer, one will be created in QGIS with the identical style;
 - Raster layer (NGW Raster layer)  |raster_layer|  - a GeoTIFF raster layer will be created in QGIS;
 - Basemap|basemap_symbol|;
-- Web Map |resource_webmap| - a QGIS project will be created containing layers, styles and basemaps;
-- `Demo Project <https://docs.nextgis.com/docs_ngcom/source/demoprojects.html>`_ |demo_project_symbol| - a QGIS project will be created, containing layers, styles and basemaps.
+- Web Map |resource_webmap| - a QGIS project will be created containing layers, styles and basemaps. Layers used as basemaps will be gathered in a mutually exclusive group;
+- `Demo Project <https://docs.nextgis.com/docs_ngcom/source/demoprojects.html>`_ |demo_project_symbol| - a QGIS project will be created, containing layers, styles and basemaps,
+- Resource group |resource_group| - a group with the layers inside will be created in the current QGIS project.
 
 
 For layers with **multiple styles**:
