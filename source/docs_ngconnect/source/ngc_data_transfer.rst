@@ -28,6 +28,7 @@
 .. |vector_layer| image:: _static/nextgis_connect/vector_layer_symbol.png
 .. |basemap_symbol| image:: _static/nextgis_connect/basemap_symbol.png
 .. |tms_service_symbol| image:: _static/nextgis_connect/tms_service_symbol.png
+.. |tms_connection_symbol| image:: _static/nextgis_connect/tms_connection_symbol.png
 .. |postgis_layer_symbol| image:: _static/nextgis_connect/postgis_layer_symbol.png
 .. |demo_project_symbol| image:: _static/nextgis_connect/demo_project_symbol.png
 .. |wms_layer_symbol| image:: _static/nextgis_connect/wms_layer_symbol.png
@@ -148,6 +149,7 @@
 - WMS Сервис |resource_wms| - в QGIS будет создан WMS слой, источником данных для которого будет выбранный WMS Сервис;
 - WMS Соединение |wms_connection_symbol| - из списка можно будет выбрать WMS слой, который необходимо добавить в QGIS
 - TMS Слой |tms_service_symbol|;
+- TMS Соединение |tms_connection_symbol|;
 - PostGIS Слой |postgis_layer_symbol|;
 - QGIS Стиль Векторного слоя |resource_style| - если стиль относится к векторному слою, в QGIS будет создан векторный слой GeoJSON, со стилем идентичным выбранному стилю; если стиль относится к слою WFS, будет создан слой WFS с таким стилем;
 - Растровый слой |raster_layer| - в QGIS будет создан растровый слой GeoTIFF;
