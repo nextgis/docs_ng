@@ -32,6 +32,7 @@
 .. |demo_project_symbol| image:: _static/nextgis_connect/demo_project_symbol.png
 .. |wms_layer_symbol| image:: _static/nextgis_connect/wms_layer_symbol.png
 .. |wms_connection_symbol| image:: _static/nextgis_connect/wms_connection_symbol.png
+.. |wfs_layer_symbol| image:: _static/nextgis_connect/wfs_layer_symbol.png
 
 - |vector_layer| - Векторный слой (NGW Vector Layer), он может быть: 
   |resource_vector_point| Точечный; 
@@ -46,6 +47,7 @@
 - |resource_wms| - WMS Сервис (NGW WMS Service)
 - |tms_service_symbol| - Слой TMS
 - |postgis_layer_symbol| - Слой PostGIS
+- |wfs_layer_symbol| - Слой WFS
 - |raster_layer| - Растровый слой (NGW Raster Layer)
 - |basemap_symbol| - Подложка
 - |resource_webmap| - Веб карта (NGW Web Map)
@@ -139,6 +141,7 @@
 
 - Векторный слой (NGW Vector Layer) |vector_layer| - в QGIS будет создан векторный 
   слой GeoJSON;
+- WFS Слой |wfs_layer_symbol| - в QGIS будет создан WFS слой;
 - WFS Сервис (NGW WFS Service) |resource_wfs| - в QGIS будет создан WFS слой, источником 
   данных для которого будет выбранный WFS Сервис;
 - WMS Слой |wms_layer_symbol| - в QGIS будет добавлен выбранный WMS слой;
@@ -146,11 +149,11 @@
 - WMS Соединение |wms_connection_symbol| - из списка можно будет выбрать WMS слой, который необходимо добавить в QGIS
 - TMS Слой |tms_service_symbol|;
 - PostGIS Слой |postgis_layer_symbol|;
-- QGIS Стиль Векторного слоя |resource_style| - в QGIS будет создан векторный слой GeoJSON, со стилем идентичным выбранному стилю;
+- QGIS Стиль Векторного слоя |resource_style| - если стиль относится к векторному слою, в QGIS будет создан векторный слой GeoJSON, со стилем идентичным выбранному стилю; если стиль относится к слою WFS, будет создан слой WFS с таким стилем;
 - Растровый слой |raster_layer| - в QGIS будет создан растровый слой GeoTIFF;
 - Подложка |basemap_symbol|;
 - Веб-карта |resource_webmap| - при добавлении в QGIS она будет представлена в виде проекта со слоями, стилями и подложками. Подложки карты будут объединены во взаимоисключающую группу;
-- `Демо-проект <https://docs.nextgis.ru/docs_ngcom/source/demoprojects.html>`_ |demo_project_symbol| - в QGIS будет создан проект, содержащий слои, стили и подложки.
+- `Демо-проект <https://docs.nextgis.ru/docs_ngcom/source/demoprojects.html>`_ |demo_project_symbol| - в QGIS будет создан проект, содержащий слои, стили и подложки;
 - Группа ресурсов |resource_group| - в текущий проект QGIS будет добавлена новая группа и входящие в неё ресурсы.
 
 
@@ -348,7 +351,7 @@
    Актуализация данных Веб ГИС
 
 Открыть веб-карту в браузере
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Если в дереве ресурсов выбран ресурс веб-карта (NGW Web Map) |resource_webmap|, 
 то она откроется в новой вкладке браузера.
