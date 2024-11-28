@@ -22,28 +22,28 @@
 .. figure:: _static/measure_direct_ru.png
    :name: measure_direct_pic
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Измерение расстояния между двумя точками по прямой
 
 .. figure:: _static/measure_terrain_ru.png
    :name: measure_terrain_pic
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Измерение расстояния между двумя точками по рельефу
 
 .. figure:: _static/measure_area_ru.png
    :name: measure_area_pic
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Измерение площади по эллипсоиду с учётом рельефа
 
 .. figure:: _static/measure_multi_ru.png
    :name: measure_multi_pic
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Измерение ломаной
 
