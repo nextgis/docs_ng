@@ -15,3 +15,4 @@
    3D_style
    3D_scenes
    3D_scene_visualization
+   3D_measure
