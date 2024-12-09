@@ -2,7 +2,7 @@
 
 .. NextGIS Web 3D TOC
 
-Документация NextGIS Web 3D
+NextGIS Web 3D
 ===========================
     
 .. toctree::
