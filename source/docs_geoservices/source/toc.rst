@@ -1,6 +1,6 @@
 .. NextGIS GeoServices TOC
 
-NextGIS GeoServices documentation
+NextGIS GeoServices
 ================================
 
     
