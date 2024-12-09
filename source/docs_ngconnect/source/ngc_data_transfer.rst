@@ -71,7 +71,7 @@
 5. Проект QGIS целиком
 
 
-Алгоритм загрузки каждого типа данных описан `здесь <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-ngqgis-connect-data-upload>`_.
+Алгоритм загрузки каждого типа данных описан `здесь <https://docs.nextgis.ru/docs_ngconnect/source/resources.html>`_.
 
 .. figure:: _static/nextgis_connect/add_to_ngw_ru.png
    :align: center
@@ -168,7 +168,7 @@
 * При добавлении группы ресурсов, которая содержит слои с несколькими стилями, будут добавлены все стили и выбран либо одноименный слою, либо первый по алфавиту. Диалог с выбором показан не будет.
 * При добавлении WFS/OGCF стиль будет выбран либо одноименный слою, либо первый по алфавиту.
 
-Алгоритм Экспорта данных в QGIS описан `здесь <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-ngqgis-connect-data-export>`_.
+Алгоритм загрузки данных в QGIS описан `здесь <https://docs.nextgis.ru/docs_ngconnect/source/resources.html#ngcom-ngqgis-connect-data-export>`_.
 
 .. _ng_connect_cont_menu:
 
@@ -198,21 +198,21 @@
 
 - Добавить в QGIS - операция и список ресурсов, для которых она доступна, описаны `выше <https://docs.nextgis.ru/docs_ngconnect/source/ngc_data_transfer.html#ng-connect-export>`_;
 
-- `Создать Веб Карту <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#web-map>`_ - доступен для ресурсов: Векторный слой, Стиль Векторного слоя, Растровый слой, слой WMS;
+- `Создать Веб Карту <https://docs.nextgis.ru/docs_ngconnect/source/resources.html#web-map>`_ - доступен для ресурсов: Векторный слой, Стиль Векторного слоя, Растровый слой, слой WMS;
 
-- `Загрузить как QML <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-connect-save-to-device>`_ - доступен только для ресурса QGIS Стиль Векторного слоя;
+- `Загрузить как QML <https://docs.nextgis.ru/docs_ngconnect/source/export.html#connect-save-style>`_ - доступен только для ресурса QGIS Стиль Векторного слоя;
 
-- `Копировать стиль <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-ngqgis-connect-style-copy>`_  - доступен только для ресурса QGIS Стиль Векторного слоя;
+- `Копировать стиль <https://docs.nextgis.ru/docs_ngconnect/source/edit.html#connect-style-copy>`_  - доступен только для ресурса QGIS Стиль Векторного слоя;
 
-- `Создать сервис WFS <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#wfs>`_ - доступен только для ресурса Векторный слой;
+- `Создать сервис WFS <https://docs.nextgis.ru/docs_ngconnect/source/resources.html#wfs>`_ - доступен только для ресурса Векторный слой;
 
-- `Создать сервис OGC API - Features <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ogc-api-features>`_ - доступен только для ресурса Векторный слой;
+- `Создать сервис OGC API - Features <https://docs.nextgis.ru/docs_ngconnect/source/resources.html#ogc-api-features>`_ - доступен только для ресурса Векторный слой;
 
-- `Создать сервис WMS <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#wms>`_ - доступен только для ресурса Векторный слой;
+- `Создать сервис WMS <https://docs.nextgis.ru/docs_ngconnect/source/resources.html#wms>`_ - доступен только для ресурса Векторный слой;
 
 - `Дублировать ресурс <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-connect-resource-double>`_ - доступен только для ресурсов: Векторный слой и Растровый слой;
 
-- `Перезаписать выбранный слой <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-ngqgis-connect-data-overwrite>`_ - доступен только для ресурса Векторный слой.
+- `Перезаписать выбранный слой <https://docs.nextgis.ru/docs_ngconnect/source/edit.html#connect-data-overwrite>`_ - доступен только для ресурса Векторный слой.
 
 
 Кроме того, при установке модуля появляется возможность переходить к данным в Веб ГИС из панели слоев в QGIS: в контекстном меню слоя в QGIS найдите «NextGIS Connect», и нажмите «Открыть в Веб ГИС».
@@ -225,6 +225,37 @@
 
    Открытие данных в Веб ГИС из дерева слоев QGIS
 
+
+.. _connect_resource_double:
+
+Дублирование ресурсов
+-----------------------
+
+При помощи модуля можно создать копию слоя в Веб ГИС. Доступно для ресурсов Векторный слой и Растровый слой. 
+
+* Чтобы скопировать слой, выберите его в окне модуля Connect и в контекстном меню нажмите **Дублировать ресурс**.
+* Во всплывающем окне подтвердите дублирование.
+
+Копия слоя будет создана в той же папке, стиль слоя также будет скопирован.
+
+.. figure:: _static/NGConnect_double_ru.png
+   :name: NGConnect_double_pic
+   :align: center
+   :width: 8cm
+
+   Дублирование ресурса
+
+.. _connect_resource_delete:
+
+Удаление ресурсов
+-------------------
+
+Модуль NextGIS Connect позволяет быстро создавать / удалять любые ресурсы из Веб ГИС. Для этого:
+
+* Выберите в дереве ресурсов Веб ГИС в окне модуля NextGIS Connect ресурс, который вы хотите удалить;
+* Выберите пункт **Удалить** в контекстном меню;
+* Если ресурс удалился успешно, то он исчезнет из дерева ресурсов Веб ГИС.
+ 
 
 .. _ng_connect_edit_layer:
 
@@ -269,7 +300,7 @@
 
 Если со времени последней синхронизации в облаке были сделаны изменения, дальнейшая синхронизация станет невозможна, появится соответствующее сообщение. Чтобы продолжить работу со слоем, нужно перезагрузить его, сбросив до текущего состояния в NGW. В диалоге синхронизации нажмите стрелочку вниз и в выпадающем меню выберите **Сброс слоя**. Обратите внимание: если  сброс произойдет при наличии локальных изменений, они будут утеряны. 
 
-В случае, если изменения, внесенные в облаке, были ошибочными, и их нужно заменить на локальные, воспользуйтесь функцией `обновления данных <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-ngqgis-connect-data-overwrite>`_.
+В случае, если изменения, внесенные в облаке, были ошибочными, и их нужно заменить на локальные, воспользуйтесь функцией `обновления данных <https://docs.nextgis.ru/docs_ngconnect/source/edit.html#connect-data-overwrite>`_.
 
 
 
@@ -291,42 +322,12 @@
 
 
 
-
-.. _ng_connect_wfs_wms:
-
-Публикация данных по протоколам WMS/WFS и OGC
-----------------------------------------------
-
-Модуль NextGIS Connect позволяет опубликовать векторные данные по стандартным протоколам :term:`WFS`, :term:`WMS` и OGC API - Features.
-Для этого в модуле в контекстном меню необходимого слоя нужно выбрать соответствующую операцию.
-Подробнее об этом `здесь <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#wfs-wms>`_.
-
-.. _ng_connect_lookup:
-
-Загрузка справочников
-------------------------------------------------
-
-В Веб ГИС можно создавать `справочники <https://docs.nextgis.ru/docs_ngcom/source/lookup.html#ngcom-lookup-table-for-layer>`_ и подключать их к векторным слоям.
-
-При экспорте слоя из Веб ГИС в QGIS значения справочника будут добавлены в слой как Карта значений (виджет value map). После этого в настольном приложении в режиме редактирования они будут доступны для выбора в соответствующем поле таблицы.
-
-.. figure:: _static/nextgis_connect/ngc_lookup_ru.png
-   :align: center
-   :width: 20cm
-
-   Значения из справочника доступны при редактировании слоя в QGIS
-
-В QGIS, в свою очередь, вы можете при помощи виджета Связанное значение (value relation) использовать в качестве справочника векторный слой или загрузить CSV-файл. При отправке слоя с геометриями в облако в Веб ГИС будет создан ресурс справочника.
-
 .. _ng_connect_res_group:
 
-Другие операции
-----------------
-
-Этот блок операций расположен в верхнем меню модуля NextGIS Connect.
-
 Создать группу ресурсов
-~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
+
+Эта операция доступна в верхнем меню модуля NextGIS Connect.
 
 Новая группа будет создана в группе ресурсов:
 
@@ -342,8 +343,12 @@
 
    Создание группы ресурсов
 
+.. _connect_refresh:
+
 Обновить
-~~~~~~~~~~~~~~~~~~
+----------
+
+Эта операция доступна в верхнем меню модуля NextGIS Connect.
 
 Операция обновит все дерево ресурсов Веб ГИС до актуального на текущий момент состояния.
 
@@ -354,8 +359,12 @@
 
    Актуализация данных Веб ГИС
 
+.. _connect_open_webmap:
+
 Открыть веб-карту в браузере
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------
+
+Эта операция доступна в верхнем меню модуля NextGIS Connect.
 
 Если в дереве ресурсов выбран ресурс веб-карта (NGW Web Map) |resource_webmap|, 
 то она откроется в новой вкладке браузера.
@@ -367,3 +376,4 @@
 
    Открытие веб-карты
 
+Также это можно сделать через `контекстное меню <https://docs.nextgis.ru/docs_ngconnect/source/ngc_data_transfer.html#ng-connect-cont-menu>`_.
