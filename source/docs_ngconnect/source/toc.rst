@@ -2,7 +2,7 @@
 
 .. NextGIS Connect
 
-NextGIS Connect for QGIS documentation
+NextGIS Connect for QGIS
 ======================================
     
 .. toctree::
