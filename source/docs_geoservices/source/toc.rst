@@ -2,7 +2,7 @@
 
 .. NextGIS GeoServices TOC
 
-Документация NextGIS GeoServices
+NextGIS GeoServices
 ================================
     
 .. toctree::
