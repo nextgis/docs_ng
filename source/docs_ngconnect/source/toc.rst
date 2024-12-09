@@ -2,7 +2,7 @@
 
 .. NextGIS Connect
 
-Документация NextGIS Connect для QGIS
+NextGIS Connect для QGIS
 =====================================
     
 .. toctree::
