@@ -38,48 +38,48 @@
 *****************
 
 1. :doc:`Начало работы с Веб ГИС </docs_ngcom/source/toc>`
-2. :doc:`Документация по NextGIS Toolbox </docs_toolbox/source/toc>`
-3. :doc:`Документация по NextGIS Data </docs_data/source/toc>`
-4. :doc:`Документация по NextGIS GeoServices </docs_geoservices/source/toc>`
+2. :doc:`NextGIS Toolbox </docs_toolbox/source/toc>`
+3. :doc:`NextGIS Data </docs_data/source/toc>`
+4. :doc:`NextGIS GeoServices </docs_geoservices/source/toc>`
 
 *****************
 Основные продукты
 *****************
 
-5. :doc:`Документация по NextGIS Web </docs_ngweb/source/toc>`
-6. :doc:`Документация по NextGIS QGIS </docs_ngqgis/source/toc>`
-7. :doc:`Документация по NextGIS Mobile </docs_ngmobile/source/toc>`
-8. :doc:`Документация по NextGIS GeoServices для своего сервера </docs_geoserv_prem/source/toc>`
-9. :doc:`Документация по NextGIS Toolbox для своего сервера </docs_toolbox_prem/source/toc>`
+5. :doc:`NextGIS Web </docs_ngweb/source/toc>`
+6. :doc:`NextGIS QGIS </docs_ngqgis/source/toc>`
+7. :doc:`NextGIS Mobile </docs_ngmobile/source/toc>`
+8. :doc:`NextGIS GeoServices для своего сервера </docs_geoserv_prem/source/toc>`
+9. :doc:`NextGIS Toolbox для своего сервера </docs_toolbox_prem/source/toc>`
 
 ******************
 Вспомогательное ПО
 ******************
 
-10. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder/source/toc>`
-11. :doc:`Документация по NextGIS Collector (мобильное приложение) </docs_collector/source/toc>`
-12. :doc:`Документация по NextGIS Tracker (мобильное приложение) </docs_ngtracker/source/toc>`
-13. :doc:`Документация по NextGIS ID </docs_ngid/source/toc>`
-14. :doc:`Документация по NextGIS Connect </docs_ngconnect/source/toc>`
-15. :doc:`Документация по NGQ Rosreestr Tools </docs_rosreestr_tools/source/toc>`
-16. :doc:`Документация по NextGIS Web 3D </docs_ngweb_3D/source/toc>`
+10. :doc:`NextGIS Formbuilder </docs_formbuilder/source/toc>`
+11. :doc:`NextGIS Collector (мобильное приложение) </docs_collector/source/toc>`
+12. :doc:`NextGIS Tracker (мобильное приложение) </docs_ngtracker/source/toc>`
+13. :doc:`NextGIS ID </docs_ngid/source/toc>`
+14. :doc:`NextGIS Connect </docs_ngconnect/source/toc>`
+15. :doc:`NGQ Rosreestr Tools </docs_rosreestr_tools/source/toc>`
+16. :doc:`NextGIS Web 3D </docs_ngweb_3D/source/toc>`
 
 **************************
 Специализированные решения
 **************************
 
-17. :doc:`Документация NextGIS Лес </docs_les/source/toc>`
+17. :doc:`NextGIS Лес </docs_les/source/toc>`
 
 *******************************
 Документация для разработчиков
 *******************************
 
-18. :doc:`Документация по NextGIS Web </docs_ngweb_dev/doc/toc>`
-19. :doc:`Документация по NextGIS Mobile </ngmobile_dev/toc>`
-20. :doc:`Документация по NextGIS QMS Service API </qms_srv_dev/doc/api>`
-21. :doc:`Документация по NextGIS Formbuilder </docs_formbuilder_dev/doc/toc>`
-22. :doc:`Документация по NextGIS Tracker </tracker_hub_dev/main>`
-23. :doc:`Документация по NextGIS Docker </docs_ngwdocker/doc/index>`
+18. :doc:`NextGIS Web</docs_ngweb_dev/doc/toc>`
+19. :doc:`NextGIS Mobile </ngmobile_dev/toc>`
+20. :doc:`NextGIS QMS Service API </qms_srv_dev/doc/api>`
+21. :doc:`NextGIS Formbuilder </docs_formbuilder_dev/doc/toc>`
+22. :doc:`NextGIS Tracker </tracker_hub_dev/main>`
+23. :doc:`NextGIS Docker </docs_ngwdocker/doc/index>`
 
 *************
 Дополнительно
@@ -93,10 +93,10 @@
 Документация в pdf
 ******************
 
-* :download:`Документация по NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`
-* :download:`Документация по NextGIS QGIS <docs_ngqgis/build/latex/NextGISQGIS.pdf>`
-* :download:`Документация по NextGIS Mobile <docs_ngmobile/build/latex/NextGISMobile.pdf>`
-* :download:`Документация по NextGIS Formbuilder <docs_formbuilder/build/latex/NextGISFormbuilder.pdf>`
+* :download:`NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`
+* :download:`NextGIS QGIS <docs_ngqgis/build/latex/NextGISQGIS.pdf>`
+* :download:`NextGIS Mobile <docs_ngmobile/build/latex/NextGISMobile.pdf>`
+* :download:`NextGIS Formbuilder <docs_formbuilder/build/latex/NextGISFormbuilder.pdf>`
 
 *****
 Поиск
