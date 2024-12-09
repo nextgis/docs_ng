@@ -2,7 +2,7 @@
 
 .. NextGIS GeoServices on-premise
 
-Документация NextGIS GeoServices on-premise
+NextGIS GeoServices on-premise
 ============================================
     
 .. toctree::
