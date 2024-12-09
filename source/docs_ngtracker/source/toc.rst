@@ -1,4 +1,4 @@
-Документация NextGIS Tracker
+NextGIS Tracker
 ===============================
 
 .. toctree::
