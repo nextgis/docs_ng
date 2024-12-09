@@ -187,11 +187,11 @@
 
 Общедоступные операции для всех типов ресурсов:
 
-- Открыть в ВебГИС - открывает страницу выбранного ресурса в Веб ГИС;
+- Открыть в ВебГИС - открывает страницу выбранного ресурса в Веб ГИС, см. :numref:`ngc_open_from_layertree_pic`;
 
 - Переименовать ресурс;
 
-- Удалить ресурс;
+- `Удалить ресурс <https://docs.nextgis.ru/docs_ngconnect/source/ngc_data_transfer.html#connect-resource-delete>`_;
 
 - Редактировать метаданные.
 
@@ -223,6 +223,7 @@
 .. figure:: _static/nextgis_connect/ngc_open_from_layertree_ru.png
    :align: center
    :alt: Контекстное меню в дереве слоев
+   :name: ngc_open_from_layertree_pic
    :width: 22cm
 
    Открытие данных в Веб ГИС из дерева слоев QGIS
