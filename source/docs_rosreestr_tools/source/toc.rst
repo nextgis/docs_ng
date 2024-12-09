@@ -2,7 +2,7 @@
 
 .. NGQ Rosreestr Tools
 
-Документация Rosreestr Tools для NextGIS QGIS
+Rosreestr Tools для NextGIS QGIS
 =============================================
 
 .. toctree::
