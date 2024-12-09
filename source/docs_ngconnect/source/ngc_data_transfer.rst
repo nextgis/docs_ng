@@ -70,6 +70,7 @@
 4. Группы слоёв
 5. Проект QGIS целиком
 
+Также модуль позволяет опубликовать векторные данные по стандартным протоколам :term:`WFS`, :term:`WMS` и OGC API - Features.
 
 Алгоритм загрузки каждого типа данных описан `здесь <https://docs.nextgis.ru/docs_ngconnect/source/resources.html>`_.
 
