@@ -12,4 +12,7 @@
    ngc_install
    ngc_settings
    ngc_data_transfer
+   resources
+   edit
+   export
    troubleshooting
