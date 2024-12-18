@@ -63,7 +63,7 @@ Developer's documentation
 * :doc:`NextGIS Mobile</ngmobile_dev/toc>`
 * :doc:`NextGIS QMS Service API</qms_srv_dev/doc/api>`
 * :doc:`NextGIS Formbuilder</docs_formbuilder_dev/doc/toc>`
-* :doc:`NextGIS Tracker</tracker_hub_dev/main>`
+* :doc:`NextGIS Tracker Hub </tracker_hub_dev/main>`
 * :doc:`NextGIS Web Docker</docs_ngwdocker/doc/index>`
 
 **********
