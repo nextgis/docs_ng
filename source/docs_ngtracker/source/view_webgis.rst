@@ -34,7 +34,11 @@
 
    Открытие веб-карты
 
-На веб-карте нажмите кнопку «Трекеры», похожую на значок «Wi-Fi», в левой боковой панели, как показано на :numref:`trackers_panel_select_pic`.
+На веб-карте нажмите кнопку «Трекеры» |panel_trackers|, в левой боковой панели, как показано на :numref:`trackers_panel_select_pic`.
+
+.. |panel_trackers| image:: _static/panel_trackers.png
+   :width: 6mm
+   :alt: похожую на значок Wi-Fi
 
 .. figure:: _static/trackers_panel_select_ru.png
    :name: trackers_panel_select_pic
