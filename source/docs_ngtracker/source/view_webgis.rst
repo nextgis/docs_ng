@@ -36,7 +36,10 @@ Open any Web Map in the Web GIS :numref:`open_main_webmap_pic` or create a new o
 
    Opening a Web Map
 
-On the Web Map on the left panel press the "Trackers" icon, see :numref:`trackers_panel_select_pic`.
+On the Web Map on the left panel press the "Trackers" icon |panel_trackers|, see :numref:`trackers_panel_select_pic`.
+
+.. |panel_trackers| image:: _static/panel_trackers.png
+   :width: 6mm
 
 .. figure:: _static/trackers_panel_select_en.png
    :name: trackers_panel_select_pic
