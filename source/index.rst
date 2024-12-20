@@ -20,6 +20,7 @@
    /docs_ngmobile/source/toc
    /docs_formbuilder/source/toc
    /docs_collector/source/toc
+   /docs_ngtracker/source/toc
    /docs_ngid/source/toc
    /docs_ngweb_dev/doc/toc
    /ngmobile_dev/toc
