@@ -16,7 +16,7 @@ On the main screen of the app in the "Tracks" section select the track you want 
 
 Press **Share** on the right of the track and choose where to save or send it in GPX format.
 
-.. figure:: _static/select_mode_share_en.jpg
+.. figure:: _static/select_mode_share_en.png
    :name: select_mode_share_pic
    :align: center
    :width: 8cm
