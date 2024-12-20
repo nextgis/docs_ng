@@ -60,7 +60,7 @@ In the Settings turn on **Sync with the cloud** (see :numref:`sync_with_cloud_pi
 
 When the settings are saved, you'll get a notification saying "Tracker is created". Under the "Sync" slider you'll see a message: "Automatically send tracking information to *Web GIS URL*", as shown on :numref:`synced_success_pic`.
 
-.. figure:: _static/synced_success_en.png
+.. figure:: _static/synced_created_en.png
    :name: synced_success_pic
    :align: center
    :width: 8cm
