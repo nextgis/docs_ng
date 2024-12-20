@@ -29,7 +29,7 @@ In the Main resource group you'll find a Tracker group with a Tracker inside, se
 
 Open any Web Map in the Web GIS :numref:`open_main_webmap_pic` or create a new one ("Create resource" button, `learn more <https://docs.nextgis.com/docs_ngweb/source/webmaps_admin.html>`_).
 
-.. figure:: _static/open_main_webmap_en.png
+.. figure:: _static/open_webmap_en.png
    :name: open_main_webmap_pic
    :align: center
    :width: 20cm
