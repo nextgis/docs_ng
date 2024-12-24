@@ -9,6 +9,7 @@
 С помощью данного модуля расширения пользователь QGIS получает возможность обмениваться 
 ресурсами с Веб ГИС или NextGIS Web (далее будет использоваться только термин "Веб ГИС") непосредственно из интерфейса QGIS.
 
+
 С помощью модуля расширения NextGIS Connect возможно:
 
 #. Экспортировать геоданные из Веб ГИС в настольную ГИС, в том числе веб-карты со всеми связанными ресурсами;
@@ -24,10 +25,12 @@
 #. Переходить к данным в Веб ГИС из панели слоёв в QGIS при помощи контекстного меню слоя.
 
 
+.. raw:: html
 
-.. warning::
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/8de989eb9a0dfc4509753b5027c3c36e/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-   Стоит обратить внимание на то, что **фотографии**, которые были собраны в мобильных приложениях NextGIS Collector/Mobile и загружены в Веб ГИС вместе со слоями в виде вложений, **не будут** доступны в настольной NextGIS QGIS после загрузки этих слоев через модуль NextGIS Connect! Чтобы изменить стилевые настройки слоя, **не потеряв при этом фотографии**, воспользуйтесь `инструкцией <https://docs.nextgis.ru/docs_ngconnect/source/ngc_data_transfer.html#ng-connect-keep-photo>`_.
+Посмотреть видео на `youtube <https://youtu.be/yKP-IXoCL8A>`_, `rutube <https://rutube.ru/video/8de989eb9a0dfc4509753b5027c3c36e/>`_.
+
 
 
 
