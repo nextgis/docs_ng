@@ -17,6 +17,20 @@
 
    Открыть 3D сцену
 
+Посмотрите, как выглядит открытая 3D сцена, в нашем видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/411e9116c5a9957f03739fd6521efd5c/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Видео на `youtube <https://youtu.be/vuRxhAOsI2M>`_, `rutube <https://rutube.ru/video/411e9116c5a9957f03739fd6521efd5c/>`_.
+
+Веб-клиент включает в себя три основных компонента: 
+
+* 3D сцену (:numref:`ngw3D_open_3d_scene_vizual`, п.1), 
+* панели (:numref:`ngw3D_open_3d_scene_vizual`, п.3, 4), 
+* инструменты 3D сцены (:numref:`ngw3D_open_3d_scene_vizual`, п.7, 8).
+
 .. figure:: _static/ngw3D__3d_scene_vizual.png
    :name: ngw3D_3d_scene_vizual
    :align: center
@@ -24,10 +38,6 @@
 
    Внешний вид веб-клиента 3D сцены. Цифрами обозначено: 1 – 3D сцена; 2 - дерево слоев; 3 - строка поиска; 4 - дерево ресурсов НГВ; 
    5 - выпадающий список ресурсов рельефа; 6 - выпадающий список подложек; 7 - переключатель режима (3D/2D); 8 – кнопки управления масштабом карты
-   
-   
-Веб-клиент включает в себя три основных компонента: 3D сцену (:numref:`ngw3D_open_3d_scene_vizual`, п.1), панели (:numref:`ngw3D_open_3d_scene_vizual`, п.3, 4), 
-и инструменты 3D сцены (:numref:`ngw3D_open_3d_scene_vizual`, п.7, 8).
 
 Масштаб карты можно изменять с помощью кнопок управления масштабом (:numref:`ngw3D_open_3d_scene_vizual`, п.8), прокручиванием колесика мыши или зажимая правую кнопку и двигая мышь.
 
