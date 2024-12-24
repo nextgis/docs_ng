@@ -169,6 +169,14 @@
 * При добавлении группы ресурсов, которая содержит слои с несколькими стилями, будут добавлены все стили и выбран либо одноименный слою, либо первый по алфавиту. Диалог с выбором показан не будет.
 * При добавлении WFS/OGCF стиль будет выбран либо одноименный слою, либо первый по алфавиту.
 
+Процесс добавления слоя с несколькими стилями в видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/d65766eacd8a3f162fff6ce09556045b/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Смотреть на `youtube <https://youtu.be/snq2yv8iNEk>`_, `rutube <https://rutube.ru/video/d65766eacd8a3f162fff6ce09556045b/>`_.
+
 Алгоритм загрузки разных типов данных в QGIS подробно описан `здесь <https://docs.nextgis.ru/docs_ngconnect/source/resources.html#ngcom-ngqgis-connect-data-export>`_.
 
 Векторные слои из вашей Веб ГИС можно `редактировать <https://docs.nextgis.ru/docs_ngconnect/source/edit.html#>`_ сразу после добавления их в QGIS.
