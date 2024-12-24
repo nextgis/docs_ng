@@ -191,7 +191,13 @@
 Копирование стиля из Веб ГИС
 -----------------------------
 
-Модуль имеет возможность копирования QML-стиля слоя в Веб ГИС для применения его к локальному слою в QGIS.
+Модуль имеет возможность копирования QML-стиля слоя в Веб ГИС для применения его к локальному слою в QGIS. 
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/7460a5277d280d8d74942770b88a2b28/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео процесса на `youtube <https://youtu.be/UH2OKvBz1Mk>`_, `rutube <https://rutube.ru/video/7460a5277d280d8d74942770b88a2b28/>`_.
 
 Разверните нужный вам слой в дереве Connect и кликните правой кнопкой мыши по QML-стилю слоя. Выберите «Копировать стиль» и стандартным способом через контекстное меню слоя на панели слоёв QGIS вставьте его.
 
