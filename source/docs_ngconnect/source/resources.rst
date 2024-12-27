@@ -90,6 +90,12 @@
 
 При добавлении группы ресурсов, которая содержит слои **с несколькими стилями**, будут добавлены все стили и выбран в качестве текущего либо одноименный слою, либо первый по алфавиту. Диалог с выбором показан не будет.
 
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/f374bd300335a78dddd017a0c0934eec/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Смотреть на `youtube <https://youtu.be/qIByQEqZ4oQ>`_, `rutube <https://rutube.ru/video/f374bd300335a78dddd017a0c0934eec/>`_.
+
 .. _ng_connect_lookup:
 
 Загрузка справочников
