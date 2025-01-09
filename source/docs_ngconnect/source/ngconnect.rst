@@ -4,7 +4,7 @@
 .. _ng_connect_overview:
     
 Overview
-=====
+=========
 
 This plugin allows QGIS users to load resources to and from Web GIS or NextGIS Web  
 (further both refer as “Web GIS”) directly from QGIS interface.
@@ -23,7 +23,11 @@ With NextGIS Connect you can:
 #. Add new vector layer styles from QGIS to a layer in Web GIS that already has styles.
 #. Open web pages of particular data in Web GIS from the Layers panel in QGIS using context menu.
 
+.. raw:: html
 
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/2tuh5p0tUqw?si=kcNULSgt2WIwQqi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/2tuh5p0tUqw?si=iJmlmnhXQuMdTJlf>`_.
 
 .. warning::
 
