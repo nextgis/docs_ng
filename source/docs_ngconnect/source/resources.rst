@@ -105,7 +105,7 @@ In Web GIS you can create `Lookup tables <https://docs.nextgis.com/docs_ngweb/so
 
 When the layer is exported from Web GIS to QGIS the values of the lookup table will be added to the layer using value map widget. After that they will be available in the desktop app in the corresponding field of the table when you enter edit mode.
 
-.. figure:: _static/nextgis_connect/ngc_lookup_en.png
+.. figure:: _static/ngc_lookup_en.png
    :align: center
    :width: 20cm
 
