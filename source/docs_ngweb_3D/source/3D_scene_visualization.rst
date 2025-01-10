@@ -17,6 +17,14 @@ You can open the web client using the icon |open_3d_scene_icon| or click the *Di
 
    Display 3D scene
 
+Have a tour of a 3D scene in our video:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/beCsdlvCszY?si=1hDplBhofz2z_ezd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/beCsdlvCszY?si=feOM8zDsk7Nkobde>`_.
+
 .. figure:: _static/ngw3D__3d_scene_vizual_en.png
    :name: ngw3D_3d_scene_vizual
    :align: center
