@@ -18,7 +18,7 @@ Connecting to your Web GIS
 
 When the plugin is installed, its icon appears in the toolbar:  
 
-.. figure:: _static/logo.png
+.. figure:: _static/logo_connect.png
    :align: center
    :alt: NextGIS Connect icon
 
