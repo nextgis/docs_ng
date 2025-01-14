@@ -14,4 +14,5 @@ NextGIS Connect for QGIS
    ngc_data_transfer
    resources
    edit
+   export
    troubleshooting
