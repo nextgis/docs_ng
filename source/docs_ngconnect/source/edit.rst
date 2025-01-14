@@ -67,7 +67,7 @@
 
 Если нужно одновременное редактирование данных с разных устройств/платформ, то доступны следующие варианты:
 
-1. Использовать сервисы OGC API — Features или `WFS <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-connect-data-edit-wfs>`_. Их можно создать в Веб ГИС (`WFS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#c-wfs>`_, `OGC API — Features <https://docs.nextgis.ru/docs_ngweb/source/layers.html#c-ogc-api-features>`_) или прямо `через коннект <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#wfs-wms-ogc-api-features>`_, и редактировать данные через них.
+1. Использовать сервисы OGC API — Features или `WFS <https://docs.nextgis.ru/docs_ngconnect/source/edit.html#connect-data-edit-wfs>`_. Их можно создать в Веб ГИС (`WFS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#c-wfs>`_, `OGC API — Features <https://docs.nextgis.ru/docs_ngweb/source/layers.html#c-ogc-api-features>`_) или прямо `через коннект <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#wfs-wms-ogc-api-features>`_, и редактировать данные через них.
 
 2. Напрямую в QGIS с включенной функцией `версионирования <https://docs.nextgis.ru/docs_ngweb/source/layers.html#create-vector-layer-vers-pic>`_ векторных слоёв. Включается в Веб ГИС в настройках каждого векторного слоя. При включенном версионировании вся история изменений слоя будет накапливаться в системе. Это позволит Connect увидеть изменения, сделанные на других устройствах, и обработать их без сброса слоя.
 
@@ -80,7 +80,7 @@
 
 Также редактирование векторного слоя возможно при использовании стандартного протокола :term:`WFS` (с поддержкой редактирования):
 
-* :ref:`Опубликуйте по протоколу WFS <ngcom_ngqgis_connect_wfs_service>` Векторный слой, объекты которого вы хотите отредактировать (как это сделать, см выше);
+* Опубликуйте по протоколу WFS Векторный слой, объекты которого вы хотите отредактировать;
 * Выберите в дереве ресурсов Веб ГИС в окне модуля NextGIS Connect соответствующий WFS сервис;
 * Нажмите кнопку **Добавить в QGIS** на панели инструментов модуля или выберите пункт **Добавить в QGIS** в контекстном меню сервиса;
 
