@@ -1,3 +1,4 @@
+
 .. _ng_connect_data_transfer:
 
 Data transfer
@@ -46,7 +47,6 @@ The following types of resources are available for data exchange and operation:
 - |resource_wfs| - WFS Service (NGW WFS Service)
 - |resource_wms| - WMS Service (NGW WMS Service)
 - |tms_service_symbol| - TMS Layer
-- |tms_connection_symbol| - TMS Connection;
 - |postgis_layer_symbol| - PostGIS Layer
 - |wfs_layer_symbol| - WFS Layer
 - |raster_layer| - Raster layer (NGW Raster Layer)
@@ -59,51 +59,50 @@ The following types of resources are available for data exchange and operation:
 
 .. _ng_connect_import:
 
-From QGIS to Web GIS 
--------------------------------
+From QGIS to Web GIS
+----------------------------------
 
-NextGIS Connect module allows you to upload:
+With NextGIS Connect you can upload to Web GIS:
 
 1. Vector data
 2. Raster data
-3. Basemaps - only for `'Mini' or 'Premium' plans <https://nextgis.com/pricing-base/>`_
+3. Basemaps
 4. Layer groups
 5. Entire QGIS project
 
+Connect plugin also allows to publish vector data using standard protocols :term:`WFS`, :term:`WMS` and OGC.
 
-Algorithm for uploading each data type is described `here <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#creating-and-uploading-data>`_.
+See detailed step-by-step instructions for various data types `here <https://docs.nextgis.com/docs_ngconnect/source/resources.html>`_.
 
 .. figure:: _static/add_to_ngw_en.png
    :align: center
    :width: 10cm
    
-   Data import menu in NextGIS Connect panel
+   Upload menu in the NG Connect panel
 
-You can select uploading data to Web GIS as one of the export options for a layer, a layer group or a project.
+Alternatively you can upload data to Web GIS from the Layers panel. In the context menu select it as one of the ways to export a layer, a group of layers or the entire project.
 
 .. figure:: _static/context_export_to_ngw_en.png
    :align: center
    :width: 20cm
 
-   Uploading data to Web GIS via context menu of the Layers panel
+   Uploading data to Web GIS via layer context menu
 
-
-- Vector layer – vector layer with its style will be uploaded to Web GIS.  
+- Vector layer – vector layer with its style will be imported into Web GIS.  
   You can later add this style to a Web Map.
 - Raster layer – raster layer with a default style will be created in Web GIS.  
   Style can be added directly to Web Map.
-- Upload all - All layers for which the option is available will be added to Web GIS, as well as all groups, retaining the hierarchy from QGIS Layers Panel.  Also a Web Map will be created and all imported layers will be added to it retaining hierarchy and visibility of QGIS Layers Panel. While uploading a project you need to specify the name of the new resource group which will be created in Web GIS. This group will hold all resources uploaded along with the project. When the process is complete, the Web Map will be opened automatically if corresponding option is selected in plugin settings.
+- Upload all - All layers for which the import option is available will be added to Web GIS, as well as all groups, retaining the hierarchy from QGIS Layers Panel.  Also a Web Map will be created and all imported layers will be added to it retaining hierarchy and visibility of QGIS Layers Panel. While importing a project you need to specify the name of the new resource group which will be created in Web GIS. This group will hold all resources imported along with the project. When the process is complete, the Web Map will be opened automatically if corresponding option is selected in plugin settings.
 - Update layer style - Web GIS will update the style of the layer to match the style of the selected layer in QGIS.
 - Add new style to layer - Web GIS will add to the layer a new style, similar to the selected layer in QGIS.
 
 If a layer has **multiple styles**, they will all be uploaded. Their names will be kept. If the style name is "default", the layer's name will be used instead. 
 
 
-Uploaded resources will be added to the group selected in NextGIS Connect panel. 
+Imported resources will be added to the group selected in NextGIS Connect panel. 
 
 * If other type of resource but a group is selected, import will be performed to the closest parent group to selected resource.
 * If no resource is selected, import will be performed to the Main resource group (the root directory).
-
 
 .. warning::
 
@@ -111,8 +110,10 @@ Uploaded resources will be added to the group selected in NextGIS Connect panel.
 
 
 
-How to keep the attachments
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. ng_connect_keep_photo:
+
+How to keep attachments
+~~~~~~~~~~~~~~~~~~~~~~~
 
 To **keep the photos** intact while modifying the style, perform the following steps:
 
@@ -140,20 +141,23 @@ From Web GIS to QGIS
 
 Option is available if one of the following resources is selected in NextGIS Web resource tree:
 
-- Vector layer (NGW Vector Layer) |vector_layer| - GeoJSON vector layer will be created in QGIS;
-- WFS Layer |wfs_layer_symbol| - WFS layer will be created in QGIS;
-- WFS service (NGW WFS Service) |resource_wfs| - WFS layer will be created in QGIS;
+- Vector layer (NGW Vector Layer) |vector_layer| - GeoJSON vector layer will be created in QGIS; 
+
+- WFS Layer |wfs_layer_symbol| - a WFS layer will be created in QGIS;
+- WFS service (NGW WFS Service) |resource_wfs| - WFS layer will be created in QGIS; 
+
 - WMS Layer - the selected WMS layer will be added to QGIS;
 - WMS Service - a WMS layer will be created in QGIS, the data source for which the selected WMS Service will be;
 - WMS Connection - you can select the WMS layer from the list to add to QGIS;
 - TMS Layer |tms_service_symbol|;
+- TMS Connection |tms_connection_symbol|;
 - PostGIS Layeer |postgis_layer_symbol|;
-- QGIS style of a vector layer |resource_style| - if it is a vector layer, GeoJSON vector layer with the style identical to selected one will be created in QGIS; if it is a WFS layer, one will be created in QGIS with the identical style;
+- QGIS Vector Layer style |resource_style| - if it's a style of a vector layer, a GeoJSON vector layer with the identical style will be created in QGIS; if it's a style of a WFS layer, a WFS with that style will be created;
 - Raster layer (NGW Raster layer)  |raster_layer|  - a GeoTIFF raster layer will be created in QGIS;
-- Basemap|basemap_symbol|;
-- Web Map |resource_webmap| - a QGIS project will be created containing layers, styles and basemaps. Layers used as basemaps will be gathered in a mutually exclusive group;
-- `Demo Project <https://docs.nextgis.com/docs_ngcom/source/demoprojects.html>`_ |demo_project_symbol| - a QGIS project will be created, containing layers, styles and basemaps,
-- Resource group |resource_group| - a group with the layers inside will be created in the current QGIS project.
+- Basemap |basemap_symbol|;
+- Web Map |resource_webmap| - a QGIS project will be created containing layers, styles and basemaps. A mutually exclusive group will be created for all the basemap layers.
+- `Demo Project <https://docs.nextgis.com/docs_ngcom/source/demoprojects.html>`_ |demo_project_symbol| - a QGIS project will be created, containing layers, styles and basemaps;
+- Resource group |resource_group| - the group and resources inside it will be added to the QGIS project.
 
 
 For layers with **multiple styles**:
@@ -163,7 +167,17 @@ For layers with **multiple styles**:
 * If you select a resource group containing layers with multiple styles, all the styles will be added. The style used as current will be the one with the same name as the layer or the first in alphabetical order.  No dialog will be displayed.
 * If you add WFS/OGCF, the style with the same name as the layer or the first in alphabetical order will be chosen.
 
-The algorithm for Exporting data to QGIS is described `here <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#exporting-data>`_.
+See how to work with multi-style layers in our video:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/7vwt1k6Cv3k?si=5FIwWTQU4UeCNMw3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/7vwt1k6Cv3k?si=db1YkX-aS7f3_sd7>`_.
+
+Detailed instructions for adding various data types to QGIS `here <https://docs.nextgis.com/docs_ngconnect/source/resources.html#ngcom-ngqgis-connect-data-export>`_.
+
+Vector layers added from Web GIS can be `edited in QGIS <https://docs.nextgis.com/docs_ngconnect/source/edit.html#>`_ right away.
 
 .. _ng_connect_cont_menu:
 
@@ -174,40 +188,40 @@ Context menu may differ depending on resource type.
 .. figure:: _static/context_menu_en.png
    :align: center
    :alt: Context menu for a qgis vector style
-   :width: 9cm
+   :width: 10cm
    
    Context menu example
 
 Common options for all resource types:
 
-- Open in WebGIS – open the page of the selected resource in Web GIS;
+- Open in WebGIS – open the page of the selected resource in Web GIS, see :numref:`ngc_open_from_layertree_pic`;
 
 - Rename resource;
 
-- Delete resource;
+- `Delete resource <https://docs.nextgis.com/docs_ngconnect/source/ngc_data_transfer.html#connect-resource-delete>`_;
 
 - Edit metadata.
 
 
 Variable options – depend on resource type:
 
-- Add to QGIS – option is described above;
+- Add to QGIS - `see above <https://docs.nextgis.com/docs_ngconnect/source/ngc_data_transfer.html#ng-connect-export>`_ for the types of resources that can be added and other details;
 
-- Create Web Map – available for resources: Vector layer, Vector layer style, Raster layer, WMS layer;
+- `Create Web Map <https://docs.nextgis.com/docs_ngconnect/source/resources.html#web-map>`_ - available for: Vector layer, Vector style, Raster layer, WMS Layer;
 
-- Download as QML – available only for QGIS vector layer style;
+- `Download as QML <https://docs.nextgis.com/docs_ngconnect/source/export.html#connect-save-style>`_ - only available for QGIS Vector style;
 
-- Copy Style (Clipboard) - only available for QGIS Vector Layer Style;
+- `Copy style <https://docs.nextgis.com/docs_ngconnect/source/edit.html#connect-style-copy>`_ - only available for QGIS Vector style;
 
-- Create WFS Service - only available for Vector layer;
+- `Create WFS service <https://docs.nextgis.com/docs_ngconnect/source/resources.html#wfs>`_ - only available for Vector layer;
 
-- Create OGC API - Features service - only available for Vector layer;
+- `Create OGC API - Features service <https://docs.nextgis.com/docs_ngconnect/source/resources.html#ogc-api-features>`_ - only available for Vector layer;
 
-- Create WMS service - available only for Vector layer;
+- `Create WMS service <https://docs.nextgis.com/docs_ngconnect/source/resources.html#wms>`_ - only available for Vector layer;
 
-- Duplicate resource - only available for resources: Vector layer and Raster layer;
+- `Duplicate resource <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#ngcom-connect-resource-double>`_ - available only for Vector layer and Raster layer;
 
-- Overwrite selected layer - available only for Vector layer.
+- `Overwrite selected layer <https://docs.nextgis.com/docs_ngconnect/source/edit.html#connect-data-overwrite>`_ - only available for Vector layer.
 
 
 The plugin also allows you to navigate to the Web GIS data directly from the the Layers panel in QGIS. In the layer's context menu find "NextGIS Connect" and press "Open in Web GIS".
@@ -216,142 +230,89 @@ The plugin also allows you to navigate to the Web GIS data directly from the the
 .. figure:: _static/ngc_open_from_layertree_en.png
    :align: center
    :alt: Context menu in the layer tree
+   :name: ngc_open_from_layertree_pic
    :width: 22cm
 
    Opening Web GIS data from QGIS layer tree
 
 
-.. _ng_connect_edit_layer:
 
-Edit layers
----------------------
+.. _connect_resource_double:
 
-Vector layers added from Web GIS can be edited immediately after import to QGIS. Only one user at a time can edit the layer directly. This allows the layer to be edited even with no Internet connection. The changes will be saved to the device and transfered to Web GIS when the connection is restored.
+Duplicate resource
+-----------------------
 
-Layer styles are preserved during both import and export of the edited layer.
+With NG Connect you can copy an existing Web GIS layer. This option is available for Vector and Raster layers. 
 
-.. note::
-    This functionality is only available for vector data formats used in QGIS.
+* To make a copy of a layer, select it in the Connect panel, then in the context menu click **Duplicate resource**.
+* In the pop-up window confirm copying.
 
-1. Enter the edit mode from the layer's context menu or from the toolbar.
-2. Make the changes.
-3. Exit edit mode. Confirm changes in the pop-up window.
-4. The layer will be automatically synchronized.
+Copy will be created in the same group. The layer's style will also be duplicated.
 
-To check when the layer was last synchronized, hover over the sync symbol.
-
-.. figure:: _static/ngc_check_sync_en.png
+.. figure:: _static/NGConnect_double_en.png
+   :name: NGConnect_double_pic
    :align: center
-   :alt: Sync information
-   :width: 16cm
+   :width: 8cm
 
-   Synchronization information
+   Duplicating resource
 
-Press the symbol to open the layer status window.
+.. _connect_resource_delete:
 
-.. figure:: _static/ngc_layer_status_en.png
-   :align: center
-   :width: 10cm
-   :alt: Layer status dialog
+Delete resource
+-------------------
 
-   Layer status dialog
+With NextGIS Connect you can quickly create and delete any resource in your Web GIS. 
 
-It has the date and time of the latest synchronization and the status: synchronized or not synchronized.
-
-You can start the process manually by pressing the **Synchronization** button.
-
-.. important::
-    While the layer is in edit mode, synchronization is not available.
-
-If changes have been made to the layer in Web GIS since the last synchronization, further synchronization will not be possible and a message will appear. To continue working with the layer you need to reload it by resetting it to the current state it is in NGW. In the synchronization dialog in the dropdown menu select **Reset layer**. Keep in mind that if you reset the layer, all local changes that had not been synchronized will be lost. 
-
-If the edits made in the cloud were incorrect and you need to replace them with local ones, you can use the `Data overwrite <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#ngcom-ngqgis-connect-data-overwrite>`_ function.
+* In the NextGIS Connect panel select the resource you wish to delete;
+* In the context menu select **Delete**;
+* If the resource is deleted successfully, it disappears from the Web GIS layer tree.
+ 
 
 
-
-.. _ng_connect_update_data:
-
-Update data or styles
---------------------------
-
-.. warning:: 
-   When the **layer** is updated, all data of the target layer including attachments (photos, documents) will be cleared. If you need to save them, use WFS. If the style is updated, the attachments will not be affected.
-
-NextGIS Connect allows you to edit data in QGIS and then return it to the Web.
-Thus, the data is updated in the Web GIS.
-This operation is available if a vector layer is selected in the resource tree. 
-
-Select two vector layers: in the resource tree of NextGIS Connect and in QGIS Layers Panel. This operation will remove all features from the layer in Web GIS and upload all features from the local layer into that layer. A similar algorithm works for styles as well.
-
-More info about updating `data <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#updating-data>`_ and `styles <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#updating-style>`_.
-
-
-
-
-.. _ng_connect_wfs_wms:
-
-Manage data with WMS/WFS and OGC services
-----------------------------------------------
-
-NextGIS Connect plugin allows to publish vector data using standard protocols :term:`WFS`, :term:`WMS` and OGC.
-To do this, in the context menu of the required layer select the appropriate operation.
-More info `here <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#creating-wfs-and-wfs-services>`_.
-
-.. _ng_connect_lookup:
-
-Lookup tables
-------------------------------------------------
-
-In Web GIS you can create `Lookup tables <https://docs.nextgis.com/docs_ngcom/source/lookup.html#ngcom-lookup-table-for-layer>`_ and link them to vector layers.
-
-When the layer is exported from Web GIS to QGIS the values of the lookup table will be added to the layer using value map widget. After that they will be available in the desktop app in the corresponding field of the table when you enter edit mode.
-
-.. figure:: _static/ngc_lookup_en.png
-   :align: center
-   :width: 20cm
-
-   Lookup table values available during editing in QGIS
-
-In QGIS you can use Value relation widget to add another vector layer as a lookup table or upload a CSV file. When the layer is transfered to Web GIS, a Lookup table resource will be created for it.
 
 .. _ng_connect_res_group:
 
-Other operations
-----------------
-
-This block of operations is located in the top menu of the NextGIS Connect.
-
 Create resource group
-~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
-New group will be created:
+In the top menu of the NextGIS Connect plugin you'll find a "Create group" button.
 
-* In the resource group selected via NextGIS Connect panel. 
+A new group will be created:
+
+* If a resource group is selected in the Connect panel - in that group;
 * If other type of resources but a group is selected - in the closest parent group 
-  .
+
 * If no resource is selected - in the main resource group.
 
 .. figure:: _static/create_group_en.png
    :align: center
    :alt: Create new group
-   :width: 10cm
+   :width: 8cm
 
    Creating resource group
 
+.. _connect_refresh:
+
 Refresh
-~~~~~~~~~~~~~~~~~~
+----------
+
+In the top menu of the NextGIS Connect plugin you'll find a "Create group" button.
 
 The "refresh" operation will update the entire Web GIS resource tree to the current state.
 
 .. figure:: _static/reload_en.png
    :align: center
    :alt: Refresh resource tree
-   :width: 10cm
+   :width: 8cm
 
    Refreshing Web GIS data
 
+.. _connect_open_webmap:
+
 Open Web Map in browser
-~~~~~~~~~~~~~~~~~~~~
+-----------------------------
+
+In the top menu of the NextGIS Connect plugin you'll find a "Create group" button.
 
 Option is available if a Web Map (|resource_webmap| NGW Web Map) is selected in NextGIS Connect resource tree. 
 The Web Map will be opened in a new tab of default browser.
@@ -359,7 +320,8 @@ The Web Map will be opened in a new tab of default browser.
 .. figure:: _static/open_webmap_en.png
    :align: center
    :alt: Open Web Map in browser
-   :width: 10cm
+   :width: 8cm
 
-   Opening Web Map from NextGIS Connect
+   Opening a Web Map
 
+Context menu also allows to `open the Web GIS page of any resource <https://docs.nextgis.com/docs_ngconnect/source/ngc_data_transfer.html#ng-connect-cont-menu>`_ in browser.
