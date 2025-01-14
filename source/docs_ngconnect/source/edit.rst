@@ -30,7 +30,7 @@ Press the symbol to open the layer status window.
 
 .. figure:: _static/ngc_layer_status_en.png
    :align: center
-   :width: 14cm
+   :width: 10cm
 
    Layer status dialog
 
@@ -52,7 +52,7 @@ If changes have been made to the layer in Web GIS since the last synchronization
 
 .. figure:: _static/ngc_layer_status_en.png
    :align: center
-   :width: 14cm
+   :width: 10cm
 
    Layer status dialog. To reset the layer, press the downward arrow by the "Synchronization" button and select "Reset layer"
 
@@ -204,20 +204,20 @@ Click on the layer in the Connect panel to view the styles and right-click on th
 .. figure:: _static/connect_copy_style_en.png
    :name: connect_copy_style_pic
    :align: center
-   :width: 8cm
+   :width: 7cm
 
    Copying a style
 
 .. figure:: _static/connect_paste_style_en.png
    :name: connect_paste_style_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
    Pasting a style
 
 .. figure:: _static/connect_result_style_en.png
    :name: connect_result_style_pic
    :align: center
-   :width: 20cm
+   :width: 22cm
 
    Copied style in the QGIS project
