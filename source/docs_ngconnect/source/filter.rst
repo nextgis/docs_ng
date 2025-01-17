@@ -5,9 +5,9 @@
 
 Модуль NextGIS Connect позволяет `искать ресурсы по названию <>`_ или `фильтровать <>`_ дерево ресурсов по выражению.
 
-Чтобы активировать поиск, нажмите кнопку |button_filter.png| в панели инструментов модуля.
+Чтобы активировать поиск, нажмите кнопку |button_filter| в панели инструментов модуля.
 
-.. |button_filter.png| image:: _static/button_filter.png.png
+.. |button_filter| image:: _static/button_filter.png
    :width: 6mm
    :alt: с изображением воронки
 
@@ -102,35 +102,37 @@
 Типы ресурсов
 --------------------------
 В выражениях используйте следующие обозначения типов ресурсов:
-Веб-карта - webmap
-Векторный слой - vector_layer
-Векторный стиль QGIS - qgis_vector_style
-Группа ресурсов - resource_group
-Группа трекеров - trackers_group
-Демо-проект - demo_project
-Набор тайлов – tileset
-Подложка - baselayers
-Проект Collector - collector_project
-Растровый слой - raster_layer
-Растровый стиль - raster_style
-Растровый тиль QGIS - qgis_raster_style
-Сервис OGC API – Features - ogcfserver_service
-Сервис WFS - wfsserver_service
-Сервис WMS - wmsserver_service
-Слой PostGIS - postgis_layer
-Слой TMS – tmsclient_layer
-Слой WFS – wfsclient_layer
-Слой WMS - wmsclient_layer
-Соединение PostGIS - postgis_connection
-Соединение TMS – tmsclient_connection
-Соединение WFS – wfsclient_connection
-Соединение WMS - wmsclient_connection
-Справочник - lookup_table
-Стиль MapServer - mapserver_style
-Трекер - tracker
-Форма - formbuilder_form
-Хранилище файлов - file_bucket
-Библиотека маркеров SVG – svg_marker_library
+
+* Веб-карта - webmap
+* Векторный слой - vector_layer
+* Векторный стиль QGIS - qgis_vector_style
+* Группа ресурсов - resource_group
+* Группа трекеров - trackers_group
+* Демо-проект - demo_project
+* Набор тайлов – tileset
+* Подложка - baselayers
+* Проект Collector - collector_project
+* Растровый слой - raster_layer
+* Растровый стиль - raster_style
+* Растровый тиль QGIS - qgis_raster_style
+* Сервис OGC API – Features - ogcfserver_service
+* Сервис WFS - wfsserver_service
+* Сервис WMS - wmsserver_service
+* Слой PostGIS - postgis_layer
+* Слой TMS – tmsclient_layer
+* Слой WFS – wfsclient_layer
+* Слой WMS - wmsclient_layer
+* Соединение PostGIS - postgis_connection
+* Соединение TMS – tmsclient_connection
+* Соединение WFS – wfsclient_connection
+* Соединение WMS - wmsclient_connection
+* Справочник - lookup_table
+* Стиль MapServer - mapserver_style
+* Трекер - tracker
+* Форма - formbuilder_form
+* Хранилище файлов - file_bucket
+* Библиотека маркеров SVG – svg_marker_library
+
 
 .. _ngc_find_id:
 
