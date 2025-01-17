@@ -25,12 +25,58 @@
 
 При нажатии на иконку откроется панель управления ресурсами Веб ГИС.
 
-.. figure:: _static/nextgis_connect/connect_panel_ru.png
+.. figure:: _static/connect_panel_ru_2.png
    :align: center
    :alt: Панель модуля расширения NextGIS Connect
    :width: 10cm
    
    Панель модуля расширения NextGIS Connect
+
+.. |button_to_qgis| image:: _static/button_to_qgis.png
+   :width: 6mm
+
+.. |button_to_wg| image:: _static/button_to_wg.png
+   :width: 6mm
+
+.. |button_newfolder| image:: _static/button_newfolder.png
+   :width: 6mm
+
+.. |button_filter| image:: _static/button_filter.png
+   :width: 6mm
+   :alt: воронка
+
+.. |button_refresh| image:: _static/button_refresh.png
+   :width: 6mm
+
+.. |button_openmap| image:: _static/button_openmap.png
+   :width: 6mm
+   :alt: карта с лупой
+
+.. |button_settings| image:: _static/button_settings.png
+   :width: 6mm
+   :alt: синяя шестерёнка
+
+.. |button_help| image:: _static/button_help.png
+   :width: 6mm
+   :alt: знак вопроса
+
+На панели расположены следующие кнопки:
+
+* |button_to_qgis| `Загрузить в QGIS <https://docs.nextgis.ru/docs_ngconnect/source/ngc_data_transfer.html#qgis>`_
+
+* |button_to_wg| `Добавить в Веб ГИС <https://docs.nextgis.ru/docs_ngconnect/source/ngc_data_transfer.html#ng-connect-export>`_
+
+* |button_newfolder| `Создать группу ресурсов <https://docs.nextgis.ru/docs_ngconnect/source/ngc_data_transfer.html#ng-connect-res-group>`_
+
+* |button_filter| `Поиск и фильтрация ресурсов <https://docs.nextgis.ru/docs_ngconnect/source/filter.html>`_
+
+* |button_refresh| `Обновить дерево ресурсов <https://docs.nextgis.ru/docs_ngconnect/source/ngc_data_transfer.html#connect-refresh>`_
+
+* |button_openmap| `Открыть веб-карту в браузере <https://docs.nextgis.ru/docs_ngconnect/source/ngc_data_transfer.html#connect-open-webmap>`_
+
+* |button_settings| `Настройки модуля <https://docs.nextgis.ru/docs_ngconnect/source/ngc_settings.html>`_
+
+* |button_help| Справка - вы окажетесь здесь
 
 Если на данный момент не настроено ни одно `подключение <https://docs.nextgis.ru/docs_ngconnect/source/ngc_install.html#ng-connect-new-connection>`_, вы увидите сообщение с предложением 
 создать свою Веб ГИС.
@@ -68,7 +114,7 @@
 
 Для начала работы создайте подключение к Веб ГИС. 
 
-1. Нажмите кнопку **Настройки** на панели модуля расширения NextGIS Connect.
+1. Нажмите кнопку |button_settings| Настройки на панели модуля расширения NextGIS Connect.
 
 .. figure:: _static/nextgis_connect/call_settings_ru.png
    :align: center
