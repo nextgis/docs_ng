@@ -11,6 +11,7 @@ NextGIS Connect для QGIS
    ngconnect
    ngc_install
    ngc_settings
+   filter
    ngc_data_transfer
    resources
    edit
