@@ -1,7 +1,7 @@
 .. _ng_connect_install:
 
 Installation
-=========
+==============
 
 To download NextGIS Connect plugin, from the main menu open *Plugins ‣ Manage and install plugins*. Start typing the name of the plugin in the search bar, select it in the list and press **Install**.
 
@@ -14,7 +14,7 @@ If you need to check the version of the plugin or update it, go to *Plugins‣ M
 .. _ng_connect_connection:
 
 Connecting to your Web GIS
-=====================
+===========================
 
 When the plugin is installed, its icon appears in the toolbar:  
 
@@ -24,15 +24,62 @@ When the plugin is installed, its icon appears in the toolbar:
 
 Click on the icon to open NextGIS Connect panel.
 
-.. figure:: _static/connect_panel_en.png
+.. figure:: _static/connect_panel_en_2.png
    :align: center
    :alt: NextGIS Connect panel
    :width: 10cm
    
    NextGIS Connect panel
 
-If no connection is set at the moment, the following message will be shown 
-.
+.. |button_to_qgis| image:: _static/button_to_qgis.png
+   :width: 6mm
+
+.. |button_to_wg| image:: _static/button_to_wg.png
+   :width: 6mm
+
+.. |button_newfolder| image:: _static/button_newfolder.png
+   :width: 6mm
+
+.. |button_filter| image:: _static/button_filter.png
+   :width: 6mm
+   :alt: funnel
+
+.. |button_refresh| image:: _static/button_refresh.png
+   :width: 6mm
+
+.. |button_openmap| image:: _static/button_openmap.png
+   :width: 6mm
+   :alt: map with magnifying glass
+
+.. |button_settings| image:: _static/button_settings.png
+   :width: 6mm
+   :alt: blue gear
+
+.. |button_help| image:: _static/button_help.png
+   :width: 6mm
+   :alt: question mark
+
+Buttons on the panel:
+
+* |button_to_qgis| `Add to QGIS <https://docs.nextgis.com/docs_ngconnect/source/ngc_data_transfer.html#qgis>`_
+
+* |button_to_wg| `Add to Web GIS <https://docs.nextgis.com/docs_ngconnect/source/ngc_data_transfer.html#ng-connect-export>`_
+
+* |button_newfolder| `Create resource group <https://docs.nextgis.com/docs_ngconnect/source/ngc_data_transfer.html#ng-connect-res-group>`_
+
+* |button_filter| `Search and filter resources <https://docs.nextgis.com/docs_ngconnect/source/filter.html>`_
+
+* |button_refresh| `Refresh resource tree <https://docs.nextgis.com/docs_ngconnect/source/ngc_data_transfer.html#connect-refresh>`_
+
+* |button_openmap| `Open Web Map in browser <https://docs.nextgis.com/docs_ngconnect/source/ngc_data_transfer.html#connect-open-webmap>`_
+
+* |button_settings| `Plugin settings <https://docs.nextgis.com/docs_ngconnect/source/ngc_settings.html>`_
+
+* |button_help| Help - opens this manual
+ 
+
+
+If no connection is set at the moment, the following message will be shown:
 
 .. figure:: _static/panel-no-connections_en.png
    :align: center
