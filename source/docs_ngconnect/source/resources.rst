@@ -3,7 +3,9 @@
 Create resources and transfer data
 ====================================
 
-NextGIS Connect plugin enables a fast upload of raster and vector data and whole QGIS projects to Web GIS. You’ll be able to publish your maps and geodata online very quick and easy.
+NextGIS Connect plugin enables a fast upload of raster and vector data and `entire QGIS projects <https://docs.nextgis.com/docs_ngconnect/source/resources.html#upload-entire-qgis-project>`_ to Web GIS. You’ll be able to publish your maps and geodata online very quick and easy.
+
+With this plugin you can also `download data from Web GIS <https://docs.nextgis.com/docs_ngconnect/source/resources.html#connect-data-export>`_ to QGIS to edit it.
 
 .. _vector_data:
 
@@ -291,7 +293,7 @@ Press **Add to QGIS** button on NextGIS Connect control panel or select **Add to
 
 * If the layer has multiple QGIS styles, there are several options depending on what you select in the Connect window:
 
-1. If you select a layer with **multiple styles** in the Connect window, all the styles will be added, but you need to chose current style in a dialog window. This is the only case in which a dialog pops up.
+1. If you select a layer with **multiple styles** in the Connect window, all the styles will be added, but you need to chose current style in a dialog window. Double-click the style to select it. This is the only case in which a dialog pops up.
 
 .. figure:: _static/NGConnect_export_select_style_en.png
    :name: NGConnect_export_select_pic
