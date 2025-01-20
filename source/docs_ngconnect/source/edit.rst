@@ -2,6 +2,12 @@
 
 Edit data 
 =========================
+
+.. |button_to_qgis| image:: _static/button_to_qgis.png
+   :width: 6mm
+
+.. |button_to_wg| image:: _static/button_to_wg.png
+   :width: 6mm
   
 NextGIS Connect plugin allows to quickly edit geometries and attribute values of features in Web GIS Vector layers right after adding them to QGIS. This allows the layer to be edited even with no Internet connection. The changes will be saved to the device and transfered to Web GIS when the connection is restored.
 
@@ -11,7 +17,7 @@ This functionality is only available for vector data formats used in QGIS.
 	By default only one user at a time can edit the layer **directly**. 
 
 
-#. Import the layer from Web GIS to QGIS by selecting it in NextGIS Connect and pressing **Add to QGIS**.
+#. Import the layer from Web GIS to QGIS by selecting it in NextGIS Connect and pressing |button_to_qgis| Add to QGIS.
 #. Enter the edit mode from the layer’s context menu or from the toolbar.
 #. Make the changes.
 #. Exit edit mode. Confirm changes in the pop-up window.
@@ -82,7 +88,7 @@ You can also edit a vector layer using the standard :term:`WFS` protocol (with f
 
 * Publish via WFS protocol the Vector layer you're going to edit;
 * Select in NextGIS Connect Resources panel the relevant WFS service;
-* Press **Add to QGIS** button on NextGIS Connect control panel or select **Add to QGIS** in the service context menu;
+* Press |button_to_qgis| Add to QGIS button on NextGIS Connect control panel or select **Add to QGIS** in the service context menu;
 
 .. figure:: _static/NGConnect_edit_add_en.png
    :name: NGConnect_edit_add_pic
@@ -143,48 +149,49 @@ Layer resource ID stays the same. The attribute structure of the source and targ
 
 You can also edit features `directly <https://docs.nextgis.com/docs_ngconnect/source/edit.html#connect-data-edit>`_ or via `WFS <https://docs.nextgis.com/docs_ngconnect/source/edit.html#connect-data-edit-wfs>`_.
 
+
+
 .. _connect_style_overwrite:
 
 Update style
 -----------------
 
-You can add another style to a layer or replace its existing style with a new one.
-
-To replace a style:
+You can add another style to a layer or replace its existing style with a new one. When a style is updated, the NextGIS Connect module removes the old style of the layer from the Web GIS and loads the new one leaving all data and attachments intact.
 
 * Add layer to QGIS via Connect;
 * Change the style of the layer (color, line width, etc.);
-* Select the layer in QGIS layer panel and the **style** in NextGIS Connect panel;
-* In NextGIS Connect toolbar press **Add to Web GIS** and select **Update layer style**. (Or in QGIS layers panel in the layer's context menu select NextGIS Connect > Update layer style).
+* Select the layer in QGIS Layers panel as well as in the Connect panel.
+* In Connect toolbar press |button_to_wg| Add to Web GIS and in the dropdown menu select "Add new style to layer" or "Update style".
 
-.. figure:: _static/connect_replace_style_en.png
-   :name: connect_replace_style_pic
-   :align: center
-   :width: 20cm
-
-   Update style
-
-
-.. figure:: _static/connect_replace_style_context_en.png
-   :name: connect_replace_style_context_pic
-   :align: center
-   :width: 20cm
-
-   Updating a style from context menu
-
-After these operations, the NextGIS Connect module will remove the old style of the layer from the Web GIS and load the new one leaving all data and attachments intact.
-
-You can also add a style while keeping the old one in place. After the style is tailored in QGIS, do the following:
-
-* In NextGIS Connect panel select the **layer**.
-* In QGIS layer panel in the layer context menu select NextGIS Connect ‣ Add new style to layer.
-
-.. figure:: _static/connect_add_style_en.png
+.. figure:: _static/connect_add_style_en_2.png
    :name: connect_add_style_pic
    :align: center
    :width: 20cm
 
    Adding style to a layer
+
+To update layer's style you don't need to select a specific one.
+
+1. If the layer has only one style, this style is updated;
+2. If the layer has multiple styles, selection dialog appears;
+3. If the layer has no style, the style is added to it.
+
+.. figure:: _static/connect_replace_select_style_en.png
+   :name: connect_replace_style_pic
+   :align: center
+   :width: 20cm
+
+   Selecting one of the styles to update
+
+This operation is also available in the layer's context menu in QGIS Layers panel: :menuselection:`NextGIS Connect --> Add new style to layer / Update layer style`.
+
+.. figure:: _static/connect_replace_add_style_context_en.png
+   :name: connect_replace_style_context_pic
+   :align: center
+   :width: 20cm
+
+   Updating/adding a style from context menu
+
 
 .. _connect_style_copy:
 
