@@ -73,8 +73,8 @@ As an example, see how it works for the expression @name ILIKE …
 
 * ``'%s'`` – any string that ends with the letter S, for example "Track\ **s**"
 * ``'s%'`` – any string that starts with the letter S, for example "**S**\ entinel"
-* ``'l%s'`` – any string that starts with a the letter L and ends with the letter S, for example "**L**\ as Vega \**s**\ " or "**L**\ ake \**s**\ "
-* ``'_s%'`` – any string that has the letter S in the second position, for example "O\ **s**| lso"
+* ``'l%s'`` – any string that starts with a the letter L and ends with the letter S, for example "**L**\ as Vega\ **s**" or "**L**\ ake\ **s**"
+* ``'_s%'`` – any string that has the letter S in the second position, for example "O\ **s**\ lo"
 
 .. figure:: _static/ngc_filter_endletter_en.png
    :name: 
@@ -103,35 +103,35 @@ Resource types
 --------------------------
 Use the following values for the resource type search:
 
-* Web Map – webmap
-* Vector layer – vector_layer
-* QGIS vector style – qgis_vector_style
-* Resource group – resource_group
-* Trackers group – trackers_group
-* Demo project – demo_project
-* Tileset – tileset
 * Basemap – baselayers
 * Collector project – collector_project
-* Raster layer – raster_layer
-* Raster style – raster_style
-* QGIS raster style – qgis_raster_style
-* OGC API – Features service – ogcfserver_service
-* WFS service – wfsserver_service
-* WMS service – wmsserver_service
-* PostGIS layer – postgis_layer
-* TMS layer – tmsclient_layer
-* WFS layer – wfsclient_layer
-* WMS layer – wmsclient_layer
-* PostGIS connection – postgis_connection
-* TMS connection – tmsclient_connection
-* WFS connection – wfsclient_connection
-* WMS connection – wmsclient_connection
+* Demo project – demo_project
+* File bucket- file_bucket
+* Form – formbuilder_form
 * Lookup table – lookup_table
 * MapServer style – mapserver_style
-* Tracker – tracker
-* Form – formbuilder_form
-* File bucket- file_bucket
+* OGC API – Features service – ogcfserver_service
+* PostGIS connection – postgis_connection
+* PostGIS layer – postgis_layer
+* QGIS raster style – qgis_raster_style
+* QGIS vector style – qgis_vector_style
+* Raster layer – raster_layer
+* Raster style – raster_style
+* Resource group – resource_group
 * SVG marker library – svg_marker_library
+* Tileset – tileset
+* TMS connection – tmsclient_connection
+* TMS layer – tmsclient_layer
+* Tracker – tracker
+* Trackers group – trackers_group
+* Vector layer – vector_layer
+* Web Map – webmap
+* WFS connection – wfsclient_connection
+* WFS layer – wfsclient_layer
+* WFS service – wfsserver_service
+* WMS connection – wmsclient_connection
+* WMS layer – wmsclient_layer
+* WMS service – wmsserver_service
 
 
 .. _ngc_find_id:
