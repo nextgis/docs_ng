@@ -167,7 +167,11 @@ The "Authentication" dialog will pop up.
 3. Enter *Username* and *Password* of your NextGIS ID;
 4. Press **Save**.
 
-Make sure that the correct configuration is selected. To check if the credentials are correct, press **Test Connection**. Next press **Save** in the connection creating dialog (:numref:`create_connection_pic`). 
+Make sure that the correct configuration is selected. To check if the credentials are correct, press **Test Connection**. 
+
+If guest or user chosen for authentication does not have access at least to the Main resource group of the Web GIS, an error message will appear. Select a different authentication configuration or contact the administrator of the Web GIS to get access permission.
+
+Next press **Save** in the connection creating dialog (:numref:`create_connection_pic`). 
 
 Click **OK**. 
 
