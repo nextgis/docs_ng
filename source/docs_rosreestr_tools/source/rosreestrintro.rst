@@ -10,7 +10,12 @@
 
 Модуль **NGQ Rosreestr Tools** предназначен для работы с кадастровыми данными и сервисами Росреестра (ЕГРН, ПКК). 
 
-Данный инструмент доступен только владельцам `плана Premium <https://nextgis.ru/nextgis-com/plans>`_, участникам их команд, пользователям NextGIS Web `для своего сервера <https://nextgis.ru/pricing/>`_.
+Данный инструмент доступен:
+
+* владельцам `плана Premium <https://nextgis.ru/nextgis-com/plans>`_, 
+* участникам их `команд <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-team-management>`_, 
+* пользователям NextGIS Web `для своего сервера <https://nextgis.ru/pricing/>`_.
+
 Данный инструмент присутствует только в ПО `NextGIS QGIS <https://nextgis.ru/nextgis-qgis/>`_.
 
 .. warning::
@@ -48,7 +53,7 @@
 Авторизация
 -----------
 
-Для того, чтобы активировать возможности расширения, необходимо авторизоваться в `NextGIS Account Toolbar <https://docs.nextgis.ru/docs_ngqgis/source/auth.html>`_, также ваш пользователь должен быть на плане **Премиум** (https://nextgis.ru/pricing-base).
+Для того, чтобы активировать возможности расширения, необходимо авторизоваться в `NextGIS Account Toolbar <https://docs.nextgis.ru/docs_ngqgis/source/auth.html>`_, также ваш пользователь должен быть на плане **Премиум** (https://nextgis.ru/pricing-base) или входить в команду пользователя плана Премиум.
 Панель **NextGIS Account Toolbar** для неавторизованных пользователей выглядит так: |not_auth|. При нажатии на иконку вам будет предложено авторизоваться в системе через браузер.
 
 .. |not_auth| image:: _static/non_auth_icon.png
