@@ -37,7 +37,7 @@
 Сервисы
 *****************
 
-* :doc:`Начало работы с Веб ГИС </docs_ngcom/source/toc>`
+* :doc:`Начало работы с платформой </docs_ngcom/source/toc>`
 * :doc:`NextGIS Toolbox </docs_toolbox/source/toc>`
 * :doc:`NextGIS Data </docs_data/source/toc>`
 * :doc:`NextGIS GeoServices </docs_geoservices/source/toc>`
@@ -59,7 +59,7 @@
 * :doc:`NextGIS Formbuilder </docs_formbuilder/source/toc>`
 * :doc:`NextGIS Collector (мобильное приложение) </docs_collector/source/toc>`
 * :doc:`NextGIS Tracker (мобильное приложение) </docs_ngtracker/source/toc>`
-* :doc:`NextGIS ID </docs_ngid/source/toc>`
+* :doc:`NextGIS ID на своём сервере </docs_ngid/source/toc>`
 * :doc:`NextGIS Connect </docs_ngconnect/source/toc>`
 * :doc:`NGQ Rosreestr Tools </docs_rosreestr_tools/source/toc>`
 * :doc:`NextGIS Web 3D </docs_ngweb_3D/source/toc>`
