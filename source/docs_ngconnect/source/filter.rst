@@ -37,7 +37,7 @@
 
    Поиск по URL
 
-Также если вы знаете номер ресурса, вы можете найти его не только при помощи `выражения <https://docs.nextgis.ru/docs_ngconnect/source/filter.html#ngc-filter-expression>`_, но и подставив его в ссылку вида https://mywebgis.nextgis.com/resource/id, например https://experimental.nextgis.com/resource/516.
+Также если вы знаете номер ресурса, вы можете найти его не только при помощи `выражения <https://docs.nextgis.ru/docs_ngconnect/source/filter.html#ngc-filter-expression>`_, но и подставив его в ссылку вида ``https://mywebgis.nextgis.com/resource/id``, например https://experimental.nextgis.com/resource/516.
 
 .. _ngc_filter_expression:
 
