@@ -37,7 +37,7 @@ If you have a link to a Web GIS resource you can find it in the NextGIS Connect 
 
    Search by link
 
-If you know the resource ID, you can find it in the layer tree by using an `expression <https://docs.nextgis.com/docs_ngconnect/source/filter.html#ngc-filter-expression>`_ or by adding it to the Web GIS URL, following the template https://mywebgis.nextgis.com/resource/id, e.g. https://experiments.nextgis.com/resource/200.
+If you know the resource ID, you can find it in the layer tree by using an `expression <https://docs.nextgis.com/docs_ngconnect/source/filter.html#ngc-filter-expression>`_ or by adding it to the Web GIS URL, following the template ``https://mywebgis.nextgis.com/resource/id``, e.g. https://experiments.nextgis.com/resource/200.
 
 .. _ngc_filter_expression:
 
