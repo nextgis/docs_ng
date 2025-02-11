@@ -3,7 +3,7 @@
 Search and filter
 ======================
 
-In NextGIS Connect you can `search resources by name <https://docs.nextgis.com/docs_ngconnect/source/filter.html#ngc-search-name>`_ or `filter <https://docs.nextgis.com/docs_ngconnect/source/filter.html#ngc-filter-expression>`_ the resource tree using expressions.
+In NextGIS Connect you can `search resources by name <https://docs.nextgis.com/docs_ngconnect/source/filter.html#ngc-search-name>`_ and `url <https://docs.nextgis.com/docs_ngconnect/source/filter.html#ngc-search-url>`_ or `filter <https://docs.nextgis.com/docs_ngconnect/source/filter.html#ngc-filter-expression>`_ the resource tree using expressions.
 
 To open the search/filter bar, press |button_filter| button in the plugin toolbar.
 
@@ -22,6 +22,22 @@ To search by name, enter word(s) or symbol(s) that are part of the resource name
 Keep in mind that letters with diacritical signs, such as é or ü are considered separate symbols. To find all the variations of the spelling used in the Web GIS, enter a part of the name or use an `expression with wildcards <https://docs.nextgis.com/docs_ngconnect/source/filter.html#ngc-filter-expression>`_.
 
 To find the exact match, enclose the search words in quotation marks.
+
+.. _ngc_search_url:
+
+Search by URL
+--------------
+
+If you have a link to a Web GIS resource you can find it in the NextGIS Connect resource tree by pasting the URL into the search bar. The layer tree will display the path to the resource.
+
+.. figure:: _static/ngc_search_url_en.png
+   :name: ngc_search_url_pic
+   :align: center
+   :width: 10cm
+
+   Search by link
+
+If you know the resource ID, you can find it in the layer tree by using an `expression <https://docs.nextgis.com/docs_ngconnect/source/filter.html#ngc-filter-expression>`_ or by adding it to the Web GIS URL, following the template https://mywebgis.nextgis.com/resource/id, e.g. https://experiments.nextgis.com/resource/200.
 
 .. _ngc_filter_expression:
 
@@ -54,7 +70,7 @@ Examples of expressions:
 
 You can filter resources by:
 
-* ``@id`` – identification number of the resource
+* ``@id`` – identification number of the resource. You can also use it to `search by URL <https://docs.nextgis.com/docs_ngconnect/source/filter.html#ngc-search-url>`_.
 * ``@parent`` – identification number of the parent resource, all its subresources will be displayed (e.g. all resources in a group or all styles and forms of a layer)
 * ``@owner`` – all resources owned by the user with the entered ID
 
