@@ -3,7 +3,7 @@
 Поиск и фильтрация
 ======================
 
-Модуль NextGIS Connect позволяет `искать ресурсы по названию <https://docs.nextgis.ru/docs_ngconnect/source/filter.html#ngc-search-name>`_ или `фильтровать <https://docs.nextgis.ru/docs_ngconnect/source/filter.html#ngc-filter-expression>`_ дерево ресурсов по выражению.
+Модуль NextGIS Connect позволяет `искать ресурсы по названию <https://docs.nextgis.ru/docs_ngconnect/source/filter.html#ngc-search-name>`_ и `URL <https://docs.nextgis.ru/docs_ngconnect/source/filter.html#ngc-search-url>`_ или `фильтровать <https://docs.nextgis.ru/docs_ngconnect/source/filter.html#ngc-filter-expression>`_ дерево ресурсов по выражению.
 
 Чтобы активировать поиск, нажмите кнопку |button_filter| в панели инструментов модуля.
 
@@ -22,6 +22,22 @@
 Обратите внимание, что такие буквы, как Е и Ё являются разными символами, поэтому поисковые запросы "учёт" и "учет" дадут разные результаты. Чтобы найти ресурсы с обоими написаниями, можно ввести "уч", но тогда в фильтр попадут также ресурсы, содержащие, например, слово "участок".
 
 Для поиска точных соответствий заключите ключевые слова для поиска в кавычки.
+
+.. _ngc_search_url:
+
+Поиск по ссылке
+-------------------
+
+Если у вас есть ссылка на ресурс, вы можете найти его расположение в дереве ресурсов при помощи панели Connect. В дереве слоёв будет показан ресурс и путь к нему.
+
+.. figure:: _static/ngc_search_url_ru.png
+   :name: ngc_search_url_pic
+   :align: center
+   :width: 10cm
+
+   Поиск по URL
+
+Также если вы знаете номер ресурса, вы можете найти его не только при помощи `выражения <https://docs.nextgis.ru/docs_ngconnect/source/filter.html#ngc-filter-expression>`_, но и подставив его в ссылку вида https://mywebgis.nextgis.com/resource/id, например https://experimental.nextgis.com/resource/516.
 
 .. _ngc_filter_expression:
 
@@ -54,7 +70,7 @@
 
 Доступна фильтрация по следующим параметрам:
 
-* ``@id`` - идентификационный номер ресурса
+* ``@id`` - идентификационный номер ресурса. Перейти к нужному ресурсу в дереве Connect также можно, подставив его ID в `ссылку на Веб ГИС <https://docs.nextgis.ru/docs_ngconnect/source/filter.html#ngc-search-url>`_
 * ``@parent`` - идентификационный номер ресурса-родителя, будут показаны все дочерние ресурсы (например, все ресурсы в конкретной папке или все стили и формы определённого слоя)
 * ``@owner`` - владелец ресурса, идентификационный номер пользователя
 
