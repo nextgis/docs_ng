@@ -154,7 +154,7 @@ To **add a new configuration**, press the button with a green plus.
 
 The "Authentication" dialog will pop up.
 
-.. figure:: _static/auth_config_create_en.png
+.. figure:: _static/auth_config_create_en_2.png
    :align: center
    :width: 8cm
    :name: auth_config_create_pic
@@ -162,10 +162,8 @@ The "Authentication" dialog will pop up.
    
    Adding authentication configuration
 
-1. Enter a name for the new configuration in the corresponding field;
-2. Select the Basic authentication in the dropdown menu below;
-3. Enter *Username* and *Password* of your NextGIS ID;
-4. Press **Save**.
+1. Enter *Username* and *Password* of your NextGIS ID;
+2. Press **Save**.
 
 Make sure that the correct configuration is selected. To check if the credentials are correct, press **Test Connection**. 
 
