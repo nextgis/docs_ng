@@ -156,7 +156,7 @@ The "Authentication" dialog will pop up.
 
 .. figure:: _static/auth_config_create_en_2.png
    :align: center
-   :width: 8cm
+   :width: 10cm
    :name: auth_config_create_pic
    :alt: Adding authentication configuration
    
