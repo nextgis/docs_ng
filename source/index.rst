@@ -31,7 +31,6 @@
    /tracker_hub_dev/main
    /docs_ngwdocker/doc/index
    /docs_howto/source/toc
-   /docs_ngcourses/source/toc
 
 *****************
 Сервисы
@@ -86,7 +85,6 @@
 *************
 
 * :doc:`Описание применения ПО NextGIS </docs_howto/source/toc>`
-* :doc:`Курс по ГИС </docs_ngcourses/source/toc>`
 * :doc:`Словарь <glossary>`
 
 ******************
