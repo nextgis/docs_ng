@@ -15,7 +15,7 @@
    /docs_geoserv_prem/source/toc
    /docs_ngweb/source/toc
    /docs_ngweb_3D/source/toc
-   /docs_ngqgis/source/toc
+   /docs_ngqgis/source/plugins
    /docs_ngconnect/source/toc
    /docs_ngmobile/source/toc
    /docs_formbuilder/source/toc
@@ -55,6 +55,7 @@ Supplementary products
 * :doc:`NextGIS ID</docs_ngid/source/toc>`
 * :doc:`NextGIS Connect for QGIS</docs_ngconnect/source/toc>`
 * :doc:`NextGIS Web 3D</docs_ngweb_3D/source/toc>`
+* :doc:`Plugins for QGIS</docs_ngqgis/source/plugins>`
 
 *************************
 Developer's documentation
