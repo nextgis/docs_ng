@@ -63,6 +63,7 @@
 * :doc:`NextGIS Connect </docs_ngconnect/source/toc>`
 * :doc:`NGQ Rosreestr Tools </docs_rosreestr_tools/source/toc>`
 * :doc:`NextGIS Web 3D </docs_ngweb_3D/source/toc>`
+* :doc:`Модули расширения QGIS </docs_ngqgis/source/plugins>`
 
 **************************
 Специализированные решения
