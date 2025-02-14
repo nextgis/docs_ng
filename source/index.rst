@@ -16,6 +16,7 @@
    /docs_geoserv_prem/source/toc
    /docs_ngweb/source/toc
    /docs_ngweb_3D/source/toc
+   /docs_ngqgis/source/plugins
    /docs_ngqgis/source/toc
    /docs_ngconnect/source/toc
    /docs_rosreestr_tools/source/toc
