@@ -10,7 +10,11 @@
 
 При необходимости проверить/обновить версию модуля можно в разделе меню *Модули ‣ Управление модулями ‣ NextGIS Connect*. 
 
+.. raw:: html
 
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/5f96ea9ca914a0a06cf365e6330c16b2/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <https://youtu.be/6UX0_Bn2L-A>`_, `rutube <https://rutube.ru/video/5f96ea9ca914a0a06cf365e6330c16b2/>`_.
 
 .. _ng_connect_connection:
 
