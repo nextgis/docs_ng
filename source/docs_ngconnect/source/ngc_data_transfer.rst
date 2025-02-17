@@ -104,6 +104,14 @@ Imported resources will be added to the group selected in NextGIS Connect panel.
 * If other type of resource but a group is selected, import will be performed to the closest parent group to selected resource.
 * If no resource is selected, import will be performed to the Main resource group (the root directory).
 
+Attachments made in QGIS are also supported. See how it works in our video:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/k427UYcXLOI?si=XCYPA-O3sEQuyyzm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/k427UYcXLOI?si=oZ9vX7p6tGpmKv2r>`_.
+
 .. warning::
 
     **Photos** made via NextGIS Collector/Mobile apps and uploaded to Web GIS as attachments to layers **wouldn't be available** in desktop NextGIS QGIS after downloading these layers through NextGIS Connect plugin.
