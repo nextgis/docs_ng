@@ -139,7 +139,7 @@
 
 .. _ng_connect_export:
 
-Экспорт данных из Веб ГИС в QGIS
+Загрузка данных из Веб ГИС в QGIS
 ---------------------------------
 
 .. figure:: _static/nextgis_connect/add_to_qgis_ru.png
