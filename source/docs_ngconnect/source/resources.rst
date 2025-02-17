@@ -36,6 +36,14 @@ Upload raster data
 * Press **Add to Web GIS** button on NextGIS Connect control panel and click **Upload selected** or choose **NextGIS Connect --> Upload selected** in layer context menu;
 * If data is uploaded successfully you'll see in the relevant Resource group a new Raster layer  with default `Raster style <https://docs.nextgis.com/docs_ngweb/source/layers.html#raster-style-qgis>`_.
 
+See how to set transparancy for a raster layer, upload it and `create a Web Map <>`_ from the layer in our video:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/AA36g3CdGcU?si=YvqWTVMYnLt9-0sl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/AA36g3CdGcU?si=d2JGjil-zMEbws4r>`_.
+
 
 .. _basemaps:
 
