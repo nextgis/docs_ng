@@ -20,3 +20,5 @@
    :width: 8cm
 
    Сохранение или пересылка выбранного трека
+
+Также, если трекер подключён к Веб ГИС, экспорт трека в формате GPX доступен через `страницу отчетов <https://docs.nextgis.ru/docs_ngweb/source/trackers.html#export-as-gpx-pic>`_.
