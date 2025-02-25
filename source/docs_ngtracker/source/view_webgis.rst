@@ -91,3 +91,8 @@ In the context menu of a tracker you can set the time range to the last day of i
    :width: 20cm
 
    Tracker menu
+
+Also in the Web GIS you can:
+
+* `Generate reports <https://docs.nextgis.com/docs_ngweb/source/trackers.html#reports>`_ on mileage, top speed, average speed, spent fuel, stops;
+* `Export tracks <https://docs.nextgis.com/docs_ngweb/source/trackers.html#track-export>`_ as GPX files.
