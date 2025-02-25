@@ -90,3 +90,8 @@
    :width: 20cm
 
    Меню трекера
+
+Также в Веб ГИС вы можете:
+
+* составить `отчёт <https://docs.nextgis.ru/docs_ngweb/source/trackers.html#tracking-report>`_ по трекам, где автоматически будут подсчитаны такие параметры, как пробег, максимальная скорость, средняя скорость, израсходованное топливо, остановки;
+* `экспортировать трек <https://docs.nextgis.ru/docs_ngweb/source/trackers.html#export-as-gpx-pic>`_ в формате GPX.
