@@ -22,3 +22,5 @@ Press **Share** on the right of the track and choose where to save or send it in
    :width: 8cm
 
    Saving or sending a track
+
+Also you can export tracks as GPX files `from your Web GIS <https://docs.nextgis.com/docs_ngweb/source/trackers.html#track-export>`_.
