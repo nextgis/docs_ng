@@ -52,6 +52,7 @@ Supplementary products
 
 * :doc:`NextGIS Formbuilder</docs_formbuilder/source/toc>`
 * :doc:`NextGIS Collector (mobile application) </docs_collector/source/toc>`
+* :doc:`NextGIS Tracker (mobile application) </docs_ngtracker/source/toc>`
 * :doc:`NextGIS ID</docs_ngid/source/toc>`
 * :doc:`NextGIS Connect for QGIS</docs_ngconnect/source/toc>`
 * :doc:`NextGIS Web 3D</docs_ngweb_3D/source/toc>`
