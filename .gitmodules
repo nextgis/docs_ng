@@ -86,3 +86,6 @@
 	path = source/docs_data
 	url = git@github.com:nextgis/docs_data.git
 	branch = ru
+[submodule "source/docs_geoservices"]
+	path = source/docs_geoservices
+	url = git@github.com:nextgis/docs_geoservices.git
