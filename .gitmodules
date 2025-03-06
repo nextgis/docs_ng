@@ -18,14 +18,6 @@
 	path = source/docs_ngmanager
 	url = git@github.com:nextgis/docs_ngmanager.git
 	branch = en
-[submodule "source/ngmobile_dev/maplib_src"]
-	path = source/ngmobile_dev/maplib_src
-	url = git@github.com:nextgis/android_maplib.git
-	branch = master
-[submodule "source/ngmobile_dev/maplibui_src"]
-	path = source/ngmobile_dev/maplibui_src
-	url = git@github.com:nextgis/android_maplibui.git
-	branch = master
 [submodule "source/docs_ngqgis"]
 	path = source/docs_ngqgis
 	url = git@github.com:nextgis/docs_ngqgis.git
@@ -41,10 +33,6 @@
 	path = source/docs_formbuilder_dev
 	url = git@github.com:nextgis/formbuilder.git
 	brach = master
-[submodule "source/ngmobile_dev/ios_maplib_src"]
-	path = source/ngmobile_dev/ios_maplib_src
-	url = git@github.com:nextgis/ios_maplib.git
-	branch = master
 [submodule "source/docs_collector"]
 	path = source/docs_collector
 	url = git@github.com:nextgis/docs_collector.git
