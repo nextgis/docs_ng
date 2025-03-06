@@ -88,3 +88,27 @@
 [submodule "source/docs_geoservices"]
 	path = source/docs_geoservices
 	url = git@github.com:nextgis/docs_geoservices.git
+[submodule "source/docs_geoserv_prem"]
+	path = source/docs_geoserv_prem
+	url = git@github.com:nextgis/docs_geoserv_prem
+[submodule "source/docs_toolbox_prem"]
+	path = source/docs_toolbox_prem
+	url = git@github.com:nextgis/docs_toolbox_prem
+[submodule "source/docs_ngtracker"]
+	path = source/docs_ngtracker
+	url = git@github.com:nextgis/docs_ngtracker
+[submodule "source/docs_ngconnect"]
+	path = source/docs_ngconnect
+	url = git@github.com:nextgis/docs_ngconnect
+[submodule "source/docs_rosreestr_tools"]
+	path = source/docs_rosreestr_tools
+	url = git@github.com:nextgis/docs_rosreestr_tools
+[submodule "source/docs_ngweb_3D"]
+	path = source/docs_ngweb_3D
+	url = git@github.com:nextgis/docs_ngweb_3D
+[submodule "source/tracker_hub_dev"]
+	path = source/tracker_hub_dev
+	url = git@github.com:nextgis/tracker_hub_dev
+[submodule "source/docs_les"]
+	path = source/docs_les
+	url = git@github.com:nextgis/docs_les
