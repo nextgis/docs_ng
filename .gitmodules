@@ -100,3 +100,6 @@
 [submodule "source/docs_les"]
 	path = source/docs_les
 	url = git@github.com:nextgis/docs_les
+[submodule "source/ngmobile_dev"]
+	path = source/ngmobile_dev
+	url = git@github.com:nextgis/ngmobile_dev
