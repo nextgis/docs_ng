@@ -1,1 +1,0 @@
-# ngmobile_dev
