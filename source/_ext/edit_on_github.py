@@ -60,6 +60,7 @@ def html_page_context(app, pagename, templatename, context, doctree):
         branch = 'master'
     else:
         repo = dirs[0]
+        warnings.warn("repo dirs: " + dirs)
         path = os.path.join(*dirs[1:])
         branch = app.config.edit_on_github_branch
 
