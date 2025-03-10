@@ -46,10 +46,6 @@ def html_page_context(app, pagename, templatename, context, doctree):
         repo = 'nextgisweb'
         path = os.path.join(*dirs[1:])
         branch = 'master'
-    elif dirs[0].startswith('docs_ngweb_3D'):
-        repo = 'docs_ng'
-        path = os.path.join('source', path)
-        branch = app.config.edit_on_github_branch
     elif dirs[0].startswith('qms_srv_dev'):
         repo = 'quickmapservices_server'
         path = os.path.join(*dirs[1:])
@@ -58,17 +54,13 @@ def html_page_context(app, pagename, templatename, context, doctree):
         repo = 'formbuilder'
         path = os.path.join(*dirs[1:])
         branch = 'master'
-    elif dirs[0].startswith('docs_ogportal') or dirs[0].startswith('docs_howto') or dirs[0].startswith('docs_ngbio') or dirs[0].startswith('docs_forestinspector') or dirs[0].startswith('docs_ngcourses'):
+    elif dirs[0].startswith('docs_ogportal') or dirs[0].startswith('docs_ngbio') or dirs[0].startswith('docs_forestinspector') or dirs[0].startswith('docs_ngcourses'):
         repo = dirs[0]
         path = os.path.join(*dirs[1:])
         branch = 'master'
-    elif dirs[0].startswith('docs_ngcom') or dirs[0].startswith('docs_ngweb') or dirs[0].startswith('docs_ngqgis') or dirs[0].startswith('docs_ngmobile') or dirs[0].startswith('docs_ngmanager') or dirs[0].startswith('docs_formbuilder') or dirs[0].startswith('docs_simplecollector') or dirs[0].startswith('docs_collector') or dirs[0].startswith('docs_toolbox') or dirs[0].startswith('docs_data') or dirs[0].startswith('docs_ngid'):
+    else:
         repo = dirs[0]
         path = os.path.join(*dirs[1:])
-        branch = app.config.edit_on_github_branch
-    else:
-        repo = 'docs_ng'
-        path = os.path.join('source', path)
         branch = app.config.edit_on_github_branch
 
     show_url = get_github_url(app, repo, 'blob', branch, path)
