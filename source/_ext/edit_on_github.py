@@ -40,7 +40,11 @@ def html_page_context(app, pagename, templatename, context, doctree):
     #modify path to support submodules
     dirs = splitpath(path)
     #if path start with docs_* split docs_* to repo and other part to path
-    if dirs[0].startswith('docs_ngweb_dev'):
+    if len(dirs) <= 2:
+        repo = 'docs_ng'
+        path = os.path.join('source', path)
+        branch = app.config.edit_on_github_branch
+    elif dirs[0].startswith('docs_ngweb_dev'):
         repo = 'nextgisweb'
         path = os.path.join(*dirs[1:])
         branch = 'master'
