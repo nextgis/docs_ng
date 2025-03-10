@@ -44,7 +44,7 @@
 [submodule "source/docs_howto"]
 	path = source/docs_howto
 	url = git@github.com:nextgis/docs_howto.git
-	branch = master
+	branch = en
 [submodule "source/docs_ngbio"]
 	path = source/docs_ngbio
 	url = git@github.com:nextgis/docs_ngbio.git
@@ -76,30 +76,40 @@
 [submodule "source/docs_geoservices"]
 	path = source/docs_geoservices
 	url = git@github.com:nextgis/docs_geoservices.git
+	branch = en
 [submodule "source/docs_geoserv_prem"]
 	path = source/docs_geoserv_prem
 	url = git@github.com:nextgis/docs_geoserv_prem
+	branch = en
 [submodule "source/docs_toolbox_prem"]
 	path = source/docs_toolbox_prem
 	url = git@github.com:nextgis/docs_toolbox_prem
+	branch = en
 [submodule "source/docs_ngtracker"]
 	path = source/docs_ngtracker
 	url = git@github.com:nextgis/docs_ngtracker
+	branch = en
 [submodule "source/docs_ngconnect"]
 	path = source/docs_ngconnect
 	url = git@github.com:nextgis/docs_ngconnect
+	branch = en
 [submodule "source/docs_rosreestr_tools"]
 	path = source/docs_rosreestr_tools
 	url = git@github.com:nextgis/docs_rosreestr_tools
+	branch = en
 [submodule "source/docs_ngweb_3D"]
 	path = source/docs_ngweb_3D
 	url = git@github.com:nextgis/docs_ngweb_3D
+	branch = en
 [submodule "source/tracker_hub_dev"]
 	path = source/tracker_hub_dev
 	url = git@github.com:nextgis/tracker_hub_dev
+	branch = en
 [submodule "source/docs_les"]
 	path = source/docs_les
 	url = git@github.com:nextgis/docs_les
+	branch = en
 [submodule "source/ngmobile_dev"]
 	path = source/ngmobile_dev
 	url = git@github.com:nextgis/ngmobile_dev
+	branch = en
