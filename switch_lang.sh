@@ -35,6 +35,12 @@ cd ../docs_ngid
 echo "$(pwd)"
 git checkout $1
 
+if [ -d "../docs_geoserv_prem" ]; then
+cd ../docs_geoserv_prem
+echo "$(pwd)"
+git checkout $1
+fi
+
 if [ -d "../docs_collector" ]; then
 cd ../docs_collector
 echo "$(pwd)"
