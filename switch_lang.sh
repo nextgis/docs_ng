@@ -62,7 +62,7 @@ fi
 if [ -d "../docs_howto" ]; then
 cd ../docs_howto
 echo "$(pwd)"
-git checkout master
+git checkout $1
 fi
 
 if [ -d "../docs_ngbio" ]; then
