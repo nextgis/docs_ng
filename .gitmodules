@@ -14,34 +14,14 @@
 	path = source/docs_formbuilder
 	url = git@github.com:nextgis/docs_formbuilder.git
 	branch = ru
-[submodule "source/docs_ngmanager"]
-	path = source/docs_ngmanager
-	url = git@github.com:nextgis/docs_ngmanager.git
-	branch = ru
 [submodule "source/docs_howto"]
 	path = source/docs_howto
 	url = git@github.com:nextgis/docs_howto.git
 	branch = ru
-[submodule "source/docs_ngbio"]
-	path = source/docs_ngbio
-	url = git@github.com:nextgis/docs_ngbio.git
-	branch = master
 [submodule "source/docs_ngqgis"]
 	path = source/docs_ngqgis
 	url = git@github.com:nextgis/docs_ngqgis.git
 	branch = ru
-[submodule "source/docs_ngcourses"]
-	path = source/docs_ngcourses
-	url = git@github.com:nextgis/docs_ngcourses.git
-	branch = master
-[submodule "source/docs_ogportal"]
-	path = source/docs_ogportal
-	url = git@github.com:nextgis/docs_ogportal.git
-	branch = master
-[submodule "source/docs_forestinspector"]
-	path = source/docs_forestinspector
-	url = git@github.com:nextgis/docs_forestinspector.git
-	branch = master
 [submodule "source/qms_srv_dev"]
 	path = source/qms_srv_dev
 	url = git@github.com:nextgis/quickmapservices_server.git
@@ -105,10 +85,6 @@
 [submodule "source/tracker_hub_dev"]
 	path = source/tracker_hub_dev
 	url = git@github.com:nextgis/tracker_hub_dev
-	branch = ru
-[submodule "source/docs_les"]
-	path = source/docs_les
-	url = git@github.com:nextgis/docs_les
 	branch = ru
 [submodule "source/ngmobile_dev"]
 	path = source/ngmobile_dev
