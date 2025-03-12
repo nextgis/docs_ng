@@ -26,7 +26,6 @@
    /ngmobile_dev/toc
    /qms_srv_dev/doc/api
    /docs_formbuilder_dev/doc/toc
-   /tracker_hub_dev/main
    /docs_ngwdocker/doc/index
 
 *****************
