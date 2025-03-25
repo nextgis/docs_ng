@@ -161,6 +161,10 @@
      растровые стили редактируются в ней, и сохраняются в файл с расширением qml. 
      Внутреннее представление - xml. Картостили формата qml поддерживаются в 
      NextGIS Web. 
+
+   SLD
+   Styled Layer Descriptor
+      Стандарт OGC для описания символики пространственных данных. Обычно применяется в сервисах Web Map Service (WMS) или Web Feature Service (WFS).
    
    KML
    Keyhole Markup Language
