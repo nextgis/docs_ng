@@ -2,10 +2,10 @@
 
 .. NextGIS Develop documentation TOC
 
-For developers
+Документация для разработчиков
 ==============================
 
-
+Содержание:
 
 .. toctree::
    :maxdepth: 2
