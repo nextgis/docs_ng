@@ -116,7 +116,7 @@
    GML
    Geographic Markup Language
       Отраслевой стандарт, основанный на XML и используемый для описания географических данных. Разрабатывается и поддерживается консорциумом
-      `OGC <https://www.ogc.org/standards/gml>`_ (Open Geospatial Consortium) и является международным стандартом ISO.
+      `OGC <https://www.ogc.org/standards/gml>`__ (Open Geospatial Consortium) и является международным стандартом ISO.
       Первая версия языка была выпущена в 2000 году, а последняя, третья — в 2007.
 
    SDK
@@ -225,7 +225,7 @@
    Web Map Service 
      Стандартный протокол для обслуживания через Интернет географически привязанных изображений, генерируемых картографическим сервером на основе данных из БД ГИС. 
      Данный стандарт был разработан и впервые опубликован международной организацией 
-     `OGC <http://www.opengeospatial.org/>`_ (Open Geospatial Consortium — 
+     `OGC <http://www.opengeospatial.org/>`__ (Open Geospatial Consortium — 
      открытый геопространственный консорциум) в 1999 году.
    
    WFS
@@ -321,11 +321,11 @@
 
    Группа ресурсов
    resource_group
-      В системе NextGIS Web - папка в структуре хранения ресурсов. `Как создать <https://docs.nextgis.ru/docs_ngweb/source/create_resource.html#ngw-resourses-group>`_
+      В системе NextGIS Web - папка в структуре хранения ресурсов. `Как создать <https://docs.nextgis.ru/docs_ngweb/source/create_resource.html#ngw-resourses-group>`__
 
    Группа трекеров
    trackers_group
-      В системе NextGIS Web - папка, в которой находятся трекеры. `Как создать <https://docs.nextgis.ru/docs_ngcom/source/tracking.html#tracking-create>`_
+      В системе NextGIS Web - папка, в которой находятся трекеры. `Как создать <https://docs.nextgis.ru/docs_ngcom/source/tracking.html#tracking-create>`__
 
    Демо-проект
    demo_project
@@ -342,11 +342,11 @@
 
    Проект Collector
    collector_project
-      Проект сбора данных, позволяющих подключиться через приложение NextGIS Collector. `Как создать <https://docs.nextgis.ru/docs_ngcom/source/collector.html#collector-create-project>`_
+      Проект сбора данных, позволяющих подключиться через приложение NextGIS Collector. `Как создать <https://docs.nextgis.ru/docs_ngcom/source/collector.html#collector-create-project>`__
 
    Растровый слой
    raster_layer
-      Ресурс NextGIS Web, содержащий географическую информацию в форме регулярной сетки пикселей. Файл имеет расширение GeoTIFF. `Как создать <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-raster-layer>`_
+      Ресурс NextGIS Web, содержащий географическую информацию в форме регулярной сетки пикселей. Файл имеет расширение GeoTIFF. `Как создать <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-raster-layer>`__
 
    Растровый стиль
    raster_style
