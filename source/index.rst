@@ -25,7 +25,6 @@
    /docs_collector/source/toc
    /docs_ngtracker/source/toc
    /docs_ngid/source/toc
-   /docs_les/source/toc
    /docs_ngweb_dev/doc/toc
    /qms_srv_dev/doc/api
    /docs_formbuilder_dev/doc/toc
