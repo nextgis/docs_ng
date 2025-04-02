@@ -172,7 +172,7 @@ Glossary
    WMS
    Web Map Service 
      A standard protocol for serving of georeferenced images through the Internet that are generated on server on a basis of data from a gis database. 
-     The standard was developed and initially published by international organization `OGC <http://www.opengeospatial.org/>`_ (Open Geospatial Consortium) in 1999. 
+     The standard was developed and initially published by international organization `OGC <http://www.opengeospatial.org/>`__ (Open Geospatial Consortium) in 1999. 
      
    WFS
    Web Feature Service
@@ -192,7 +192,7 @@ Glossary
 
    TMS
    Tile Map Service
-     `OSGeo <http://www.osgeo.org/>`_ standard that describes an access to representation of geodata through the Internet/Intranet without an access to geodata itself.   
+     `OSGeo <http://www.osgeo.org/>`__ standard that describes an access to representation of geodata through the Internet/Intranet without an access to geodata itself.   
       
 
    Tile 
@@ -202,11 +202,11 @@ Glossary
    OGC API Features 
    OGC API - Features
    OGC API — Features
-       `OSGeo <http://www.osgeo.org/>`_ standard for publishing vector data with geometries, attributes and query filtering.
+       `OSGeo <http://www.osgeo.org/>`__ standard for publishing vector data with geometries, attributes and query filtering.
 
    WMTS
    Web Map Tile Service
-      `OSGeo <http://www.osgeo.org/>`_ standard protocol for serving pre-rendered or run-time computed georeferenced map tiles over the Internet. 
+      `OSGeo <http://www.osgeo.org/>`__ standard protocol for serving pre-rendered or run-time computed georeferenced map tiles over the Internet. 
 
    MVT
    Mapbox Vector Tiles
@@ -218,8 +218,7 @@ Glossary
 
    NGIDOP
    NextGIS ID on-premise
-      Authorization and user management server for NextGIS software 
-      deployed in local networks isolated from the Internet.
+      Authorization and user management server for NextGIS software deployed in local networks isolated from the Internet.
 
    instance
       A single Web GIS with its unique URL.
@@ -265,7 +264,7 @@ Glossary
 
    Trackers group
    trackers_group
-      In NextGIS Web it's a folder containing tracker resources. `How to create <https://docs.nextgis.ru/docs_ngcom/source/tracking.html#tracking-create>`_.
+      In NextGIS Web it's a folder containing tracker resources. `How to create <https://docs.nextgis.ru/docs_ngcom/source/tracking.html#tracking-create>`__.
 
    Demo project
    demo_project
@@ -280,11 +279,11 @@ Glossary
 
    Collector project
    collector_project
-      Type of resource in NextGIS Web, a project for data collection. Users connect to it via NextGIS Collector app to enter data in the field. `How to create <https://docs.nextgis.com/docs_ngcom/source/collector.html#collector-create-project>`_
+      Type of resource in NextGIS Web, a project for data collection. Users connect to it via NextGIS Collector app to enter data in the field. `How to create <https://docs.nextgis.com/docs_ngcom/source/collector.html#collector-create-project>`__
 
    Raster layer
    raster_layer
-      Type of resource in NextGIS Web that stores geodata as regular pixel grid. The file format is GeoTIFF. `How to create  <https://docs.nextgis.com/docs_ngweb/source/layers.html#ngw-create-raster-layer>`_
+      Type of resource in NextGIS Web that stores geodata as regular pixel grid. The file format is GeoTIFF. `How to create  <https://docs.nextgis.com/docs_ngweb/source/layers.html#ngw-create-raster-layer>`__
 
    Raster style
    raster_style
@@ -330,11 +329,11 @@ Glossary
 
    Lookup table
    lookup_table 
-      Type of resource in NextGIS Web, a list of key-value pairs that can be connected to a field of a vector layer. `How to create <https://docs.nextgis.com/docs_ngweb/source/create_other.html#ngw-create-lookup-table>`_
+      Type of resource in NextGIS Web, a list of key-value pairs that can be connected to a field of a vector layer. `How to create <https://docs.nextgis.com/docs_ngweb/source/create_other.html#ngw-create-lookup-table>`__
 
    MapServer style
    mapserver_style
-      Subresource of a vector layer, necessary to display the data on a Web Map or in an app. See also QGIS vector style. `How to create <https://docs.nextgis.com/docs_ngweb/source/mapstyles.html#mapserver>`_
+      Subresource of a vector layer, necessary to display the data on a Web Map or in an app. See also QGIS vector style. `How to create <https://docs.nextgis.com/docs_ngweb/source/mapstyles.html#mapserver>`__
 
    Tracker 
       1. Type of resource in NextGIS Web that creates a connection between a tracking device and the Web GIS.
@@ -346,8 +345,8 @@ Glossary
 
    File bucket
    file_bucket
-      Special resource type available in Extended NextGIS on-premise. A storage for files of any kind. `How to create <https://docs.nextgis.com/docs_ngweb/source/create_other.html#ngw-create-file-bucket>`_
+      Special resource type available in Extended NextGIS on-premise. A storage for files of any kind. `How to create <https://docs.nextgis.com/docs_ngweb/source/create_other.html#ngw-create-file-bucket>`__
 
    SVG Marker Library
    svg_marker_library
-      Type of resource in NextGIS Web that stores SVG icons used in QGIS vector styles to display data on Web Maps, if the icons are not embedded in the style. `How to create <https://docs.nextgis.com/docs_ngweb/source/mapstyles.html#ngw-create-svg-marker-lib>`_
+      Type of resource in NextGIS Web that stores SVG icons used in QGIS vector styles to display data on Web Maps, if the icons are not embedded in the style. `How to create <https://docs.nextgis.com/docs_ngweb/source/mapstyles.html#ngw-create-svg-marker-lib>`__
