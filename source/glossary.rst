@@ -5,23 +5,21 @@ Glossary
 
 .. glossary::
    :sorted:
-            
-            
-   
+
    geographical information system
    GIS
       Information system that operates with geographical data (geodata). 
-      
+
    geographical feature
    spatial feature
    geofeature
    geodata
       Digital model for material or abstract feature of real or 
       virtual world with assigned identifier, coordinates and attributes. 
-      
 
    SRS
    Spacial Reference System
+
    CRS
    coordinate system
       A way for description of point location relative to selected axes.
@@ -38,45 +36,37 @@ Glossary
    GLONASS
    Global Navigation Satellite System
       Satellite navigation system. It provides an alternative to Global Positioning System (GPS) and is the second navigational system in operation with global coverage and of comparable precision.  
-    
+
    URL
    Uniform Resource Locator
       A Uniform resource locator (description of location). Previously called Universal Resource Locator (URL). URL is a standardized way to record a resource address in the Internet.
 
    Open Source
-     Software with open source code. Source code of such 
-     software is available for view, study and update. This allows 
-     a user to participate in a process of development of open source software, 
-     to use a code for creation of new software and debugging — 
-     through borrowing of source code if that is allowed by license compatibility, 
-     or to study of used algorithms, data structures, 
-     technologies, methods and interfaces (as source code could essentially 
-     complete documentation or be a kind of documentation if there is no one).
+      Software with open source code. Source code of such software is available for view, study and update. This allows  a user to participate in a process of development of open source software, to use a code for creation of new software and debugging — through borrowing of source code if that is allowed by license compatibility, or to study of used algorithms, data structures,  technologies, methods and interfaces (as source code could essentially  complete documentation or be a kind of documentation if there is no one).
 
    Open data
-     Open data is data that can be freely used, re-used and redistributed by anyone -  
-     subject only, at most, to the requirement to attribute and sharealike. 
- 
+      Open data is data that can be freely used, re-used and redistributed by anyone -  subject only, at most, to the requirement to attribute and sharealike. 
+
    QGIS
-     A user-friendly geographical information system with open source code, distributed under GNU General Public License. QGIS is a project of Open Source Geospatial Foundation. It works on Linux, Unix, Mac OSX, Windows and Android, supports for various vector, raster formats, databases and has a variety of functions.
+      A user-friendly geographical information system with open source code, distributed under GNU General Public License. QGIS is a project of Open Source Geospatial Foundation. It works on Linux, Unix, Mac OSX, Windows and Android, supports for various vector, raster formats, databases and has a variety of functions.
    
-   Mapnik  
-     Open source map renderer. Written on C++ and Python. Uses a AGG library and has a function of smoothing of features with high acuracy. It can read from ESRI formats, PostGIS, TIFF, .osm files, and also supports for any GDAL or OGR formats. 
+   Mapnik
+      Open source map renderer. Written on C++ and Python. Uses a AGG library and has a function of smoothing of features with high acuracy. It can read from ESRI formats, PostGIS, TIFF, .osm files, and also supports for any GDAL or OGR formats. 
      
    MapServer
-     Server geographical information system with open source that is launched through CGI interface.   
+      Server geographical information system with open source that is launched through CGI interface.   
    
    API
-     A set of protocols, tools and procedures that an application (software or web service) provides for the use by external software. Web services API is typically a description of possible HTTP requests. 
+      A set of protocols, tools and procedures that an application (software or web service) provides for the use by external software. Web services API is typically a description of possible HTTP requests. 
      
 
    CORS
    Cross-origin resource sharing
-     A mechanism that allows a web page to access restricted resources from a server on a domain different than the domain that served the web page. See more in `Cross-origin resource sharing <https://en.wikipedia.org/wiki/Cross-origin_resource_sharing>`_.
+      A mechanism that allows a web page to access restricted resources from a server on a domain different than the domain that served the web page. See more in `Cross-origin resource sharing <https://en.wikipedia.org/wiki/Cross-origin_resource_sharing>`_.
 
    CSS
    Cascading Style Sheets
-     Style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML. `How to use CSS to change the look of your Web GIS <https://docs.nextgis.com/docs_ngweb/source/look.html>`_ 
+      Style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML. `How to use CSS to change the look of your Web GIS <https://docs.nextgis.com/docs_ngweb/source/look.html>`_ 
 
    GML
    Geographic Markup Language
@@ -111,11 +101,11 @@ Glossary
 
 
    CSV
-     A format for storage of tabular data in plain text.  The file contains a set of rows where columns are separated with commas or semicolons. The format is used for data exchange between programs if they can not read more complex formats. CSV could be used to store geodata: columns may store coordinates for points or geometry description in WKT or WKB formats.
+      A format for storage of tabular data in plain text.  The file contains a set of rows where columns are separated with commas or semicolons. The format is used for data exchange between programs if they can not read more complex formats. CSV could be used to store geodata: columns may store coordinates for points or geometry description in WKT or WKB formats.
      
    GeoJSON
-     An open standard format designed for representing simple geographical features, along with their non-spatial attributes, based on JavaScript Object Notation.  
-     The features include points, linestrings & polygons and multi-part collection of these types.      
+      An open standard format designed for representing simple geographical features, along with their non-spatial attributes, based on JavaScript Object Notation.  
+      The features include points, linestrings & polygons and multi-part collection of these types.      
           
 
    QML
@@ -134,19 +124,17 @@ Glossary
       Open, standards-based, platform-independent, portable, self-describing, compact format for transferring geospatial information.
 
    PostGIS
-     Extension for relational DBMS PostgreSQL for storage of geodata in a database. PostGIS has a support for spatial indexes R-Tree/GiST and geodata processing functions.
-     
-     
-     
+      Extension for relational DBMS PostgreSQL for storage of geodata in a database. PostGIS has a support for spatial indexes R-Tree/GiST and geodata processing functions.
+
    ESRI Shape
    ESRI Shapefile
    Shapefile 
    Shape
-     Popular format for geodata files developed and supported by Esri company for interoperability between products of Esri and other software.      
+      Popular format for geodata files developed and supported by Esri company for interoperability between products of Esri and other software.      
                
      
    GeoTIFF
-     Open geodata format for raster data representation in a TIFF format with metadata about georeferencing. Uses TIFF 6.0 specification, and adds some types of geotags that defines a type of cartographic projection, geographical coordinate system, geoid, datum and all other information required for precise spatial orientation of satellite image.
+      Open geodata format for raster data representation in a TIFF format with metadata about georeferencing. Uses TIFF 6.0 specification, and adds some types of geotags that defines a type of cartographic projection, geographical coordinate system, geoid, datum and all other information required for precise spatial orientation of satellite image.
      
 
    SVG
@@ -168,17 +156,16 @@ Glossary
 
    WMS
    Web Map Service 
-     A standard protocol for serving of georeferenced images through the Internet that are generated on server on a basis of data from a gis database. 
-     The standard was developed and initially published by international organization `OGC <http://www.opengeospatial.org/>`__ (Open Geospatial Consortium) in 1999. 
+      A standard protocol for serving of georeferenced images through the Internet that are generated on server on a basis of data from a gis database. 
+      The standard was developed and initially published by international organization `OGC <http://www.opengeospatial.org/>`__ (Open Geospatial Consortium) in 1999. 
      
    WFS
    Web Feature Service
    WFS-T
    WFS service
    wfsserver_service
-     A web service that represents data in a vector GML format. 
-     Client gets both attributes and geometry. There are standard extensions:
-     
+      A web service that represents data in a vector GML format. Client gets both attributes and geometry. There are standard extensions:
+
      * Transactional (WFS-T) - allows clients to send to WFS 
        server new and updated data;
      * Gazetteer (WFS-G) - a draft of a standard that adds a search and a query 
@@ -237,7 +224,7 @@ Glossary
       Field containing the unique feature ID.
 
    Extent 
-     The coordinate of the map's boundary, usually 4 numbers. Extent identifies the area shown on the map.  
+      The coordinate of the map's boundary, usually 4 numbers. Extent identifies the area shown on the map.  
   
 
    resource
