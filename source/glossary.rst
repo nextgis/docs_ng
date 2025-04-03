@@ -19,7 +19,6 @@ Glossary
 
    SRS
    Spacial Reference System
-
    CRS
    coordinate system
       A way for description of point location relative to selected axes.
@@ -163,7 +162,6 @@ Glossary
    Web Feature Service
    WFS-T
    WFS service
-   wfsserver_service
       A web service that represents data in a vector GML format. Client gets both attributes and geometry. There are standard extensions:
 
      * Transactional (WFS-T) - allows clients to send to WFS 
