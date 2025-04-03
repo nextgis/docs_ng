@@ -174,7 +174,12 @@ Glossary
 
    TMS
    Tile Map Service
-     `OSGeo <http://www.osgeo.org/>`__ standard that describes an access to representation of geodata through the Internet/Intranet without an access to geodata itself.   
+     A specification for Web Maps displayed by seamlessly joining dozens of individually requested image files over the internet. `OSGeo <http://www.osgeo.org/>`__ standard that describes an access to representation of geodata through the Internet/Intranet without an access to geodata itself. The difference between :term:`XYZ` and TMS is that the Y coordinate is flipped.
+
+   XYZ
+   Raster Tile Map
+      Slippy map (in OpenStreetMap terminology) or Tiled Web Map is a map displayed by seamlessly joining dozens of individually requested image files over the internet. X, Y & Z denotes the numbering scheme to serve the images. The images are commonly of the size 256 X 256 in PNG format. The difference between XYZ and :term:`TMS` is that the Y coordinate is flipped.
+
       
 
    Tile 
