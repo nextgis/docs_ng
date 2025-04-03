@@ -119,14 +119,11 @@ Glossary
           
 
    QML
-     The main language for describing map styles in the NextGIS QGIS software.   
- Vector and raster styles are edited in QGIS and saved to a file with QML extension.  
-     Internal representations is XML.   
- Map styles in QML format are supported by NextGIS Web. 
+      The main language for describing map styles in the NextGIS QGIS software. Vector and raster styles are edited in QGIS and saved to a file with QML extension. Internal representations is XML. Map styles in QML format are supported by NextGIS Web. 
 
    SLD
    Styled Layer Descriptor
-      an XML schema specified by the Open Geospatial Consortium (OGC) for describing the appearance of map layers.  A typical use of SLDs is to instruct a Web Map Service (WMS) or Web Feature Service (WFS) how to render a specific layer.
+      An XML schema specified by the Open Geospatial Consortium (OGC) for describing the appearance of map layers.  A typical use of SLDs is to instruct a Web Map Service (WMS) or Web Feature Service (WFS) how to render a specific layer.
    
    KML
    Keyhole Markup Language
