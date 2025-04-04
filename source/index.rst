@@ -38,7 +38,7 @@
 
 * :doc:`Начало работы с платформой </docs_ngcom/source/toc>`
 * :doc:`NextGIS Toolbox </docs_toolbox/source/toc>`
-* :doc:`NextGIS Data </docs_data/source/toc>`
+* :doc:`NextGIS Data </docs_data/source/index>`
 * :doc:`NextGIS GeoServices </docs_geoservices/source/toc>`
 
 *****************
