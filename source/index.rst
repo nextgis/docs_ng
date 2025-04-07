@@ -14,7 +14,7 @@
    /docs_data/source/toc
    /docs_geoservices/source/index
    /docs_geoserv_prem/source/index
-   /docs_ngweb/source/toc
+   /docs_ngweb/source/index
    /docs_ngweb_3D/source/index
    /docs_ngqgis/source/plugins
    /docs_ngconnect/source/toc
@@ -42,7 +42,7 @@ Services
 Main products
 *************
 
-* :doc:`NextGIS Web</docs_ngweb/source/toc>`
+* :doc:`NextGIS Web</docs_ngweb/source/index>`
 * :doc:`NextGIS QGIS</docs_ngqgis/source/toc>`
 * :doc:`NextGIS Mobile</docs_ngmobile/source/toc>`
 
