@@ -12,7 +12,7 @@
    /docs_toolbox/source/toc
    /docs_toolbox_prem/source/toc
    /docs_data/source/index
-   /docs_geoservices/source/toc
+   /docs_geoservices/source/index
    /docs_geoserv_prem/source/toc
    /docs_ngweb/source/toc
    /docs_ngweb_3D/source/index
@@ -36,7 +36,7 @@ Services
 * :doc:`Get Started with your Web GIS</docs_ngcom/source/toc>`
 * :doc:`NextGIS Toolbox</docs_toolbox/source/toc>`
 * :doc:`NextGIS Data</docs_data/source/index>`
-* :doc:`NextGIS GeoServices</docs_geoservices/source/toc>`
+* :doc:`NextGIS GeoServices</docs_geoservices/source/index>`
 
 *************
 Main products
@@ -55,7 +55,7 @@ Supplementary products
 * :doc:`NextGIS Tracker (mobile application) </docs_ngtracker/source/toc>`
 * :doc:`NextGIS ID</docs_ngid/source/toc>`
 * :doc:`NextGIS Connect for QGIS</docs_ngconnect/source/toc>`
-* :doc:`NextGIS Web 3D</docs_ngweb_3D/source/toc>`
+* :doc:`NextGIS Web 3D</docs_ngweb_3D/source/index>`
 * :doc:`Plugins for QGIS</docs_ngqgis/source/plugins>`
 
 *************************
