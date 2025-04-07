@@ -13,7 +13,7 @@
    /docs_toolbox_prem/source/toc
    /docs_data/source/toc
    /docs_geoservices/source/index
-   /docs_geoserv_prem/source/toc
+   /docs_geoserv_prem/source/index
    /docs_ngweb/source/toc
    /docs_ngweb_3D/source/index
    /docs_ngqgis/source/plugins
@@ -48,7 +48,7 @@
 * :doc:`NextGIS Web </docs_ngweb/source/toc>`
 * :doc:`NextGIS QGIS </docs_ngqgis/source/toc>`
 * :doc:`NextGIS Mobile </docs_ngmobile/source/toc>`
-* :doc:`NextGIS GeoServices для своего сервера </docs_geoserv_prem/source/toc>`
+* :doc:`NextGIS GeoServices для своего сервера </docs_geoserv_prem/source/index>`
 * :doc:`NextGIS Toolbox для своего сервера </docs_toolbox_prem/source/toc>`
 
 ******************
