@@ -12,7 +12,7 @@
    /docs_toolbox/source/toc
    /docs_toolbox_prem/source/toc
    /docs_data/source/toc
-   /docs_geoservices/source/toc
+   /docs_geoservices/source/index
    /docs_geoserv_prem/source/toc
    /docs_ngweb/source/toc
    /docs_ngweb_3D/source/index
@@ -39,7 +39,7 @@
 * :doc:`Начало работы с платформой </docs_ngcom/source/toc>`
 * :doc:`NextGIS Toolbox </docs_toolbox/source/toc>`
 * :doc:`NextGIS Data </docs_data/source/toc>`
-* :doc:`NextGIS GeoServices </docs_geoservices/source/toc>`
+* :doc:`NextGIS GeoServices </docs_geoservices/source/index>`
 
 *****************
 Основные продукты
@@ -61,7 +61,7 @@
 * :doc:`NextGIS ID на своём сервере </docs_ngid/source/toc>`
 * :doc:`NextGIS Connect </docs_ngconnect/source/toc>`
 * :doc:`NGQ Rosreestr Tools </docs_rosreestr_tools/source/toc>`
-* :doc:`NextGIS Web 3D </docs_ngweb_3D/source/toc>`
+* :doc:`NextGIS Web 3D </docs_ngweb_3D/source/index>`
 * :doc:`Модули расширения QGIS </docs_ngqgis/source/plugins>`
 
 
