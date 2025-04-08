@@ -17,7 +17,7 @@
    /docs_ngweb/source/index
    /docs_ngweb_3D/source/index
    /docs_ngqgis/source/plugins
-   /docs_ngqgis/source/toc
+   /docs_ngqgis/source/index
    /docs_ngconnect/source/toc
    /docs_rosreestr_tools/source/toc
    /docs_ngmobile/source/toc
@@ -46,7 +46,7 @@
 *****************
 
 * :doc:`NextGIS Web </docs_ngweb/source/index>`
-* :doc:`NextGIS QGIS </docs_ngqgis/source/toc>`
+* :doc:`NextGIS QGIS </docs_ngqgis/source/index>`
 * :doc:`NextGIS Mobile </docs_ngmobile/source/toc>`
 * :doc:`NextGIS GeoServices для своего сервера </docs_geoserv_prem/source/index>`
 * :doc:`NextGIS Toolbox для своего сервера </docs_toolbox_prem/source/index>`
