@@ -18,7 +18,7 @@
    /docs_ngweb_3D/source/index
    /docs_ngqgis/source/plugins
    /docs_ngconnect/source/index
-   /docs_ngmobile/source/toc
+   /docs_ngmobile/source/index
    /docs_formbuilder/source/toc
    /docs_collector/source/toc
    /docs_ngtracker/source/toc
@@ -44,7 +44,7 @@ Main products
 
 * :doc:`NextGIS Web</docs_ngweb/source/index>`
 * :doc:`NextGIS QGIS</docs_ngqgis/source/toc>`
-* :doc:`NextGIS Mobile</docs_ngmobile/source/toc>`
+* :doc:`NextGIS Mobile</docs_ngmobile/source/index>`
 
 **********************
 Supplementary products
