@@ -20,7 +20,7 @@
    /docs_ngconnect/source/index
    /docs_ngmobile/source/index
    /docs_formbuilder/source/index
-   /docs_collector/source/toc
+   /docs_collector/source/index
    /docs_ngtracker/source/toc
    /docs_ngid/source/toc
    /docs_ngweb_dev/doc/toc
@@ -50,8 +50,8 @@ Main products
 Supplementary products
 **********************
 
-* :doc:`NextGIS Formbuilder</docs_formbuilder/source/toc>`
-* :doc:`NextGIS Collector (mobile application) </docs_collector/source/toc>`
+* :doc:`NextGIS Formbuilder</docs_formbuilder/source/index>`
+* :doc:`NextGIS Collector (mobile application) </docs_collector/source/index>`
 * :doc:`NextGIS Tracker (mobile application) </docs_ngtracker/source/toc>`
 * :doc:`NextGIS ID</docs_ngid/source/toc>`
 * :doc:`NextGIS Connect for QGIS</docs_ngconnect/source/index>`
