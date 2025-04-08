@@ -10,7 +10,7 @@
 
    /docs_ngcom/source/toc
    /docs_toolbox/source/toc
-   /docs_toolbox_prem/source/toc
+   /docs_toolbox_prem/source/index
    /docs_data/source/toc
    /docs_geoservices/source/index
    /docs_geoserv_prem/source/index
