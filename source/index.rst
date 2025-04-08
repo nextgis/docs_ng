@@ -10,7 +10,7 @@
 
    /docs_ngcom/source/toc
    /docs_toolbox/source/toc
-   /docs_toolbox_prem/source/toc
+   /docs_toolbox_prem/source/index
    /docs_data/source/toc
    /docs_geoservices/source/index
    /docs_geoserv_prem/source/index
@@ -49,7 +49,7 @@
 * :doc:`NextGIS QGIS </docs_ngqgis/source/toc>`
 * :doc:`NextGIS Mobile </docs_ngmobile/source/toc>`
 * :doc:`NextGIS GeoServices для своего сервера </docs_geoserv_prem/source/index>`
-* :doc:`NextGIS Toolbox для своего сервера </docs_toolbox_prem/source/toc>`
+* :doc:`NextGIS Toolbox для своего сервера </docs_toolbox_prem/source/index>`
 
 ******************
 Вспомогательное ПО
