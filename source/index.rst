@@ -22,7 +22,7 @@
    /docs_rosreestr_tools/source/index
    /docs_ngmobile/source/index
    /docs_formbuilder/source/index
-   /docs_collector/source/toc
+   /docs_collector/source/index
    /docs_ngtracker/source/toc
    /docs_ngid/source/toc
    /docs_ngweb_dev/doc/toc
@@ -55,8 +55,8 @@
 Вспомогательное ПО
 ******************
 
-* :doc:`NextGIS Formbuilder </docs_formbuilder/source/toc>`
-* :doc:`NextGIS Collector (мобильное приложение) </docs_collector/source/toc>`
+* :doc:`NextGIS Formbuilder </docs_formbuilder/source/index>`
+* :doc:`NextGIS Collector (мобильное приложение) </docs_collector/source/index>`
 * :doc:`NextGIS Tracker (мобильное приложение) </docs_ngtracker/source/toc>`
 * :doc:`NextGIS ID на своём сервере </docs_ngid/source/toc>`
 * :doc:`NextGIS Connect </docs_ngconnect/source/index>`
