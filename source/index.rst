@@ -43,7 +43,7 @@ Main products
 *************
 
 * :doc:`NextGIS Web</docs_ngweb/source/index>`
-* :doc:`NextGIS QGIS</docs_ngqgis/source/toc>`
+* :doc:`NextGIS QGIS</docs_ngqgis/source/index>`
 * :doc:`NextGIS Mobile</docs_ngmobile/source/index>`
 
 **********************
