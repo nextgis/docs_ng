@@ -21,7 +21,7 @@
    /docs_ngconnect/source/index
    /docs_rosreestr_tools/source/index
    /docs_ngmobile/source/index
-   /docs_formbuilder/source/toc
+   /docs_formbuilder/source/index
    /docs_collector/source/toc
    /docs_ngtracker/source/toc
    /docs_ngid/source/toc
