@@ -19,7 +19,7 @@
    /docs_ngqgis/source/plugins
    /docs_ngqgis/source/index
    /docs_ngconnect/source/index
-   /docs_rosreestr_tools/source/toc
+   /docs_rosreestr_tools/source/index
    /docs_ngmobile/source/toc
    /docs_formbuilder/source/toc
    /docs_collector/source/toc
@@ -60,7 +60,7 @@
 * :doc:`NextGIS Tracker (мобильное приложение) </docs_ngtracker/source/toc>`
 * :doc:`NextGIS ID на своём сервере </docs_ngid/source/toc>`
 * :doc:`NextGIS Connect </docs_ngconnect/source/index>`
-* :doc:`NGQ Rosreestr Tools </docs_rosreestr_tools/source/toc>`
+* :doc:`NGQ Rosreestr Tools </docs_rosreestr_tools/source/index>`
 * :doc:`NextGIS Web 3D </docs_ngweb_3D/source/index>`
 * :doc:`Модули расширения QGIS </docs_ngqgis/source/plugins>`
 
