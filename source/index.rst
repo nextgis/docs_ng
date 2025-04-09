@@ -80,7 +80,7 @@
 Дополнительно
 *************
 
-* :doc:`Описание применения ПО NextGIS </docs_howto/source/toc>`
+* :doc:`Описание применения ПО NextGIS </docs_howto/source/index>`
 * :doc:`Словарь <glossary>`
 
 ******************
