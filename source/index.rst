@@ -22,7 +22,7 @@
    /docs_formbuilder/source/index
    /docs_collector/source/index
    /docs_ngtracker/source/index
-   /docs_ngid/source/toc
+   /docs_ngid/source/index
    /docs_ngweb_dev/doc/toc
    /ngmobile_dev/source/toc
    /qms_srv_dev/doc/api
@@ -53,7 +53,7 @@ Supplementary products
 * :doc:`NextGIS Formbuilder</docs_formbuilder/source/index>`
 * :doc:`NextGIS Collector (mobile application) </docs_collector/source/index>`
 * :doc:`NextGIS Tracker (mobile application) </docs_ngtracker/source/index>`
-* :doc:`NextGIS ID</docs_ngid/source/toc>`
+* :doc:`NextGIS ID</docs_ngid/source/index>`
 * :doc:`NextGIS Connect for QGIS</docs_ngconnect/source/index>`
 * :doc:`NextGIS Web 3D</docs_ngweb_3D/source/index>`
 * :doc:`Plugins for QGIS</docs_ngqgis/source/plugins>`
