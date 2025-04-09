@@ -9,7 +9,7 @@
    :maxdepth: 2
 
    /docs_ngcom/source/index
-   /docs_toolbox/source/toc
+   /docs_toolbox/source/index
    /docs_toolbox_prem/source/index
    /docs_data/source/toc
    /docs_geoservices/source/index
@@ -34,7 +34,7 @@ Services
 *****************
 
 * :doc:`Get Started with your Web GIS</docs_ngcom/source/index>`
-* :doc:`NextGIS Toolbox</docs_toolbox/source/toc>`
+* :doc:`NextGIS Toolbox</docs_toolbox/source/index>`
 * :doc:`NextGIS Data</docs_data/source/toc>`
 * :doc:`NextGIS GeoServices</docs_geoservices/source/index>`
 
