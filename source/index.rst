@@ -11,7 +11,7 @@
    /docs_ngcom/source/index
    /docs_toolbox/source/index
    /docs_toolbox_prem/source/index
-   /docs_data/source/toc
+   /docs_data/source/index
    /docs_geoservices/source/index
    /docs_geoserv_prem/source/index
    /docs_ngweb/source/index
@@ -38,7 +38,7 @@
 
 * :doc:`Начало работы с платформой </docs_ngcom/source/index>`
 * :doc:`NextGIS Toolbox </docs_toolbox/source/index>`
-* :doc:`NextGIS Data </docs_data/source/toc>`
+* :doc:`NextGIS Data </docs_data/source/index>`
 * :doc:`NextGIS GeoServices </docs_geoservices/source/index>`
 
 *****************
