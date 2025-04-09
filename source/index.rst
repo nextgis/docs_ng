@@ -30,7 +30,7 @@
    /docs_formbuilder_dev/doc/toc
    /tracker_hub_dev/source/main
    /docs_ngwdocker/doc/index
-   /docs_howto/source/toc
+   /docs_howto/source/index
 
 *****************
 Сервисы
