@@ -1,5 +1,3 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
-
 .. NextGIS Develop documentation TOC
 
 Документация для разработчиков
