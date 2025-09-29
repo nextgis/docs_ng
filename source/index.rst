@@ -9,6 +9,7 @@
    :maxdepth: 2
 
    /docs_ngcom/source/index
+   /docs_howto/source/index
    /docs_toolbox/source/index
    /docs_toolbox_prem/source/index
    /docs_data/source/index
