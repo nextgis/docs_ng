@@ -13,7 +13,6 @@
    /docs_toolbox/source/index
    /docs_toolbox_prem/source/index
    /docs_data/source/index
-   /docs_geoservices/source/index
    /docs_geoserv_prem/source/index
    /docs_ngweb/source/index
    /docs_ngweb_3D/source/index
@@ -37,7 +36,7 @@ Services
 * :doc:`Get Started with your Web GIS</docs_ngcom/source/index>`
 * :doc:`NextGIS Toolbox</docs_toolbox/source/index>`
 * :doc:`NextGIS Data</docs_data/source/index>`
-* :doc:`NextGIS GeoServices</docs_geoservices/source/index>`
+
 
 *************
 Main products
@@ -46,6 +45,7 @@ Main products
 * :doc:`NextGIS Web</docs_ngweb/source/index>`
 * :doc:`NextGIS QGIS</docs_ngqgis/source/index>`
 * :doc:`NextGIS Mobile</docs_ngmobile/source/index>`
+* :doc:`NextGIS GeoServices</docs_geoserv_prem/source/index>`
 
 **********************
 Supplementary products
