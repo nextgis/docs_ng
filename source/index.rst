@@ -21,16 +21,17 @@
    /docs_ngconnect/source/index
    /docs_rosreestr_tools/source/index
    /docs_ngmobile/source/index
-   /docs_formbuilder/source/index
    /docs_collector/source/index
    /docs_ngtracker/source/index
    /docs_ngid/source/index
+   /docs_howto/source/index
    /docs_ngweb_dev/doc/toc
    /qms_srv_dev/doc/api
+   /docs_formbuilder/source/index
    /docs_formbuilder_dev/doc/toc
    /tracker_hub_dev/source/main
    /docs_ngwdocker/doc/index
-   /docs_howto/source/index
+
 
 *****************
 Сервисы
@@ -55,7 +56,6 @@
 Вспомогательное ПО
 ******************
 
-* :doc:`NextGIS Formbuilder </docs_formbuilder/source/index>`
 * :doc:`NextGIS Collector (мобильное приложение) </docs_collector/source/index>`
 * :doc:`NextGIS Tracker (мобильное приложение) </docs_ngtracker/source/index>`
 * :doc:`NextGIS ID на своём сервере </docs_ngid/source/index>`
@@ -90,7 +90,7 @@
 * :download:`NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`
 * :download:`NextGIS QGIS <docs_ngqgis/build/latex/NextGISQGIS.pdf>`
 * :download:`NextGIS Mobile <docs_ngmobile/build/latex/NextGISMobile.pdf>`
-* :download:`NextGIS Formbuilder <docs_formbuilder/build/latex/NextGISFormbuilder.pdf>`
+
 
 *****
 Поиск
