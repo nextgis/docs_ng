@@ -82,6 +82,7 @@
 
 * :doc:`Описание применения ПО NextGIS </docs_howto/source/index>`
 * :doc:`Словарь <glossary>`
+* :ref:`genindex`
 
 ******************
 Документация в pdf
@@ -90,14 +91,6 @@
 * :download:`NextGIS Web <docs_ngweb/build/latex/NextGISWeb.pdf>`
 * :download:`NextGIS QGIS <docs_ngqgis/build/latex/NextGISQGIS.pdf>`
 * :download:`NextGIS Mobile <docs_ngmobile/build/latex/NextGISMobile.pdf>`
-
-
-*****
-Поиск
-*****
-
-* :ref:`genindex`
-* :ref:`search`
 
 
 .. only:: html
