@@ -82,7 +82,6 @@
 
 * :doc:`Описание применения ПО NextGIS </docs_howto/source/index>`
 * :doc:`Словарь <glossary>`
-* :ref:`genindex`
 
 ******************
 Документация в pdf
