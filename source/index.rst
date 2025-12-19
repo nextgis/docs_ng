@@ -74,7 +74,6 @@ Developer's documentation
 Additional
 **********
 
-* :ref:`genindex`
 * :doc:`Glossary <glossary>`
 
 ****
