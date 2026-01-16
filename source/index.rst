@@ -82,7 +82,6 @@ PDFs
 
 * :download:`NextGIS Web<docs_ngweb/build/latex/NextGISWeb.pdf>`
 * :download:`NextGIS Mobile<docs_ngmobile/build/latex/NextGISMobile.pdf>`
-* :download:`NextGIS Formbuilder<docs_formbuilder/build/latex/NextGISFormbuilder.pdf>`
 
 
 .. only:: html
