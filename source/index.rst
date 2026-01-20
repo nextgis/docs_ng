@@ -15,6 +15,7 @@
    /docs_geoservices/source/index
    /docs_geoserv_prem/source/index
    /docs_ngweb/source/index
+   /docs_ngweb/source/ngw_op
    /docs_ngweb_3D/source/index
    /docs_ngqgis/source/plugins
    /docs_ngqgis/source/index
