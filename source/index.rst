@@ -10,13 +10,13 @@
 
    /docs_ngcom/source/index
    /docs_toolbox/source/index
-   /docs_toolbox_prem/source/index
    /docs_data/source/index
    /docs_geoservices/source/index
-   /docs_geoserv_prem/source/index
    /docs_ngweb/source/index
    /docs_ngweb/source/ngw_op
    /docs_ngweb_3D/source/index
+   /docs_toolbox_prem/source/index
+   /docs_geoserv_prem/source/index
    /docs_ngqgis/source/plugins
    /docs_ngqgis/source/index
    /docs_ngconnect/source/index
