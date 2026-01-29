@@ -69,7 +69,8 @@ Developer's documentation
 * :doc:`NextGIS QMS Service API</qms_srv_dev/doc/api>`
 * :doc:`NextGIS Formbuilder</docs_formbuilder_dev/doc/toc>`
 * :doc:`NextGIS Tracker Hub </tracker_hub_dev/source/main>`
-* :doc:`NextGIS Web Docker</docs_ngwdocker/doc/index>`
+* `NextGIS Web Docker <https://docs.nextgis.com/docs_ngweb/source/op_install.html>`_
+* `Requirements for remote access <https://docs.nextgis.com/docs_ngweb/source/remote.html>`_
 
 **********
 Additional
