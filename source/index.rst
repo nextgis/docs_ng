@@ -74,7 +74,8 @@
 * :doc:`NextGIS QMS Service API </qms_srv_dev/doc/api>`
 * :doc:`NextGIS Formbuilder </docs_formbuilder_dev/doc/toc>`
 * :doc:`NextGIS Tracker Hub </tracker_hub_dev/source/main>`
-* :doc:`NextGIS Docker </docs_ngwdocker/doc/index>`
+* `NextGIS Docker <https://docs.nextgis.ru/docs_ngweb/source/op_install.html>`_
+* `Требования к удаленному доступу <https://docs.nextgis.ru/docs_ngweb/source/remote.html>`_
 
 *************
 Дополнительно
