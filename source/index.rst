@@ -37,13 +37,14 @@ Services
 * :doc:`Get Started with your Web GIS</docs_ngcom/source/index>`
 * :doc:`NextGIS Toolbox</docs_toolbox/source/index>`
 * :doc:`NextGIS Data</docs_data/source/index>`
+* :doc:`NextGIS Web</docs_ngweb/source/index>`
 
 
 *************
 Main products
 *************
 
-* :doc:`NextGIS Web</docs_ngweb/source/index>`
+* :doc:`NextGIS Web on-premise </docs_ngweb/source/ngw_op>`
 * :doc:`NextGIS QGIS</docs_ngqgis/source/index>`
 * :doc:`NextGIS Mobile</docs_ngmobile/source/index>`
 * :doc:`NextGIS GeoServices</docs_geoserv_prem/source/index>`
