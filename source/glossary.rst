@@ -328,7 +328,7 @@ Glossary
 
    Form
    formbuilder_form
-      Subresource of a vector layer, a user-friendly interface for entering and editing data used in mobile apps NextGIS Mobile and NextGIS Collector. The file has \*.ngfp extension.
+      Subresource of a vector layer, a user-friendly interface for entering and editing data used in mobile apps NextGIS Mobile and NextGIS Collector. The file has \*.ngfp extension. `How to create a form. <https://docs.nextgis.com/docs_ngweb/source/collector.html#collector-create-form>`_
 
    File bucket
    file_bucket
