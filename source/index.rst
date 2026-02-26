@@ -28,7 +28,6 @@
    /docs_howto/source/index
    /docs_ngweb_dev/doc/toc
    /qms_srv_dev/doc/api
-   /docs_formbuilder/source/index
    /tracker_hub_dev/source/main
 
 
