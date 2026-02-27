@@ -23,6 +23,8 @@ Glossary
    coordinate system
       A way for description of point location relative to selected axes.
 
+   SRID
+      Spatial Reference Identifier, unique identification number of a spacial reference system. EPSG code is often used.
 
    EPSG
    IOGP’s EPSG Geodetic Parameter Dataset
