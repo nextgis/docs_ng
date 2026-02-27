@@ -23,6 +23,9 @@
    система координат
       Способ определять положение точки в пространстве относительно выбранных осей.
 
+   SRID
+      Spatial Reference Identifier, идентификационный номер системы координат. Часто используется код EPSG.
+
 
    EPSG
    IOGP’s EPSG Geodetic Parameter Dataset
