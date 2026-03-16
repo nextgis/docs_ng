@@ -191,7 +191,7 @@ Glossary
    OGC API Features 
    OGC API - Features
    OGC API — Features
-       `OSGeo <http://www.osgeo.org/>`__ standard for publishing vector data with geometries, attributes and query filtering.
+       `OGC <https://www.ogc.org/standards-overview/>`__ standard for publishing vector data with geometries, attributes and query filtering.
 
    WMTS
    Web Map Tile Service
