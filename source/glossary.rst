@@ -119,10 +119,16 @@ Glossary
    KML
    Keyhole Markup Language
       The file `format <https://www.ogc.org/standards/kml/>`_ used to display geographic data in an Earth browser such as Google Earth. 
+
+   KMZ
+      KMZ files are :term:`KML` archived into ZIP.
       
 
    GeoPackage
       Open, standards-based, platform-independent, portable, self-describing, compact format for transferring geospatial information.
+
+   GPX
+      GPS Exchange Format is an XML schema designed as a common GPS data format for software applications.
 
    PostGIS
       Extension for relational DBMS PostgreSQL for storage of geodata in a database. PostGIS has a support for spatial indexes R-Tree/GiST and geodata processing functions.
