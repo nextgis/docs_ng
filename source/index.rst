@@ -76,6 +76,7 @@ Additional
 **********
 
 * :doc:`Glossary <glossary>`
+* :doc:`Tutorials </docs_howto/source/index>`
 
 ****
 PDFs
