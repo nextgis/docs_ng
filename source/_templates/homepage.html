@@ -1,0 +1,27 @@
+{% extends "!page.html" %}
+{% block body_tag %}
+<body data-default-mode="{{ default_mode }}" class="homepage">
+  {% endblock %} {% block extrahead %} {{ super() }}
+  <link
+    rel="stylesheet"
+    href="{{ pathto('_static/dist/homepage.css', 1) }}?v={{ build_time|default(1) }}"
+  />
+  {% endblock %} {% block docs_main %}
+  <div class="bd-content">
+    <div class="bd-article-container">
+      <div class="bd-header-article d-print-none">
+        {% include "sections/header-article.html" %}
+      </div>
+
+      <article class="bd-article">
+        {% include "partials/homepage_body.html" %}
+      </article>
+    </div>
+
+    <dialog id="pst-secondary-sidebar-modal"></dialog>
+    <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc">
+      {% include "partials/homepage_sidebar.html" %}
+    </div>
+  </div>
+  {% endblock docs_main %}
+</body>

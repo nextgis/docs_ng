@@ -1,0 +1,3 @@
+{% set current_language = language|default("ru") %}
+{% set footer_language = "en" if current_language == "en" else "ru" %}
+{% include "partials/footer-custom_" ~ footer_language ~ ".html" %}

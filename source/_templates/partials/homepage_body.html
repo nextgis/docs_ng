@@ -1,0 +1,3 @@
+{% set current_language = language|default("ru") %}
+{% set homepage_language = "en" if current_language == "en" else "ru" %}
+{% include "partials/homepage_body_" ~ homepage_language ~ ".html" %}

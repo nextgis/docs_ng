@@ -20,3 +20,7 @@
     <!-- /Yandex.Metrika counter -->
     {{ super() }}
 {%- endblock %}
+
+{% block body_tag %}
+  <body data-default-mode="{{ default_mode }}"{% if pagename == 'search' %} class="page-search"{% endif %}>
+{%- endblock %}
