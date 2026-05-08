@@ -1,0 +1,97 @@
+<div class="ngs-footer" role="contentinfo">
+  <div class="ngs-footer__main">
+    <div class="ngs-footer__brand">
+      <a
+        href="{{ pathto('', 1) }}"
+        class="ngs-footer__logo-link"
+        aria-label="NextGIS"
+      >
+        <img
+          src="{{ pathto('_static/icons/logo-large-footer.svg', 1) }}"
+          data-src-light="{{ pathto('_static/icons/logo-large-footer.svg', 1) }}"
+          data-src-dark="{{ pathto('_static/icons/big_logo_white.svg', 1) }}"
+          alt="NextGIS"
+          class="ngs-footer__logo"
+        />
+      </a>
+
+      {% include "login.html" %}
+
+      <div class="ngs-footer__social" aria-label="{{ _('Social media') }}">
+        <a
+          href="https://vk.com/nextgis"
+          class="ngs-footer__social-link"
+          aria-label="VK"
+        >
+          <img src="{{ pathto('_static/icons/social_vk.svg', 1) }}" alt="" />
+        </a>
+        <a
+          href="https://t.me/nextgis_ru"
+          class="ngs-footer__social-link"
+          aria-label="Telegram"
+        >
+          <img
+            src="{{ pathto('_static/icons/social_telegram.svg', 1) }}"
+            alt=""
+          />
+        </a>
+        <a
+          href="https://rutube.ru/u/nextgis/"
+          class="ngs-footer__social-link"
+          aria-label="RuTube"
+        >
+          <img
+            src="{{ pathto('_static/icons/social_rutube.svg', 1) }}"
+            alt=""
+          />
+        </a>
+        <a
+          href="https://github.com/nextgis/"
+          class="ngs-footer__social-link"
+          aria-label="GitHub"
+        >
+          <img
+            src="{{ pathto('_static/icons/social_github.svg', 1) }}"
+            alt=""
+          />
+        </a>
+      </div>
+    </div>
+
+    <div class="ngs-footer__content">
+      <div class="ngs-footer__column">
+        <p class="ngs-footer__title">{{ _("Products") }}</p>
+        <ul class="ngs-footer__links">
+          <li><a href="https://nextgis.ru/nextgis-web">Веб ГИС</a></li>
+          <li><a href="https://nextgis.ru/nextgis-geoservices">Базовые карты</a></li>
+          <li><a href="https://nextgis.ru/nextgis-mobile">Мобильная ГИС</a></li>
+          <li><a href="https://nextgis.ru/datasets/">Данные</a></li>
+        </ul>
+      </div>
+
+      <div class="ngs-footer__column">
+        <p class="ngs-footer__title">{{ _("Resources") }}</p>
+        <ul class="ngs-footer__links">
+          <li><a href="https://docs.nextgis.ru/">{{ _("Documentation") }}</a></li>
+          <li><a href="https://rutube.ru/u/nextgis/">{{ _("Videos") }}</a></li>
+          <li><a href="https://t.me/nextgis_ru">{{ _("Telegram community") }}</a></li>
+          <li><a href="https://nextgis.ru/support">{{ _("Technical support") }}</a></li>
+        </ul>
+      </div>
+
+      <div class="ngs-footer__column">
+        <p class="ngs-footer__title">{{ _("Company") }}</p>
+        <ul class="ngs-footer__links">
+          <li><a href="https://nextgis.ru/about">{{ _("About") }}</a></li>
+          <li><a href="https://nextgis.ru/blog/">{{ _("Blog") }}</a></li>
+          <li><a href="https://nextgis.ru/contact">{{ _("Contacts") }}</a></li>
+          <li><a href="https://events.nextgis.ru/">{{ _("Events") }}</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="ngs-footer__bottom">
+    <p class="ngs-footer__copyright">© {{ copyright }}</p>
+  </div>
+</div>

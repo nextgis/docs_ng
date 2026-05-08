@@ -1,0 +1,53 @@
+{% set sidebar_tree = generate_toctree_html(
+  "raw",
+  startdepth=0,
+  maxdepth=2,
+  collapse=theme_collapse_navigation | tobool,
+  includehidden=theme_sidebar_includehidden | tobool,
+  titles_only=True
+) %}
+{% set nav_items = sidebar_tree.select("li.toctree-l1 > ul > li.toctree-l2") %}
+{% set n_links_before_dropdown = theme_header_links_before_dropdown | int %}
+{% if nav_items | length <= n_links_before_dropdown + 1 %}
+  {% set dropdown_cutoff = n_links_before_dropdown + 1 %}
+{% else %}
+  {% set dropdown_cutoff = n_links_before_dropdown %}
+{% endif %}
+
+{% macro nav_link(item, dropdown=False) -%}
+  {% set link = item.find("a") %}
+  {% if link %}
+    {% set item_classes = item.get("class", []) %}
+    {% set link_classes = link.get("class", []) %}
+    {% set is_active = "current" in item_classes or "active" in item_classes %}
+    {% set ext_int = "external" if "external" in link_classes else "internal" %}
+    <li{% if dropdown %}{% if is_active %} class="current active"{% endif %}{% else %} class="nav-item{% if is_active %} current active{% endif %}"{% endif %}>
+      <a class="nav-link{% if dropdown %} dropdown-item{% endif %} nav-{{ ext_int }}" href="{{ link.get('href') | e }}">
+        {{ link.decode_contents() | safe }}
+      </a>
+    </li>
+  {% endif %}
+{%- endmacro %}
+
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    {% for item in nav_items[:dropdown_cutoff] %}
+      {{ nav_link(item) }}
+    {% endfor %}
+    {% if nav_items | length > dropdown_cutoff %}
+      {% set dropdown_id = unique_html_id("pst-nav-more-links") %}
+      <li class="nav-item dropdown">
+        <button class="btn dropdown-toggle nav-item" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false"
+                aria-controls="{{ dropdown_id }}">
+          {{ _(theme_header_dropdown_text) }}
+        </button>
+        <ul id="{{ dropdown_id }}" class="dropdown-menu">
+          {% for item in nav_items[dropdown_cutoff:] %}
+            {{ nav_link(item, dropdown=True) }}
+          {% endfor %}
+        </ul>
+      </li>
+    {% endif %}
+  </ul>
+</nav>
