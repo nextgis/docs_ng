@@ -1,11 +1,11 @@
 [submodule "source/docs_ngweb"]
 	path = source/docs_ngweb
 	url = git@github.com:nextgis/docs_ngweb.git
-	branch = ru
+	branch = en
 [submodule "source/docs_ngmobile"]
 	path = source/docs_ngmobile
 	url = git@github.com:nextgis/docs_ngmobile.git
-	branch = ru
+	branch = en
 [submodule "source/docs_ngweb_dev"]
 	path = source/docs_ngweb_dev
 	url = git@github.com:nextgis/nextgisweb.git
@@ -13,80 +13,79 @@
 [submodule "source/docs_formbuilder"]
 	path = source/docs_formbuilder
 	url = git@github.com:nextgis/docs_formbuilder.git
-	branch = ru
-[submodule "source/docs_howto"]
-	path = source/docs_howto
-	url = git@github.com:nextgis/docs_howto.git
-	branch = ru
+	branch = en
 [submodule "source/docs_ngqgis"]
 	path = source/docs_ngqgis
 	url = git@github.com:nextgis/docs_ngqgis.git
-	branch = ru
+	branch = en
 [submodule "source/qms_srv_dev"]
 	path = source/qms_srv_dev
 	url = git@github.com:nextgis/quickmapservices_server.git
-	branch = master
 [submodule "source/docs_ngcom"]
 	path = source/docs_ngcom
 	url = git@github.com:nextgis/docs_ngcom.git
-	branch = ru
+	branch = en
 [submodule "source/docs_formbuilder_dev"]
 	path = source/docs_formbuilder_dev
 	url = git@github.com:nextgis/formbuilder.git
-	branch = master
+	brach = master
 [submodule "source/docs_collector"]
 	path = source/docs_collector
 	url = git@github.com:nextgis/docs_collector.git
-	branch = ru
+	branch = en
+[submodule "source/docs_howto"]
+	path = source/docs_howto
+	url = git@github.com:nextgis/docs_howto.git
+	branch = en
 [submodule "source/docs_toolbox"]
 	path = source/docs_toolbox
 	url = git@github.com:nextgis/docs_toolbox.git
-	branch = ru
+	branch = en
 [submodule "source/docs_ngwdocker"]
 	path = source/docs_ngwdocker
 	url = git@github.com:nextgis/ngwdocker.git
 	branch = master
-[submodule "source/docs_ngid"]
-	path = source/docs_ngid
-	url = git@github.com:nextgis/docs_ngid.git
-	branch = ru
 [submodule "source/docs_data"]
 	path = source/docs_data
 	url = git@github.com:nextgis/docs_data.git
-	branch = ru
+	branch = en
+[submodule "source/docs_ngid"]
+	path = source/docs_ngid
+	url = git@github.com:nextgis/docs_ngid.git
+	branch = en
 [submodule "source/docs_geoservices"]
 	path = source/docs_geoservices
 	url = git@github.com:nextgis/docs_geoservices.git
-	branch = ru
+	branch = en
 [submodule "source/docs_geoserv_prem"]
 	path = source/docs_geoserv_prem
 	url = git@github.com:nextgis/docs_geoserv_prem
-	branch = ru
+	branch = en
 [submodule "source/docs_toolbox_prem"]
 	path = source/docs_toolbox_prem
 	url = git@github.com:nextgis/docs_toolbox_prem
-	branch = ru
+	branch = en
 [submodule "source/docs_ngtracker"]
 	path = source/docs_ngtracker
 	url = git@github.com:nextgis/docs_ngtracker
-	branch = ru
+	branch = en
 [submodule "source/docs_ngconnect"]
 	path = source/docs_ngconnect
 	url = git@github.com:nextgis/docs_ngconnect
-	branch = ru
+	branch = en
 [submodule "source/docs_rosreestr_tools"]
 	path = source/docs_rosreestr_tools
 	url = git@github.com:nextgis/docs_rosreestr_tools
-	branch = ru
+	branch = en
 [submodule "source/docs_ngweb_3D"]
 	path = source/docs_ngweb_3D
 	url = git@github.com:nextgis/docs_ngweb_3D
-	branch = ru
+	branch = en
 [submodule "source/tracker_hub_dev"]
 	path = source/tracker_hub_dev
 	url = git@github.com:nextgis/tracker_hub_dev
-	branch = ru
+	branch = en
 [submodule "source/ngmobile_dev"]
 	path = source/ngmobile_dev
-	url = git@github.com:nextgis/ngmobile_dev.git
-	branch = ru
+	url = git@github.com:nextgis/ngmobile_dev
+	branch = en

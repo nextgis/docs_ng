@@ -5,7 +5,7 @@ Full NextGIS user documentation
 To start using documentation you need some programmes be installed python > 2.7 and:
 
 1. sudo pip install sphinx
-2. sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended 
+2. sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
 3. sudo apt-get install texlive-doc-ru texlive-lang-cyrillic texlive-fonts-extra
 4. sudo pip install sphinxcontrib-httpdomain sphinx-bootstrap-theme
 
@@ -15,8 +15,9 @@ To start using documentation you need some programmes be installed python > 2.7 
 2. pip install sphinx
 3. pip install sphinxcontrib-httpdomain sphinx-bootstrap-theme
 
-Than you have to generate key for ssh git access. See: https://help.github.com/articles/generating-ssh-keys/
-```
+Than you have to generate key for ssh git access. See: <https://help.github.com/articles/generating-ssh-keys/>
+
+```bash
 git clone --recursive git@github.com:nextgis/docs_ng.git
 make html
 make latexpdf
@@ -24,19 +25,39 @@ make latexpdf
 
 See [wiki for future details](https://github.com/nextgis/docs_ng/wiki/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8)
 
-Обновление документации
-=======================
+## Обновление документации
 
 Обновление документации на docs.nextgis.ru после правки конкретной странице на Github:
 
 * Склонировать или обновить этот репозиторий ([как правильно](https://github.com/nextgis/docs_ng/wiki/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8#%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8-%D0%BF%D1%80%D0%B8-%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B5-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81-github))
 * Дождаться что сработает buildbot (проверка раз в 15 мин)
 
-Build status
-============
+## Build status
 
 ![build status](https://buildbot.nextgis.com/badges/docs_ru.svg)
 
-License
--------------
+## Режим разработки
+
+Для отслеживания изменений frontend-ассетов:
+
+```bash
+npm run dev
+```
+
+Если одновременно редактируются `.rst`-страницы и шаблоны Sphinx, удобно в отдельном
+терминале запускать сборку с отслеживанием изменений:
+
+```bash
+sphinx-autobuild source build
+```
+
+## Переводы
+
+```bash
+pybabel compile --directory=source/locale --domain=messages
+pybabel compile --directory=source/locale --domain=sphinx
+```
+
+## License
+
 This documentaion is licensed under CC-BY-ND 3.0

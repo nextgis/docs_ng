@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Language: ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Search the docs..."
+msgstr "Поиск"
+
+msgid "NextGIS Documentation"
+msgstr "NextGIS Документация"
+
+msgid "NextGIS Documentation - Home"
+msgstr "NextGIS Документация - Главная"
+
+msgid "Sections"
+msgstr "Разделы"
+
+msgid "NextGIS team"
+msgstr "Команда NextGIS"
+
+msgid "Fig. %s."
+msgstr "Рис. %s."
+
+msgid "Table %s."
+msgstr "Таблица %s."
+
+msgid "Listing %s."
+msgstr "Листинг %s."
+
+msgid "Fig. %s (%s)."
+msgstr "Рис. %s (%s)."

@@ -1,0 +1,25 @@
+{
+  "name": "nextgis-docs-frontend",
+  "private": true,
+  "source": [
+    "src/app.ts",
+    "src/homepage.ts"
+  ],
+  "scripts": {
+    "dev": "parcel watch src/app.ts src/homepage.ts src/app.scss src/homepage.scss --dist-dir source/_static/dist",
+    "build:assets": "parcel build src/app.ts src/homepage.ts src/app.scss src/homepage.scss --dist-dir source/_static/dist",
+    "build:docs": "sphinx-build -b html source build",
+    "build": "npm run build:assets && npm run build:docs",
+    "clean": "rimraf source/_static/dist .parcel-cache build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4",
+    "rimraf": "^6.0.1",
+    "sass": "^1.99.0",
+    "typescript": "^5.9.3"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
