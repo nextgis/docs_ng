@@ -393,6 +393,17 @@ html[data-theme="dark"] {
   --sd-color-white-highlight: var(--pst-color-white-highlight);
 }
 
+
+html {
+  /*****************************************************************************
+  * Overall Layout Variables
+  */
+
+  // Header height will impact the top offset for many sections */
+  // Article header is 66% of Header*/
+  --pst-header-height: 3rem;
+}
+
 .bd-page-width {
   max-width: 100%;
 }
@@ -459,6 +470,19 @@ body.page-search .bd-main .bd-content .bd-article-container {
 
 .search-button__kbd-shortcut {
   display: none !important;
+}
+
+.search-button-field {
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+
+
+html a,
+html a:hover,
+.toc-entry a.nav-link:hover,
+.navbar-brand:hover, .navbar-brand:visited:hover {
+  text-decoration: none;
 }
 
 .bd-sidebar-primary,
@@ -569,4 +593,14 @@ body.page-search .bd-main .bd-content .bd-article-container {
   .bd-sidebar-secondary .nav .nav > .nav-item > .nav-link {
     font-size: 14px;
   }
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+a.navbar-brand.logo > img.logo__image {
+  max-width: 80%;
+  height: auto;
+  width: auto;
 }

@@ -267,6 +267,7 @@ a.card:focus-visible {
 .resource-link,
 .faq-link {
   text-decoration: none;
+  color: var(--pst-color-link-hover);
 }
 
 .resource-link.is-disabled,
