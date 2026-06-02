@@ -402,6 +402,7 @@ html {
   // Header height will impact the top offset for many sections */
   // Article header is 66% of Header*/
   --pst-header-height: 3rem;
+  --pst-sidebar-secondary: 14rem;
 }
 
 .bd-page-width {
@@ -477,10 +478,21 @@ body.page-search .bd-main .bd-content .bd-article-container {
   padding-bottom: 0.3em;
 }
 
+.bd-navbar-elements {
+  border: none;
+}
+
+/*Remove underline on links */
 
 html a,
 html a:hover,
+.pst-collapse-sidebar-label:hover,
+.navbar-nav a:hover,
+.bd-sidenav a,
+.bd-sidenav a:hover,
+.bd-sidenav a:focus,
 .toc-entry a.nav-link:hover,
+.dropdown-menu-show a.nav-link:hover,
 .navbar-brand:hover, .navbar-brand:visited:hover {
   text-decoration: none;
 }
@@ -490,9 +502,9 @@ html a:hover,
   border-color: var(--pst-color-border);
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1000px) {
   .bd-sidebar-primary {
-    width: min(25%, 400px);
+    width: min(22%, 400px);
     max-width: 400px;
     min-width: 0;
   }
@@ -595,6 +607,7 @@ html a:hover,
   }
 }
 
+/*Header size */
 .navbar-brand {
   padding: 0;
 }
