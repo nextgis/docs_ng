@@ -502,6 +502,12 @@ html a:hover,
   border-color: var(--pst-color-border);
 }
 
+/*The On this page icon*/
+
+.svg-inline--fa.fa-list {
+  margin-right: 0.5rem;
+}
+
 @media (min-width: 1000px) {
   .bd-sidebar-primary {
     width: min(22%, 400px);
@@ -613,7 +619,7 @@ html a:hover,
 }
 
 a.navbar-brand.logo > img.logo__image {
-  max-width: 80%;
+  max-width: 30px;
   height: auto;
   width: auto;
 }
