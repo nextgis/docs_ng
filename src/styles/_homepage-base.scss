@@ -359,6 +359,19 @@ a.card:focus-visible {
   background-color: var(--pst-color-surface);
 }
 
+/*.faq-link {
+  text-decoration: none;
+  color: var(--pst-color-secondary-highlight);
+}*/
+
+.faq-list li {
+  padding: 0;
+}
+
+
+
+
+
 @media (max-width: 1200px) {
   .card-grid--products {
     grid-template-columns: repeat(3, minmax(0, 1fr));
