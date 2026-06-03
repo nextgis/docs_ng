@@ -504,6 +504,13 @@ html a:hover,
   border-color: var(--pst-color-border);
 }
 
+/*Scroll for submodules*/
+
+#pst-nav-more-links {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
 /*The On this page icon*/
 
 .svg-inline--fa.fa-list {
