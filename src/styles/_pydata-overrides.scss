@@ -493,8 +493,10 @@ html a:hover,
 .bd-sidenav a:focus,
 .toc-entry a.nav-link:hover,
 .dropdown-menu-show a.nav-link:hover,
-.navbar-brand:hover, .navbar-brand:visited:hover {
-  text-decoration: none;
+.navbar-brand:hover, .navbar-brand:visited:hover,
+.bd-header .navbar-nav a.nav-link.dropdown-item,
+.pst-collapse-sidebar-label {
+  text-decoration: none !important;
 }
 
 .bd-sidebar-primary,
