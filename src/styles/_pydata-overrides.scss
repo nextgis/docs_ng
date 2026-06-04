@@ -637,3 +637,20 @@ a.navbar-brand.logo > img.logo__image {
   height: auto;
   width: auto;
 }
+
+/*Toc page*/
+.toctree-wrapper.compound > ul > li.toctree-l1 > a {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.toctree-wrapper.compound li.toctree-l2 > a {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.toctree-wrapper.compound li.toctree-l1 > ul {
+  padding-top: 0.4rem;
+}
