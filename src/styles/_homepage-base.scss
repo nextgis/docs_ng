@@ -259,6 +259,10 @@ a.card:focus-visible {
   list-style: none;
 }
 
+.faq-answer {
+  font-size: 18px;
+}
+
 .resource-list {
   line-height: 1.2;
 }
@@ -267,8 +271,7 @@ a.card:focus-visible {
   margin-top: auto;
 }
 
-.resource-link,
-.faq-link {
+.resource-link {
   text-decoration: none;
   color: var(--pst-color-link-hover);
 }
@@ -341,7 +344,7 @@ a.card:focus-visible {
 
 .faq-card__title {
   font-family: var(--font-stack--headings, "Roboto-Bold", sans-serif);
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.3;
   color: var(--pst-color-text-base);
 }
@@ -367,15 +370,15 @@ a.card:focus-visible {
   background-color: var(--pst-color-surface);
 }
 
-/*.faq-link {
-  text-decoration: none;
-  color: var(--pst-color-secondary-highlight);
-}*/
-
 .faq-list li {
   padding: 0;
 }
 
+.faq-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--pst-color-text-base);
+}
 
 
 
