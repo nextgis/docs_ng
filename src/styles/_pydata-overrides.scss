@@ -395,14 +395,14 @@ html[data-theme="dark"] {
 
 
 html {
-  /*****************************************************************************
-  * Overall Layout Variables
-  */
-
   // Header height will impact the top offset for many sections */
   // Article header is 66% of Header*/
   --pst-header-height: 3rem;
   --pst-sidebar-secondary: 14rem;
+  --pst-font-size-h1: 36px;
+  --pst-font-size-h2: 28px;
+  --pst-font-size-base: 17px;
+  --pst-font-weight-caption: 400;
 }
 
 .bd-page-width {
@@ -504,6 +504,10 @@ html a:hover,
   border-color: var(--pst-color-border);
 }
 
+.bd-sidebar-primary {
+  background-color: var(--ngs-surface-3);
+}
+
 /*Scroll for submodules*/
 
 #pst-nav-more-links {
@@ -519,7 +523,7 @@ html a:hover,
 
 @media (min-width: 1000px) {
   .bd-sidebar-primary {
-    width: min(22%, 400px);
+    width: min(22%, 300px);
     max-width: 400px;
     min-width: 0;
   }
@@ -604,7 +608,7 @@ html a:hover,
 
 @media (max-width: 1199.98px) {
   .bd-sidebar-secondary {
-    display: none;
+   display: none;
   }
 }
 
