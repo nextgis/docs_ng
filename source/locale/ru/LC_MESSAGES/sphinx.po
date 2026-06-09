@@ -83,7 +83,7 @@ msgid "Technical support"
 msgstr "Техподдержка"
 
 msgid "Telegram community"
-msgstr "Сообщество в Telegram"
+msgstr "Чат в Telegram"
 
 msgid "Consulting"
 msgstr "Консультации"
@@ -117,3 +117,6 @@ msgstr "Ссылка на этот заголовок"
 
 msgid "More"
 msgstr "Ещё"
+
+msgid "News"
+msgstr "Новости"
