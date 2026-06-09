@@ -13,9 +13,9 @@
 
 
 
-*****************
-Services
-*****************
+**********************************
+Welcome to NextGIS knowledge base! 
+**********************************
 
 * :doc:`Get Started with your Web GIS</docs_ngcom/source/index>`
 * :doc:`NextGIS Toolbox</docs_toolbox/source/index>`
