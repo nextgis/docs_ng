@@ -610,7 +610,11 @@ html a:hover,
 
 @media (max-width: 1199.98px) {
   .bd-sidebar-secondary {
-   display: none;
+    display: none;
+  }
+
+  .bd-sidebar-secondary[open] {
+    display: flex;
   }
 }
 
