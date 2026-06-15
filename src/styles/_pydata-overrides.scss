@@ -610,7 +610,11 @@ html a:hover,
 
 @media (max-width: 1199.98px) {
   .bd-sidebar-secondary {
-   display: none;
+    display: none;
+  }
+
+  .bd-sidebar-secondary[open] {
+    display: flex;
   }
 }
 
@@ -654,4 +658,10 @@ a.navbar-brand.logo > img.logo__image {
 
 .toctree-wrapper.compound li.toctree-l1 > ul {
   padding-top: 0.4rem;
+}
+
+@media (max-width: 768px) {
+  .bd-sidebar-primary.bd-sidebar {
+    padding-top: 2rem;
+  }
 }
