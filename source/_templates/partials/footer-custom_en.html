@@ -128,6 +128,8 @@
   </div>
 
   <div class="ngs-footer__bottom">
-    <p class="ngs-footer__copyright">&#169; {{ copyright }}</p>
+    <p class="ngs-footer__copyright">&#169; {{ copyright }}
+      {% if last_updated %}, last update on {{ last_updated }}{% endif %}
+    </p>
   </div>
 </div>
