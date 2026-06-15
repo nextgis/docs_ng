@@ -1,0 +1,10 @@
+{% if show_source and has_source and sourcename %}
+  {% if edit_on_github_url %}
+    <div class="tocsection editthispage">
+      <a href="{{ edit_on_github_url }}" rel="nofollow">
+        <i class="fa-solid fa-pencil"></i>
+        {{ _("Edit on GitHub") }}
+      </a>
+    </div>
+  {% endif %}
+{% endif %}
