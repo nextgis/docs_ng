@@ -120,3 +120,15 @@ msgstr "Ещё"
 
 msgid "News"
 msgstr "Новости"
+
+msgid "This Page"
+msgstr ""
+
+msgid "Show Source"
+msgstr ""
+
+msgid "Show on GitHub"
+msgstr ""
+
+msgid "Edit on GitHub"
+msgstr ""

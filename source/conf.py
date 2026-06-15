@@ -187,7 +187,7 @@ html_theme_options = {
     "navbar_align": "left",
     "show_prev_next": False,
     "secondary_sidebar_items": {
-        "**": ["page-toc"],
+        "**": ["edit-on-github", "page-toc"],
         "index": [],
     },
     "footer_start": [],
