@@ -608,6 +608,17 @@ html a:hover,
   color: var(--_toc-muted-color);
 }
 
+/* ===== edit on GitHub ===== */
+
+.tocsection.editthispage a {
+  color: var(--ngs-bg);
+}
+
+.tocsection.editthispage a:hover,
+.tocsection.editthispage a:focus {
+  color: var(--pst-color-secondary-bg);
+}
+
 @media (max-width: 1199.98px) {
   .bd-sidebar-secondary {
     display: none;
