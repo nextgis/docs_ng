@@ -654,6 +654,25 @@ a.navbar-brand.logo > img.logo__image {
   width: auto;
 }
 
+@media (max-width: 959.98px) {
+  .bd-header .navbar-header-items__start,
+  .bd-header .navbar-brand.logo {
+    min-width: 0;
+    flex-shrink: 1;
+  }
+
+  .bd-header .navbar-brand .logo__title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (max-width: 480px) {
+  .bd-header .navbar-brand .logo__title {
+    display: none;
+  }
+}
+
 /*Toc page*/
 .toctree-wrapper.compound > ul > li.toctree-l1 > a {
   font-size: 1.25rem;
