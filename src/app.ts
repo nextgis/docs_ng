@@ -72,6 +72,13 @@ function initApp(): void {
   wrapTables();
   initExternalLinks();
   initThemeAwareImages();
+  document.querySelector<HTMLAnchorElement>(".notfound-back a")?.addEventListener(
+    "click",
+    (event) => {
+      event.preventDefault();
+      history.back();
+    },
+  );
 }
 
 if (document.readyState === "loading") {

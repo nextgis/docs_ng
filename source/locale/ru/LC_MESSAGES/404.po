@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NextGIS 1.12.0\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: 404.rst:4
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: 404.rst:6
+msgid "Most likely, this page was moved. Go to the `main page </index.html>`_, or use `search </search.html>`_."
+msgstr "Вероятно, страница переехала. Перейдите на `главную </index.html>`_ или воспользуйтесь `поиском </search.html>`_."
+
+#: 404.rst:10
+msgid "`Go back </index.html>`_"
+msgstr "`Вернуться назад </index.html>`_"

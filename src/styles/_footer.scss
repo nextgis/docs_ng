@@ -159,6 +159,10 @@
   all: unset;
 }
 
+.ngs-footer__brand .ng-button {
+  margin-top: 22px;
+}
+
 @media (max-width: 1199.98px) {
   .ngs-footer__main,
   .ngs-footer__bottom {
@@ -219,7 +223,8 @@
     width: 160px;
   }
 
-  .btn-login {
+  a.ng-button,
+  .ng-button > a {
     min-width: 104px;
     height: 34px;
     padding: 0 18px;

@@ -54,6 +54,7 @@ extensions = [
     "sphinx.ext.viewcode",
     "sphinxcontrib.httpdomain",
     "edit_on_github",
+    "notfound.extension",
     # 'javasphinx',
     #'swift_domain',
     # 'kotlin_domain',
@@ -189,6 +190,7 @@ html_theme_options = {
     "secondary_sidebar_items": {
         "**": ["edit-on-github", "page-toc"],
         "index": [],
+        "404": [],
     },
     "footer_start": [],
     "footer_center": [],
@@ -228,6 +230,9 @@ html_context = {
     "build_time": int(time.time()),
     "default_mode": "light",
 }
+
+# Generate root-relative links in 404.html for docs.nextgis.ru.
+notfound_urls_prefix = "/"
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
