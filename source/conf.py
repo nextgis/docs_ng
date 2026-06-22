@@ -55,6 +55,7 @@ extensions = [
     "sphinxcontrib.httpdomain",
     "edit_on_github",
     "notfound.extension",
+    "sphinx_llm.txt",
     # 'javasphinx',
     #'swift_domain',
     # 'kotlin_domain',
