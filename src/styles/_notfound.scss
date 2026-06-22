@@ -1,0 +1,49 @@
+body.page-notfound {
+  .bd-header-article,
+  .bd-article h1 .headerlink {
+    display: none;
+  }
+
+  .bd-article-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .ng-button {
+      margin-top: 22px;
+
+      a {
+        font-size: 1.2rem;
+        padding: 30px;
+      }
+    }
+  }
+
+  .bd-article {
+    width: min(100%, 52rem);
+    padding: clamp(2.5rem, 5vw, 3rem) 1rem;
+    text-align: center;
+
+    section::before {
+      display: block;
+      content: "404";
+      color: var(--pst-color-primary);
+      font:
+        700 clamp(7.5rem, 18vw, 11rem) / 0.85 "Roboto-Bold",
+        Arial,
+        sans-serif;
+    }
+
+    h1 {
+      margin: clamp(1.75rem, 4vw, 2.25rem) 0 0.75rem;
+      font-size: clamp(1.5rem, 3vw, 1.75rem);
+      line-height: 1.2;
+    }
+
+    section > p:not(.notfound-back) {
+      margin: 0;
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+  }
+}

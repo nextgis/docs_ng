@@ -434,40 +434,42 @@ body.page-search .bd-main .bd-content .bd-article-container {
   border-bottom: 1px solid var(--pst-color-border);
 }
 
-.btn-login,
-.btn-login:link,
-.btn-login:visited {
-  margin-top: 22px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 112px;
-  height: 36px;
-  padding: 0 20px;
-  border: 1px solid transparent;
-  border-radius: 6px;
-  background: var(--ngs-login-bg);
-  color: var(--ngs-login-text) !important;
-  font-family: "Roboto-Bold", Arial, sans-serif;
-  font-size: 15px;
-  line-height: 1;
-  text-decoration: none;
-  transition:
-    background-color 0.2s ease,
-    border-color 0.2s ease,
-    color 0.2s ease,
-    opacity 0.2s ease;
+a.ng-button,
+.ng-button > a {
+  &,
+  &:link,
+  &:visited {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 112px;
+    height: 36px;
+    padding: 0 20px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background: var(--ngs-login-bg);
+    color: var(--ngs-login-text) !important;
+    font-family: "Roboto-Bold", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1;
+    text-decoration: none;
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      color 0.2s ease,
+      opacity 0.2s ease;
+  }
+
+  &:hover,
+  &:focus-visible,
+  &:active {
+    background: var(--ngs-login-bg-hover);
+    color: var(--ngs-login-text) !important;
+    text-decoration: none;
+  }
 }
 
-.btn-login:hover,
-.btn-login:focus-visible,
-.btn-login:active {
-  background: var(--ngs-login-bg-hover);
-  color: var(--ngs-login-text) !important;
-  text-decoration: none;
-}
-
-.bd-header .btn-login {
+.bd-header .ng-button {
   margin-top: 0;
 }
 
