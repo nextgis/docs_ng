@@ -37,8 +37,8 @@ function syncThemeAwareImages(): void {
 
   images.forEach((image) => {
     const nextSrc = isDarkTheme
-      ? image.dataset.srcDark ?? image.dataset.srcLight ?? null
-      : image.dataset.srcLight ?? image.dataset.srcDark ?? null;
+      ? (image.dataset.srcDark ?? image.dataset.srcLight ?? null)
+      : (image.dataset.srcLight ?? image.dataset.srcDark ?? null);
 
     if (!nextSrc || image.getAttribute("src") === nextSrc) return;
 
@@ -68,17 +68,42 @@ function initThemeAwareImages(): void {
   });
 }
 
+function updateSidebarDetailsInert(details: HTMLDetailsElement): void {
+  const content = Array.from(details.children).find(
+    (child) => child.tagName === "UL",
+  );
+
+  if (!content) return;
+
+  const isClosed = !details.open;
+
+  content.toggleAttribute("hidden", isClosed);
+  content.toggleAttribute("inert", isClosed);
+}
+
+function initSidebarDetailsInert(): void {
+  const detailsItems = document.querySelectorAll<HTMLDetailsElement>(
+    ".bd-sidebar-primary .bd-docs-nav details",
+  );
+
+  detailsItems.forEach((details) => {
+    updateSidebarDetailsInert(details);
+    details.addEventListener("toggle", () =>
+      updateSidebarDetailsInert(details),
+    );
+  });
+}
 function initApp(): void {
   wrapTables();
   initExternalLinks();
   initThemeAwareImages();
-  document.querySelector<HTMLAnchorElement>(".notfound-back a")?.addEventListener(
-    "click",
-    (event) => {
+  initSidebarDetailsInert();
+  document
+    .querySelector<HTMLAnchorElement>(".notfound-back a")
+    ?.addEventListener("click", (event) => {
       event.preventDefault();
       history.back();
-    },
-  );
+    });
 }
 
 if (document.readyState === "loading") {
