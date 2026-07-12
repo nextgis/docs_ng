@@ -18,6 +18,18 @@ msgstr "Разделы"
 msgid "NextGIS team"
 msgstr "Команда NextGIS"
 
+msgid "https://docs.nextgis.com/"
+msgstr "https://docs.nextgis.ru/"
+
+msgid "NextGIS Knowledge Base"
+msgstr "База знаний NextGIS"
+
+msgid "docsOgDefaultEn.jpg"
+msgstr "docsOgDefaultRu.jpg"
+
+msgid "Guides, how-tos and FAQs for NextGIS software and services"
+msgstr "Документация, инструкции и ответы на частые вопросы по сервисам и ПО NextGIS"
+
 msgid "Fig. %s."
 msgstr "Рис. %s."
 

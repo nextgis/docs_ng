@@ -4,3 +4,4 @@ Babel==2.18.0
 sphinxcontrib-httpdomain==2.0.0
 sphinx-notfound-page==1.1.0
 sphinx-llm==0.4.1
+sphinxext-opengraph==0.13.0
