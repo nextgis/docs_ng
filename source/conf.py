@@ -24,9 +24,33 @@ catalog = "messages"
 _ = get_translation(catalog)
 
 
+def configure_localized_metadata(app, config):
+    docs_base_url = str(_("https://docs.nextgis.com/"))
+    ogp_site_name = str(_("NextGIS Knowledge Base"))
+    ogp_image_name = str(_("docsOgDefaultEn.jpg"))
+    ogp_image = f"{docs_base_url}_static/{ogp_image_name}"
+
+    config.html_baseurl = docs_base_url
+    config.ogp_site_url = docs_base_url
+    config.ogp_canonical_url = docs_base_url
+    config.ogp_site_name = ogp_site_name
+    config.ogp_image = ogp_image
+    config.ogp_image_alt = ogp_site_name
+    config.html_context.update(
+        {
+            "ogp_default_title": ogp_site_name,
+            "ogp_default_description": str(
+                _("Guides, how-tos and FAQs for NextGIS software and services")
+            ),
+            "ogp_default_image": ogp_image,
+        }
+    )
+
+
 def setup(app):
     locale_dir = os.path.join(os.path.abspath(os.path.dirname(__file__)), "locale")
     app.add_message_catalog(catalog, locale_dir)
+    app.connect("config-inited", configure_localized_metadata, priority=100)
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -56,6 +80,7 @@ extensions = [
     "edit_on_github",
     "notfound.extension",
     "sphinx_llm.txt",
+    "sphinxext.opengraph",
     # 'javasphinx',
     #'swift_domain',
     # 'kotlin_domain',
@@ -201,6 +226,10 @@ html_theme_options = {
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 html_title = ""
+
+
+ogp_description_length = 200
+ogp_type = "website"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 # html_short_title = None
