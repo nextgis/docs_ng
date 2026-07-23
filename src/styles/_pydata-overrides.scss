@@ -415,6 +415,14 @@ html {
   max-width: 100%;
 }
 
+body:not(.homepage):not(.page-notfound) .bd-main .bd-content .bd-article {
+  max-width: 60em;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+
+
 .bd-page-width,
 .bd-header .bd-header__inner,
 .bd-container .bd-container__inner,
