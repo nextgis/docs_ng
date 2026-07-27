@@ -442,6 +442,14 @@ body.page-search .bd-main .bd-content .bd-article-container {
   border-bottom: 1px solid var(--pst-color-border);
 }
 
+code.docutils.literal,
+code.docutils.literal .pre,
+.highlight pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 a.ng-button,
 .ng-button > a {
   &,
