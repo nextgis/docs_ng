@@ -442,9 +442,33 @@ body.page-search .bd-main .bd-content .bd-article-container {
   border-bottom: 1px solid var(--pst-color-border);
 }
 
+/*Чтобы блоки кода не раскорячивали страницу, а был скролл внутри средней части.
+Надо ещё раз глянуть.*/
+
+.bd-main .bd-content {
+        min-width: 0;
+        max-width: 100%;
+      }
+
+.bd-main .bd-content .bd-article-container {
+        box-sizing: border-box;
+        flex: 1 1 0;
+        width: 0;
+        min-width: 0;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+.bd-main .bd-content .bd-article-container .bd-article {
+        box-sizing: border-box;
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
 code.docutils.literal,
-code.docutils.literal .pre,
-.highlight pre {
+code.docutils.literal .pre {
   white-space: pre-wrap;
   overflow-wrap: anywhere;
   word-break: break-word;
