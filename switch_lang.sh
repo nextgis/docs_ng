@@ -3,7 +3,7 @@
 
 git checkout $1
 
-REPOS="docs_toolbox docs_data docs_geoservices docs_ngweb docs_ngqgis docs_ngmobile docs_geoserv_prem docs_toolbox_prem docs_formbuilder docs_collector docs_ngtracker docs_ngid docs_ngconnect docs_rosreestr_tools docs_ngweb_3D ngmobile_dev qms_srv_dev docs_formbuilder_dev tracker_hub_dev docs_howto"
+REPOS="docs_toolbox docs_data docs_geoservices docs_ngweb docs_ngqgis docs_ngmobile docs_geoserv_prem docs_toolbox_prem docs_collector docs_ngtracker docs_ngid docs_ngconnect docs_rosreestr_tools docs_ngweb_3D ngmobile_dev qms_srv_dev tracker_hub_dev docs_howto docs_onpremise"
 
 cd source/docs_ngcom
 echo "$(pwd)"
