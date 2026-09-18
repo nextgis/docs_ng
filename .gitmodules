@@ -10,10 +10,6 @@
 	path = source/docs_ngweb_dev
 	url = git@github.com:nextgis/nextgisweb.git
 	branch = master
-[submodule "source/docs_formbuilder"]
-	path = source/docs_formbuilder
-	url = git@github.com:nextgis/docs_formbuilder.git
-	branch = en
 [submodule "source/docs_ngqgis"]
 	path = source/docs_ngqgis
 	url = git@github.com:nextgis/docs_ngqgis.git
@@ -25,10 +21,6 @@
 	path = source/docs_ngcom
 	url = git@github.com:nextgis/docs_ngcom.git
 	branch = en
-[submodule "source/docs_formbuilder_dev"]
-	path = source/docs_formbuilder_dev
-	url = git@github.com:nextgis/formbuilder.git
-	brach = master
 [submodule "source/docs_collector"]
 	path = source/docs_collector
 	url = git@github.com:nextgis/docs_collector.git
@@ -88,4 +80,8 @@
 [submodule "source/ngmobile_dev"]
 	path = source/ngmobile_dev
 	url = git@github.com:nextgis/ngmobile_dev
+	branch = en
+[submodule "source/docs_onpremise"]
+	path = source/docs_onpremise
+	url = git@github.com:nextgis/docs_onpremise
 	branch = en
