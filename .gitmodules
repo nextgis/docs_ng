@@ -84,4 +84,3 @@
 [submodule "source/docs_onpremise"]
 	path = source/docs_onpremise
 	url = git@github.com:nextgis/docs_onpremise
-	branch = en
