@@ -8,15 +8,9 @@ Main repositories
 * [NextGIS Web](https://github.com/nextgis/docs_ngweb)
 * [NextGIS QGIS](https://github.com/nextgis/docs_ngqgis)
 * [NextGIS Mobile](https://github.com/nextgis/docs_ngmobile)
-* [NextGIS Manager](https://github.com/nextgis/docs_ngmanager)
-* [NextGIS Formbuilder](https://github.com/nextgis/docs_formbuilder)
-* [NextGIS Bio](https://github.com/nextgis/docs_ngbio)
-* [NextGIS Opengeodata Portal](https://github.com/nextgis/docs_ogportal)
-* [NextGIS Forest Inspector](https://github.com/nextgis/docs_forestinspector)
 * [NextGIS Web for developers](https://github.com/nextgis/nextgisweb/tree/3/doc)
 * [NextGIS Mobile for developers](https://github.com/nextgis/ngmobile_dev)
 * [NextGIS QMS Server for developers](https://github.com/nextgis/quickmapservices_server/tree/master/doc)
-* [NextGIS Formbuilder for developers](https://github.com/nextgis/formbuilder/tree/master/doc)
 
 To start generating documentation locally you need some packages be installed python > 2.7 and:
 
@@ -41,36 +35,31 @@ make html
 make latexpdf
 ```
 
-See [wiki for future details](https://github.com/nextgis/docs_ng/wiki/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8)
-
 Update documentation
-=======================
+====================
 
 Documentation automaticaly updates on docs.nextgis.com after git push or edits on Github:
-
-* Clone or pull this repository ([как правильно](https://github.com/nextgis/docs_ng/wiki/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8#%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8-%D0%BF%D1%80%D0%B8-%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B5-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81-github))
-* Wait buildbot task finished (check repository changes each 15 minutes)
 
 ## Build status
 
 ![build status](https://buildbot.nextgis.com/badges/docs_en.svg)
 
-## Режим разработки
+## Dev mode
 
-Для отслеживания изменений frontend-ассетов:
+To track changes frontend-ассетов:
 
 ```bash
 npm run dev
 ```
 
-Если одновременно редактируются `.rst`-страницы и шаблоны Sphinx, удобно в отдельном
-терминале запускать сборку с отслеживанием изменений:
+If `.rst` pages and Sphinx are edited simultaneously, удобно в отдельном
+it is convenient to run this in a separate terminal:
 
 ```bash
 sphinx-autobuild source build
 ```
 
-## Переводы
+## Translations
 
 ```bash
 pybabel compile --directory=source/locale --domain=messages
