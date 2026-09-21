@@ -77,10 +77,6 @@
 	path = source/tracker_hub_dev
 	url = git@github.com:nextgis/tracker_hub_dev
 	branch = en
-[submodule "source/ngmobile_dev"]
-	path = source/ngmobile_dev
-	url = git@github.com:nextgis/ngmobile_dev
-	branch = en
 [submodule "source/docs_onpremise"]
 	path = source/docs_onpremise
 	url = git@github.com:nextgis/docs_onpremise
