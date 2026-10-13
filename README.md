@@ -51,6 +51,8 @@ npm run dev
 sphinx-autobuild source build
 ```
 
+Локальный запуск Typesense и настройки поиска описаны в [search/README.md](search/README.md).
+
 ## Переводы
 
 ```bash

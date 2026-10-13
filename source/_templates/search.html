@@ -1,0 +1,24 @@
+{% extends "!search.html" %}
+
+{% block docs_body %}
+  {% if typesense_search %}
+    <div id="typesense-search-page" class="bd-search-container">
+      <h1>{{ _("Search") }}</h1>
+      <form id="typesense-search-form" class="bd-search d-flex align-items-center"
+            action="{{ pathto('search') }}" method="get" role="search">
+        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+        <input type="search" class="form-control" name="q"
+               placeholder="{{ theme_search_bar_text }}" aria-label="{{ _("Search") }}"
+               autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+        <button type="submit" class="btn">{{ _("Search") }}</button>
+      </form>
+      <div id="typesense-search-results" aria-live="polite"></div>
+    </div>
+    <div id="typesense-native-search" hidden>{{ super() }}</div>
+    <noscript>
+      <style>#typesense-search-page { display: none; } #typesense-native-search[hidden] { display: block; }</style>
+    </noscript>
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}

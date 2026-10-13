@@ -1,0 +1,18 @@
+name: nextgis-docs-search
+
+services:
+  typesense:
+    build: .
+    image: nextgis-docs-search:30.2
+    restart: "no"
+    ports:
+      - "127.0.0.1:8108:8108"
+    volumes:
+      - typesense-data:/data
+    command:
+      - --data-dir=/data
+      - --api-key=${TYPESENSE_API_KEY:-local-dev-only-key}
+      - --enable-cors
+
+volumes:
+  typesense-data:

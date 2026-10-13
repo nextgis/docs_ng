@@ -1,5 +1,12 @@
 {% extends '!layout.html' %}
 
+{% block extrahead %}
+  {{ super() }}
+  {% if typesense_search %}
+    <script id="typesense-search-config" type="application/json">{{ typesense_search | tojson }}</script>
+  {% endif %}
+{% endblock %}
+
 {% block body_tag %}
     <body data-default-mode="{{ default_mode }}"{% if pagename == 'search' %} class="page-search"{% elif pagename == '404' %} class="page-notfound"{% endif %}>
 
