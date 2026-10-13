@@ -3,6 +3,30 @@ msgstr ""
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 
+msgid "Searching..."
+msgstr "Идёт поиск..."
+
+msgid "No results found. Try another query."
+msgstr "Ничего не найдено. Попробуйте другой запрос."
+
+msgid "Search is unavailable. Please try again."
+msgstr "Поиск недоступен. Попробуйте ещё раз."
+
+msgid "Results found: {count}"
+msgstr "Найдено результатов: {count}"
+
+msgid "View all results"
+msgstr "Все результаты"
+
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+msgid "Next page"
+msgstr "Следующая страница"
+
+msgid "Use offline search"
+msgstr "Искать в локальном индексе"
+
 #: docs/conf.py:111
 msgid "Click to expand"
 msgstr "Нажмите, чтобы развернуть"

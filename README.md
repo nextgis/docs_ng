@@ -1,4 +1,5 @@
 # NextGIS documentation root repository
+
 Root repository for NextGIS user and developer documentation
 
 Main repositories
@@ -26,7 +27,7 @@ You can install packages in virtual environment, so 1 and 4 must be executed in 
 2. pip install sphinx
 3. pip install sphinxcontrib-httpdomain sphinx-bootstrap-theme
 
-You have to generate key for ssh git access. See: https://help.github.com/articles/generating-ssh-keys/
+You have to generate key for ssh git access. See: <https://help.github.com/articles/generating-ssh-keys/>
 
 ```
 git clone --recursive git@github.com:nextgis/docs_ng.git
@@ -58,6 +59,8 @@ it is convenient to run this in a separate terminal:
 ```bash
 sphinx-autobuild source build
 ```
+
+Local Typesense setup and search configuration are described in search/README.md.
 
 ## Translations
 

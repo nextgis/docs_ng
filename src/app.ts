@@ -1,3 +1,5 @@
+import { initTypesenseSearch } from "./search";
+
 function wrapTables(): void {
   const tables = document.querySelectorAll<HTMLTableElement>(
     ".bd-article table, .document table",
@@ -94,6 +96,7 @@ function initSidebarDetailsInert(): void {
   });
 }
 function initApp(): void {
+  initTypesenseSearch();
   wrapTables();
   initExternalLinks();
   initThemeAwareImages();

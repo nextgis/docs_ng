@@ -78,6 +78,7 @@ extensions = [
     "sphinx.ext.viewcode",
     "sphinxcontrib.httpdomain",
     "edit_on_github",
+    "typesense_search",
     "notfound.extension",
     "sphinx_llm.txt",
     "sphinxext.opengraph",

@@ -1,0 +1,133 @@
+.typesense-search-preview,
+#typesense-search-results {
+  color: var(--pst-color-text-base);
+
+  [hidden] {
+    display: none;
+  }
+}
+
+.typesense-search-preview {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  background: var(--pst-color-background);
+  border: 1px solid var(--pst-color-border);
+  border-radius: 0.5rem;
+  max-height: 55vh;
+  overflow-y: auto;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+#typesense-search-page[hidden],
+#typesense-native-search[hidden] {
+  display: none;
+}
+
+#typesense-search-form {
+  margin-bottom: 1.5rem;
+  scroll-margin-top: calc(var(--pst-header-height) + 1rem);
+}
+
+.typesense-search-status {
+  margin: 0 0 0.75rem;
+  color: var(--pst-color-text-muted);
+}
+
+.typesense-search-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li + li {
+    border-top: 1px solid var(--pst-color-border);
+  }
+}
+
+.typesense-search-result {
+  display: block;
+  padding: 0.75rem 0.5rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+
+  &:hover,
+  &:focus-visible {
+    background: var(--pst-color-surface);
+    text-decoration: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--pst-color-primary);
+    outline-offset: -2px;
+  }
+
+  mark {
+    padding: 0;
+    background: var(--pst-color-primary-bg);
+    color: var(--pst-color-primary);
+    font-weight: 600;
+  }
+}
+
+.typesense-search-section,
+.typesense-search-title,
+.typesense-search-heading,
+.typesense-search-context {
+  display: block;
+}
+
+.typesense-search-header {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.15rem 1rem;
+}
+
+.typesense-search-section {
+  margin-left: auto;
+  max-width: 100%;
+  font-size: 0.8rem;
+  color: var(--pst-color-text-muted);
+  text-align: right;
+}
+
+.typesense-search-title {
+  flex: 1 1 16rem;
+  min-width: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.typesense-search-heading {
+  margin-top: 0.1rem;
+  color: var(--pst-color-text-base);
+}
+
+.typesense-search-context {
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--pst-color-text-muted);
+}
+
+.typesense-search-more,
+.typesense-search-fallback {
+  display: inline-block;
+  margin-top: 0.75rem;
+}
+
+.typesense-search-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.typesense-search-page-number {
+  white-space: nowrap;
+  color: var(--pst-color-text-muted);
+}
