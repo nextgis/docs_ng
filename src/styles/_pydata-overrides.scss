@@ -547,6 +547,10 @@ html a:hover,
   text-decoration: none !important;
 }
 
+a.toc-backref {
+  color: var(--pst-color-heading)
+}
+
 .bd-sidebar-primary,
 .bd-sidebar-secondary {
   border-color: var(--pst-color-border);
