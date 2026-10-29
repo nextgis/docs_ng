@@ -526,6 +526,18 @@ a.ng-button,
   padding-bottom: 0.3em;
 }
 
+/*Menuselection is same as guilabel minus font*/
+span.menuselection {
+    background-color: var(--pst-color-info-bg);
+    border: 1px solid var(--pst-color-info);
+    border-radius: 4px;
+    /*font-size: 80%;
+    font-weight: 700;*/
+    margin: auto 2px;
+    padding: 2.4px 6px;
+    position: relative;
+}
+
 .bd-navbar-elements {
   border: none;
 }
