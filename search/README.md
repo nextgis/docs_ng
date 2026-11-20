@@ -30,8 +30,16 @@ pybabel compile --directory=source/locale --domain=sphinx
 sphinx-autobuild source build
 ```
 
-После успешной сборки обновите индекс в другом терминале:
+После успешной сборки или изменения алиасов обновите индекс в другом терминале:
 
 ```bash
 python scripts/typesense_search.py local build --language ru
+```
+
+Алиасы редактируются в `search/aliases.txt`: одна группа на строку, варианты
+разделяются `|`:
+
+```text
+базовая карта | подложка
+трек | трэк
 ```
