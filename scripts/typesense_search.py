@@ -134,12 +134,12 @@ def write_file(path, text):
             temporary.unlink()
 
 
-def schema_for(collection, language):
+def schema_for(collection, language, *, stem=True):
     validate_collection(collection, language)
     return {
         "name": collection,
         "fields": [
-            {"name": name, "type": "string", "locale": language, "stem": True}
+            {"name": name, "type": "string", "locale": language, "stem": stem}
             for name in ("heading", "title", "content")
         ]
         + [
@@ -150,6 +150,39 @@ def schema_for(collection, language):
         "token_separators": ["-", "_"],
         "metadata": {"nextgis_docs_search": {"language": language, "published": False}},
     }
+
+
+def load_synonyms(path, language):
+    """Read one literal synonym group per line; IDs are internal to each build."""
+    alias_for(language)
+    try:
+        lines = path.read_text(encoding="utf-8-sig").splitlines()
+    except (OSError, UnicodeError) as error:
+        raise SearchError(f"Cannot read search aliases in {path}: {error}") from None
+    groups = []
+    for number, line in enumerate(lines, 1):
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        terms = [term.strip() for term in line.split("|")]
+        if len(terms) < 2 or any(not term for term in terms):
+            raise SearchError(
+                f"{path}:{number}: expected at least two aliases separated by |"
+            )
+        if len({term.casefold() for term in terms}) != len(terms):
+            raise SearchError(f"{path}:{number}: duplicate alias in group")
+        groups.append({"id": str(number), "synonyms": terms, "locale": language})
+    return groups
+
+
+def delete_synonyms(client, collection):
+    # Each prepared collection owns its set; never update a published set in place.
+    try:
+        client.json(
+            "DELETE", "/synonym_sets/" + quote(collection + "_synonyms", safe="")
+        )
+    except SearchError as error:
+        if error.status_code != 404:
+            raise
 
 
 class TypesenseClient:
@@ -176,9 +209,10 @@ class TypesenseClient:
                 f"Typesense {method} {path} failed (HTTP {error.code})",
                 status_code=error.code,
             ) from None
-        except (URLError, OSError, UnicodeError):
+        except (URLError, OSError, UnicodeError) as error:
+            cause = error.reason if isinstance(error, URLError) else error
             raise SearchError(
-                f"Cannot read Typesense response for {method} {path}"
+                f"Cannot read Typesense response for {method} {path} ({type(cause).__name__})"
             ) from None
 
     def json(self, method, path, payload=None, expected_type=dict):
@@ -191,7 +225,7 @@ class TypesenseClient:
         return result
 
 
-def verify_collection(client, collection, language, count):
+def verify_collection(client, collection, language, count, *, stem=True):
     metadata = client.json("GET", "/collections/" + quote(collection, safe=""))
     if (
         metadata.get("name") != collection
@@ -209,8 +243,10 @@ def verify_collection(client, collection, language, count):
     fields = {field.get("name"): field for field in field_list}
     for name in ("heading", "title", "content"):
         field = fields.get(name, {})
-        if field.get("locale") != language or field.get("stem") is not True:
+        if field.get("locale") != language or field.get("stem") is not stem:
             raise SearchError("Stored collection language schema does not match")
+    if not stem and metadata.get("synonym_sets") != [collection + "_synonyms"]:
+        raise SearchError("Stored collection is missing its synonym set")
     return metadata
 
 
@@ -255,6 +291,8 @@ def cleanup_collections(client, language, current, previous, collections):
         if name not in aliases.values():
             try:
                 client.json("DELETE", "/collections/" + quote(name, safe=""))
+                if name + "_synonyms" in collection.get("synonym_sets", []):
+                    delete_synonyms(client, name)
             except SearchError as error:
                 # Another publisher may already have removed this snapshot entry.
                 if error.status_code != 404:
@@ -269,14 +307,26 @@ def prepare_index(client, input_path, language, collection, state_path, base_url
     if state_path.exists():
         state_path.unlink()
     records = read_records(input_path, language)
+    synonyms = load_synonyms(PROJECT_ROOT / "search" / "aliases.txt", language)
+    # Typesense 30.2 can miss synonyms whose tokens were stemmed in the index.
+    stem = not synonyms
     if base_url is not None:
         base_url = validate_url(base_url)
         for record in records:
             if not record["url"].startswith("/"):
                 raise SearchError("A base URL requires site-relative search records")
             record["url"] = base_url + record["url"]
-    client.json("POST", "/collections", schema_for(collection, language))
+    client.json("POST", "/collections", schema_for(collection, language, stem=stem))
     try:
+        if synonyms:
+            synonym_set = collection + "_synonyms"
+            client.json(
+                "PUT", "/synonym_sets/" + quote(synonym_set, safe=""), {"items": synonyms}
+            )
+            client.json(
+                "PATCH", "/collections/" + quote(collection, safe=""),
+                {"synonym_sets": [synonym_set]},
+            )
         payload = "".join(json.dumps(row, ensure_ascii=False) + "\n" for row in records)
         response = client.request(
             "POST",
@@ -298,13 +348,14 @@ def prepare_index(client, input_path, language, collection, state_path, base_url
                 ) from None
             if not isinstance(result, dict) or result.get("success") is not True:
                 raise SearchError(f"Typesense import rejected document {number}")
-        verify_collection(client, collection, language, len(records))
+        verify_collection(client, collection, language, len(records), stem=stem)
         state = {
             "version": 1,
             "host": client.host,
             "collection": collection,
             "language": language,
             "document_count": len(records),
+            "stem": stem,
             "verified": True,
             "prepared_at": datetime.now(UTC).isoformat(),
         }
@@ -315,6 +366,8 @@ def prepare_index(client, input_path, language, collection, state_path, base_url
         try:
             if collection not in collection_aliases(client).values():
                 client.json("DELETE", "/collections/" + quote(collection, safe=""))
+                if synonyms:
+                    delete_synonyms(client, collection)
         except SearchError as error:
             print(f"Search cleanup warning: {error}", file=sys.stderr)
         raise
@@ -339,7 +392,10 @@ def publish_index(client, state_path):
         raise SearchError(
             "State has an invalid count or belongs to another Typesense endpoint"
         )
-    metadata = verify_collection(client, collection, language, count)
+    stem = state.get("stem", True)
+    if type(stem) is not bool:
+        raise SearchError("State has an invalid stemming setting")
+    metadata = verify_collection(client, collection, language, count, stem=stem)
     alias = alias_for(language)
     # Freeze eligibility before switching. A concurrently published version was
     # still preparing in this snapshot and must survive this build's cleanup.

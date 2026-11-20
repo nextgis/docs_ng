@@ -1,0 +1,5 @@
+# Use one group per line and separate variants with |.
+# Blank lines and lines starting with # are ignored.
+
+NGW | NextGIS Web
+basemap | base map
