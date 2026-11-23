@@ -82,11 +82,17 @@ extensions = [
     "notfound.extension",
     "sphinx_llm.txt",
     "sphinxext.opengraph",
+    "sphinx_sitemap",
     # 'javasphinx',
     #'swift_domain',
     # 'kotlin_domain',
     #'sphinxcontrib.spelling',
 ]
+
+llms_txt_suffix_mode = "auto"
+llms_txt_nested_enabled = True
+llms_txt_full_build = True
+llms_txt_summary_enabled = False
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
@@ -264,6 +270,16 @@ html_context = {
 
 # Generate root-relative links in 404.html for docs.nextgis.ru.
 notfound_urls_prefix = "/"
+
+sitemap_url_scheme = "{link}"
+sitemap_excludes = [
+    "search.html",
+    "404.html",
+    "sidebar.html",
+    "genindex.html",
+    "_static/*",
+    "*/_static/*",
+]
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
